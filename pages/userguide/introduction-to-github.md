@@ -6,7 +6,7 @@ tags: [GitHub]
 description:
 ---
 
-This wiki is hosted on [GitHub.com](https://github.com). We've added a quick introduction to Git and GitHub here since we know many of you have not been exposed to GitHub before.
+Much of our interaction this semester outside of class will utilize GitHub.com (or just "GitHub"). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
 
 ### Git
 GitHub is a web application that utilizes [Git](https://git-scm.com):
@@ -24,7 +24,7 @@ Beyond "repositories", there are a few additional terms that are specific to Git
   * **Commit**: Approve any changes you have made to a repository.
   * **Sync**: For cloned repositories, files that have been changed need to be pushed to GitHub.com after they are committed.
 
-### GitHub
+### GitHub.com
 GitHub is a web service that can host projects using Git's version tracking. It is widely used by programmers, software developers, data scientists, and academics to host and collaborate projects.
 
 GitHub is an excellent way to backup files for a project since you can "sync" changes made to a repository up to GitHub's servers. It is also an excellent way to collaborate on files with colleagues while also using Git's version tracking. Repositories can be either public (like all of the repos for our seminar) or private, which means that only people who have been given access to can view the contents of the repo. Private repos require an upgraded account, which retails for $7/month.
@@ -32,7 +32,7 @@ GitHub is an excellent way to backup files for a project since you can "sync" ch
 Students can get access to GitHub's paid services for free, however, by signing up for a [free student account](https://education.github.com). This will give you access to private repositories for as long as you are a student.
 
 ### GitHub Repositories
-Users of GitHub adhere to a couple of norms with their repositories that are worth knowing about. Repositories cannot have spaces in their names (much like objects in `R`), so the naming conventions that were discussed in Seminar 01 all apply to GitHub as well!
+Users of GitHub.com adhere to a couple of norms with their repositories that are worth knowing about. Repositories cannot have spaces in their names (much like variables in Stata), so the naming conventions that we will discuss in relation to Stata this semester all apply to GitHub as well!
 
 Public GitHub repositories also contain (typically) at least three core files:
 
@@ -51,6 +51,12 @@ When you clone your repositories, you will be prompted to save them on your comp
   2. Cloud storage services (Dropbox, Google Drive, etc.)  - like external drives, these services can be a part of a [backup workflow](protecting-your-work.html). However, like external drives, I have seen issues whee this has to contribute to sync errors with GitHub Desktop.
 
 In order to avoid any issues, I suggest storing GitHub repositories on your computer's hard drive and not a thumb drive or other external device. Make sure your are saving your files in a place not backed up to Dropbox or another cloud storage service.
+
+### GitHub Issues
+GitHub has a powerful tool for interaction called [Issues](https://help.github.com/articles/about-issues/). These can be accessed by opening a repository and then clicking on the "Issues" tab. Issues can be "opened" by anyone with access to the repository. They allow for a conversation to occur in the form of messages posted within the Issue itself. Files can be attached to Issues, and the messages can contain Markdown formatting. Once the conversation is complete, issues can be marked as "closed", which moves them into a secondary view on the website so that they are archived.
+
+### GitHub Desktop Application
+[GitHub Desktop](https://desktop.github.com) is a tool that allows you to easily clone repositories hosted on GitHub, commit changes to them, and then sync those changes up to the website. You can also create new repositories, however this is not task you will have to do this semester. GitHub Desktop is not a fully functional desktop version of GitHub. For our purposes, it is important to note that the Desktop application will not let you easily identify when repositories have been updated by other users, view Wikis associated with repositories, or view Issues.
 
 ### Learning More
 GitHub has a [resources page](https://help.github.com/articles/good-resources-for-learning-git-and-github/) with links to websites that are great for helping you learn more about how Git and GitHub work!
