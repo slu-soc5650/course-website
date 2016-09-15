@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Introduction to GIS
-tagline:
+title: Introduction to GISc
+tagline: Geographic Information Science
 description:
 ---
 
