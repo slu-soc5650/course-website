@@ -1,0 +1,58 @@
+baseurl = "https://slu-soc5650.github.io/"
+languageCode = "en-us"
+title = "SLU SOC 4650 & SOC 5650"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Christopher Prener, Ph.D."
+	description = "SOC 4650 & SOC 5650: Introduction to Geographic Information Science"
+	copyright = "Licensed under a Creative Commons Attribution 4.0 International License"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/slu-soc5650/Core-Documents"
+
+	version = ""
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "green"
+    	accent  = "blue"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "slu-soc5650"
+	email   = "chris.prener@slu.edu"
+
+
+[[menu.main]]
+	name   = "About"
+	url    = "/"
+	weight = 1
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
