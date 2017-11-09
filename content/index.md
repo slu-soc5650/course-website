@@ -5,8 +5,8 @@ type: index
 weight: 1
 ---
 
-{{< warning title="Enrollment Opens Soon" >}}
-SOC 4650 & 5650 is Saint Louis University Sociology's undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. This site is for sections taught by Assistant Professor Christopher Prener. 
+{{< warning title="Enrollment Open" >}}
+SOC 4650 & 5650 is Saint Louis University Sociology's undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. Registration has begun, so if you are interested you are strongly encouraged to register quickly. This site is for sections taught by Assistant Professor Christopher Prener. 
 {{< /warning >}}
 
 ## Course Description 

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/</link>
+    <link>/</link>
     <description>Recent content on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to Geographic Information Science</title>
-      <link>https://slu-soc5650.github.io/</link>
+      <link>/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/</guid>
-      <description>Enrollment Opens Soon
-SOC 4650 &amp;amp; 5650 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. This site is for sections taught by Assistant Professor Christopher Prener.
- Course Description This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc). Techniques introduced include data cleaning and management, map production and cartography, and the manipulation of both tabular and spatial data.</description>
+      <guid>/</guid>
+      <description>Enrollment Open
+SOC 4650 &amp;amp; 5650 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. Registration has begun, so if you are interested you are strongly encouraged to register quickly. This site is for sections taught by Assistant Professor Christopher Prener.
+ Course Description This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc).</description>
     </item>
     
     <item>
       <title>License</title>
-      <link>https://slu-soc5650.github.io/license/</link>
+      <link>/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/license/</guid>
+      <guid>/license/</guid>
       <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
 Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
