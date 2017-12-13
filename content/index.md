@@ -5,12 +5,14 @@ type: index
 weight: 1
 ---
 
-{{< warning title="Enrollment Open" >}}
-SOC 4650 & 5650 is Saint Louis University Sociology's undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. Registration has begun, so if you are interested you are strongly encouraged to register quickly. This site is for sections taught by Assistant Professor Christopher Prener. 
+{{< warning title="Course Full" >}}
+The Spring 2018 course is currently full. If you have an interest in the course, you are encouraged to add yourself to the wait list.
 {{< /warning >}}
 
 ## Course Description 
 <img src="/images/logo.png" align="right" />
+SOC 4650 & 5650 is Saint Louis University Sociology's undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. This site is for sections taught by Assistant Professor Christopher Prener.  
+
 This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc). Techniques introduced include data cleaning and management, map production and cartography, and the manipulation of both tabular and spatial data. The impacts of GISc on public policy, and the effects of public policy on GISc, are also discussed. The course incorporates a wide variety of social, economic, health, urban, meteorological, and environmental data. These data are mapped at a variety of extents, from the City of St. Louis to the St. Louis Metropolitan region, Missouri, all United States counties, and all U.S. states.
 
 ## Course Objectives
