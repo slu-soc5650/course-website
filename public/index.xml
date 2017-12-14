@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/</link>
+    <link>/</link>
     <description>Recent content on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
+    <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to Geographic Information Science</title>
-      <link>https://slu-soc5650.github.io/</link>
+      <link>/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/</guid>
+      <guid>/</guid>
       <description>Course Full
 The Spring 2018 course is currently full. If you have an interest in the course, you are encouraged to add yourself to the wait list.
  Course Description SOC 4650 &amp;amp; 5650 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory GIS course, which is will next be taught for Spring 2018. This site is for sections taught by Assistant Professor Christopher Prener.
@@ -25,14 +25,37 @@ This class introduces both the theoretical and technical skills that constitute 
     </item>
     
     <item>
+      <title>Course Resources</title>
+      <link>/course-resources/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-resources/</guid>
+      <description>In addition to the Syllabus and the Reading List, there are a number of other course resources you should be aware of.
+Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
+User&amp;rsquo;s Guide The User&amp;rsquo;s Guide is a companion document for the course that covers applications and processes not covered by one of the course textbooks.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/getting-started/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/getting-started/</guid>
+      <description>Before you begin the semester, there are a number of things that I recommend that you do to help set yourself up for success. Before you do anything else, you should read through the Syllabus and the Reading List. Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!
+Account Signups Get Started with Slack We&amp;rsquo;ll be using the messaging platform Slack as a space for &amp;ldquo;virtual office hours&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>License</title>
-      <link>https://slu-soc5650.github.io/license/</link>
+      <link>/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/license/</guid>
-      <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
-Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+      <guid>/license/</guid>
+      <description>Copyright &amp;copy; 2016-2017 Christopher G. Prener
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+This is a human-readable summary of (and not a substitute for) the license.
+You are free to:
+ Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material  The licensor cannot revoke these freedoms as long as you follow the license terms.</description>
     </item>
     
   </channel>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course-resources on SLU SOC 4650 &amp; SOC 5650</title>
+    <link>/course-resources/</link>
+    <description>Recent content in Course-resources on SLU SOC 4650 &amp; SOC 5650</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    
+	<atom:link href="/course-resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course Resources</title>
+      <link>/course-resources/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-resources/</guid>
+      <description>In addition to the Syllabus and the Reading List, there are a number of other course resources you should be aware of.
+Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
+User&amp;rsquo;s Guide The User&amp;rsquo;s Guide is a companion document for the course that covers applications and processes not covered by one of the course textbooks.</description>
+    </item>
+    
+  </channel>
+</rss>
