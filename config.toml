@@ -60,6 +60,11 @@ googleAnalytics = ""
 	url    = "getting-started/"
 	weight = 10
 
+[[menu.main]]
+	name   = "Preview Week"
+	url    = "preview-week/"
+	weight = 15
+
 [blackfriday]
 	smartypants	= true
 	fractions = true

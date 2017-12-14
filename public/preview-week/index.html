@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Getting Started - SLU SOC 4650 &amp; SOC 5650</title>
+    <title>Preview Week - SLU SOC 4650 &amp; SOC 5650</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Getting Started
+        Preview Week
       </div>
     </div>
 
@@ -227,6 +227,27 @@
 </li>
 
 
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Preview Week" href="/preview-week/">
+	
+	Preview Week
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
         </ul>
         
 
@@ -263,74 +284,35 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Getting Started </h1>
+			<h1>Preview Week </h1>
 
 			
 
-<p>Before you begin the semester, there are a number of things that you should do to help set yourself up for success. <strong>All of the applicable sections below should be completed before our first class on January 22nd.</strong> Before you do <em>anything</em> else, though, you should read through the <a href="https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf"><strong>Syllabus</strong></a> and the <a href="https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf"><strong>Reading List</strong></a>. Make sure you have a good sense of what is <em>required</em> for the course. If you have questions, bring them to the first day of class!</p>
+<p>To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.</p>
 
-<h2 id="account-signups">Account Signups</h2>
+<h2 id="open-data-and-gis-in-los-angeles">Open Data and GIS in Los Angeles</h2>
 
-<h3 id="get-started-with-slack">Get Started with Slack</h3>
+<p>One of the course learning outcomes is titled &ldquo;GISc and Public Policy&rdquo;. Much of the data that we will use this semseter is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &ldquo;open data&rdquo;.</p>
 
-<p>We&rsquo;ll be using the messaging platform <a href="https://slack.com">Slack</a> as a space for &ldquo;virtual office hours&rdquo;. Slack is a messaging system used by teams of all kinds. If you can text, you can use Slack. You will need to sign-up for the SOC 5650 Slack organization <a href="https://join.slack.com/t/slu-soc5650/signup">here</a>. You will need to complete the signup process even if you use Slack for other purposes. Consider installing either the desktop or the mobile apps for Slack to keep in touch and receive push alerts!</p>
+<p>Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles&rsquo; integration of open data and GIS. It is a 9 minute talk given by L.A.&rsquo;s former Chief Data Officer <a href="https://twitter.com/lcoral">Lilian P. Coral</a>. The talk was part of a conference organized by <a href="https://www.esri.com/en-us/home">ESRI</a>, the makers of ArcGIS.</p>
 
-<h3 id="get-started-with-github">Get Started with GitHub</h3>
 
-<p>The website that is hosting this wiki is called <a href="https://github.com/">GitHub</a>. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials. We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&rsquo;s <a href="https://github.com/">homepage</a>. If you already have a GitHub account, you do not need a new one. <em>Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the SOC 5650 organization.</em></p>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/etdwa768Zms" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
 
-<h2 id="get-started-with-software">Get Started with Software</h2>
 
-<p>If you will be using your own computer in class, you&rsquo;ll want to install a number of applications. If you aren&rsquo;t using your own computer, you can skip this section! All of these applications are available in our classroom, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester.</p>
+<p>Once you&rsquo;ve watched the video, check out the web application featured in the video that <a href="http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0">visualizes pedestrian and cyclist injuries in Los Angeles</a>. You can also visit L.A.&rsquo;s open data website called <a href="http://geohub.lacity.org">GeoHub</a>.</p>
 
-<h3 id="computer-prep">Computer Prep</h3>
+<h2 id="opinionated-analysis-development">Opinionated Analysis Development</h2>
 
-<p>Before you install your software, you should do the following:</p>
+<p>Making a produce like L.A.&rsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &ldquo;data wrangling&rdquo; or &ldquo;data clearning&rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&rsquo;ll call this large-scale process a &ldquo;workflow&rdquo; this semester.</p>
 
-<ol>
-<li><p>Make sure your operating system is up-to-date. If you are able, I would also recommend upgrading your computer to the most recent release of its operating system that the computer can run.</p></li>
+<p>The workflow that we&rsquo;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com">Stichfix</a> and also runs a data science podcast called <a href="http://nssdeviations.com">Not So Standard Deviations</a>. She has been speaking recently about an idea called opionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/">video</a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/">draft paper</a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
 
-<li><p>We&rsquo;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get anti-virus software for free from SLU. Go to <code>ITS Software Downloads</code> under <code>Tools</code> on <a href="https://myslu.slu.edu/tools">mySLU</a>.</p></li>
+<p><a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/"><img src="/images/opinionatedAnalysis.png" alt="opinionatedAnalysis" /></a></p>
 
-<li><p>You&rsquo;ll also need to download files, so you&rsquo;ll need to make sure you have some free space on your hard drive. If you have less than 10GB of free space, you should de-clutter!</p></li>
-
-<li><p>Make sure you know how to access your computer&rsquo;s file management system.</p>
-
-<ul>
-<li>On macOS, this means being comfortable with Finder.app.</li>
-<li>On Windows, this means being comfortable with Windows Explorer.</li>
-</ul></li>
-</ol>
-
-<h3 id="software-installation">Software Installation</h3>
-
-<p>Now that your computer is up-to-date</p>
-
-<ol>
-<li><p>The computing language <code>R</code> needs to be downloaded and installed. You can download it from the <a href="https://cloud.r-project.org"><code>R</code>&rsquo;s website</a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for a link that says &ldquo;install R for the first time&rdquo;. Both macOS and Windows users should install <code>R</code> version 3.4.3, known as &ldquo;Kite Eating Tree&rdquo;. <strong>If you already have <code>R</code> installed on your computer, make sure you are running version 3.4.3.</strong></p></li>
-
-<li><p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download">their website</a>. Choose the appropirate installer for your platform. <strong>If you already have RStudio installed on your computer, make sure you are running version 1.1.383.</strong></p></li>
-
-<li><p>GitHub Desktop is a client for interacting with GitHub that makes downloading and uploading files a breeze. You can download it from the developer&rsquo;s <a href="http://desktop.github.com">website</a>.</p></li>
-</ol>
-
-<h2 id="get-access-to-books">Get Access to Books</h2>
-
-<p>There are three books required for this course. Each book has been selected to correspond with one or more of the course objectives. The books are:</p>
-
-<ol>
-<li>Wickham, Hadley and Garrett Grolemund. 2016. <em>R for data science</em>. Sebastopol, CA: O’Reilly. <a href="http://r4ds.had.co.nz">Webbook Available</a>.</li>
-</ol>
-
-<p>All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well.</p>
-
-<h2 id="administrative-tasks">Administrative Tasks</h2>
-
-<p>All students should complete the Student Information Sheet, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. This should be completed before class on January 22nd.</p>
-
-<h2 id="coursework">Coursework</h2>
-
-<p>There are two pieces of coursework that you should complete before January 22nd&hellip;</p>
+<p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis.</p>
 
 
 			<aside class="copyright" role="note">
