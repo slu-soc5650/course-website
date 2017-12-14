@@ -11,7 +11,9 @@ One of the course learning outcomes is titled "GISc and Public Policy". Much of 
 
 Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles' integration of open data and GIS. It is a 9 minute talk given by L.A.'s former Chief Data Officer [Lilian P. Coral](https://twitter.com/lcoral). The talk was part of a conference organized by [ESRI](https://www.esri.com/en-us/home), the makers of ArcGIS.
 
+</br>
 {{< youtube etdwa768Zms >}}
+</br>
 
 Once you've watched the video, check out the web application featured in the video that [visualizes pedestrian and cyclist injuries in Los Angeles](http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0). You can also visit L.A.'s open data website called [GeoHub](http://geohub.lacity.org).
 
@@ -20,6 +22,8 @@ Making a produce like L.A.'s visualization of pedestrian and cyclist injuries is
 
 The workflow that we'll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at [Stichfix](http://stitchfix.com) and also runs a data science podcast called [Not So Standard Deviations](http://nssdeviations.com). She has been speaking recently about an idea called opionated analysis development. The [video](https://www.rstudio.com/resources/videos/opinionated-analysis-development/) linked to below is a 25 minute talk she gave on this idea last year, and she now has a [draft paper](https://peerj.com/preprints/3210/) out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.
 
+</br>
 [![opinionatedAnalysis](/images/opinionatedAnalysis.png)](https://www.rstudio.com/resources/videos/opinionated-analysis-development/)
+</br>
 
-Many (but not all of you) will have experienced some parts of these processes before. Perhaps you've used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won't be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis. 
+Many (but not all of you) will have experienced some parts of these processes before. Perhaps you've used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won't be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis. Thoughout the semester, we'll discuss why these tools are important and the advantages they have over other products that are out there.
