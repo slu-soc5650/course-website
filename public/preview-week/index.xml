@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preview-weeks on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/preview-week/</link>
+    <link>/preview-week/</link>
     <description>Recent content in Preview-weeks on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/preview-week/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/preview-week/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Preview Week</title>
-      <link>https://slu-soc5650.github.io/preview-week/</link>
+      <link>/preview-week/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/preview-week/</guid>
+      <guid>/preview-week/</guid>
       <description>To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.
 Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semseter is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible.</description>
     </item>

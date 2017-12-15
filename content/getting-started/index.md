@@ -32,7 +32,7 @@ Before you install your software, you should do the following:
 ### Software Installation
 Now that your computer is up-to-date
 
-1. The computing language `R` needs to be downloaded and installed. You can download it from the [`R`'s website](https://cloud.r-project.org). Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for a link that says "install R for the first time". Both macOS and Windows users should install `R` version 3.4.3, known as "Kite Eating Tree". **If you already have `R` installed on your computer, make sure you are running version 3.4.3.**
+1. The computing language `R` needs to be downloaded and installed. You can download it from the [`R`'s website](https://cloud.r-project.org). Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for a link that says "install R for the first time". Both macOS and Windows users should install `R` version 3.4.3, known as "Kite Eating Tree".[^1] **If you already have `R` installed on your computer, make sure you are running version 3.4.3.**
 
 2. RStudio is a graphical user interface for `R` that will make learning the language and using it much, much easier. You should download the *free* version of RStudio from [their website](https://www.rstudio.com/products/rstudio/download/#download). Choose the appropirate installer for your platform. **If you already have RStudio installed on your computer, make sure you are running version 1.1.383.**
 
@@ -50,3 +50,5 @@ All students should complete the Student Information Sheet, which gives me some 
 
 ## Coursework
 There are two pieces of coursework that you should complete before January 22nd...
+
+[^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
