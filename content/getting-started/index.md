@@ -46,9 +46,13 @@ There are three books required for this course. Each book has been selected to c
 All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well.
 
 ## Administrative Tasks
-All students should complete the Student Information Sheet, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. This should be completed before class on January 22nd.
+All students should complete the [Student Information Sheet](https://goo.gl/forms/7xR7i5n40ROl1YlH3), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and understand the course policies. The should be completed before class on January 22nd.
 
 ## Coursework
-There are two pieces of coursework that you should complete before January 22nd...
+There are three pieces of coursework that you should complete before January 22nd: 
+
+1. You should view two videos posted on the [Getting Started](/getting-started/) page and check out the interactive map dicussed in the first video.
+2. You should complete [Weekly Prep 01](), which asks a few short questions about the videos and interactive map.
+3. You should complete the assigned readings for Week-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
