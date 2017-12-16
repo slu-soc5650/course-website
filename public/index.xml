@@ -34,6 +34,16 @@ Readings Throughout the semester, there will be assigned readings from a number 
     </item>
     
     <item>
+      <title>Course Resources</title>
+      <link>/package-index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/package-index/</guid>
+      <description>Core Documents  Syllabus Reading List  Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
+Readings Throughout the semester, there will be assigned readings from a number of different books. These include a number that you will have to buy (see the Syllabus and the Getting Started page) and some that you can access online.</description>
+    </item>
+    
+    <item>
       <title>Getting Started</title>
       <link>/getting-started/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
@@ -49,8 +59,9 @@ Readings Throughout the semester, there will be assigned readings from a number 
       
       <guid>/final-project/</guid>
       <description>Project Changes for Spring 2018
-The final project instructions will be undergoing revision for Spring 2018. The instructions on GitHub should not be considered current yet.
- Overview The final project for this course requires students to clean and map non-emergency call data from the City of St. Louis. These data describe the presence of various types of problems in City neighborhoods. The project brings together many of the scientific computing and GI science skills that are developed over the course of the semester.</description>
+The final project instructions will be undergoing revision for Spring 2018. The instructions, data, and groups on GitHub should not be considered current yet.
+ Core Files Data  Directions  Groups 
+Overview The final project for this course requires students to clean and map non-emergency call data from the City of St. Louis. These data describe the presence of various types of problems in City neighborhoods.</description>
     </item>
     
     <item>
