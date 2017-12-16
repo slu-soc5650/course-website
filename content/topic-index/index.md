@@ -4,7 +4,7 @@ title: Topic Index
 weight: 40
 ---
 
-The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. If you have additions or suggestions, please let Chris know!
+The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. *Italicized items* are only covered in the readings. If you have additions or suggestions, please let Chris know! 
 
 ## A-D
 - Data
