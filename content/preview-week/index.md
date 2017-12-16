@@ -27,3 +27,10 @@ The workflow that we'll use is opinionated - there is a strong premise that unde
 </br>
 
 Many (but not all of you) will have experienced some parts of these processes before. Perhaps you've used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won't be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis. Thoughout the semester, we'll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary's idea of opinionated analysis development, our goal each week will be to focus on the *processes* that can be used to increase the reproducibility and accuracy of our geospatial work.
+
+## Weekly Prep 01
+The weekly prep for the first week asks three follow-up questions about these videos and L.A.'s interactive website. Please answer these questions and submit them before class on **January 22nd**. Answers **must** be submitted through [Google Forms](https://goo.gl/forms/vgHqTPagXyrsrk4I3) and each response should be three to four sentances in length. The questions are provided here for reference:
+
+1. Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.
+2. After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?
+3. In your own words, what are the key aspects of opinionated data analysis?

@@ -4,13 +4,16 @@ title: Course Resources
 weight: 2
 ---
 
-In addition to the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf), there are a number of other course resources you should be aware of.
+## Core Documents
+
+* [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf)
+* [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf)
 
 ## Course Website
 This [**course website**](https://slu-soc5650.github.io) will be updated regularly throughout the semester. I'll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
 
 ## Readings
-Throughout the semester, there will be assigned readings from a number of different books. These include a number that you will have to buy (see the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf)) and some that you can access online. The books available online include:
+Throughout the semester, there will be assigned readings from a number of different books. These include a number that you will have to buy (see the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [Getting Started page](/getting-started/)) and some that you can access online. The books available online include:
 
 * [*R for Data Science*](http://r4ds.had.co.nz)
 * [*Data Visualization for Social Science*](http://socviz.co)

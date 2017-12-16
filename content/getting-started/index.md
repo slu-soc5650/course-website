@@ -30,7 +30,7 @@ Before you install your software, you should do the following:
   - On Windows, this means being comfortable with Windows Explorer.
 
 ### Software Installation
-Now that your computer is up-to-date
+Now that your computer is up-to-date, there are three applications that you will want to download:
 
 1. The computing language `R` needs to be downloaded and installed. You can download it from the [`R`'s website](https://cloud.r-project.org). Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for a link that says "install R for the first time". Both macOS and Windows users should install `R` version 3.4.3, known as "Kite Eating Tree".[^1] **If you already have `R` installed on your computer, make sure you are running version 3.4.3.**
 
@@ -39,20 +39,23 @@ Now that your computer is up-to-date
 3. GitHub Desktop is a client for interacting with GitHub that makes downloading and uploading files a breeze. You can download it from the developer's [website](http://desktop.github.com).
 
 ## Get Access to Books
-There are three books required for this course. Each book has been selected to correspond with one or more of the course objectives. The books are:
+There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. **Before January 22nd**, please purchase copies of the first three books and decide if you would like a physical copy of the fourth:
 
-1. Wickham, Hadley and Garrett Grolemund. 2016. *R for data science*. Sebastopol, CA: O’Reilly. [Webbook Available](http://r4ds.had.co.nz).
+1. Brewer, Cynthia. 2015. *Designing better Maps: A Guide for GIS users*. Redlands, CA: ESRI Press.
+2. Gorr, Wilpen and Kristen Kurland. 2016. *GIS Tutorial 1: Basic Workbook for ArcGIS 10.3.x*. Redlands, CA: ESRI Press.
+3. Thomas, Christopher and Nancy Humenik-Sappington. 2009. *GIS for decision support and public policy making*. Redlands, CA: ESRI Press.
+4. Wickham, Hadley and Garrett Grolemund. 2016. *R for data science*. Sebastopol, CA: O’Reilly. [Webbook Available](http://r4ds.had.co.nz).
 
-All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well.
+All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) includes the assigned readings for both the web and print versions of Wickham and Grolemund's *R for data science* (2016), and you are free to choose either version.
 
 ## Administrative Tasks
 All students should complete the [Student Information Sheet](https://goo.gl/forms/7xR7i5n40ROl1YlH3), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and understand the course policies. The should be completed before class on January 22nd.
 
 ## Coursework
-There are three pieces of coursework that you should complete before January 22nd: 
+There are three pieces of coursework that you should **complete before January 22nd**: 
 
-1. You should view two videos posted on the [Getting Started](/getting-started/) page and check out the interactive map dicussed in the first video.
-2. You should complete [Weekly Prep 01](), which asks a few short questions about the videos and interactive map.
+1. You should view two videos posted on the [Preview Week](/preview-week/) page and check out the interactive map dicussed in the first video.
+2. You should complete [Weekly Prep 01](/preview-week/#weekly-prep-01), which asks a few short questions about the videos and interactive map.
 3. You should complete the assigned readings for Week-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
