@@ -38,6 +38,18 @@ Now that your computer is up-to-date, there are three applications that you will
 
 3. GitHub Desktop is a client for interacting with GitHub that makes downloading and uploading files a breeze. You can download it from the developer's [website](http://desktop.github.com).
 
+### ArcGIS
+Additionally, you will want to decide if you want to run ArcGIS on your computer. ArcGIS requires Microsoft Windows, which means that you need a Windows computer or an Apple computer *with Windows installed*. ESRI, the company that makes ArcGIS, also maintains a list of the [system requirements](http://desktop.arcgis.com/en/arcmap/10.3/get-started/system-requirements/arcgis-desktop-system-requirements.htm) that your computer must meet. If your computer meets these requirements and you would like a student license for ArcGIS, send Chris a direct message on Slack asking for a license. Student licenses are good for one year, and are free!
+
+If you have an Apple computer, make sure it [meets Microsoft 10's requirements](https://www.microsoft.com/en-us/windows/windows-10-specifications) before purchasing any software. You will need a *minimum* of 50 GB of free space on your hard drive in my experience. Go to the Apple Menu, and then choose `About this Mac > Storage` to check out how much space you have free.
+
+Installing Windows on an Apple computer requires two pieces:
+
+1. You need a Windows license, which you can purchase through [Microsoft's education program](http://www.onthehub.com/microsoft-windows-10-education-for-students/?utm_source=ms-student-page&utm_medium=microsoft-site&utm_campaign=windows10) for $9.95
+2. You need a means for installing Windows on your Mac. You can use Apple's [Bootcamp](https://support.apple.com/en-us/HT201468), which is free but requires you to boot up in either Windows *or* macOS, or you can buy a [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) license that allows you to use Windows and macOS simultaneously. Parallels can be purchased at a 50% discount through their [Student Edition program](http://onthehub.com/parallels/). The Student Edition costs $39.99 per year. 
+
+All told, you can get ArcGIS running on your Mac for between $10 and $50 for the semester. Set-up takes a couple of hours, so be prepared for a time investment to get this up and running. I also strongly recommend backing up your entire computer using Apple's [Time Machine](https://support.apple.com/en-us/HT201250) before making a large change to your system like this.[^2]
+
 ## Get Access to Books
 There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. **Before January 22nd**, please purchase copies of the first three books and decide if you would like a physical copy of the fourth:
 
@@ -59,3 +71,5 @@ There are three pieces of coursework that you should **complete before January 2
 3. You should complete the assigned readings for Week-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
+
+[^2]: Using [Time Machine](https://support.apple.com/en-us/HT201250) is a good practice anyway! Check out the chapter on [Protecting Your Work](https://chris-prener.github.io/SSDSBook/protecting-your-work.html) in [Sociospatial Data Science](https://chris-prener.github.io/SSDSBook/) for more details.
