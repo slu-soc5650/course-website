@@ -1,27 +1,27 @@
 ---
 date: 2016-03-09T00:11:02+01:00
 title: Package Index
-weight: 41
+weight: 42
 ---
 
-The following is a list of packages used during the semester along with the week when they were first introduced. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
+The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
 ## Base `R`
-- `base` - base functions (Week 1)
+- `base` - base functions (Lecture-01)
 - `stats` - statistical functions
 
 ## Data
-- `stlData` - St. Louis data sets (Week 2)
+- `stlData` - St. Louis data sets (Lecture-02)
   - install the development version via GitHub - `devtools::install_github("chrisprener/stlData")`
 
 ## Tidyverse
 Use `install.packages("tidyverse")` to install these for convenience!
 
-- `dplyr` - data wrangling (Week 2)
-- `ggplot2` - data plotting (Week 2)
+- `dplyr` - data wrangling (Lecture-02)
+- `ggplot2` - data plotting (Lecture-02)
   - install the development version via GitHub - `devtools::install_github("tidyverse/ggplot2")`
 - `lubridate` - work with dates
-- `readr` - data import (Week 2)
+- `readr` - data import (Lecture-02)
 - `stringr` - work with strings
 - `tidyr` - data wrangling
 
@@ -37,7 +37,7 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `tidycensus` - census data tools
 
 ## Other Packages
-- `devtools` - install packages from GitHub (Week 2)
-- `janitor` - data wrangling and tables (Week 2)
-- `knitr` - dynamic documents in `R`
-- `RMarkdown` - markdown syntax for `R`
+- `devtools` - install packages from GitHub (Lecture-02)
+- `janitor` - data wrangling and tables (Lecture-02)
+- `knitr` - dynamic documents in `R` (Lecture-01)
+- `RMarkdown` - markdown syntax for `R` (Lecture-01)

@@ -66,9 +66,9 @@ All students should complete the [Student Information Sheet](https://goo.gl/form
 ## Coursework
 There are three pieces of coursework that you should complete: 
 
-1. You should view two videos posted on the [Preview Week](/preview-week/) page and check out the interactive map dicussed in the first video.
-2. You should complete [Weekly Prep 01](/preview-week/#weekly-prep-01), which asks a few short questions about the videos and interactive map.
-3. You should complete the assigned readings for Week-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
+1. You should view two videos posted on the [Course Preview](/course-preview/) page and check out the interactive map dicussed in the first video.
+2. You should complete [Weekly Prep 01](/course-preview/#weekly-prep-01), which asks a few short questions about the videos and interactive map.
+3. You should complete the assigned readings for Lecture-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
 

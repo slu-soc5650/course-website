@@ -61,24 +61,24 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
-	name   = "Final Project"
-	url    = "final-project/"
-	weight = 11
+	name   = "Course Preview"
+	url    = "course-preview/"
+	weight = 15
 
 [[menu.main]]
-	name   = "Preview Week"
-	url    = "preview-week/"
-	weight = 15
+	name   = "Final Project"
+	url    = "final-project/"
+	weight = 40
 
 [[menu.main]]
 	name   = "Topic Index"
 	url    = "topic-index/"
-	weight = 40
+	weight = 41
 
 [[menu.main]]
 	name   = "Package Index"
 	url    = "package-index/"
-	weight = 41
+	weight = 42
 
 [[menu.main]]
 	name   = "License"

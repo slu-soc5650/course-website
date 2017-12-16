@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T00:11:02+01:00
 title: Final Project
-weight: 11
+weight: 40
 ---
 
 {{< warning title="Project Changes for Spring 2018" >}}
