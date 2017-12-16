@@ -51,7 +51,7 @@ Installing Windows on an Apple computer requires two pieces:
 All told, you can get ArcGIS running on your Mac for between $10 and $50 for the semester. Set-up takes a couple of hours, so be prepared for a time investment to get this up and running. I also strongly recommend backing up your entire computer using Apple's [Time Machine](https://support.apple.com/en-us/HT201250) before making a large change to your system like this.[^2]
 
 ## Get Access to Books
-There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. **Before January 22nd**, please purchase copies of the first three books and decide if you would like a physical copy of the fourth:
+There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. Please purchase copies of the first three books and decide if you would like a physical copy of the fourth:
 
 1. Brewer, Cynthia. 2015. *Designing better Maps: A Guide for GIS users*. Redlands, CA: ESRI Press.
 2. Gorr, Wilpen and Kristen Kurland. 2016. *GIS Tutorial 1: Basic Workbook for ArcGIS 10.3.x*. Redlands, CA: ESRI Press.
@@ -61,10 +61,10 @@ There are a number of different books required for this course. Each book has be
 All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) includes the assigned readings for both the web and print versions of Wickham and Grolemund's *R for data science* (2016), and you are free to choose either version.
 
 ## Administrative Tasks
-All students should complete the [Student Information Sheet](https://goo.gl/forms/7xR7i5n40ROl1YlH3), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and understand the course policies. The should be completed before class on January 22nd.
+All students should complete the [Student Information Sheet](https://goo.gl/forms/7xR7i5n40ROl1YlH3), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and understand the course policies.
 
 ## Coursework
-There are three pieces of coursework that you should **complete before January 22nd**: 
+There are three pieces of coursework that you should complete: 
 
 1. You should view two videos posted on the [Preview Week](/preview-week/) page and check out the interactive map dicussed in the first video.
 2. You should complete [Weekly Prep 01](/preview-week/#weekly-prep-01), which asks a few short questions about the videos and interactive map.
