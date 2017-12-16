@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T20:10:46+01:00
 title: License
-weight: 40
+weight: 45
 ---
 
 Copyright (c) 2016-2017 [Christopher G. Prener](http://chris-prener.github.io)

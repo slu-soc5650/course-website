@@ -4,6 +4,8 @@ title: Course Resources
 weight: 2
 ---
 
+This page is meant to augment the core documents by providing easy access to online elements of the course. The [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) contains a full list of resources, including those not available online.
+
 ## Core Documents
 There are two documents for this course that spell out what is *required*:
 

@@ -79,6 +79,11 @@ googleAnalytics = ""
 	name   = "Package Index"
 	url    = "package-index/"
 	weight = 41
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 45
 	
 [blackfriday]
 	smartypants	= true

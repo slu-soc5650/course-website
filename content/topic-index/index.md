@@ -20,7 +20,7 @@ The following is a list of topics and skills covered during the semester. This w
 ## M-P
 
 ## Q-T
-- R Ngiotebooks (Week 1)
+- R Notebooks (Week 1)
 - R Projects (Week 1)
 - Reproducibility ([Preview Week](/preview-week/))
 

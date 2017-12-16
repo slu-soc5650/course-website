@@ -36,6 +36,6 @@ Like many things in academia, the "final" product here is the result of others' 
 
 This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
 
-Finally, I want to acknowledge my now eight semesters' worth of students in GIS as well as statistics, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my research methods courses.
+Finally, I want to acknowledge my now eight semesters' worth of students in GIS as well as statistics, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. For example, the [topic](/topic-index/) and [package indexes](/package-index/) on this site are direct responses to student suggestions and feedback. I am immensely grateful for each of your contributions to my research methods courses.
 
 [^1]: This course focuses largely on data for the United States, though we do briefly discuss data standards and projection systems for mapping the entire world as well as other countries.

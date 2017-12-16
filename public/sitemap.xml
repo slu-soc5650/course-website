@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>/license/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/topic-index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
@@ -39,6 +34,11 @@
   <url>
     <loc>/package-index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/license/</loc>
+    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
   </url>
   
   <url>
