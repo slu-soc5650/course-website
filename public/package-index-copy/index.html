@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Course Resources - SLU SOC 4650 &amp; SOC 5650</title>
+    <title>Package Index - SLU SOC 4650 &amp; SOC 5650</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4650 &amp; SOC 5650: Introduction to Geographic Information Science">
     
-    <link rel="canonical" href="/course-resources/">
+    <link rel="canonical" href="/package-index-copy/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/course-resources/">
+    <meta property="og:url" content="/package-index-copy/">
     <meta property="og:title" content="SLU SOC 4650 &amp; SOC 5650">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SLU SOC 4650 &amp; SOC 5650">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Course Resources
+        Package Index
       </div>
     </div>
 
@@ -198,14 +198,11 @@
 
 
 
-<a class="current" title="Course Resources" href="/course-resources/">
+<a  title="Course Resources" href="/course-resources/">
 	
 	Course Resources
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -273,24 +270,6 @@
 
 
 
-<a  title="Topic Index" href="/topic-index/">
-	
-	Topic Index
-</a>
-
-
-
-  
-</li>
-
-
-
-<li>
-  
-    
-
-
-
 <a  title="Package Index" href="/package-index/">
 	
 	Package Index
@@ -338,40 +317,60 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Course Resources </h1>
+			<h1>Package Index </h1>
 
 			
 
-<h2 id="core-documents">Core Documents</h2>
+<p>The following is a list of packages used during the semester along with the week when they were first introduced. This list does not include dependencies that may be installed for these packages to work.</p>
+
+<h2 id="base-r">Base <code>R</code></h2>
 
 <ul>
-<li><a href="https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf"><strong>Syllabus</strong></a></li>
-<li><a href="https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf"><strong>Reading List</strong></a></li>
+<li><code>base</code> - base functions (Week 1)</li>
+<li><code>stats</code> - statistical functions</li>
 </ul>
 
-<h2 id="course-website">Course Website</h2>
-
-<p>This <a href="https://slu-soc5650.github.io"><strong>course website</strong></a> will be updated regularly throughout the semester. I&rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.</p>
-
-<h2 id="readings">Readings</h2>
-
-<p>Throughout the semester, there will be assigned readings from a number of different books. These include a number that you will have to buy (see the <a href="https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf"><strong>Syllabus</strong></a> and the <a href="/getting-started/">Getting Started page</a>) and some that you can access online. The books available online include:</p>
+<h2 id="data">Data</h2>
 
 <ul>
-<li><a href="http://r4ds.had.co.nz"><em>R for Data Science</em></a></li>
-<li><a href="http://socviz.co"><em>Data Visualization for Social Science</em></a></li>
-<li><a href="https://chris-prener.github.io/SSDSBook/"><em>Sociospatial Data Science</em></a></li>
+<li><code>stlData</code> - St. Louis data sets (Week 2), available via GitHub</li>
 </ul>
 
-<p>Other articles and chapters not included in these books will be posted on our course&rsquo;s <a href="http://eres.slu.edu/eres/coursepage.aspx?cid=4444">electronic reserves site</a>, and the password is posted in Slack on the <code>#helpdesk-coursework</code> channel.</p>
+<h2 id="tidyverse">Tidyverse</h2>
 
-<h2 id="github">GitHub</h2>
+<p>Use <code>install.packages(&quot;tidyverse&quot;)</code> to install these for convenience!</p>
 
-<p>All course materials will be posted to repositories on our course <a href="https://github.com/slu-soc5650"><strong>GitHub Organization</strong></a>. Each student will have their own private repository in the same organization for submitting course work.</p>
+<ul>
+<li><code>dplyr</code> - data wrangling (Week 2)</li>
+<li><code>ggplot2</code> - data plotting (Week 2), use the development version via GitHub</li>
+<li><code>lubridate</code> - work with dates</li>
+<li><code>readr</code> - data import (Week 2)</li>
+<li><code>stringr</code> - work with strings</li>
+<li><code>tidyr</code> - data wrangling</li>
+</ul>
 
-<h2 id="slack">Slack</h2>
+<h2 id="mapping-packages">Mapping Packages</h2>
 
-<p><a href="https://slu-soc5650.slack.com"><strong>Slack</strong></a> is a communication platform for groups. We&rsquo;ll use <strong>Slack</strong> this semester to stay in touch, provide updates on the course, and as a space for virtual office hours.</p>
+<ul>
+<li><code>classInt</code> - data wrangling</li>
+<li><code>mapproj</code> - map projections</li>
+<li><code>maptools</code> - spatial data tools</li>
+<li><code>RColorBrewer</code> - color ramps for mapping</li>
+<li><code>rgeos</code> - spatial data tools</li>
+<li><code>rgdal</code> - spatial data tools</li>
+<li><code>scales</code> - map scales</li>
+<li><code>sf</code> - spatial data tools</li>
+<li><code>tidycensus</code> - census data tools</li>
+</ul>
+
+<h2 id="other-packages">Other Packages</h2>
+
+<ul>
+<li><code>devtools</code> - install packages from GitHub (Week 2)</li>
+<li><code>janitor</code> - data wrangling and tables (Week 2)</li>
+<li><code>knitr</code> - dynamic documents in <code>R</code></li>
+<li><code>RMarkdown</code> - markdown syntax for <code>R</code></li>
+</ul>
 
 
 			<aside class="copyright" role="note">
@@ -390,7 +389,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/" title="Introduction to Geographic Information Science">
+      <a href="/license/" title="License">
         <span class="direction">
           Previous
         </span>
@@ -400,7 +399,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Introduction to Geographic Information Science
+              License
             </div>
           </div>
         </div>
@@ -410,14 +409,14 @@
 
   <div class="next">
   
-      <a href="/getting-started/" title="Getting Started">
+      <a href="/package-index/" title="Package Index">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Getting Started
+              Package Index
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

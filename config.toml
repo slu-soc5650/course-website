@@ -70,6 +70,16 @@ googleAnalytics = ""
 	url    = "preview-week/"
 	weight = 15
 
+[[menu.main]]
+	name   = "Topic Index"
+	url    = "topic-index/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Package Index"
+	url    = "package-index/"
+	weight = 41
+	
 [blackfriday]
 	smartypants	= true
 	fractions = true
