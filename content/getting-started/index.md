@@ -14,7 +14,7 @@ We'll be using the messaging platform [Slack](https://slack.com) as a space for 
 The website that is hosting this wiki is called [GitHub](https://github.com/). GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials. We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub's [homepage](https://github.com/). If you already have a GitHub account, you do not need a new one. *Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the SOC 5650 organization.*
 
 ## Get Started with Software
-If you will be using your own computer in class, you'll want to install a number of applications. If you aren't using your own computer, you can skip this section! All of these applications are available in our classroom, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester.
+If you will be using your own computer in class, you'll want to install a number of applications. If you aren't using your own computer, you can skip this section! All of these applications are available in our classroom, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. So, no need to worry about software installations if you do not want to.
 
 ### Computer Prep
 Before you install your software, you should do the following:
