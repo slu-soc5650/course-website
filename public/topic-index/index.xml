@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topic-indices on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/topic-index/</link>
+    <link>https://slu-soc5650.github.io/topic-index/</link>
     <description>Recent content in Topic-indices on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="/topic-index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/topic-index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Topic Index</title>
-      <link>/topic-index/</link>
+      <link>https://slu-soc5650.github.io/topic-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/topic-index/</guid>
+      <guid>https://slu-soc5650.github.io/topic-index/</guid>
       <description> The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
 A-D  Data  Open data (Course Preview, Lecture-01)  Data analysis  Opionated analysis development (Course Preview)    E-H I-L  Literate programming (Lecture-01)  M-P Q-T  R Notebooks (Lecture-01) R Projects (Lecture-01) Reproducibility (Course Preview)  U-Z </description>
     </item>
