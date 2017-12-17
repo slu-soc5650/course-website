@@ -82,7 +82,7 @@ A-D  Data  Open data (Course Preview, Lecture-01)  Data analysis  Opionated anal
       
       <guid>/package-index/</guid>
       <description>The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
-Base R  base - base functions (Lecture-01) stats - statistical functions  Data  stlData - St.</description>
+Base R Packages  base - base functions (Lecture-01) stats - statistical functions  Data Packages  stlData - St.</description>
     </item>
     
     <item>

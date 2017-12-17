@@ -6,15 +6,15 @@ weight: 42
 
 The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
-## Base `R`
+## Base `R` Packages
 - `base` - base functions (Lecture-01)
 - `stats` - statistical functions
 
-## Data
-- `stlData` - St. Louis data sets (Lecture-02)
+## Data Packages
+- `stlData` - St. Louis data sets (used throughout the semester)
   - install the development version via GitHub - `devtools::install_github("chrisprener/stlData")`
 
-## Tidyverse
+## Tidyverse Packages
 Use `install.packages("tidyverse")` to install these for convenience!
 
 - `dplyr` - data wrangling (Lecture-02)
