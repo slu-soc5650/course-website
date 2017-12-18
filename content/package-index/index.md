@@ -8,7 +8,7 @@ The following is a list of packages used during the semester along with the lect
 
 ## Base `R` Packages
 - `base` - base functions (Lecture-01)
-- `stats` - statistical functions
+- `stats` - statistical functions (Lecture-02)
 
 ## Data Packages
 - `stlData` - St. Louis data sets (used throughout the semester)
@@ -17,11 +17,10 @@ The following is a list of packages used during the semester along with the lect
 ## Tidyverse Packages
 Use `install.packages("tidyverse")` to install these for convenience!
 
-- `dplyr` - data wrangling (Lecture-02)
-- `ggplot2` - data plotting (Lecture-02)
+- `dplyr` - data wrangling (Lecture-03)
+- `ggplot2` - data plotting (Lecture-03)
   - install the development version via GitHub - `devtools::install_github("tidyverse/ggplot2")`
 - `lubridate` - work with dates
-- `readr` - data import (Lecture-02)
 - `stringr` - work with strings
 - `tidyr` - data wrangling
 
@@ -37,7 +36,8 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `tidycensus` - census data tools
 
 ## Other Packages
-- `devtools` - install packages from GitHub (Lecture-02)
+- `devtools` - install packages from GitHub (Lecture-01)
 - `janitor` - data wrangling and tables (Lecture-02)
-- `knitr` - dynamic documents in `R` (Lecture-01)
-- `RMarkdown` - markdown syntax for `R` (Lecture-01)
+- `knitr` - dynamic documents in `R` (Lecture-02)
+- `RMarkdown` - markdown syntax for `R` (Lecture-02)
+- `rio` - data import (Lecture-02)

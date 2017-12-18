@@ -1,6 +1,6 @@
 ---
 date: 2016-03-09T00:11:02+01:00
-title: Getting Started
+title: Course Onboarding
 weight: 10
 ---
 
@@ -29,7 +29,7 @@ This section provides details on completing the following steps:
 * [Complete the student information sheet](/getting-started/#administrative-tasks)
 * [Complete the initial coursework](/getting-started/#coursework):
   * Watch the two videos posted and explore the interactive map
-  * Answer and submit the questions for Weekly Prep 01
+  * Answer and submit the questions for Lecture Prep 01
   * Complete the readings for Lecture 01
 
 ## Account Signups
@@ -103,7 +103,7 @@ All students should complete the [Student Information Sheet](https://goo.gl/form
 There are three pieces of coursework that you should complete: 
 
 1. You should view two videos posted on the [Course Preview](/course-preview/) page and check out the interactive map discussed in the first video.
-2. You should complete [Weekly Prep 01](/course-preview/#weekly-prep-01), which asks a few short questions about the videos and interactive map.
+2. You should complete [Lecture Prep 01](/course-preview/#lecture-prep-01), which asks a few short questions about the videos and interactive map.
 3. You should complete the assigned readings for Lecture-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
