@@ -20,13 +20,11 @@ The final project for this course requires students to clean and map non-emergen
 
 ## Waypoints
 
-The final project instructions include "waypoints" - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Directions**](https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf)). The next waypoint will be highlighted with bold font throughout the semester.
+The final project instructions include "waypoints" - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Directions**](https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf)). The next waypoint will be highlighted with **bold** font throughout the semester.
 
-1. **Week 3 - Topic memo submitted as a GitHub issue in each student's assignment repository**
-2. Week 5 - Meeting report posted in each group's Slack channel
-3. Week 7 - Data acquisition and cleaning report from each student due in group's Slack channel
-4. Week 9 - Progress report from each student due in group's Slack channel
-5. Week 11 - Draft materials due in each student's assignment repository
-6. Week 13 - Response to reviewer due as a GitHub issue in each student's assignment repository
-7. Week 16 - Progress report from each student due in group's Slack channel
-8. Week 18 - Posters presented at research conference
+1. **Lecture-03 (February 5) - Topic memo submitted as a GitHub issue in each student's assignment repository**
+2. Lecture-05 (February 19) - Meeting report posted in each group's Slack channel
+3. Lecture-07 (March 5) - Progress report from each student due in group's Slack channel
+4. Lecture-11 (April 2) - Draft materials due in each student's assignment repository
+5. Lecture-13 (April 16) - Response to reviewer due as a GitHub issue in each student's assignment repository
+6. Lecture-15 (April 30) - Progress report from each student due as a GitHub issue in each student's assignment repository
