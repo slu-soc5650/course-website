@@ -7,7 +7,7 @@ weight: 42
 The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
 ## Base `R` Packages
-- `base` - base functions (Lecture-01)
+- `base` - base functions ([Lecture-01](/lecture-01/))
 - `stats` - statistical functions (Lecture-02)
 
 ## Data Packages
@@ -26,6 +26,7 @@ Use `install.packages("tidyverse")` to install these for convenience!
 
 ## Mapping Packages
 - `classInt` - data wrangling
+- [`leaflet`](https://rstudio.github.io/leaflet/) - interactive maps ([Lecture-01](/lecture-01/))
 - `mapproj` - map projections
 - `maptools` - spatial data tools
 - `RColorBrewer` - color ramps for mapping

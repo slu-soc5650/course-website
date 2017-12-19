@@ -54,6 +54,17 @@ Open Data and GIS in Los Angeles One of the course learning outcomes is titled &
     </item>
     
     <item>
+      <title>Lecture 01 - Course Introduction</title>
+      <link>/lecture-01/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/lecture-01/</guid>
+      <description>Open on  
+Handouts Handout 1  Handout 2  Handout 3 
+ Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you’ll need to fire up RStudio. In the console, enter the following function and hit return:</description>
+    </item>
+    
+    <item>
       <title>Final Project</title>
       <link>/final-project/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
@@ -72,7 +83,7 @@ Overview The final project for this course requires students to clean and map no
       
       <guid>/topic-index/</guid>
       <description> The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
-A-D  Data  Open data (Course Preview, Lecture-01)  Data analysis  Opionated analysis development (Course Preview)    E-H I-L  Literate programming (Lecture-01)  M-P Q-T  R Notebooks (Lecture-01) R Projects (Lecture-01) Reproducibility (Course Preview)  U-Z </description>
+A-D  Analysis development, see &amp;ldquo;Data analysis&amp;rdquo; Data  Open data (Course Preview, (Lecture-01)  Data analysis  Opionated analysis development (Course Preview)    E-H I-L  Interactive Maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo;  leaflet, see also &amp;ldquo;Interactive Maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  Pipe operator, %&amp;gt;% (Lecture-01)  Q-T  R Notebooks (Lecture-02) R Projects (Lecture-01) Reproducibility (Course Preview)  U-Z </description>
     </item>
     
     <item>

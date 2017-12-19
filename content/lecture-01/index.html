@@ -1,0 +1,60 @@
+---
+date: 2016-03-09T00:11:02+01:00
+title: Lecture 01 - Course Introduction
+weight: 20
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<link href="/rmarkdown-libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet-label/leaflet.label.js"></script>
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<script src="/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers/leaflet-providers.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a></p>
+<div id="handouts" class="section level2">
+<h2>Handouts</h2>
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 1 </a> <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 2 </a> <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 3 </a></p>
+</div>
+<div id="leaflet" class="section level2">
+<h2>Leaflet</h2>
+<p>As a way to get to know <code>R</code> and RStudio, we’ll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you’ll need to fire up RStudio. In the console, enter the following function and hit return:</p>
+<pre class="r"><code>install.packages(&quot;leaflet&quot;)</code></pre>
+<p>The <code>install.packages()</code> function is the way we’ll add packages, which are small software programs that extend <code>R</code>’s base functionality. We only need to run this function once per package per user. After it is installed, and for each subsequent <code>R</code> session, we can open the package with the <code>library()</code> function:</p>
+<pre class="r"><code>library(&quot;leaflet&quot;)</code></pre>
+<p>Each time you re-open RStudio, you will need to execute the <code>library()</code> function for all needed packages.</p>
+<div id="a-simple-map" class="section level3">
+<h3>A Simple Map</h3>
+<p><code>leaflet</code> itself is straightforward to get up and running. If we wanted an interactive map with a marker placed on-top of Morrissey Hall, we would use the following script entered into <code>R</code>:</p>
+<pre class="r"><code>leaflet() %&gt;%
+  addTiles() %&gt;%
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)</code></pre>
+<p>The <code>leaflet()</code> function creates a map widget, and the <code>addTiles()</code> function adds a basemap to it. By default, <a href="https://www.openstreetmap.org">OpenStreetMap</a> is used for the basemap. Finally, we use <code>addMarkers()</code> to specify the longitude and latitude of our marker, and we enter in a label that will appear as a pop-up when a user clicks on the marker. <code>lng</code>, <code>lat</code>, and <code>popup</code> are all called “arguments” - these are used to control how a function operates.</p>
+<p>The <code>%&gt;%</code> is called the “pipe operator”, and it is used to chain together functions in what we will call “pipelines”. This pipeline can be read like a list, with the word <strong>then</strong> substituted for each instance of <code>%&gt;%</code>:</p>
+<ol style="list-style-type: decimal">
+<li>First we create a map widget, <strong>then</strong></li>
+<li>we add basemap tiles, <strong>then</strong></li>
+<li>we add a marker at the given longitude and latitude.</li>
+</ol>
+<p>The code chunk above produces the following map in RStudio’s <strong>Viewer</strong> tab: <div id="htmlwidget-1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[38.637547,-90.237104,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Morrissey Hall",null,null,null,null,null,null]}],"limits":{"lat":[38.637547,38.637547],"lng":[-90.237104,-90.237104]}},"evals":[],"jsHooks":[]}</script></p>
+<p>You can use the <strong>Show in new window</strong> icon (a white box with a small arrow facing up and right) to open the map in your web browser.</p>
+</div>
+<div id="changing-the-basemap" class="section level3">
+<h3>Changing the Basemap</h3>
+<p>To alter the basemap, we can use <code>addProviderTiles()</code> in place of <code>addTiles()</code>. I like the CartoDB “Positron” basemap. To use the Positron basemap, we create a second pipeline:</p>
+<pre class="r"><code>leaflet() %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)</code></pre>
+<p>Two things are important to note here. When we load the <code>leaflet</code> package, we have access to a data object called <code>providers</code>. You can use <code>names(providers)</code> to explore it. <code>providers</code> is a vector of items, each of which corresponds to a different basemap. We can select one of those items, <code>CartoDB.Positron</code>, by separating <code>providers</code> from the item name with a dollar sign (<code>$</code>). This is a classic way in which elements of a data set are accessed in <code>R</code> syntax.</p>
+<p>The second code chunk produces the following map in RStudio’s <strong>Viewer</strong> tab: <div id="htmlwidget-2" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addMarkers","args":[38.637547,-90.237104,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Morrissey Hall",null,null,null,null,null,null]}],"limits":{"lat":[38.637547,38.637547],"lng":[-90.237104,-90.237104]}},"evals":[],"jsHooks":[]}</script></p>
+</div>
+</div>

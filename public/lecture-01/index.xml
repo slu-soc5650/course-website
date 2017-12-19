@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture-01s on SLU SOC 4650 &amp; SOC 5650</title>
+    <link>/lecture-01/</link>
+    <description>Recent content in Lecture-01s on SLU SOC 4650 &amp; SOC 5650</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    
+	<atom:link href="/lecture-01/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lecture 01 - Course Introduction</title>
+      <link>/lecture-01/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/lecture-01/</guid>
+      <description>Open on  
+Handouts Handout 1  Handout 2  Handout 3 
+ Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you’ll need to fire up RStudio. In the console, enter the following function and hit return:</description>
+    </item>
+    
+  </channel>
+</rss>
