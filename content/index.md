@@ -6,7 +6,7 @@ weight: 1
 ---
 
 {{< note title="Enrollment Open" >}}
-SOC 4650 & 5650 is the Department of Sociology and Anthropology's undergraduate and graduate introductory GIS course at Saint Louis University. It will next be taught for Spring 2018 and there is currently **one open seat**. If you have an interest in the course, you are encouraged to add yourself to the wait list. This site is for sections taught by Assistant Professor Christopher Prener.
+SOC 4650 & 5650 is the Department of Sociology and Anthropology's undergraduate and graduate introductory GIS course at Saint Louis University. It will next be taught for Spring 2018 and there is currently **one open seat**. If you have an interest in the course, you are encouraged to enroll! This site is for sections taught by Assistant Professor Christopher Prener.
 {{< /note >}}
 
 ## Course Description 
