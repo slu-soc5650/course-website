@@ -1485,13 +1485,14 @@ h1 .article .headerlink {
     border-radius: 2px;
     border: 2px solid #259b24;
     color: white;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 3px;
     margin-right: 3px;
     padding: 4px 10px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-style: normal;
     font-size: 12px;
 }
@@ -1501,13 +1502,14 @@ h1 .article .headerlink {
     border-radius: 2px;
     border: 2px solid #6889ff;
     color: white;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 3px;
     margin-right: 3px;
     padding: 4px 10px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-style: normal;
     font-size: 12px;
 }
