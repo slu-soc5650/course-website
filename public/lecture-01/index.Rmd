@@ -6,16 +6,19 @@ weight: 20
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
 
-## Topics
+## Key Topics
+<i class="key"><i class="fas fa-tags"></i> Analysis development</i> 
+<i class="package"><i class="fas fa-archive"></i> devtools</i> 
 <i class="key"><i class="fas fa-tags"></i> Interactive maps</i> 
-<i class="key"><i class="fas fa-tags"></i> leaflet</i>
+<i class="package"><i class="fas fa-archive"></i> leaflet</i> 
 <i class="key"><i class="fas fa-tags"></i> R</i>
+<i class="package"><i class="fas fa-archive"></i> stlData</i> 
 
 ## Handouts
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 1 </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 2 </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 3 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Email </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Map </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Functions </a>
 
 ## Leaflet
 As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:

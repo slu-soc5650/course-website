@@ -1492,5 +1492,22 @@ h1 .article .headerlink {
     padding: 4px 10px;
     text-align: center;
     text-decoration: none;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.package {
+    background-color: #6889ff;
+    border-radius: 2px;
+    border: 2px solid #6889ff;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
     font-size: 12px;
 }
