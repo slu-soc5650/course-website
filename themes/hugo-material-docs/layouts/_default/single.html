@@ -28,15 +28,16 @@
 
 			{{ .Content }}
 
+      <hr>
+
 			<aside class="copyright" role="note">
 				{{ with .Site.Params.copyright }}
-				&copy; {{ now.Format "2006" }} {{ . }} &ndash;
+				&copy; {{ now.Format "2006" }} <a href="/License/">{{ . }}</a> &ndash;
 				{{ end }}
 				Website built with
-				<a href="https://bookdown.org/yihui/blogdown/" target="_blank">Blogdown</a>
-				and
-				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-				using the
+				<a href="https://bookdown.org/yihui/blogdown/" target="_blank">Blogdown</a> and
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a> using a
+				<a href="https://github.com/chris-prener/hugo-material-docs" target="_blank">fork</a> of the 
 				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
 			</aside>
 

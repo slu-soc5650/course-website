@@ -43,6 +43,7 @@ googleAnalytics = ""
 	twitter = ""
 	github  = "slu-soc5650"
 	email   = "chris.prener@slu.edu"
+	web     = "https://chris-prener.github.io"
 
 
 [[menu.main]]
