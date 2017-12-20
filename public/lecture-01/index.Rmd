@@ -49,12 +49,10 @@ The code chunk above produces the following map in RStudio's **Viewer** tab:
 ```{r echo = FALSE}
 library(leaflet)
 
-leaflet() %>%
+leaflet(width = '100%') %>%
   addTiles() %>%
   addMarkers(lng=-90.237104, lat=38.637547, popup="Morrissey Hall")
 ```
-
-
 You can use the **Show in new window** icon (a white box with a small arrow facing up and right) to open the map in your web browser.
 
 ### Changing the Basemap
@@ -71,7 +69,7 @@ Two things are important to note here. When we load the `leaflet` package, we ha
 
 The second code chunk produces the following map in RStudio's **Viewer** tab:
 ```{r echo = FALSE}
-leaflet() %>%
+leaflet(width = '100%') %>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
   addMarkers(lng=-90.237104, lat=38.637547, popup="Morrissey Hall")
 ```

@@ -1474,3 +1474,8 @@ h1 .article .headerlink {
 .gist-data {
   max-height: 500px
 }
+
+.leaflet {
+    margin-top: 24px;
+    margin-bottom: 24px
+}
