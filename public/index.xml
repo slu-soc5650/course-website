@@ -50,7 +50,8 @@ Core Documents There are two documents for this course that spell out what is re
       
       <guid>/course-preview/</guid>
       <description>To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.
-Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semseter is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible.</description>
+Key Topics  Analysis development  Interactive maps  Open data  Reproducibility
+Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -60,9 +61,7 @@ Open Data and GIS in Los Angeles One of the course learning outcomes is titled &
       
       <guid>/lecture-01/</guid>
       <description>Open on  
-Key Topics  Analysis development  devtools  Interactive maps  leaflet  R  stlData
- Handouts Exercise - Email  Exercise - Map  Functions 
- Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps.</description>
+This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We’ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We’ll end the night by writing our first lines of R code(!) and making our first maps(!</description>
     </item>
     
     <item>
@@ -84,7 +83,7 @@ Overview The final project for this course requires students to clean and map no
       
       <guid>/topic-index/</guid>
       <description> The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
-A-D  Analysis development (Course Preview) Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01)    E-H I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo;  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R Notebooks (Lecture-02) R Projects (Lecture-01) Reproducibility (Course Preview)  U-Z </description>
+A-D  Analysis development (Course Preview) Cartography (Lecture-01) Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01)    E-H I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R Notebooks (Lecture-02) R Packages (Lecture-01) R Projects (Lecture-01) Reproducibility (Course Preview)  U-Z </description>
     </item>
     
     <item>

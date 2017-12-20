@@ -2,17 +2,24 @@
 date: 2016-03-09T00:11:02+01:00
 title: Lecture 01 - Course Introduction
 weight: 20
+output:
+  blogdown::html_page
 ---
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
 
+This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We'll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We'll end the night by writing our first lines of `R` code(!) and making our first maps(!!).
+
 ## Key Topics
-<i class="key"><i class="fas fa-tags"></i> Analysis development</i> 
+<i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> 
+<i class="keyword"><i class="fas fa-tags"></i> Cartography</i> 
 <i class="package"><i class="fas fa-archive"></i> devtools</i> 
-<i class="key"><i class="fas fa-tags"></i> Interactive maps</i> 
+<i class="keyword"><i class="fas fa-tags"></i> Interactive maps</i> 
 <i class="package"><i class="fas fa-archive"></i> leaflet</i> 
-<i class="key"><i class="fas fa-tags"></i> R</i>
+<i class="tool"><i class="fas fa-desktop"></i> R</i>
+<i class="keyword"><i class="fas fa-tags"></i> R packages</i> 
 <i class="package"><i class="fas fa-archive"></i> stlData</i> 
+<i class="package"><i class="fas fa-archive"></i> utils</i> 
 
 ## Handouts
 
@@ -20,20 +27,47 @@ weight: 20
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Map </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Functions </a>
 
-## Leaflet
-As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
+## Working with R Packages
+During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). However, our example data package is hosted on GitHub. While `R` has built-in functions for installing and updating packages from CRAN, it does not have these same tools for packages hosted elsewhere. We need a separate package called `devtools` to help us with the GitHub installation. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
+
+```r
+install.packages("devtools")
+```
+
+We only need to run this function once per package per user. After it is installed, and for each subsequent `R` session, we can open the package with the `library()` function:
+
+```r
+library("devtools")
+```
+
+Each time you re-open RStudio, you will need to execute the `library()` function for all needed packages.
+
+Now that we have `devtools` installed and loaded, we can install `stlData` with the following function:
+
+```r
+install_github("chris-prener/stlData")
+```
+
+Once it installs, we can access the data included in `stlData` by loading the package:
+
+```r
+library("stlData")
+```
+
+This will be our standard workflow for installing packages this semester. When a new package is introduced, you'll need to pick the appropriate function based on where the package is hosted (CRAN or GitHub). Most packages will be available from CRAN. Once you have them installed, you will use `library()` to load the packages at the beginning of each session.
+
+## Leaflet Basics
+As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to install `leaflet` via CRAN:
 
 ```r
 install.packages("leaflet")
 ```
 
-The `install.packages()` function is the way we'll add packages, which are small software programs that extend `R`'s base functionality. We only need to run this function once per package per user. After it is installed, and for each subsequent `R` session, we can open the package with the `library()` function:
+Just like before, we can open `leaflet` with the `library()` function:
 
 ```r
 library("leaflet")
 ```
-
-Each time you re-open RStudio, you will need to execute the `library()` function for all needed packages. 
 
 ### A Simple Map
 
@@ -81,3 +115,53 @@ leaflet(width = '100%') %>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
   addMarkers(lng=-90.237104, lat=38.637547, popup="Morrissey Hall")
 ```
+
+## Loading and Exploring Data
+Our example data package, [`stlData`](https://chris-prener.github.io/stlData/), contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called `sluPlaces`. We can reference these data in our `leaflet()` call and again in the `addMarkers()` function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We'll take the `sluPlaces` table and assign it to the object `sluData`:
+
+```r
+sluData <- sluPlaces
+```
+
+Notice how we always assign data in reverse like this, and that we don't use an equal sign. [These are both just R quirks that take some getting used to](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html). We can explore the data a number of ways, including with the `View()` function and the `str()` function:
+
+```r
+> View(sluData)
+
+> str(sluData)
+'data.frame':	6 obs. of  4 variables:
+ $ id  : num  1 2 3 4 5 6
+ $ name: chr  "Morrissey Hall" "Starbucks" "Simon Rec" "Pius Library" ...
+ $ lng : num  -90.2 -90.2 -90.2 -90.2 -90.2 ...
+ $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
+```
+
+The `View()` function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The `str()` function gives us an overview of the variables included in the data along with some sample values.
+
+## Data Sources and Leaflet
+Now that we have some data loaded in our global environment, we can project (map) it using `leaflet`. We need to reference the data frame (our data object) in the `leaflet()` call and both the longitude (`lng`) and latitude (`lat`) variable names in our `addMarkers()` call. We'll also set the `name` variable to be the source for the popup text:
+
+```r
+leaflet(data = sluData) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%  # Add alternative map tiles
+  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
+```
+
+Notice how we use the tilde symbol (`~`) in `addMarkers()` before the variable names. This is idiosyncratic to `leaflet`. 
+
+The code chunk produces the following plot:
+
+```{r echo = FALSE}
+library(stlData)
+
+leaflet(data = sluPlaces, width = '100%') %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%  # Add alternative map tiles
+  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
+```
+
+Congratulations - you have now made three maps!
+
+## Replication Code
+All of the code used in our lecture today, in one place:
+
+<script data-gist-id="bc0420ef79e928319e682e3f74d659c0"></script>

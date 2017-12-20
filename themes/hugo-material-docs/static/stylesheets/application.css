@@ -1480,7 +1480,7 @@ h1 .article .headerlink {
     margin-bottom: 24px
 }
 
-.key {
+.keyword {
     background-color: #259b24;
     border-radius: 2px;
     border: 2px solid #259b24;
@@ -1501,6 +1501,24 @@ h1 .article .headerlink {
     background-color: #6889ff;
     border-radius: 2px;
     border: 2px solid #6889ff;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+}
+
+.tool {
+    background-color: #24259b;
+    border-radius: 2px;
+    border: 2px solid #24259b;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;

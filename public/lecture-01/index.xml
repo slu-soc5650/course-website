@@ -19,9 +19,7 @@
       
       <guid>/lecture-01/</guid>
       <description>Open on  
-Key Topics  Analysis development  devtools  Interactive maps  leaflet  R  stlData
- Handouts Exercise - Email  Exercise - Map  Functions 
- Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps.</description>
+This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We’ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We’ll end the night by writing our first lines of R code(!) and making our first maps(!</description>
     </item>
     
   </channel>

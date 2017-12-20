@@ -8,6 +8,7 @@ The following is a list of topics and skills covered during the semester. This w
 
 ## A-D
 - Analysis development ([Course Preview](/course-preview/))
+- Cartography ([Lecture-01](/lecture-01/))
 - Coral, Lilian ([Course Preview](/course-preview/))
 - Data
   - Open data ([Course Preview](/course-preview/), [Lecture-01](/lecture-01/))
@@ -17,6 +18,7 @@ The following is a list of topics and skills covered during the semester. This w
 ## I-L
 - Interactive maps
   - in `R` with `leaflet` ([Lecture-01](/lecture-01/)), see also "`leaflet`"
+  - Los Angeles GeoHub ([Course Preview](/course-preview/))
 - `leaflet`, see also "Interactive maps"
   - Adding map tiles, `addTiles()` ([Lecture-01](/lecture-01/))
   - Adding tiles from other providers, `addProviderTiles()` ([Lecture-01](/lecture-01/))
@@ -33,6 +35,7 @@ The following is a list of topics and skills covered during the semester. This w
 
 ## Q-T
 - `R` Notebooks (Lecture-02)
+- `R` Packages ([Lecture-01](/lecture-01/))
 - `R` Projects ([Lecture-01](/lecture-01/))
 - Reproducibility ([Course Preview](/course-preview/))
 
