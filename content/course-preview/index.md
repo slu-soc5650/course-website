@@ -7,10 +7,10 @@ weight: 15
 To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.
 
 ## Key Topics
-<i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> 
-<i class="keyword"><i class="fas fa-tags"></i> Interactive maps</i> 
-<i class="keyword"><i class="fas fa-tags"></i> Open data</i>
-<i class="keyword"><i class="fas fa-tags"></i> Reproducibility</i> 
+{{< keyword name="Analysis development" >}}
+{{< keyword name="Interactive maps" >}}
+{{< keyword name="Open data" >}}
+{{< keyword name="Reproducibility" >}}
 
 ## Open Data and GIS in Los Angeles
 One of the course learning outcomes is titled "GISc and Public Policy". Much of the data that we will use this semseter is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible "open data". 

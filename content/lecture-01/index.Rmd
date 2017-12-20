@@ -25,9 +25,9 @@ This is our first class meeting, which takes place on January 22nd because of th
 
 ## Handouts
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Email </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Map </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Email </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Map </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Functions </a>
 
 ## Working with R Packages
 During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). However, our example data package is hosted on GitHub. While `R` has built-in functions for installing and updating packages from CRAN, it does not have these same tools for packages hosted elsewhere. We need a separate package called `devtools` to help us with the GitHub installation. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
