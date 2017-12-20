@@ -6,6 +6,11 @@ weight: 20
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
 
+## Topics
+<i class="key"><i class="fas fa-tags"></i> Interactive maps</i> 
+<i class="key"><i class="fas fa-tags"></i> leaflet</i>
+<i class="key"><i class="fas fa-tags"></i> R</i>
+
 ## Handouts
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Handout 1 </a>

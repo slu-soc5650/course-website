@@ -19,8 +19,9 @@
       
       <guid>/lecture-01/</guid>
       <description>Open on  
-Handouts Handout 1  Handout 2  Handout 3 
- Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you’ll need to fire up RStudio. In the console, enter the following function and hit return:</description>
+Topics  Interactive maps  leaflet  R
+ Handouts Handout 1  Handout 2  Handout 3 
+ Leaflet As a way to get to know R and RStudio, we’ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you’ll need to fire up RStudio.</description>
     </item>
     
   </channel>
