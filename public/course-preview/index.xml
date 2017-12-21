@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course-previews on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/course-preview/</link>
+    <link>/course-preview/</link>
     <description>Recent content in Course-previews on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/course-preview/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/course-preview/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Course Preview</title>
-      <link>https://slu-soc5650.github.io/course-preview/</link>
+      <link>/course-preview/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/course-preview/</guid>
+      <guid>/course-preview/</guid>
       <description>To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.
-Key Topics  Analysis development  Interactive maps  Open data  Reproducibility Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;.</description>
+Key Topics  Analysis development   Interactive maps   Open data   Reproducibility 
+Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;.</description>
     </item>
     
   </channel>

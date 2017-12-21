@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Package-indices on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/package-index/</link>
+    <link>/package-index/</link>
     <description>Recent content in Package-indices on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/package-index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/package-index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Package Index</title>
-      <link>https://slu-soc5650.github.io/package-index/</link>
+      <link>/package-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/package-index/</guid>
-      <description>The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
-Base R Packages  base - base functions (Lecture-01) stats - statistical functions (Lecture-02) utils - utility functions (Lecture-01)  Data Packages  stlData - St.</description>
+      <guid>/package-index/</guid>
+      <description>The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
+Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions   stats - statistical functions   utils - utility functions    Data Packages  stlData - St.</description>
     </item>
     
   </channel>

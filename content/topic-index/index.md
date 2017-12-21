@@ -28,8 +28,8 @@ The following is a list of topics and skills covered during the semester. This w
   - Los Angeles GeoHub ([Course Preview](/course-preview/))
 - `leaflet`, see also "Interactive maps"
   - Adding map tiles, `addTiles()` ([Lecture-01](/lecture-01/))
-  - Adding tiles from other providers, `addProviderTiles()` ([Lecture-01](/lecture-01/))
   - Adding markers to map, `addMarkers()` ([Lecture-01](/lecture-01/))
+  - Adding tiles from other providers, `addProviderTiles()` ([Lecture-01](/lecture-01/))
   - Creating map widget, `leaflet()` ([Lecture-01](/lecture-01/))
 - Literate programming (Lecture-02)
 
