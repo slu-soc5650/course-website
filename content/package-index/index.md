@@ -51,4 +51,4 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `janitor` - data wrangling and tables {{< pkgIndex "#e-h" >}} {{< pkgCran "janitor" >}} {{< pkgGitHub "sfirke/janitor" >}}
 - `knitr` - dynamic documents in `R` {{< pkgIndex "#i-l" >}} {{< pkgCran "knitr" >}} {{< pkgGitHub "yihui/knitr" >}} {{< pkgWeb "https://yihui.name/knitr/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
 - `RMarkdown` - markdown syntax for `R` {{< pkgIndex "#q-t" >}} {{< pkgCran "RMarkdown" >}} {{< pkgGitHub "rstudio/rmarkdown" >}} {{< pkgWeb "http://rmarkdown.rstudio.com/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
-- `rio` - data import (Lecture-02) {{< pkgIndex "#q-t" >}} {{< pkgCran "rio" >}} {{< pkgGitHub "leeper/rio" >}}
+- `rio` - data import {{< pkgIndex "#q-t" >}} {{< pkgCran "rio" >}} {{< pkgGitHub "leeper/rio" >}}
