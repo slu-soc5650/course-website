@@ -8,12 +8,19 @@ The following is a list of topics and skills covered during the semester. This w
 
 ## A-D
 - Analysis development ([Course Preview](/course-preview/))
-- Cartography ([Lecture-01](/lecture-01/))
+- `base`, see "[`R`, `base`](/topic-index/#q-t)"
+- Cartography 
+  - Basic design principles ([Lecture-01](/lecture-01/))
 - Coral, Lilian ([Course Preview](/course-preview/))
 - Data
   - Open data ([Course Preview](/course-preview/), [Lecture-01](/lecture-01/))
+  - `stlData`, see "[Data, `stlData`](/topic-index/#q-t)"
+- `devtools`, see "[GitHub, Install packages from](/topic-index/#e-h)"
   
 ## E-H
+- Git
+- GitHub
+  - Install packages from with `devtools`, `install_github()` ([Lecture-01](/lecture-01/))
 
 ## I-L
 - Interactive maps
@@ -27,6 +34,7 @@ The following is a list of topics and skills covered during the semester. This w
 - Literate programming (Lecture-02)
 
 ## M-P
+- Packages, see "[`R`, Packages](/topic-index/#q-t)"
 - Parker, Hilary ([Course Preview](/course-preview/))
 - Pipe operator, `%>%` ([Lecture-01](/lecture-01/))
 - Public saftey
@@ -34,9 +42,17 @@ The following is a list of topics and skills covered during the semester. This w
   - Pedestrian saftey ([Course Preview](/course-preview/))
 
 ## Q-T
-- `R` Notebooks (Lecture-02)
-- `R` Packages ([Lecture-01](/lecture-01/))
-- `R` Projects ([Lecture-01](/lecture-01/))
+- `R`
+  - `base`
+      - install packages from CRAN, `install.packages()` ([Lecture-01](/lecture-01/))
+  - General coverage ([Lecture-01](/lecture-01/))
+  - Notebooks (Lecture-02)
+  - Packages ([Lecture-01](/lecture-01/))
+  - Projects (Lecture-02)
 - Reproducibility ([Course Preview](/course-preview/))
+- `stlData` - Example data package ([Lecture-01](/lecture-01/))
 
 ## U-Z
+- `utils`
+  - Structure of an object, `str()` ([Lecture-01](/lecture-01/))
+  - Spreadsheet-like data view, `View()` ([Lecture-01](/lecture-01/))

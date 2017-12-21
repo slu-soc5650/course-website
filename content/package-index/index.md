@@ -4,14 +4,17 @@ title: Package Index
 weight: 42
 ---
 
+
+
 The following is a list of packages used during the semester along with the lecture when they were first introduced and any subsequent lectures where they are discussed in detail. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
 ## Base `R` Packages
 - `base` - base functions ([Lecture-01](/lecture-01/))
-- `stats` - statistical functions (Lecture-02)
+- `stats` - statistical functions (Lecture-02) 
+- `utils` - utility functions ([Lecture-01](/lecture-01/)) 
 
 ## Data Packages
-- `stlData` - St. Louis data sets (used throughout the semester)
+- `stlData` - St. Louis data sets ([Lecture-01](/lecture-01/)
   - install the development version via GitHub - `devtools::install_github("chrisprener/stlData")`
 
 ## Tidyverse Packages
@@ -37,7 +40,7 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `tidycensus` - census data tools
 
 ## Other Packages
-- `devtools` - install packages from GitHub (Lecture-01)
+- `devtools` - install packages from GitHub {{< pkgIndex "#e-h" >}} {{< pkgCran "devtools" >}} {{< pkgGitHub "hadley/devtools" >}}
 - `janitor` - data wrangling and tables (Lecture-02)
 - `knitr` - dynamic documents in `R` (Lecture-02)
 - `RMarkdown` - markdown syntax for `R` (Lecture-02)

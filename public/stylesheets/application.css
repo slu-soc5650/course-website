@@ -1532,3 +1532,15 @@ h1 .article .headerlink {
     font-size: 12px;
     font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
 }
+
+.pgkIndex {
+    color: #259b24;
+}
+
+.pkgResource {
+    color: #bababa;
+}
+
+.ham {
+  margin-left: 10px;
+}

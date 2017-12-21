@@ -13,15 +13,15 @@ output:
 This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We'll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We'll end the night by writing our first lines of `R` code(!) and making our first maps(!!).
 
 ## Key Topics
-<i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> 
-<i class="keyword"><i class="fas fa-tags"></i> Cartography</i> 
-<i class="package"><i class="fas fa-archive"></i> devtools</i> 
-<i class="keyword"><i class="fas fa-tags"></i> Interactive maps</i> 
-<i class="package"><i class="fas fa-archive"></i> leaflet</i> 
-<i class="tool"><i class="fas fa-desktop"></i> R</i>
-<i class="keyword"><i class="fas fa-tags"></i> R packages</i> 
-<i class="package"><i class="fas fa-archive"></i> stlData</i> 
-<i class="package"><i class="fas fa-archive"></i> utils</i> 
+[<i class="keyword"><i class="fas fa-tags"></i> Analysis development</i>](/topic-index/#a-d)
+[<i class="keyword"><i class="fas fa-tags"></i> Cartography</i>](/topic-index/#a-d)
+[<i class="package"><i class="fas fa-archive"></i> devtools</i>](/topic-index/#e-h)
+[<i class="keyword"><i class="fas fa-tags"></i> Interactive maps</i>](/topic-index/#i-l)
+[<i class="package"><i class="fas fa-archive"></i> leaflet</i>](/topic-index/#i-l)
+[<i class="tool"><i class="fas fa-desktop"></i> R</i>](/topic-index/#q-t)
+[<i class="keyword"><i class="fas fa-tags"></i> R packages</i>](/topic-index/#q-t)
+[<i class="package"><i class="fas fa-archive"></i> stlData</i>](/topic-index/#q-t)
+[<i class="package"><i class="fas fa-archive"></i> utils</i>](/topic-index/#u-z)
 
 ## Handouts
 
@@ -138,7 +138,7 @@ Notice how we always assign data in reverse like this, and that we don't use an 
  $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
 ```
 
-The `View()` function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The `str()` function gives us an overview of the variables included in the data along with some sample values.
+The `View()` function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The `str()` function gives us an overview of the structure of an object - typically the variables included in the data along with some sample values.
 
 ## Data Sources and Leaflet
 Now that we have some data loaded in our global environment, we can project (map) it using `leaflet`. We need to reference the data frame (our data object) in the `leaflet()` call and both the longitude (`lng`) and latitude (`lat`) variable names in our `addMarkers()` call. We'll also set the `name` variable to be the source for the popup text:
