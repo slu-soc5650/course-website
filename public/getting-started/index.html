@@ -436,7 +436,7 @@
 
 <h3 id="get-started-with-github">Get Started with GitHub</h3>
 
-<p>The website that is hosting this wiki is called <a href="https://github.com/">GitHub</a>. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials. We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&rsquo;s <a href="https://github.com/">homepage</a>. If you already have a GitHub account, you do not need a new one. <em>Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the SOC 5650 organization.</em></p>
+<p>The service that is hosting this website is called <a href="https://github.com/">GitHub</a>. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&rsquo;s <a href="https://github.com/">homepage</a>. If you already have a GitHub account, you do not need a new one. <em>Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the SOC 5650 organization.</em></p>
 
 <h2 id="get-started-with-software">Get Started with Software</h2>
 
@@ -479,7 +479,7 @@
 
 <p>Additionally, you will want to decide if you want to run ArcGIS on your computer. ArcGIS requires Microsoft Windows, which means that you need a Windows computer or an Apple computer <em>with Windows installed</em>. ESRI, the company that makes ArcGIS, also maintains a list of the <a href="http://desktop.arcgis.com/en/arcmap/10.3/get-started/system-requirements/arcgis-desktop-system-requirements.htm">system requirements</a> that your computer must meet. If your computer meets these requirements and you would like a student license for ArcGIS, send Chris a direct message on Slack asking for a license. Student licenses are good for one year, and are free!</p>
 
-<p>If you have an Apple computer, make sure it <a href="https://www.microsoft.com/en-us/windows/windows-10-specifications">meets Microsoft 10&rsquo;s requirements</a> before purchasing any software. You will need a <em>minimum</em> of 50 GB of free space on your hard drive in my experience. Go to the Apple Menu, and then choose <code>About this Mac &gt; Storage</code> to check out how much space you have free.</p>
+<p>If you have an Apple computer, make sure it <a href="https://www.microsoft.com/en-us/windows/windows-10-specifications">meets Windows 10&rsquo;s system requirements</a> before purchasing any software. You will need a <em>minimum</em> of 50 GB of free space on your hard drive in my experience. Go to the Apple Menu, and then choose <code>About this Mac &gt; Storage</code> to check out how much space you have free.</p>
 
 <p>Installing Windows on an Apple computer requires two pieces:</p>
 
@@ -488,7 +488,7 @@
 <li>You need a means for installing Windows on your Mac. You can use Apple&rsquo;s <a href="https://support.apple.com/en-us/HT201468">Bootcamp</a>, which is free but requires you to boot up in either Windows <em>or</em> macOS, or you can buy a <a href="https://www.parallels.com/products/desktop/">Parallels Desktop for Mac</a> license that allows you to use Windows and macOS simultaneously. Parallels can be purchased at a 50% discount through their <a href="http://onthehub.com/parallels/">Student Edition program</a>. The Student Edition costs $39.99 per year.</li>
 </ol>
 
-<p>All told, you can get ArcGIS running on your Mac for between $10 and $50 for the semester. Set-up takes a couple of hours, so be prepared for a time investment to get this up and running. I also strongly recommend backing up your entire computer using Apple&rsquo;s <a href="https://support.apple.com/en-us/HT201250">Time Machine</a> before making a large change to your system like this.<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup></p>
+<p>All told, you can get ArcGIS running on your Mac for between $10 and $50 for the semester. Set-up takes a couple of hours, so be prepared for a time investment to get this up and running. I also strongly recommend backing up your entire computer using Apple&rsquo;s <a href="https://support.apple.com/en-us/HT201250">Time Machine</a> before making a large change to your system like this. If things go wrong, you may need to reset your computer and, without a backup, you may experience significant data loss.<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup></p>
 
 <h2 id="get-access-to-books">Get Access to Books</h2>
 
@@ -507,11 +507,18 @@
 
 <p>To ensure that you have access to your files throughout the semester, you will need an external storage device (a USB thumb drive or an external hard drive) for this course. You will need to purchase one if you do not already own one that meets the key specifications: (1) the device meets the USB 3.0 standard<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup> and (2) it has at least 20 GB of free space. Thumb drives meeting these specifications begin at about $10 and go up from there. External hard drives, which are considerably larger, start at about $60 and increase in cost from there.</p>
 
+<p>Mac users will likely have to <a href="https://support.apple.com/kb/PH22241?locale=en_US">reformat their drive</a> so that it is accessible both to their macOS device and the Windows computers in the lab (and, additionally, a Windows partition on your Mac if you choose to install one). You <strong>must</strong> choose either MS-DOS (FAT-32) or ExFAT for your drive&rsquo;s file system. You can read more about both options <a href="https://www.howtogeek.com/235596/whats-the-difference-between-fat32-exfat-and-ntfs/">here</a>, but I recommend using ExFAT.</p>
+
 <p>Once you have a drive, you will want to download the course data release. The link to the data is available on Slack in the <code>#_news</code> channel. Depending on your internet connection, it may take a bit of time. The data will come as a <code>.zip</code> archive that you will need to extract the files from (here are links for <a href="https://support.microsoft.com/en-us/help/14200/windows-compress-uncompress-zip-files">Windows</a> and <a href="https://support.apple.com/kb/PH25411?locale=en_US">macOS</a> instructions). Move the <strong>extracted</strong> file system onto your external drive. For a description of the course file system that comes with the data release, see the <a href="https://chris-prener.github.io/SSDSBook/creating-a-sustainable-file-system.html">Creating a Sustainable File System</a> section in Chris&rsquo;s <a href="https://chris-prener.github.io/SSDSBook/">Sociospatial Data Science</a> book.</p>
+
+<div class="admonition warning">
+<p class="admonition-title">Data Release</p>
+<p>The data release is planned for January 12th. If you have your external drive obtained beforehand, hang tight! If you don&rsquo;t have it by then, don&rsquo;t worry, you&rsquo;ll be able to download the data whenever you are ready.</p>
+</div>
 
 <h2 id="other-materials">Other Materials</h2>
 
-<p>The other item to purchase is a 1.5&rdquo; three-ring binder (like high school! extra points for a <a href="http://mentalfloss.com/article/52726/history-trapper-keeper">Trapper Keeper</a>!). While all course materials are available online, they are often easier to use if they are printed. Each week you&rsquo;ll receive various handouts, including (typically) cheat sheets for <code>R</code> functions and ArcGIS processes, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they&rsquo;ll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).</p>
+<p>The other item to purchase is a 1.5&rdquo; three-ring binder (like high school! extra points for a <a href="http://mentalfloss.com/article/52726/history-trapper-keeper">Trapper Keeper</a>!!). While all course materials are available online, they are often easier to use if they are printed. Each week you&rsquo;ll receive various handouts, including (typically) cheat sheets for <code>R</code> functions and ArcGIS processes, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they&rsquo;ll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).</p>
 
 <h2 id="administrative-tasks">Administrative Tasks</h2>
 
@@ -535,7 +542,7 @@
  <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
 <li id="fn:2">Using <a href="https://support.apple.com/en-us/HT201250">Time Machine</a> is a good practice anyway! Check out the chapter on <a href="https://chris-prener.github.io/SSDSBook/protecting-your-work.html">Protecting Your Work</a> in <a href="https://chris-prener.github.io/SSDSBook/">Sociospatial Data Science</a> for more details.
  <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
-<li id="fn:3">USB 3.0 drives tend to be faster than their older counterparts. You can tell that a drive is produced using the 3.0 standard by looking at the plug portion of the thumb drive or cable, which will often be colored blue. You can see that coloring in the product image for <a href="https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Male/dp/B00NH13G5A/">USB cable</a>. If the plug is white or black, it is typically a USB 2.0 device. <a href="https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Male/dp/B00NH13G5A/">The picture</a> also illustrates the other giveaway for USB 3.0 devices, many of which use a similar cable that uses a distinctive Micro-B male connector (on the right side of the photo).
+<li id="fn:3">USB 3.0 drives tend to be faster than their older counterparts. You can tell that a drive is produced using the 3.0 standard by looking at the plug portion of the thumb drive or cable, which will often be colored blue. You can see that coloring in the product image for an example <a href="https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Male/dp/B00NH13G5A/">USB cable</a>. If the plug is white or black, it is typically a USB 2.0 device. <a href="https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Male/dp/B00NH13G5A/">The same picture</a> also illustrates the other giveaway for USB 3.0 devices, many of which use a similar cable that uses a distinctive Micro-B male connector (on the right side of the photo).
  <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
 </ol>
 </div>
