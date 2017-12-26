@@ -26,12 +26,7 @@ This course has six intertwined objectives:
 ## Core Documents
 Both the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/CoreDocs/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/CoreDocs/reading-list.pdf) can be viewed online or downloaded via the `Download` button on this site's main menu.
 
-{{< warning title="Syllabus Changes for Spring 2018" >}}
-The syllabus and reading list for the course will be undergoing revision for Spring 2018. Several major aspects of the course will be changed, including the replacement of Stata content from prior semesters with R.
-{{< /warning >}}
-
 ## Acknowledgements
-
 Like many things in academia, the "final" product here is the result of others' hard work as well as my own. I owe gratitude and thanks to [Hadley Wickham](http://hadley.nz), whose data science tools are featured as part of this course. I also draw significant inspiration from [Jenny Bryan](https://www.stat.ubc.ca/~jenny/), whose [Stat 545 course](http://stat545.com) has served as a significant resource and a model for my own teaching. 
 
 This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
