@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting-starteds on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/getting-started/</link>
+    <link>https://slu-soc5650.github.io/getting-started/</link>
     <description>Recent content in Getting-starteds on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-NC 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Course Onboarding</title>
-      <link>/getting-started/</link>
+      <link>https://slu-soc5650.github.io/getting-started/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/getting-started/</guid>
+      <guid>https://slu-soc5650.github.io/getting-started/</guid>
       <description>Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on January 22nd. Before you do anything else, though, you should read through the Syllabus and the Reading List. Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!</description>
     </item>
     
