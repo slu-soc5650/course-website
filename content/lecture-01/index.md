@@ -7,8 +7,6 @@ weight: 20
 
 This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We'll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We'll end the night by writing our first lines of `R` code(!) and making our first maps(!!).
 
-{{< github "slu-soc5650" "lecture-01" >}}
-
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
 [{{< keyword name="Cartography" >}}](/topic-index/#a-d)
@@ -20,11 +18,12 @@ This is our first class meeting, which takes place on January 22nd because of th
 [{{< package name="stlData" >}}](/topic-index/#q-t)
 [{{< package name="utils" >}}](/topic-index/#u-z)
 
-## Handouts
+## Resources
 
-{{< button "Exercise - Email" "https://github.com/slu-soc5650/" >}}
-{{< button "Exercise - Map" "https://github.com/slu-soc5650/" >}}
-{{< button "Functions" "https://github.com/slu-soc5650/" >}}
+{{< github "slu-soc5650" "lecture-01" >}}
+{{< button "Exercise - Email" "https://github.com/slu-soc5650/lecture-01" >}}
+{{< button "Exercise - Map" "https://github.com/slu-soc5650/lecture-01" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/lecture-01/" >}}
 
 ## Working with R Packages
 During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). However, our example data package is hosted on GitHub. While `R` has built-in functions for installing and updating packages from CRAN, it does not have these same tools for packages hosted elsewhere. We need a separate package called `devtools` to help us with the GitHub installation. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:

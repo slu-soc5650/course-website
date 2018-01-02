@@ -3,6 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Final Project
 weight: 40
 ---
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2017--12--18-brightgreen.svg)
 
 {{< warning title="Project Changes for Spring 2018" >}}
 The final project instructions will be undergoing revision for Spring 2018. The instructions, data, and groups on GitHub should not be considered current yet.

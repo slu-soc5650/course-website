@@ -3,8 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Course Onboarding
 weight: 10
 ---
-![](https://img.shields.io/badge/semester-Spring%2C%202018-blue.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg)
-
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2018--01--02-brightgreen.svg)
 
 Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 22nd.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
@@ -114,7 +113,7 @@ There are three pieces of coursework that you should complete:
 
 1. You should view two videos posted on the [Course Preview](/course-preview/) page and check out the interactive map discussed in the first video.
 2. You should complete [Lecture Prep 01](/course-preview/#lecture-prep-01), which asks a few short questions about the videos and interactive map.
-3. You should complete the assigned readings for Lecture-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444).
+3. You should complete the assigned readings for Lecture-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available either through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444) or through the [*Sociospatial Data Science* text](https://chris-prener.github.io/SSDSBook/).
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
 

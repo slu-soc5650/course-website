@@ -3,6 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Course Resources
 weight: 2
 ---
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2017--12--16-brightgreen.svg)](https://github.com/slu-soc5650/Core-Documents/blob/master/NEWS.md)
 
 This page is meant to augment the core documents by providing easy access to online elements of the course. The [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) contains a full list of resources, including those not available online.
 
