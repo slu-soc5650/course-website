@@ -2,33 +2,29 @@
 date: 2016-03-09T00:11:02+01:00
 title: Lecture 01 - Course Introduction
 weight: 20
-tags:
-  - Analysis development
-output:
-  blogdown::html_page
 ---
-![](https://img.shields.io/badge/semester-Spring%2C%202018-blue.svg) ![](https://img.shields.io/badge/release-draft-orange.svg)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--01--02-brightgreen.svg)](https://github.com/slu-soc5650/lecture-01/blob/master/NEWS_SITE.md)
 
 This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We'll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We'll end the night by writing our first lines of `R` code(!) and making our first maps(!!).
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
+{{< github "slu-soc5650" "lecture-01" >}}
 
 ## Key Topics
-[<i class="keyword"><i class="fas fa-tags"></i> Analysis development</i>](/topic-index/#a-d)
-[<i class="keyword"><i class="fas fa-tags"></i> Cartography</i>](/topic-index/#a-d)
-[<i class="package"><i class="fas fa-archive"></i> devtools</i>](/topic-index/#e-h)
-[<i class="keyword"><i class="fas fa-tags"></i> Interactive maps</i>](/topic-index/#i-l)
-[<i class="package"><i class="fas fa-archive"></i> leaflet</i>](/topic-index/#i-l)
-[<i class="tool"><i class="fas fa-desktop"></i> R</i>](/topic-index/#q-t)
-[<i class="keyword"><i class="fas fa-tags"></i> R packages</i>](/topic-index/#q-t)
-[<i class="package"><i class="fas fa-archive"></i> stlData</i>](/topic-index/#q-t)
-[<i class="package"><i class="fas fa-archive"></i> utils</i>](/topic-index/#u-z)
+[{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
+[{{< keyword name="Cartography" >}}](/topic-index/#a-d)
+[{{< package name="devtools" >}}](/topic-index/#e-h)
+[{{< keyword name="Interactive maps" >}}](/topic-index/#i-l)
+[{{< package name="leaflet" >}}](/topic-index/#i-l)
+[{{< tool name="R" >}}](/topic-index/#q-t)
+[{{< keyword name="R packages" >}}](/topic-index/#q-t)
+[{{< package name="stlData" >}}](/topic-index/#q-t)
+[{{< package name="utils" >}}](/topic-index/#u-z)
 
 ## Handouts
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Email </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Exercise - Map </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/" target="_blank"> Functions </a>
+{{< button "Exercise - Email" "https://github.com/slu-soc5650/" >}}
+{{< button "Exercise - Map" "https://github.com/slu-soc5650/" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/" >}}
 
 ## Working with R Packages
 During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). However, our example data package is hosted on GitHub. While `R` has built-in functions for installing and updating packages from CRAN, it does not have these same tools for packages hosted elsewhere. We need a separate package called `devtools` to help us with the GitHub installation. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
@@ -91,13 +87,9 @@ The `%>%` is called the "pipe operator", and it is used to chain together functi
 3. we add a marker at the given longitude and latitude.
 
 The code chunk above produces the following map in RStudio's **Viewer** tab:
-```{r echo = FALSE}
-library(leaflet)
 
-leaflet(width = '100%') %>%
-  addTiles() %>%
-  addMarkers(lng=-90.237104, lat=38.637547, popup="Morrissey Hall")
-```
+![leaflet01](/images/leaflet01.png)
+
 You can use the **Show in new window** icon (a white box with a small arrow facing up and right) to open the map in your web browser.
 
 ### Changing the Basemap
@@ -113,11 +105,8 @@ leaflet() %>%
 Two things are important to note here. When we load the `leaflet` package, we have access to a data object called `providers`. You can use `names(providers)` to explore it. `providers` is a vector of items, each of which corresponds to a different basemap. We can select one of those items, `CartoDB.Positron`, by separating `providers` from the item name with a dollar sign (`$`). This is a classic way in which elements of a data set are accessed in `R` syntax.
 
 The second code chunk produces the following map in RStudio's **Viewer** tab:
-```{r echo = FALSE}
-leaflet(width = '100%') %>%
-  addProviderTiles(providers$CartoDB.Positron) %>% 
-  addMarkers(lng=-90.237104, lat=38.637547, popup="Morrissey Hall")
-```
+
+![leaflet02](/images/leaflet02.png)
 
 ## Loading and Exploring Data
 Our example data package, [`stlData`](https://chris-prener.github.io/stlData/), contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called `sluPlaces`. We can reference these data in our `leaflet()` call and again in the `addMarkers()` function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We'll take the `sluPlaces` table and assign it to the object `sluData`:
@@ -154,13 +143,7 @@ Notice how we use the tilde symbol (`~`) in `addMarkers()` before the variable n
 
 The code chunk produces the following plot:
 
-```{r echo = FALSE}
-library(stlData)
-
-leaflet(data = sluPlaces, width = '100%') %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%  # Add alternative map tiles
-  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
-```
+![leaflet03](/images/leaflet03.png)
 
 Congratulations - you have now made three maps!
 
