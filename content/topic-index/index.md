@@ -3,6 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Topic Index
 weight: 41
 ---
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2017--12--27-brightgreen.svg)
 
 The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. *Italicized items* are only covered in the readings. If you have additions or suggestions, please let Chris know! 
 
