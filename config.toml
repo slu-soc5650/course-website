@@ -11,7 +11,7 @@ googleAnalytics = ""
 	# General information
 	author = "Christopher Prener, Ph.D."
 	description = "SOC 4650 & SOC 5650: Introduction to Geographic Information Science"
-	copyright = "Licensed under a CC BY-NC 4.0 License"
+	copyright = "Licensed under a CC BY-SA 4.0 License"
 
 	# Repository
 	provider = "GitHub"
