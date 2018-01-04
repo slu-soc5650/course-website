@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/</link>
+    <link>https://slu-soc5650.github.io/</link>
     <description>Recent content on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to Geographic Information Science</title>
-      <link>/</link>
+      <link>https://slu-soc5650.github.io/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>/</guid>
+      <guid>https://slu-soc5650.github.io/</guid>
       <description>Enrollment Open
 SOC 4650 &amp;amp; 5650 is the Department of Sociology and Anthropology&amp;rsquo;s undergraduate and graduate introductory GIS course at Saint Louis University. It will next be taught for Spring 2018 and there is currently two open seats. If you have an interest in the course, you are encouraged to enroll! This site is for sections taught by Assistant Professor Christopher Prener.
  Course Description This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc).</description>
@@ -25,10 +25,10 @@ SOC 4650 &amp;amp; 5650 is the Department of Sociology and Anthropology&amp;rsqu
     
     <item>
       <title>Course Resources</title>
-      <link>/course-resources/</link>
+      <link>https://slu-soc5650.github.io/course-resources/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-resources/</guid>
+      <guid>https://slu-soc5650.github.io/course-resources/</guid>
       <description>This page is meant to augment the core documents by providing easy access to online elements of the course. The Syllabus contains a full list of resources, including those not available online.
 Core Documents There are two documents for this course that spell out what is required:
  Syllabus Reading List  Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.</description>
@@ -36,19 +36,19 @@ Core Documents There are two documents for this course that spell out what is re
     
     <item>
       <title>Course Onboarding</title>
-      <link>/getting-started/</link>
+      <link>https://slu-soc5650.github.io/getting-started/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/getting-started/</guid>
+      <guid>https://slu-soc5650.github.io/getting-started/</guid>
       <description>Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on January 22nd. Before you do anything else, though, you should read through the Syllabus and the Reading List. Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!</description>
     </item>
     
     <item>
       <title>Course Preview</title>
-      <link>/course-preview/</link>
+      <link>https://slu-soc5650.github.io/course-preview/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-preview/</guid>
+      <guid>https://slu-soc5650.github.io/course-preview/</guid>
       <description>To set the stage for this semester, please watch the two videos below. These will take approximately 35 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.
 Key Topics  Analysis development   Interactive maps   Open data   Reproducibility 
 Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;.</description>
@@ -56,20 +56,20 @@ Open Data and GIS in Los Angeles One of the course learning outcomes is titled &
     
     <item>
       <title>Lecture 01 - Course Introduction</title>
-      <link>/lecture-01/</link>
+      <link>https://slu-soc5650.github.io/lecture-01/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/lecture-01/</guid>
+      <guid>https://slu-soc5650.github.io/lecture-01/</guid>
       <description>This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We&amp;rsquo;ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We&amp;rsquo;ll end the night by writing our first lines of R code(!) and making our first maps(!!).
 Key Topics  Analysis development   Cartography   devtools  Interactive maps   leaflet  R  R packages   stlData  utils</description>
     </item>
     
     <item>
       <title>Final Project</title>
-      <link>/final-project/</link>
+      <link>https://slu-soc5650.github.io/final-project/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/final-project/</guid>
+      <guid>https://slu-soc5650.github.io/final-project/</guid>
       <description>Project Changes for Spring 2018
 The final project instructions will be undergoing revision for Spring 2018. The instructions, data, and groups on GitHub should not be considered current yet.
  Core Files Data  Directions  Groups 
@@ -78,30 +78,30 @@ Overview The final project for this course requires students to clean and map no
     
     <item>
       <title>Topic Index</title>
-      <link>/topic-index/</link>
+      <link>https://slu-soc5650.github.io/topic-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/topic-index/</guid>
+      <guid>https://slu-soc5650.github.io/topic-index/</guid>
       <description>The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
 A-D  Analysis development (Course Preview) base, see &amp;ldquo;R, base&amp;ldquo; Cartography  Basic design principles (Lecture-01)  Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01) stlData, see &amp;ldquo;Data, stlData&amp;ldquo;  devtools, see &amp;ldquo;GitHub, Install packages from&amp;ldquo;   E-H  Git GitHub  Install packages from with devtools, install_github() (Lecture-01)   I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  Packages, see &amp;ldquo;R, Packages&amp;ldquo; Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R  base  install packages from CRAN, install.</description>
     </item>
     
     <item>
       <title>Package Index</title>
-      <link>/package-index/</link>
+      <link>https://slu-soc5650.github.io/package-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/package-index/</guid>
+      <guid>https://slu-soc5650.github.io/package-index/</guid>
       <description>The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
 Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions   stats - statistical functions   utils - utility functions    Data Packages  stlData - St.</description>
     </item>
     
     <item>
       <title>License</title>
-      <link>/license/</link>
+      <link>https://slu-soc5650.github.io/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>/license/</guid>
+      <guid>https://slu-soc5650.github.io/license/</guid>
       <description>Copyright &amp;copy; 2016-2018 Christopher G. Prener
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 This is a human-readable summary of (and not a substitute for) the license.
