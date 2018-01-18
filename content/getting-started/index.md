@@ -3,7 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Course Onboarding
 weight: 10
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2018--01--04-brightgreen.svg)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2018--01--17-brightgreen.svg)
 
 Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 22nd.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
@@ -98,10 +98,6 @@ Mac users will likely have to [reformat their drive](https://support.apple.com/k
 
 Once you have a drive, you will want to download the course data release. The link to the data is available on Slack in the `#_news` channel. Depending on your internet connection, it may take a bit of time. The data will come as a `.zip` archive that you will need to extract the files from (here are links for [Windows](https://support.microsoft.com/en-us/help/14200/windows-compress-uncompress-zip-files) and [macOS](https://support.apple.com/kb/PH25411?locale=en_US) instructions). Move the **extracted** file system onto your external drive. For a description of the course file system that comes with the data release, see the [Creating a Sustainable File System](https://chris-prener.github.io/SSDSBook/creating-a-sustainable-file-system.html) section in Chris's [Sociospatial Data Science](https://chris-prener.github.io/SSDSBook/) book.
 
-{{< warning title="Data Release" >}}
-The data release is planned for January 12th. If you have your external drive obtained beforehand, hang tight! If you don't have it by then, don't worry, you'll be able to download the data whenever you are ready.
-{{< /warning >}}
-
 ## Other Materials
 The other item to purchase is a 1.5" three-ring binder (like high school! extra points for a [Trapper Keeper](http://mentalfloss.com/article/52726/history-trapper-keeper)!!). While all course materials are available online, they are often easier to use if they are printed. Each week you'll receive various handouts, including (typically) cheat sheets for `R` functions and ArcGIS processes, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they'll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).
 
@@ -114,10 +110,6 @@ There are three pieces of coursework that you should complete:
 1. You should view two videos posted on the [Course Preview](/course-preview/) page and check out the interactive map discussed in the first video.
 2. You should complete [Lecture Prep 01](/course-preview/#lecture-prep-01), which asks a few short questions about the videos and interactive map.
 3. You should complete the assigned readings for Lecture-01, which are listed in the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) and are available either through [electronic reserves site](http://eres.slu.edu/eres/coursepage.aspx?cid=4444) or through the [*Sociospatial Data Science* text](https://chris-prener.github.io/SSDSBook/).
-
-{{< warning title="E-Reserves Down" >}}
-On the evening of January 2nd, a fire damaged servers in Pius Library. These servers supported, among other Library services, the electronic reserves system. The readings for Lecture-01 that use e-reserves are therefore not currently available. Please check back here or check Slack for updates on the Library's recovery efforts.
-{{< /warning >}}
 
 [^1]: All of `R`'s version names are taken from the [Peanuts comic strip](http://livefreeordichotomize.com/2017/09/28/r-release-names/).
 
