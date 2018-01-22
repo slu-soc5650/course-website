@@ -9,6 +9,7 @@ This is our first class meeting, which takes place on January 22nd because of th
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
+[{{< package name="base" >}}](/topic-index/#a-d)
 [{{< keyword name="Cartography" >}}](/topic-index/#a-d)
 [{{< package name="devtools" >}}](/topic-index/#e-h)
 [{{< keyword name="Interactive maps" >}}](/topic-index/#i-l)
@@ -21,10 +22,13 @@ This is our first class meeting, which takes place on January 22nd because of th
 ## Resources
 
 {{< github "slu-soc5650" "lecture-01" >}}
-{{< button "Exercise - Email" "https://github.com/slu-soc5650/lecture-01" >}}
-{{< button "Exercise - Map" "https://github.com/slu-soc5650/lecture-01" >}}
-{{< button "Exercise - Shaw Crime" "https://github.com/slu-soc5650/lecture-01" >}}
-{{< button "Functions" "https://github.com/slu-soc5650/lecture-01/" >}}
+{{< button "Exercise - Email" "https://github.com/slu-soc5650/lecture-01/blob/master/Exercises/exercise-01b-Email.pdf" >}}
+{{< button "Exercise - Leaflet" "https://github.com/slu-soc5650/lecture-01/blob/master/Exercises/exercise-01c-leaflet.pdf" >}}
+{{< button "Exercise - Shaw Crime" "https://github.com/slu-soc5650/lecture-01/blob/master/Exercises/exercise-01a-shawCrime.pdf" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/lecture-01/blob/master/Functions/lecture-01-functions.pdf" >}}
+
+## Lecture Slides
+{{< speakerdeck 3b023eb9d7ee463faea3a90532221987 >}}
 
 ## Working with R Packages
 During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). However, our example data package is hosted on GitHub. While `R` has built-in functions for installing and updating packages from CRAN, it does not have these same tools for packages hosted elsewhere. We need a separate package called `devtools` to help us with the GitHub installation. To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
