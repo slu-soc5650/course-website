@@ -23,6 +23,7 @@ This is our first class meeting, which takes place on January 22nd because of th
 {{< github "slu-soc5650" "lecture-01" >}}
 {{< button "Exercise - Email" "https://github.com/slu-soc5650/lecture-01" >}}
 {{< button "Exercise - Map" "https://github.com/slu-soc5650/lecture-01" >}}
+{{< button "Exercise - Shaw Crime" "https://github.com/slu-soc5650/lecture-01" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-01/" >}}
 
 ## Working with R Packages
