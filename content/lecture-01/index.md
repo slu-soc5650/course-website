@@ -14,6 +14,7 @@ This is our first class meeting, which takes place on January 22nd because of th
 [{{< package name="devtools" >}}](/topic-index/#e-h)
 [{{< keyword name="Interactive maps" >}}](/topic-index/#i-l)
 [{{< package name="leaflet" >}}](/topic-index/#i-l)
+[{{< package name="magrittr" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< keyword name="R packages" >}}](/topic-index/#q-t)
 [{{< package name="stlData" >}}](/topic-index/#q-t)

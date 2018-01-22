@@ -35,6 +35,7 @@ The following is a list of topics and skills covered during the semester. This w
 - Literate programming (Lecture-02)
 
 ## M-P
+- `magrittr`, see "[Pipe operator, `%>%`](/topic-index/#m-p)"
 - Packages, see "[`R`, Packages](/topic-index/#q-t)"
 - Parker, Hilary ([Course Preview](/course-preview/))
 - Pipe operator, `%>%` ([Lecture-01](/lecture-01/))

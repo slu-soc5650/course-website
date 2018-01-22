@@ -60,7 +60,7 @@ Open Data and GIS in Los Angeles One of the course learning outcomes is titled &
       
       <guid>/lecture-01/</guid>
       <description>This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We&amp;rsquo;ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We&amp;rsquo;ll end the night by writing our first lines of R code(!) and making our first maps(!!).
-Key Topics  Analysis development   base  Cartography   devtools  Interactive maps   leaflet  R  R packages   stlData  utils</description>
+Key Topics  Analysis development   base  Cartography   devtools  Interactive maps   leaflet  magrittr  R  R packages   stlData  utils</description>
     </item>
     
     <item>
@@ -82,7 +82,7 @@ Overview The final project for this course requires students to clean and map no
       
       <guid>/topic-index/</guid>
       <description>The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
-A-D  Analysis development (Course Preview) base, see &amp;ldquo;R, base&amp;ldquo; Cartography  Basic design principles (Lecture-01)  Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01) stlData, see &amp;ldquo;Data, stlData&amp;ldquo;  devtools, see &amp;ldquo;GitHub, Install packages from&amp;ldquo;   E-H  Git GitHub  Install packages from with devtools, install_github() (Lecture-01)   I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  Packages, see &amp;ldquo;R, Packages&amp;ldquo; Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R  base  install packages from CRAN, install.</description>
+A-D  Analysis development (Course Preview) base, see &amp;ldquo;R, base&amp;ldquo; Cartography  Basic design principles (Lecture-01)  Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01) stlData, see &amp;ldquo;Data, stlData&amp;ldquo;  devtools, see &amp;ldquo;GitHub, Install packages from&amp;ldquo;   E-H  Git GitHub  Install packages from with devtools, install_github() (Lecture-01)   I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  magrittr, see &amp;ldquo;Pipe operator, %&amp;gt;%&amp;ldquo; Packages, see &amp;ldquo;R, Packages&amp;ldquo; Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R  base  install packages from CRAN, install.</description>
     </item>
     
     <item>
