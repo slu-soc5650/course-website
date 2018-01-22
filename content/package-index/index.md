@@ -3,7 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Package Index
 weight: 42
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2017--12--27-brightgreen.svg)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2018--01--22-brightgreen.svg)
 
 The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
@@ -32,6 +32,7 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `ggplot2` - data plotting {{< pkgIndex "#e-h" >}} {{< pkgCran "ggplot2" >}} {{< pkgGitHub "tidyverse/ggplot2" >}} {{< pkgWeb "http://ggplot2.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/data-visualisation.html" >}}
   - install the development version via GitHub - `devtools::install_github("tidyverse/ggplot2")`
 - `lubridate` - work with dates {{< pkgIndex "#i-l" >}} {{< pkgCran "lubridate" >}} {{< pkgGitHub "tidyverse/lubridate" >}} {{< pkgWeb "http://lubridate.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/lubridate.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/dates-and-times.html" >}}
+- `magrittr` - pipe operator {{< pkgIndex "#m-p" >}} {{< pkgCran "magrittr" >}} {{< pkgGitHub "tidyverse/magrittr" >}} {{< pkgWeb "http://magrittr.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/pipes.html" >}}
 - `stringr` - work with strings {{< pkgIndex "#q-t" >}} {{< pkgCran "stringr" >}} {{< pkgGitHub "tidyverse/stringr" >}} {{< pkgWeb "http://stringr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/strings.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/strings.html" >}}
 - `tidyr` - data wrangling {{< pkgIndex "#q-t" >}} {{< pkgCran "tidyr" >}} {{< pkgGitHub "tidyverse/tidyr" >}} {{< pkgWeb "http://tidyr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/relational-data.html" >}}
 
