@@ -24,6 +24,8 @@ weight: 21
 {{< button "LP-02" "https://github.com/slu-soc5650/lecture-02/blob/master/LP-02/LP-02.pdf" >}}
 {{< button "Workflow - Projects" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/projectWorkflow.pdf" >}}
 
+## Lecture Slides
+{{< speakerdeck 2bdbdb0699fb4f248f6e6308ed92a065 >}}
 
 ## Lecture Prep 02 Replication
 
@@ -31,6 +33,26 @@ weight: 21
 
 You should also check out the `.Rmd` replication file in the [`lecture-02` repository](https://github.com/slu-soc5650/lecture-02/tree/master/LP-02).
 
+## Costs of Open Data
+The first topic covered tonight was the pros and cons of open data. Here are a few links to material that were referenced in the lecture. These roughly follow the order in which they were introduced:
+
+* [U.S. Project Open Data](https://project-open-data.cio.gov)
+* "It's getting hot in here: Looking at heat-related 311 reports in Boston homes" - [Katie Jollie](http://katiejolly.io/blog/2018-01-22/heat-reports-boston)
+* "Spies in the Skies" - [BuzzFeed](https://www.buzzfeed.com/peteraldhous/spies-in-the-skies)
+* [City of St. Louis Open Data Portal](https://www.stlouis-mo.gov/data/)
+* [St. Louis County Open Data Portal](http://data-stlcogis.opendata.arcgis.com)
+* [City of Cambridge Open GIS](https://github.com/cambridgegis)
+* [County of Los Angeles Open Data Portal](https://data.lacounty.gov)
+* [Socrata](https://socrata.com)
+* "How much do 'open data' portals cost So Cal governments?" - [Southern California Public Radio](https://www.scpr.org/news/2015/06/24/52343/how-much-do-open-data-portals-cost-so-cal-governme/)
+* "The (Hidden) Cost of Open Data" - [governing.com](http://www.governing.com/columns/tech-talk/gov-open-data-cost-problems.html)
+* "U.S. soldiers are revealing sensitive and dangerous information by jogging" - [Washington Post](https://www.washingtonpost.com/world/a-map-showing-the-users-of-fitness-devices-lets-the-world-see-where-us-soldiers-are-and-what-they-are-doing/2018/01/28/86915662-0441-11e8-aa61-f3391373867e_story.html)
+* [Strava Heat Map](https://labs.strava.com/heatmap)
+
+If you'd like to read a bit more on this topic, I suggest this article from *Transactions in GIS*, a fantastic peer reviewed journal:
+
+* Johnson, Peter A., et al. 2017. "The Cost (s) of Geospatial Open Data." *Transactions in GIS* 21(3):434-445. \[[Full Text](http://onlinelibrary.wiley.com/doi/10.1111/tgis.12283)\]
+
 ## Project Organization
-One of the topics we'll cover this week is an extension of a [reading from last week](https://chris-prener.github.io/SSDSBook/protecting-your-work.html) - how to organize projects. I've posted a sample project complete with a R Notebook, `html` output, and `github_document` output. You can check out the project [here](https://github.com/chris-prener/sampleNotebook).
+One of the topics covered this week is an extension of a [reading from last week](https://chris-prener.github.io/SSDSBook/protecting-your-work.html) - how to organize projects. I've posted a sample project complete with a R Notebook, `html` output, and `github_document` output. You can check out the project [here](https://github.com/chris-prener/sampleNotebook).
 

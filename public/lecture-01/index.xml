@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-01s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/lecture-01/</link>
+    <link>/lecture-01/</link>
     <description>Recent content in Lecture-01s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/lecture-01/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-01/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 01 - Course Introduction</title>
-      <link>https://slu-soc5650.github.io/lecture-01/</link>
+      <link>/lecture-01/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/lecture-01/</guid>
+      <guid>/lecture-01/</guid>
       <description>This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We&amp;rsquo;ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We&amp;rsquo;ll end the night by writing our first lines of R code(!) and making our first maps(!!).
 Key Topics  Analysis development   base  Cartography   devtools  Interactive maps   leaflet  magrittr  R  R packages   stlData  utils</description>
     </item>
