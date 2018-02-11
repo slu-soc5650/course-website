@@ -29,6 +29,7 @@ This is our first class meeting, which takes place on January 22nd because of th
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-01/blob/master/Functions/lecture-01-functions.pdf" >}}
 
 ## Lecture Slides
+<p> </p>
 {{< speakerdeck 3b023eb9d7ee463faea3a90532221987 >}}
 
 ## Working with R Packages

@@ -1,31 +1,34 @@
 ---
 date: 2016-03-09T00:11:02+01:00
-title: Lecture 02 - Working with Data (Part 1)
-weight: 21
+title: Lecture 03 - The Nature of Spatial Data (Part 1)
+weight: 22
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--06-brightgreen.svg)](https://github.com/slu-soc5650/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--06-brightgreen.svg)](https://github.com/slu-soc5650/lecture-03/blob/master/NEWS_SITE.md)
 
 ## Key Topics
-[{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
-[{{< package name="ggplot2" >}}](/topic-index/#q-t)
-[{{< keyword name="Git" >}}](/topic-index/#e-h)
-[{{< tool name="GitHub" >}}](/topic-index/#e-h)
+[{{< package name="dplyr" >}}](/topic-index/#q-t)
+[{{< keyword name="Data structures" >}}](/topic-index/#a-d)
+[{{< keyword name="Data wrangling" >}}](/topic-index/#a-d)
 [{{< package name="here" >}}](/topic-index/#e-h)
-[{{< package name="knitr" >}}](/topic-index/#i-l)
-[{{< keyword name="Literate programming" >}}](/topic-index/#i-l)
+[{{< keyword name="GIS and policy support" >}}](/topic-index/#e-h)
+[{{< package name="janitor" >}}](/topic-index/#i-l)
+[{{< package name="naniar" >}}](/topic-index/#m-p)
+[{{< keyword name="Normalization" >}}](/topic-index/#m-p)
 [{{< keyword name="Open data" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< keyword name="R projects" >}}](/topic-index/#q-t)
-[{{< package name="rmarkdown" >}}](/topic-index/#q-t)
-[{{< package name="stlData" >}}](/topic-index/#q-t)
+[{{< package name="readr" >}}](/topic-index/#q-t)
+[{{< package name="reprex" >}}](/topic-index/#q-t)
+[{{< keyword name="Representation" >}}](/topic-index/#q-t)
+[{{< keyword name="Reproducible Examples" >}}](/topic-index/#q-t)
+[{{< keyword name="Scale" >}}](/topic-index/#q-t)
+[{{< keyword name="Spatial autocorrelation" >}}](/topic-index/#q-t)
 
 ## Resources
 
-{{< github "slu-soc5650" "lecture-02" >}}
-{{< button "Exercise - Analysis" "https://github.com/slu-soc5650/lecture-02/blob/master/Exercises/exercise-02a-Analysis.pdf" >}}
-{{< button "Exercise - Plotting" "https://github.com/slu-soc5650/lecture-02/blob/master/Exercises/exercise-02b-Plotting.pdf" >}}
-{{< button "Functions" "https://github.com/slu-soc5650/lecture-02/blob/master/Functions/lecture-02-functions.pdf" >}}
-{{< button "LP-02" "https://github.com/slu-soc5650/lecture-02/blob/master/LP-02/LP-02.pdf" >}}
+{{< github "slu-soc5650" "lecture-03" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/lecture-03/blob/master/Functions/lecture-03-functions.pdf" >}}
+{{< button "LP-03" "https://github.com/slu-soc5650/lecture-02/blob/master/LP-02/LP-03.pdf" >}}
 {{< button "Workflow - Projects" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02a-projects.pdf" >}}
 {{< button "Workflow - Reprex" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02b-reprex.pdf" >}}
 
