@@ -29,8 +29,6 @@ weight: 22
 {{< github "slu-soc5650" "lecture-03" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-03/blob/master/Functions/lecture-03-functions.pdf" >}}
 {{< button "LP-03" "https://github.com/slu-soc5650/lecture-02/blob/master/LP-02/LP-03.pdf" >}}
-{{< button "Workflow - Projects" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02a-projects.pdf" >}}
-{{< button "Workflow - Reprex" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02b-reprex.pdf" >}}
 
 ## Lecture Slides
 <p> </p>

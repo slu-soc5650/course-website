@@ -3,7 +3,8 @@ date: 2016-03-09T00:11:02+01:00
 title: Lecture 02 - Working with Data (Part 1)
 weight: 21
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--06-brightgreen.svg)](https://github.com/slu-soc5650/lecture-02/blob/master/NEWS_SITE.md)
+## Meta
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--11-brightgreen.svg)](https://github.com/slu-soc5650/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -26,9 +27,9 @@ weight: 21
 {{< button "Exercise - Plotting" "https://github.com/slu-soc5650/lecture-02/blob/master/Exercises/exercise-02b-Plotting.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-02/blob/master/Functions/lecture-02-functions.pdf" >}}
 {{< button "LP-02" "https://github.com/slu-soc5650/lecture-02/blob/master/LP-02/LP-02.pdf" >}}
-{{< button "Workflow - Projects" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02a-projects.pdf" >}}
-{{< button "Workflow - Reprex" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02b-reprex.pdf" >}}
-
+{{< button "Workflow - Git & GitHub" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02-git.pdf" >}}
+{{< button "Workflow - Projects" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02-projects.pdf" >}}
+{{< button "Workflow - Reprex" "https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02-reprex.pdf" >}}
 ## Lecture Slides
 <p> </p>
 {{< speakerdeck 2bdbdb0699fb4f248f6e6308ed92a065 >}}

@@ -70,10 +70,10 @@ Key Topics  Analysis development   base  Cartography   devtools  Interactive map
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/lecture-02/</guid>
-      <description>Key Topics  Analysis development   ggplot2  Git   GitHub  here  knitr  Literate programming   Open data   R  R projects   rmarkdown  stlData
-Resources Open on   Exercise - Analysis  Exercise - Plotting  Functions  LP-02  Workflow - Projects  Workflow - Reprex 
-Lecture Slides  
-Lecture Prep 02 Replication    You should also check out the .</description>
+      <description>Meta 
+Key Topics  Analysis development   ggplot2  Git   GitHub  here  knitr  Literate programming   Open data   R  R projects   rmarkdown  stlData
+Resources Open on   Exercise - Analysis  Exercise - Plotting  Functions  LP-02  Workflow - Git &amp;amp; GitHub  Workflow - Projects  Workflow - Reprex 
+Lecture Slides</description>
     </item>
     
     <item>
@@ -83,7 +83,8 @@ Lecture Prep 02 Replication    You should also check out the .</description>
       
       <guid>/lecture-03/</guid>
       <description>Key Topics  dplyr  Data structures   Data wrangling   here  GIS and policy support   janitor  naniar  Normalization   Open data   R  R projects   readr  reprex  Representation   Reproducible Examples   Scale   Spatial autocorrelation 
-Resources Open on   Functions  LP-03  Workflow - Projects  Workflow - Reprex</description>
+Resources Open on   Functions  LP-03 
+Lecture Slides</description>
     </item>
     
     <item>
