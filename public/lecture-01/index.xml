@@ -18,7 +18,8 @@
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/lecture-01/</guid>
-      <description>This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We&amp;rsquo;ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We&amp;rsquo;ll end the night by writing our first lines of R code(!) and making our first maps(!!).
+      <description>Meta 
+This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We&amp;rsquo;ll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We&amp;rsquo;ll end the night by writing our first lines of R code(!) and making our first maps(!!).
 Key Topics  Analysis development   base  Cartography   devtools  Interactive maps   leaflet  magrittr  R  R packages   stlData  utils</description>
     </item>
     

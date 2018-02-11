@@ -3,6 +3,8 @@ date: 2016-03-09T00:11:02+01:00
 title: Lecture 01 - Course Introduction
 weight: 20
 ---
+
+## Meta
 ![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--01--22-brightgreen.svg)](https://github.com/slu-soc5650/lecture-01/blob/master/NEWS_SITE.md)
 
 This is our first class meeting, which takes place on January 22nd because of the Martin Luther King, Jr. holiday. We'll cover some administrative material for the course, briefly go over the syllabus, and then start talking about what makes for an effective map. We'll end the night by writing our first lines of `R` code(!) and making our first maps(!!).
