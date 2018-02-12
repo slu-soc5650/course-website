@@ -47,6 +47,17 @@ weight: 22
 You should also check out the `.Rmd` replication file in the [`lecture-03` repository](https://github.com/slu-soc5650/lecture-03/blob/master/LP-03).
 
 ## reprex
+### Implementing Reproducible Examples
+We've been working on creating reproducible examples for the past two weeks. Remember that the goal of reproducible examples is to create short, clear examples of a bug or an error that you are getting or to illustrate a particular concept. Here are a couple things to remember as you go through the [`reprex` workflow](https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02-reprex.pdf):
+
+1. Make sure you load *only* the packages needed for your example. This will likely be different from the list of packages needed for a particular assignment. If there is a package you use in your assignment that does not impact the code for the repex, don't include it!
+2. Use sample data (i.e. `mpg` from `ggplot2`, `starwars` from `dplyr`, or any of the data from `stlData`). This accomplishes a number things:
+  * You are selecting data that is accessible to the audience you are communicating with and does not require any external setup or files. This makes it *easier* to reproduce the phenomenon you're describing.
+  * You are forced to *generalize* your issue, parsing out what is idiosyncratic to your data from what is a more general question or concern about how a particular function or group of functions work.
+  * The process of *abstracting* your issue from the specifics of your code may help you answer your question by helping you identify how the code *should* work (if your reprex executes without error).
+3. Make sure you are making the small edits to the output when you paste it into Slack - this will help the reprex appear as cleanly as possible. These edits are described in the [`reprex` workflow handout](https://github.com/slu-soc5650/lecture-02/blob/master/Workflows/workflow-02-reprex.pdf).
+
+### Errors with reprex
 This week, two errors with the `reprex` package seemed to be widespread. The first involved an error message that the clipboard was unavailable:
 
 ```r
@@ -77,6 +88,47 @@ devtools::install_github("tidyverse/reprex")
 ```
 
 ## janitor
+### Anticipating Changes
+One issue that is cropping up this week are conflicts in folks' code between `clean_names()` and `rename()`. This seems to be happening largely in the code chunk where variables are being renamed. Here is a reprex:
+
+```r
+library(dplyr)
+library(janitor)
+library(stlData)
+
+str(stlAsthma)
+#> 'data.frame':    106 obs. of  6 variables:
+#>  $ geoID         : num  2.95e+10 2.95e+10 2.95e+10 2.95e+10 2.95e+10 ...
+#>  $ tractCE       : int  118100 117400 126700 119102 126800 126900 108100 127000 127400 103700 ...
+#>  $ nameLSAD      : Factor w/ 106 levels "Census Tract 1011",..: 76 75 97 80 98 99 36 100 104 15 ...
+#>  $ pctAsthma     : num  11.9 9.6 14.5 9 9.3 13.6 12.7 12.8 12.7 8.6 ...
+#>  $ pctAsthma_Low : num  11.1 9.3 13.5 8.5 8.8 12.6 11.8 11.7 11.9 8.1 ...
+#>  $ pctAsthma_High: num  12.7 10 15.5 9.7 9.8 14.6 13.8 14.2 13.8 9.2 ...
+
+stlAsthma %>%
+  clean_names(case = "snake") %>%
+  rename(low_estimate = pctAsthma_Low) -> asthma
+#> Error: `pctAsthma_Low` contains unknown variables
+```
+
+The `clean_names()` function renames `pctAsthma_low` to `pct_asthma_low`. However, when I wrote the above reprex, I did not anticipate this change and instead wrote the `rename()` function using the original variable name. Writing pipelines requires some presence of mind - you need to imagine how the data changes from line to line and write subsequent lines of code accordingly. 
+
+I find it helpful to write pipelines one line at a time:
+
+```r
+# first iteration
+stlAsthma %>%
+  clean_names(case = "snake") -> asthma
+
+# second iteration
+stlAsthma %>%
+  clean_names(case = "snake") %>%
+  rename(low_estimate = pct_asthma_low) -> asthma
+```
+
+The code block above shows two iterations of the same pipeline. I run it one, check the output, and then add a second line based on the output of the first. This iterative process ensures that I am writing the `rename()` function based not on my *assumption* of how `clean_names()` impacts the data but rather based on me actually visualizing that change. 
+
+### Errors with janitor
 Another error that was widespread this week, at least for Windows users, was one where `clean_names()` from the `janitor` package only worked in a particular context:
 
 ```r
@@ -100,7 +152,7 @@ Next up in our list of package surprises, we had some intermittent issues with r
 Error: 'rawData.csv' does not exist in current working directory ('F:/SOC5650/DoeAssignments/Labs/Lab-99/docs')
 ```
 
-I also suspect (but have not demonstrated) that the `ggplot2` errors folks recived with the lecture-02 assignments are also related to this error. 
+I also suspect (but have not demonstrated) that the `ggplot2` errors folks received with the lecture-02 assignments are also related to this error. 
 
 After experimenting with two students' notebooks (on the `read_csv()` error) and [reporting this as a bug on GitHub](https://github.com/krlmlr/here/issues/14), I have both a workaround and a more stable fix for this error.
 
@@ -125,7 +177,7 @@ The `here()` function takes as arguments the quoted name of a subfolder followed
 here("data", "rawData.csv")
 ```
 
-When you use it this way, you need to embed this function wherever you would normally enter a manual file pathof some kind:
+When you use it this way, you need to embed this function wherever you would normally enter a manual file path of some kind:
 
 ```r
 read_csv(here("data", "rawData.csv"))
