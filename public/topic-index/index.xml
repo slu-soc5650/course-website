@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topic-indices on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/topic-index/</link>
+    <link>/topic-index/</link>
     <description>Recent content in Topic-indices on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/topic-index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/topic-index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Topic Index</title>
-      <link>https://slu-soc5650.github.io/topic-index/</link>
+      <link>/topic-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/topic-index/</guid>
+      <guid>/topic-index/</guid>
       <description>The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
 A-D  Analysis development (Course Preview) base, see &amp;ldquo;R, base&amp;ldquo; Cartography  Basic design principles (Lecture-01)  Coral, Lilian (Course Preview) Data  Open data (Course Preview, Lecture-01) stlData, see &amp;ldquo;Data, stlData&amp;ldquo;  devtools, see &amp;ldquo;GitHub, Install packages from&amp;ldquo;   E-H  Git GitHub  Install packages from with devtools, install_github() (Lecture-01)   I-L  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lecture-01) Adding markers to map, addMarkers() (Lecture-01) Adding tiles from other providers, addProviderTiles() (Lecture-01) Creating map widget, leaflet() (Lecture-01)  Literate programming (Lecture-02)  M-P  magrittr, see &amp;ldquo;Pipe operator, %&amp;gt;%&amp;ldquo; Packages, see &amp;ldquo;R, Packages&amp;ldquo; Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lecture-01) Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R  base  install packages from CRAN, install.</description>
     </item>

@@ -29,9 +29,9 @@ weight: 22
 
 {{< github "slu-soc5650" "lecture-03" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-03/blob/master/Functions/lecture-03-functions.pdf" >}}
-{{< button "Lab-02 "https://github.com/slu-soc5650/lecture-03/tree/master/Lab-02">}}
+{{< button "Lab-02" "https://github.com/slu-soc5650/lecture-03/tree/master/Lab-02">}}
 {{< button "LP-03" "https://github.com/slu-soc5650/lecture-03/blob/master/LP-03/LP-03.pdf" >}}
-{{< button "PS-01 "https://github.com/slu-soc5650/lecture-03/tree/master/PS-01">}}
+{{< button "PS-01" "https://github.com/slu-soc5650/lecture-03/tree/master/PS-01">}}
 {{< button "Workflow - Data Wrangling" "https://github.com/slu-soc5650/lecture-03/blob/master/Workflows/workflow-03-wrangling.pdf">}}
 
 
