@@ -122,43 +122,39 @@ The more stable fix is to jettison the project setup code chunk from your notebo
 The `here()` function takes as arguments the quoted name of a subfolder followed by the quoted name of the file. These should be separated by a comma:
 
 ```r
+here("data", "rawData.csv")
+```
+
+When you use it this way, you need to embed this function wherever you would normally enter a manual file pathof some kind:
+
+```r
+read_csv(here("data", "rawData.csv"))
+```
+
+Here is an example of this use of `here()` in context:
+
+```r
 > library(here)
-here() starts at F:/SOC5650/DoeAssignments/Labs/Lab-99
 > library(readr)
-> data <- read_csv("data", "rawData.csv")
-Parsed with column specification:
-cols(
-  .default = col_character(),
-  year = col_integer(),
-  name = col_character()
-)
-See spec(...) for full column specifications.
+> data <- read_csv(here("data", "rawData.csv"))
 ```
 
 In the example above, `here()` converts the input into a relative path that looks like `data/rawData.csv`. This same syntax can work with multiple layers of folders and subfolders:
 
 ```r
 > library(here)
-here() starts at F:/SOC5650/DoeAssignments/Labs/Lab-99
 > library(readr)
-> data <- read_csv("data", "tabularData", "rawData.csv")Parsed with column specification:
-cols(
-  .default = col_character(),
-  year = col_integer(),
-  name = col_character()
-)
-See spec(...) for full column specifications.
+> data <- read_csv(here("data", "tabularData", "rawData.csv"))
 ```
 
 In the example above, `here()` converts the input into a relative path that looks like `data/tabularData/rawData.csv`. We can use the same logic to save output:
 
 ```r
 > library(here)
-here() starts at F:/SOC5650/DoeAssignments/Labs/Lab-99
 > library(ggplot2)
 > ggplot() + geom_histogram(mpg, mapping = aes(hwy))
-> ggsave("results", "histogram.png")
-Saving 7.04 x 6.86 in image
-`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+> ggsave(here("results", "histogram.png"))
 ```
 
+### Why This is Worth It
+It is more remembering why this is worth it. Using `here()` makes your projects portable. You can move the directory on your own computer, or give it to a colleague (or your professor!) and the code will always execute (assuming they have the correct packages installed). This is because you never specify manual location where your working directory (i.e. the folder with your `.Rproj` file) is located. This is a *huge* plus for reproducibility.
