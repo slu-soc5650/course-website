@@ -18,9 +18,8 @@
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/lecture-03/</guid>
-      <description>Key Topics  dplyr  Data structures   Data wrangling   here  GIS and policy support   janitor  naniar  Normalization   Open data   R  R projects   readr  reprex  Representation   Reproducible Examples   Scale   Spatial autocorrelation 
-Resources Open on   Functions  LP-03 
-Lecture Slides</description>
+      <description>Meta 
+Key Topics {{&amp;lt; package name=&amp;ldquo;dplyr&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Data structures&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Data wrangling&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;here&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;GIS and policy support&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;janitor&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;magrittr&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;naniar&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Normalization&amp;rdquo; &amp;gt;}} {{&amp;lt; tool name=&amp;ldquo;R&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;readr&amp;rdquo; &amp;gt;}} {{&amp;lt; package name=&amp;ldquo;reprex&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Representation&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Reproducible Examples&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Scale&amp;rdquo; &amp;gt;}} {{&amp;lt; keyword name=&amp;ldquo;Spatial autocorrelation&amp;rdquo; &amp;gt;}}</description>
     </item>
     
   </channel>
