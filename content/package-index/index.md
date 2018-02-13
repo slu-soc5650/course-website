@@ -33,7 +33,7 @@ Use `install.packages("tidyverse")` to install these for convenience!
   - install the development version via GitHub - `devtools::install_github("tidyverse/ggplot2")`
 - `lubridate` - work with dates {{< pkgIndex "#i-l" >}} {{< pkgCran "lubridate" >}} {{< pkgGitHub "tidyverse/lubridate" >}} {{< pkgWeb "http://lubridate.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/lubridate.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/dates-and-times.html" >}}
 - `magrittr` - pipe operator {{< pkgIndex "#m-p" >}} {{< pkgCran "magrittr" >}} {{< pkgGitHub "tidyverse/magrittr" >}} {{< pkgWeb "http://magrittr.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/pipes.html" >}}
-- `reprex` - reproducible examples {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}}
+- `reprex` - reproducible examples {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}} {{< pkgWeb "http://reprex.tidyverse.org/" >}}
   - install the development version via GitHub - `devtools::install_github("tidyverse/reprex")`
 - `stringr` - work with strings {{< pkgIndex "#q-t" >}} {{< pkgCran "stringr" >}} {{< pkgGitHub "tidyverse/stringr" >}} {{< pkgWeb "http://stringr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/strings.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/strings.html" >}}
 - `tidyr` - data wrangling {{< pkgIndex "#q-t" >}} {{< pkgCran "tidyr" >}} {{< pkgGitHub "tidyverse/tidyr" >}} {{< pkgWeb "http://tidyr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/relational-data.html" >}}
