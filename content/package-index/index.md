@@ -33,24 +33,33 @@ Use `install.packages("tidyverse")` to install these for convenience!
   - install the development version via GitHub - `devtools::install_github("tidyverse/ggplot2")`
 - `lubridate` - work with dates {{< pkgIndex "#i-l" >}} {{< pkgCran "lubridate" >}} {{< pkgGitHub "tidyverse/lubridate" >}} {{< pkgWeb "http://lubridate.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/lubridate.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/dates-and-times.html" >}}
 - `magrittr` - pipe operator {{< pkgIndex "#m-p" >}} {{< pkgCran "magrittr" >}} {{< pkgGitHub "tidyverse/magrittr" >}} {{< pkgWeb "http://magrittr.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/pipes.html" >}}
+- `reprex` - reproducible examples {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}}
+  - install the development version via GitHub - `devtools::install_github("tidyverse/reprex")`
 - `stringr` - work with strings {{< pkgIndex "#q-t" >}} {{< pkgCran "stringr" >}} {{< pkgGitHub "tidyverse/stringr" >}} {{< pkgWeb "http://stringr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/strings.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/strings.html" >}}
 - `tidyr` - data wrangling {{< pkgIndex "#q-t" >}} {{< pkgCran "tidyr" >}} {{< pkgGitHub "tidyverse/tidyr" >}} {{< pkgWeb "http://tidyr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/relational-data.html" >}}
 
-## Mapping Packages
+## Primary Mapping Packages
 - `classInt` - data wrangling {{< pkgIndex "#a-d" >}} {{< pkgCran "classInt" >}} {{< pkgGitHub "r-spatial/classInt" >}}
 - `leaflet` - interactive maps {{< pkgIndex "#i-l" >}} {{< pkgCran "leaflet" >}} {{< pkgGitHub "rstudio/leaflet" >}} {{< pkgWeb "https://rstudio.github.io/leaflet/" >}}
-- `mapproj` - map projections {{< pkgIndex "#m-p" >}} {{< pkgCran "mapproj" >}}
-- `maptools` - spatial data tools {{< pkgIndex "#m-p" >}} {{< pkgCran "maptools" >}}
 - `RColorBrewer` - color ramps for mapping {{< pkgIndex "#q-t" >}} {{< pkgCran "RColorBrewer" >}} {{< pkgWeb "http://colorbrewer2.org/" >}}
-- `rgeos` - spatial data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "rgeos" >}}
-- `rgdal` - spatial data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "rgdal" >}}
 - `scales` - map scales {{< pkgIndex "#q-t" >}} {{< pkgCran "scales" >}}
 - `sf` - spatial data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "sf" >}} {{< pkgGitHub "r-spatial/sf" >}}
 - `tidycensus` - census data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "tidycensus" >}} {{< pkgGitHub "walkerke/tidycensus" >}} {{< pkgWeb "https://walkerke.github.io/tidycensus/" >}}
+- `tigris` - census geography tools {{< pkgIndex "#q-t" >}} {{< pkgCran "tigris" >}} {{< pkgGitHub "walkerke/tigris" >}}
+
+## Secondary Mapping Packages
+*We may or may not be using these packages this semester!*
+
+- `mapproj` - map projections {{< pkgIndex "#m-p" >}} {{< pkgCran "mapproj" >}}
+- `maptools` - spatial data tools {{< pkgIndex "#m-p" >}} {{< pkgCran "maptools" >}}
+- `rgeos` - spatial data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "rgeos" >}}
+- `rgdal` - spatial data tools {{< pkgIndex "#q-t" >}} {{< pkgCran "rgdal" >}}
 
 ## Other Packages
 - `devtools` - install packages from GitHub {{< pkgIndex "#e-h" >}} {{< pkgCran "devtools" >}} {{< pkgGitHub "hadley/devtools" >}}
+- `here` - working directory management {{< pkgIndex "#e-h" >}} {{< pkgCran "here" >}} {{< pkgGitHub "krlmlr/here" >}}
 - `janitor` - data wrangling and tables {{< pkgIndex "#e-h" >}} {{< pkgCran "janitor" >}} {{< pkgGitHub "sfirke/janitor" >}}
+  - install the development version via GitHub - `devtools::install_github("sfirke/janitor")`
 - `knitr` - dynamic documents in `R` {{< pkgIndex "#i-l" >}} {{< pkgCran "knitr" >}} {{< pkgGitHub "yihui/knitr" >}} {{< pkgWeb "https://yihui.name/knitr/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
+- `naniar` - missing data analysis {{< pkgIndex "#m-p" >}} {{< pkgCran "naniar" >}} {{< pkgGitHub "njtierney/naniar" >}} {{< pkgWeb "http://naniar.njtierney.com" >}}
 - `RMarkdown` - markdown syntax for `R` {{< pkgIndex "#q-t" >}} {{< pkgCran "RMarkdown" >}} {{< pkgGitHub "rstudio/rmarkdown" >}} {{< pkgWeb "http://rmarkdown.rstudio.com/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
-- `rio` - data import {{< pkgIndex "#q-t" >}} {{< pkgCran "rio" >}} {{< pkgGitHub "leeper/rio" >}}
