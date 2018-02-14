@@ -3,15 +3,16 @@ date: 2016-03-09T00:11:02+01:00
 title: Topic Index
 weight: 41
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2018--01--22-brightgreen.svg)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2018--02--13-brightgreen.svg)
 
 The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. *Italicized items* are only covered in the readings. If you have additions or suggestions, please let Chris know! 
 
 ## A-D
-- Analysis development ([Course Preview](/course-preview/))
+- Analysis development ([Course Preview](/course-preview/), [Lecture-01](/lecture-01/), [Lecture-02](/lecture-02/), [Lecture-04](/lecture-04/))
 - `base`, see "[`R`, `base`](/topic-index/#q-t)"
 - Cartography 
   - Basic design principles ([Lecture-01](/lecture-01/))
+  - Visual hirearchy ([Lecture-04](/lecture-04/))
 - Coral, Lilian ([Course Preview](/course-preview/))
 - Data
   - Open data ([Course Preview](/course-preview/), [Lecture-01](/lecture-01/))
@@ -19,9 +20,10 @@ The following is a list of topics and skills covered during the semester. This w
 - `devtools`, see "[GitHub, Install packages from](/topic-index/#e-h)"
   
 ## E-H
-- Git
+- Git ([Lecture-02](/lecture-02/))
 - GitHub
   - Install packages from with `devtools`, `install_github()` ([Lecture-01](/lecture-01/))
+  - Integration with Git workflow ([Lecture-02](/lecture-02/))
 
 ## I-L
 - Interactive maps
