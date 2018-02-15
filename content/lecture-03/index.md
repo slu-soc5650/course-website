@@ -5,7 +5,7 @@ weight: 22
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--12-brightgreen.svg)](https://github.com/slu-soc5650/lecture-03/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--15-brightgreen.svg)](https://github.com/slu-soc5650/lecture-03/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< package name="dplyr" >}}](/topic-index/#q-t)
@@ -207,6 +207,8 @@ In the example above, `here()` converts the input into a relative path that look
 > ggplot() + geom_histogram(mpg, mapping = aes(hwy))
 > ggsave(here("results", "histogram.png"))
 ```
+
+I've posted an [alternate set of replication files](https://github.com/slu-soc5650/lecture-03/tree/master/Lab-02/lab-02-replication-alt) for the second lab that illustrate how to use `here()` in the context of an assignment.
 
 ### Why This is Worth It
 It is more remembering why this is worth it. Using `here()` makes your projects portable. You can move the directory on your own computer, or give it to a colleague (or your professor!) and the code will always execute (assuming they have the correct packages installed). This is because you never specify manual location where your working directory (i.e. the folder with your `.Rproj` file) is located. This is a *huge* plus for reproducibility.
