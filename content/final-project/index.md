@@ -3,17 +3,14 @@ date: 2016-03-09T00:11:02+01:00
 title: Final Project
 weight: 40
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2017--12--18-brightgreen.svg)
-
-{{< warning title="Project Changes for Spring 2018" >}}
-The final project instructions will be undergoing revision for Spring 2018. The instructions, data, and groups on GitHub should not be considered current yet.
-{{< /warning >}}
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2017--02--15-brightgreen.svg)
 
 ## Core Files
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/finalProject/tree/master/rawData" target="_blank"> Data </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf" target="_blank"> Directions </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5650/finalProject/blob/master/finalProjectGroups.md" target="_blank"> Groups </a>
+{{< github "slu-soc5650" "finalProject" >}}
+{{< button "Data" "https://github.com/slu-soc5650/finalProject/tree/master/rawData" >}}
+{{< button "Directions" "https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf" >}}
+{{< button "Groups" "https://github.com/slu-soc5650/finalProject/blob/master/groups2018.md" >}}
 
 ## Overview
 
@@ -23,8 +20,8 @@ The final project for this course requires students to clean and map non-emergen
 
 The final project instructions include "waypoints" - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Directions**](https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf)). The next waypoint will be highlighted with **bold** font throughout the semester.
 
-1. **Lecture-03 (February 5) - Topic memo submitted as a GitHub issue in each student's assignment repository**
-2. Lecture-05 (February 19) - Meeting report posted in each group's Slack channel
+1. Lecture-03 (February 5) - Topic memo submitted as a GitHub issue in each student's assignment repository
+2. **Lecture-05 (February 19) - Meeting report posted in each group's Slack channel**
 3. Lecture-07 (March 5) - Progress report from each student due in group's Slack channel
 4. Lecture-11 (April 2) - Draft materials due in each student's assignment repository
 5. Lecture-13 (April 16) - Response to reviewer due as a GitHub issue in each student's assignment repository
