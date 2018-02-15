@@ -13,14 +13,14 @@
     
     
     <item>
-      <title>Lecture 04 - The Nature of Spatial Data (Part 2)</title>
+      <title>Lecture 05 - Cartographic Design</title>
       <link>/lecture-05/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/lecture-05/</guid>
       <description>Meta 
-Key Topics  Analysis development   ArcCatalog  ArcMap  Cartography   Census geography   Coordinate systems   Decision making in GIS   Geodatabases   ggplot2  R  Representation   Representing place   Scale   sf  Shapefiles 
-Resources Open on   ArcGIS - ArcCatalog Processes  ArcGIS - ArcMap Processes  Functions  Lab-03  LP-04</description>
+Key Topics  ArcMap  Cartography   ggplot2  R  RColorBrewer
+Resources Open on   LP-05</description>
     </item>
     
   </channel>
