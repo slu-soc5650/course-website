@@ -18,3 +18,7 @@ weight: 24
 
 {{< github "slu-soc5650" "lecture-05" >}}
 {{< button "LP-05" "https://github.com/slu-soc5650/lecture-05/blob/master/LP-05/LP-05.pdf" >}}
+
+## Lecture Prep 05 Replication
+<p> </p>
+{{< youtube IT9d_27bkN0 >}}
