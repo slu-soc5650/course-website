@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-04s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/lecture-04/</link>
+    <link>https://slu-soc5650.github.io/lecture-04/</link>
     <description>Recent content in Lecture-04s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="/lecture-04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/lecture-04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 04 - The Nature of Spatial Data (Part 2)</title>
-      <link>/lecture-04/</link>
+      <link>https://slu-soc5650.github.io/lecture-04/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/lecture-04/</guid>
+      <guid>https://slu-soc5650.github.io/lecture-04/</guid>
       <description>Meta 
 Key Topics  Analysis development   ArcCatalog  ArcMap  Cartography   Census geography   Coordinate systems   Decision making in GIS   Geodatabases   ggplot2  R  Representation   Representing place   Scale   sf  Shapefiles 
 Resources Open on   ArcGIS - ArcCatalog Processes  ArcGIS - ArcMap Processes  Functions  Lab-03  LP-04</description>
