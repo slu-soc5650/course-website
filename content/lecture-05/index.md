@@ -5,7 +5,7 @@ weight: 23
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--02--15-brightgreen.svg)](https://github.com/slu-soc5650/lecture-04/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--02--12-brightgreen.svg)](https://github.com/slu-soc5650/lecture-04/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -32,7 +32,6 @@ weight: 23
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-04/blob/master/Functions/lecture-04-functions.pdf" >}}
 {{< button "Lab-03" "https://github.com/slu-soc5650/lecture-04/blob/master/Lab-03/lab-03.pdf" >}}
 {{< button "LP-04" "https://github.com/slu-soc5650/lecture-04/blob/master/LP-04/LP-04.pdf" >}}
-{{< button "PS-02" "https://github.com/slu-soc5650/lecture-04/blob/master/PS-02/PS-02.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
