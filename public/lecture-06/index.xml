@@ -2,24 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-06s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/lecture-06/</link>
+    <link>/lecture-06/</link>
     <description>Recent content in Lecture-06s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/lecture-06/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-06/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lecture 06 - Map Layouts</title>
-      <link>https://slu-soc5650.github.io/lecture-06/</link>
+      <title>Lecture 06 - GIS Outputs</title>
+      <link>/lecture-06/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/lecture-06/</guid>
+      <guid>/lecture-06/</guid>
       <description> Meta 
 Key Topics  ArcMap  Cartography   ggplot2  ggthemes  Map Layouts   R  RColorBrewer  Small Multiples   viridis  Wireframing 
+Resources Open on   ArcGIS - ArcMap Processes  Functions  Lab-05  LP-06  Map Handouts  Sample Wireframe 
+Lecture Slides  
 Lecture Prep 06 Replication    </description>
     </item>
     
