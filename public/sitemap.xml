@@ -52,6 +52,16 @@
   </url>
   
   <url>
+    <loc>/lecture-07/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lecture-08/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/final-project/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
@@ -132,6 +142,18 @@
   
   <url>
     <loc>/lecture-06/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/lecture-07/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/lecture-08/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>

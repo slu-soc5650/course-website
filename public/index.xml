@@ -126,6 +126,30 @@ Lecture Prep 06 Replication    Issues with Reading Shapefiles A number of you re
     </item>
     
     <item>
+      <title>Lecture 07 - Geodatabases</title>
+      <link>/lecture-07/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/lecture-07/</guid>
+      <description>Meta 
+Key Topics  ArcCatalog  Geodatabases   R  readr  sf  Writing Data 
+Resources Open on   LP-07 
+Re-writing Shapefiles in R Some of you may have been confronted with an error in the lecture prep when you went to knitr your notebook after testing all of its code:
+By default, the st_write() function will not overwrite an existing shapefile. You can alter this behavior by re-structuring the function to add the delete_dsn option:</description>
+    </item>
+    
+    <item>
+      <title>Lecture 08 - Demographic Data</title>
+      <link>/lecture-08/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/lecture-08/</guid>
+      <description> Meta 
+Key Topics  Demography   R  tidycensus  tigris
+Resources Open on   </description>
+    </item>
+    
+    <item>
       <title>Final Project</title>
       <link>/final-project/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
