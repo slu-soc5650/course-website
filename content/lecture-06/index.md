@@ -45,3 +45,18 @@ A number of you reported intermittent issues with reading shapefiles into `R`. I
 3. Use the `sf::` prefix on `st_read()`. At least one student was able to import data just fine when the following syntax was used: `sf::st_read(here("data", "dataFolder", "data.shp"), stringsAsFactors = FALSE)`
 4. If nothing seems to be working, try opening the shapefile in ArcMap and see if it can be mapped. If it cannot be mapped, it is corrupt in some way and you should re-download the source data.
 5. Make sure you don't have a file simultaneously open in ArcMap or ArcCatalog when you go to read it inot `R`.
+
+## Data Type Conflicts in PS-04
+Some of the data in `SLM_DEMOS_CountiesPop.shp` are stored as character data for an unfortunately esoteric reason - shapefiles are only capable of handling numeric values of a certain size (this is an issue with ESRI's standards, not `R` specifically). So, to store the square meters of most counties, they need to be written as character data in certain circumstances.
+
+However, `conv_unit()` is only designed to work with numeric data. This creates a tension between the ESRI issues and the way `conv_unit()` works. To work around this issue with shapefiles, use the following syntax in your problem set:
+```
+library(dplyr)
+library(measurements)
+library(sf)
+
+SLMCounties <- st_read("data/SLM_DEMOS_CountiesPop.shp", stringsAsFactors = FALSE)
+SLMCounties <- mutate(SLMCounties, sq_mi = conv_unit(as.numeric(ALAND), "m2", "mi2"))
+```
+
+This will convert the `ALAND` data temporarily to numeric data so that the rest of the `mutate()` function can run without issue and properly convert your area data.
