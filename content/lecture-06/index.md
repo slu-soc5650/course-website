@@ -36,3 +36,12 @@ weight: 25
 ## Lecture Prep 06 Replication
 <p> </p>
 {{< youtube 2iI7RszF6Go >}}
+
+## Issues with Reading Shapefiles
+A number of you reported intermittent issues with reading shapefiles into `R`. I have not been able to replicate this behavior, but wanted to offer some general advice that may help.
+
+1. Download the entire shapefile repo from GitHub. At least some of you downloaded only the `.shp` file from GitHub and that was the source of issues. 
+2. Use ArcCatalog to copy and paste shapefiles from their source into your individual project `data/` folders. Some of you reported that this addressed the issue. 
+3. Use the `sf::` prefix on `st_read()`. At least one student was able to import data just fine when the following syntax was used: `sf::st_read(here("data", "dataFolder", "data.shp"), stringsAsFactors = FALSE)`
+4. If nothing seems to be working, try opening the shapefile in ArcMap and see if it can be mapped. If it cannot be mapped, it is corrupt in some way and you should re-download the source data.
+5. Make sure you don't have a file simultaneously open in ArcMap or ArcCatalog when you go to read it inot `R`.
