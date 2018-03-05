@@ -5,19 +5,24 @@ weight: 25
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--03--04-brightgreen.svg)](https://github.com/slu-soc5650/lecture-07/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-red.svg) [![](https://img.shields.io/badge/last%20update-2018--03--05-brightgreen.svg)](https://github.com/slu-soc5650/lecture-07/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< tool name="ArcCatalog" >}}](/topic-index/#a-d)
+[{{< keyword name="Data wrangling" >}}](/topic-index/#a-d)
 [{{< keyword name="Geodatabases" >}}](/topic-index/#e-h)
+[{{< package name="lubridate" >}}](/topic-index/#q-t)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< package name="readr" >}}](/topic-index/#q-t)
 [{{< package name="sf" >}}](/topic-index/#q-t)
+[{{< package name="stringr" >}}](/topic-index/#q-t)
 [{{< keyword name="Writing Data" >}}](/topic-index/#u-z)
 
 ## Resources
 
 {{< github "slu-soc5650" "lecture-07" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/lecture-07/blob/master/Functions/lecture-07-functions.pdf" >}}
+{{< button "Lab-06" "https://github.com/slu-soc5650/lecture-07/blob/master/Lab-06/lab-06.pdf" >}}
 {{< button "LP-07" "https://github.com/slu-soc5650/lecture-07/blob/master/LP-07/LP-07.pdf" >}}
 
 ## Re-writing Shapefiles in R

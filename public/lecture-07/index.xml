@@ -2,27 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-07s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/lecture-07/</link>
+    <link>/lecture-07/</link>
     <description>Recent content in Lecture-07s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/lecture-07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 07 - Geodatabases</title>
-      <link>https://slu-soc5650.github.io/lecture-07/</link>
+      <link>/lecture-07/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/lecture-07/</guid>
+      <guid>/lecture-07/</guid>
       <description>Meta 
-Key Topics  ArcCatalog  Geodatabases   R  readr  sf  Writing Data 
-Resources Open on   LP-07 
-Re-writing Shapefiles in R Some of you may have been confronted with an error in the lecture prep when you went to knitr your notebook after testing all of its code:
-By default, the st_write() function will not overwrite an existing shapefile. You can alter this behavior by re-structuring the function to add the delete_dsn option:</description>
+Key Topics  ArcCatalog  Data wrangling   Geodatabases   lubridate  R  readr  sf  stringr  Writing Data 
+Resources Open on   Functions  Lab-06  LP-07 
+Re-writing Shapefiles in R Some of you may have been confronted with an error in the lecture prep when you went to knitr your notebook after testing all of its code:</description>
     </item>
     
   </channel>
