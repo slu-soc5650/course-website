@@ -62,6 +62,11 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
+	name   = "Course Software"
+	url    = "course-software/"
+	weight = 11
+
+[[menu.main]]
 	name   = "Course Preview"
 	url    = "course-preview/"
 	weight = 15
@@ -104,7 +109,7 @@ googleAnalytics = ""
 [[menu.main]]
 	name   = "Lecture 08 - Demographic Data"
 	url    = "lecture-08/"
-	weight = 26
+	weight = 27
 
 [[menu.main]]
 	name   = "Final Project"

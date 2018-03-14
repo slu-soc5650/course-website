@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Final Project - SLU SOC 4650 &amp; SOC 5650</title>
+    <title>Course Software - SLU SOC 4650 &amp; SOC 5650</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4650 &amp; SOC 5650: Introduction to Geographic Information Science">
     
-    <link rel="canonical" href="/final-project/">
+    <link rel="canonical" href="/course-software/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/final-project/">
+    <meta property="og:url" content="/course-software/">
     <meta property="og:title" content="SLU SOC 4650 &amp; SOC 5650">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SLU SOC 4650 &amp; SOC 5650">
@@ -102,7 +102,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Final Project
+        Course Software
       </div>
     </div>
 
@@ -233,11 +233,14 @@
 
 
 
-<a  title="Course Software" href="/course-software/">
+<a class="current" title="Course Software" href="/course-software/">
 	
 	Course Software
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -413,14 +416,11 @@
 
 
 
-<a class="current" title="Final Project" href="/final-project/">
+<a  title="Final Project" href="/final-project/">
 	
 	Final Project
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -525,35 +525,88 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Final Project </h1> 
+			<h1>Course Software </h1> 
 
 			
 
-<p><img src="https://img.shields.io/badge/semester-spring%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-draft-red.svg" alt="" /> <img src="https://img.shields.io/badge/last%20update-2017--02--15-brightgreen.svg" alt="" /></p>
+<h2 id="meta">Meta</h2>
 
-<h2 id="core-files">Core Files</h2>
-
-<p><a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/finalProject" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/finalProject/tree/master/rawData" target="_blank"> Data </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf" target="_blank"> Directions </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/finalProject/blob/master/groups2018.md" target="_blank"> Groups </a></p>
+<p><img src="https://img.shields.io/badge/semester-spring%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-full-brightgreen.svg" alt="" /> <a href="https://github.com/slu-soc5650/lecture-04/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--03--14-brightgreen.svg" alt="" /></a></p>
 
 <h2 id="overview">Overview</h2>
 
-<p>The final project for this course requires students to clean and map non-emergency call data from the City of St. Louis. These data describe the presence of various types of problems in City neighborhoods. The project brings together many of the scientific computing and GI science skills that are developed over the course of the semester. It also models the collaborative nature of GI science work by asking students to complete some aspects of the final project as a group using the collaborative development (GitHub) and communication (Slack) tools we have learned this semester. This guide contains instructions for completing the final project.</p>
+<p>We rely on several packages that require additional steps to install and use. This section provides details on installing the <code>sf</code> package as well as the <em>development</em> version of <code>ggplot2</code>.</p>
 
-<h2 id="waypoints">Waypoints</h2>
+<h2 id="sf">sf</h2>
 
-<p>The final project instructions include &ldquo;waypoints&rdquo; - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the <a href="https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf"><strong>Syllabus</strong></a> and the <a href="https://github.com/slu-soc5650/finalProject/blob/master/finalProject.pdf"><strong>Directions</strong></a>). The next waypoint will be highlighted with <strong>bold</strong> font throughout the semester.</p>
+<p><code>sf</code> is a package for working with spatial data in <code>R</code>. It is the most &ldquo;modern&rdquo;, which means it can sometimes be difficult to find examples or help online. This has changed significantly since I first started using it, and the developers are continuing to add vignettes and expand their userbase. To install <code>sf</code>:</p>
 
-<ol>
-<li>Lecture-03 (February 5) - Topic memo submitted as a GitHub issue in each student&rsquo;s assignment repository</li>
-<li><strong>Lecture-05 (February 19) - Meeting report posted in each group&rsquo;s Slack channel</strong></li>
-<li>Lecture-07 (March 5) - Progress report from each student due in group&rsquo;s Slack channel</li>
-<li>Lecture-11 (April 2) - Draft materials due in each student&rsquo;s assignment repository</li>
-<li>Lecture-13 (April 16) - Response to reviewer due as a GitHub issue in each student&rsquo;s assignment repository</li>
-<li>Lecture-15 (April 30) - Progress report from each student due as a GitHub issue in each student&rsquo;s assignment repository</li>
-</ol>
+<pre><code class="language-r">install.packages(&quot;sf&quot;)
+</code></pre>
+
+<h3 id="installation-on-windows">Installation on Windows</h3>
+
+<p>To install <code>sf</code> on Windows, you need to have <a href="https://cran.r-project.org/bin/windows/Rtools/">RTools</a> installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password and on lab computers you will be taken to an alternate screen where you&rsquo;ll have to agree to a special set of terms of use from the University.</p>
+
+<h3 id="installation-on-macos">Installation on macOS</h3>
+
+<p>Users on macOS will have to install the spatial data libraries on their own. An omnibus installer is available from the <a href="https://www.kyngchaos.com/software/frameworks">Kyng Chaos website</a> - you&rsquo;ll want to download and run the GDAL 2.2 Complete installer.</p>
+
+<h2 id="ggplot2">ggplot2</h2>
+
+<p>To use <code>sf</code> for map making, we&rsquo;ll need the <em>development</em> version of <code>ggplot2</code>. The current CRAN release <em>does not</em> have the <code>geom_sf()</code> function, but the <em>development</em> version on GitHub does.</p>
+
+<h3 id="installation">Installation</h3>
+
+<p>Before you install it, you&rsquo;ll need to install a package called <code>rlang</code>:</p>
+
+<pre><code class="language-r">install.packages(&quot;rlang&quot;)
+</code></pre>
+
+<p>You&rsquo;ll never need to load <code>rlang</code> for this class but it needs to be available on your system. Once that is installed, you can install <code>ggplot2</code> using <code>devtools</code>:</p>
+
+<pre><code class="language-r">devtools::install_github(&quot;ggplot2&quot;)
+</code></pre>
+
+<p>Some Windows users reported errors in class last night where the dependency <code>digest</code> did not install. If you get that error, please install it manually:</p>
+
+<pre><code class="language-r">install.packages(&quot;digest&quot;)
+</code></pre>
+
+<h3 id="data-sources-with-geom-sf">Data Sources with geom_sf()</h3>
+
+<p>There are two bugs to be aware of with <code>geom_sf()</code>. One is the need to explicitly declare the data argument in the <code>geom</code>:</p>
+
+<pre><code class="language-r">&gt; library(ggplot2)
+&gt; library(stlData)
+&gt; ggplot() +
++     geom_sf(stlBoundary, fill = &quot;#5d5d5d&quot;, color = &quot;#5d5d5d&quot;)
+Error: `mapping` must be created by `aes()`
+</code></pre>
+
+<p>Not declaring the data source will result in errors like theone above. You can address this by explicitly declaring the <code>data</code> argument:</p>
+
+<pre><code class="language-r">library(ggplot2)
+library(stlData)
+ggplot() +
+  geom_sf(data = stlBoundary, fill = &quot;#5d5d5d&quot;, color = &quot;#5d5d5d&quot;)
+</code></pre>
+
+<h3 id="polygon-edge-not-found">Polygon Edge Not Found</h3>
+
+<p>When using <code>geom_sf()</code> with multiple layers, the following error message seems to pop up regularly. When I tested it this past weekend, it was erroring every second or third time I ran the following reprex:</p>
+
+<pre><code class="language-r">&gt; library(ggplot2)
+&gt; library(stlData)
+&gt; ggplot() +
++   geom_sf(data = stlBoundary, fill = &quot;#5d5d5d&quot;, color = &quot;#5d5d5d&quot;) +
++   geom_sf(data = stlHistoric, fill = &quot;#d48a72&quot;, color = &quot;#d48a72&quot;) +
++   geom_sf(data = stlHydro, fill = &quot;#72bcd4&quot;, color = &quot;#72bcd4&quot;)
+Error in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  : 
+  polygon edge not found
+</code></pre>
+
+<p>The good news is that executing it repetedly did produce plots without error each time, so if you get the error re-execute the code once or twice and you should get a plot!</p>
 
 
       <hr>
@@ -575,7 +628,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/lecture-08/" title="Lecture 08 - Demographic Data">
+      <a href="/getting-started/" title="Course Onboarding">
         <span class="direction">
           Previous
         </span>
@@ -585,7 +638,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Lecture 08 - Demographic Data
+              Course Onboarding
             </div>
           </div>
         </div>
@@ -595,14 +648,14 @@
 
   <div class="next">
   
-      <a href="/topic-index/" title="Topic Index">
+      <a href="/course-preview/" title="Course Preview">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Topic Index
+              Course Preview
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
