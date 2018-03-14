@@ -5,7 +5,7 @@ weight: 27
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--03--13-brightgreen.svg)](https://github.com/slu-soc5650/lecture-08/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--03--14-brightgreen.svg)](https://github.com/slu-soc5650/lecture-08/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Demography" >}}](/topic-index/#a-d)
@@ -17,9 +17,9 @@ weight: 27
 ## Resources
 
 {{< github "slu-soc5650" "lecture-08" >}}
-{{< button "Exercise Notebooks" "https://github.com/slu-soc5650/lecture-08/blob/master/Exercises" >}}
-{{< button "Functions" "https://github.com/slu-soc5650/lecture-08/blob/master/Functions/lecture-08-functions.pdf" >}}
-{{< button "Lab-07" "https://github.com/slu-soc5650/lecture-08/blob/master/Lab-07/lab-07.pdf" >}}
+{{< button "Example Notebooks" "https://github.com/slu-soc5650/lecture-08/tree/master/examples" >}}
+{{< button "Functions" "https://github.com/slu-soc5650/lecture-08/blob/master/handouts/lecture-08-functions.pdf" >}}
+{{< button "Lab-07" "https://github.com/slu-soc5650/lecture-08/tree/master/assignments/lab-07" >}}
 
 ## Lecture Videos
 <p> </p>
