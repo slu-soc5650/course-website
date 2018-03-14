@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T00:11:02+01:00
 title: Lecture 07 - Geodatabases
-weight: 25
+weight: 26
 ---
 
 ## Meta
@@ -24,6 +24,10 @@ weight: 25
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-07/blob/master/Functions/lecture-07-functions.pdf" >}}
 {{< button "Lab-06" "https://github.com/slu-soc5650/lecture-07/blob/master/Lab-06/lab-06.pdf" >}}
 {{< button "LP-07" "https://github.com/slu-soc5650/lecture-07/blob/master/LP-07/LP-07.pdf" >}}
+
+## Lecture Slides
+<p> </p>
+{{< speakerdeck ff6667777234406d8d79eb70633a28cf >}}
 
 ## Re-writing Shapefiles in R
 Some of you may have been confronted with an error in the lecture prep when you went to knitr your notebook after testing all of its code:
