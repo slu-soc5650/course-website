@@ -112,6 +112,11 @@ googleAnalytics = ""
 	weight = 27
 
 [[menu.main]]
+	name   = "Lecture 09 - Spatial Joins"
+	url    = "lecture-09/"
+	weight = 28
+
+[[menu.main]]
 	name   = "Final Project"
 	url    = "final-project/"
 	weight = 40
