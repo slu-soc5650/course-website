@@ -20,6 +20,7 @@ weight: 29
 ## Resources
 
 {{< github "slu-soc5650" "lecture-10" >}}
+{{< button "ArcMap Processes" "https://github.com/slu-soc5650/lecture-10/blob/master/handouts/lecture-10-arcmap.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-10/blob/master/handouts/lecture-10-functions.pdf" >}}
 {{< button "LP-09" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lp-09/lp-09.pdf" >}}
 
