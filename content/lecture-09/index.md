@@ -13,7 +13,6 @@ weight: 28
 [{{< tool name="ArcMap" >}}](/topic-index/#a-d)
 [{{< package name="dplyr" >}}](/topic-index/#q-t)
 [{{< tool name="R" >}}](/topic-index/#q-t)
-[{{< package name="sf" >}}](/topic-index/#q-t)
 [{{< keyword name="Spatial Joins" >}}](/topic-index/#q-t)
 [{{< keyword name="Table Joins" >}}](/topic-index/#q-t)
 [{{< keyword name="Writing Data" >}}](/topic-index/#u-z)

@@ -18,8 +18,10 @@ The following is a list of topics and skills covered during the semester. This w
   - Open data ([Course Preview](/course-preview/), [Lecture-01](/lecture-01/))
   - `stlData`, see "[Data, `stlData`](/topic-index/#q-t)"
 - `devtools`, see "[GitHub, Install packages from](/topic-index/#e-h)"
+- `dplyr`, see [`tidyverse`](/topic-index/#q-t)
   
 ## E-H
+- `ggplot2`, see [`tidyverse`](/topic-index/#q-t)
 - Git ([Lecture-02](/lecture-02/))
 - GitHub
   - Install packages from with `devtools`, `install_github()` ([Lecture-01](/lecture-01/))
@@ -49,12 +51,30 @@ The following is a list of topics and skills covered during the semester. This w
 - `R`
   - `base`
       - install packages from CRAN, `install.packages()` ([Lecture-01](/lecture-01/))
+      - get class, `class()` ([Lecture-09](/lecture-09/))
+      - test if vector is character, `is.character()` ([Lecture-09](/lecture-09/))
+      - test if vector is numeric, `is.numeric()` ([Lecture-09](/lecture-09/))
   - General coverage ([Lecture-01](/lecture-01/))
   - Notebooks (Lecture-02)
   - Packages ([Lecture-01](/lecture-01/))
   - Projects (Lecture-02)
 - Reproducibility ([Course Preview](/course-preview/))
+- `sf` - Simple features geometry package
+  - spatial joins, `st_join()` ([Lecture-10](/lecture-10/))
+- Spatial joins 
+  - in ArcMap ([Lecture-09](/lecture-09/))
+      - Point to polygon joins
+      - Polygon to point joins
+      - Point to point joins
+  - in `R` with `sf`, see `sf` above
+  
 - `stlData` - Example data package ([Lecture-01](/lecture-01/))
+- Table joins ([Lecture-09](/lecture-09/))
+- `tidyverse`
+  - `dplyr`
+      - convert to tibble, `as_tibble()`
+      - summary of variables, `glimpse()` ([Lecture-09](/lecture-09/))
+      - table joins, left, `left_join()` ([Lecture-09](/lecture-09/))
 
 ## U-Z
 - `utils`
