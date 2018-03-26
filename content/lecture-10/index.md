@@ -6,7 +6,7 @@ weight: 29
 
 ## Meta
 ![](https://img.shields.io/badge/semester-spring%202018-orange.svg) 
-![](https://img.shields.io/badge/release-draft-red.svg) 
+![](https://img.shields.io/badge/release-lecture-orange.svg) 
 [![](https://img.shields.io/badge/last%20update-2018--03--22-brightgreen.svg)](https://github.com/slu-soc5650/lecture-09/blob/master/NEWS_SITE.md)
 
 ## Key Topics
@@ -22,7 +22,9 @@ weight: 29
 {{< github "slu-soc5650" "lecture-10" >}}
 {{< button "ArcMap Processes" "https://github.com/slu-soc5650/lecture-10/blob/master/handouts/lecture-10-arcmap.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-10/blob/master/handouts/lecture-10-functions.pdf" >}}
+{{< button "Lab-09" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lab-09/lab-09.pdf" >}}
 {{< button "LP-09" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lp-09/lp-09.pdf" >}}
+{{< button "PS-05" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/ps-06/ps-06.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
