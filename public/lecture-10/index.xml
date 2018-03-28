@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-10s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/lecture-10/</link>
+    <link>/lecture-10/</link>
     <description>Recent content in Lecture-10s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/lecture-10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 10 - Projections</title>
-      <link>https://slu-soc5650.github.io/lecture-10/</link>
+      <link>/lecture-10/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/lecture-10/</guid>
+      <guid>/lecture-10/</guid>
       <description>Meta 
 Key Topics  ArcMap  Geographic coordinate systems   R  sf  Projected coordinate systems   Projecting data 
 Resources Open on   ArcMap Processes  Functions  Lab-09  LP-09  PS-05 

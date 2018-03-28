@@ -49,3 +49,23 @@ The interactive mapping tool described during the lecture - "The True Size" - ca
 ## Missouri Projection Systems
 The website [Spatial Reference](http://www.spatialreference.org/) has a [comprehensive list](http://www.spatialreference.org/ref/?search=Missouri) of projections used for mapping Missouri. The `EPSG` values can be used as inputs in `sf` functions whenever a `crs` value is needed.
 
+## Including leaftlet in Notebooks
+When we include `leaflet` in RNotebooks, we need to adjust our `YAML` header before we knit the notebook. Here is the header from the lab replication file:
+
+```YAML
+---
+title: "Lab 09 Replication Notebook"
+author: "Christopher Prener, Ph.D."
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output: 
+  github_document: default
+  html_notebook: default 
+always_allow_html: yes
+---
+```
+
+The `always_allow_html: yes` line at the end of the `YAML` allows you to knit the notebook without getting an error. If you get any `knitr` errors while trying to finish the notebook, check to make sure you've added this text to the header!
+
+Beware that the `leaflet` objects won't actually appear in your notebook - the code should appear but with no output. This is the expected behavior with `leaflet`!
+
+
