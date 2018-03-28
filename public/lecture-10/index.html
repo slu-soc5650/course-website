@@ -631,6 +631,19 @@
 
 <p>The website <a href="http://www.spatialreference.org/">Spatial Reference</a> has a <a href="http://www.spatialreference.org/ref/?search=Missouri">comprehensive list</a> of projections used for mapping Missouri. The <code>EPSG</code> values can be used as inputs in <code>sf</code> functions whenever a <code>crs</code> value is needed.</p>
 
+<h2 id="table-joins-with-county-data">Table Joins with County Data</h2>
+
+<p>Beware that county-level tables for the entire United States are exceptionally large, and the <code>left_join()</code> function becomes correspondingly slow. One way to improve the performance of this process is to drop as many variables as you possibly can from each table. The key items to retain for both the lab and the problem set are columns like name, state FIPS, county, fips, and geoid data as well as the relevant county-level outcome (health insurance, stroke rates, etc).</p>
+
+<p>Dropping variables also gets us around an issue with the <code>ALAND10</code> and <code>AWATER10</code> variables. Both of these variables contain very large numbers - the square meters of water and land respectively for each county. ESRI&rsquo;s shapefile standards to not allow us to store these data as numbers - they have to be stored as string instead:</p>
+
+<pre><code class="language-r">countyData %&gt;%
+  mutate(ALAND10 = as.character(ALAND10)) %&gt;%
+  mutate(AWATER10 = as.character(AWATER10)) -&gt; countyData
+</code></pre>
+
+<p>This leaves us with two character or string vectors instead of numeric ones, which will not cause errors with the ESRI shapefile standard. If you do not complete this transformation for both variables, you will get errors when you go to write the data to shapefile at the end of your notebook.</p>
+
 <h2 id="including-leaftlet-in-notebooks">Including leaftlet in Notebooks</h2>
 
 <p>When we include <code>leaflet</code> in RNotebooks, we need to adjust our <code>YAML</code> header before we knit the notebook. Here is the header from the lab replication file:</p>

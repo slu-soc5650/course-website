@@ -33,3 +33,24 @@ weight: 28
 ## Lecture Prep 08 Replication
 <p> </p>
 {{< youtube yqm0mirGzFY >}}
+
+## Whacky Variable Names
+The data for PS-05 included a variable name with a space in it, which presents unique challenges for recoding data. The best course of action is to rename the variable to one that is more appropriately named. There are two ways to do this. One way is to use the `rename()` from `dplyr`:
+
+```r
+x <- rename(x, estimated_value = `estimated value`)
+```
+
+Notice how the backtick symbol was used on each end of the multi-word variable name to encompass it in its entirety. This will work in `R` functions any time there is a multi-word variable. 
+
+The other way to deal with this is to use `clean_names()` to adjust the variable name automatically:
+
+```
+> clean_names(x)
+  id estimated_value
+1  1              22
+2  2              44
+```
+
+There are no special arguments needed to get `clean_names()` to work with these data - it will handle multi-word variable names just fine.
+

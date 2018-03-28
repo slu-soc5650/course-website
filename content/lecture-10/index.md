@@ -24,7 +24,7 @@ weight: 29
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-10/blob/master/handouts/lecture-10-functions.pdf" >}}
 {{< button "Lab-09" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lab-09/lab-09.pdf" >}}
 {{< button "LP-09" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lp-09/lp-09.pdf" >}}
-{{< button "PS-05" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/ps-06/ps-06.pdf" >}}
+{{< button "PS-06" "https://github.com/slu-soc5650/lecture-10/blob/master/assignments/ps-06/ps-06.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
@@ -48,6 +48,19 @@ The interactive mapping tool described during the lecture - "The True Size" - ca
 
 ## Missouri Projection Systems
 The website [Spatial Reference](http://www.spatialreference.org/) has a [comprehensive list](http://www.spatialreference.org/ref/?search=Missouri) of projections used for mapping Missouri. The `EPSG` values can be used as inputs in `sf` functions whenever a `crs` value is needed.
+
+## Table Joins with County Data
+Beware that county-level tables for the entire United States are exceptionally large, and the `left_join()` function becomes correspondingly slow. One way to improve the performance of this process is to drop as many variables as you possibly can from each table. The key items to retain for both the lab and the problem set are columns like name, state FIPS, county, fips, and geoid data as well as the relevant county-level outcome (health insurance, stroke rates, etc).
+
+Dropping variables also gets us around an issue with the `ALAND10` and `AWATER10` variables. Both of these variables contain very large numbers - the square meters of water and land respectively for each county. ESRI's shapefile standards to not allow us to store these data as numbers - they have to be stored as string instead:
+
+```r
+countyData %>%
+  mutate(ALAND10 = as.character(ALAND10)) %>%
+  mutate(AWATER10 = as.character(AWATER10)) -> countyData
+```
+
+This leaves us with two character or string vectors instead of numeric ones, which will not cause errors with the ESRI shapefile standard. If you do not complete this transformation for both variables, you will get errors when you go to write the data to shapefile at the end of your notebook.
 
 ## Including leaftlet in Notebooks
 When we include `leaflet` in RNotebooks, we need to adjust our `YAML` header before we knit the notebook. Here is the header from the lab replication file:
