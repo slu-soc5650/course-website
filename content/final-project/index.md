@@ -3,7 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Final Project
 weight: 40
 ---
-![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2017--03--29-brightgreen.svg)
+![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) ![](https://img.shields.io/badge/last%20update-2017--03--30-brightgreen.svg)
 
 ## Core Files
 
@@ -49,6 +49,9 @@ data <- filter(data, nchar(x) >= 3)
 ```
 
 Remember that, with `filter()`, you want to identify the observations you wish to *keep*.
+
+### Dealing with Duplicates
+During [lecture 05](/lecture-05/), we discussed the `distinct()` function, which is the tool from `dplyr` for managing duplicate observations. It can be used both for "true" duplicates that exist across all columns and for duplicates only within certain variables. Check out that lecture's course materials for details on how to use it!
 
 ## Clarifications
 The newly released updates to the final project instructions have made the following clarifications:
