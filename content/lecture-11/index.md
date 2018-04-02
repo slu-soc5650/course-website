@@ -20,6 +20,7 @@ weight: 30
 {{< github "slu-soc5650" "lecture-11" >}}
 {{< button "Functions" "https://github.com/slu-soc5650/lecture-11/blob/master/handouts/lecture-11-functions.pdf" >}}
 {{< button "Lab-10" "https://github.com/slu-soc5650/lecture-11/blob/master/assignments/lab-10/lab-10.pdf" >}}
+{{< button "PS-07" "https://github.com/slu-soc5650/lecture-11/blob/master/assignments/ps-07.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
