@@ -23,8 +23,8 @@ The final project instructions include "waypoints" - designated check-in times f
 1. Lecture-03 (February 5) - Topic memo submitted as a GitHub issue in each student's assignment repository
 2. Lecture-05 (February 19) - Meeting report posted in each group's Slack channel
 3. Lecture-07 (March 5) - Progress report from each student due in group's Slack channel
-4. **Lecture-11 (April 2) - Draft materials due in each student's assignment repository**
-5. Lecture-13 (April 16) - Response to reviewer due as a GitHub issue in each student's assignment repository
+4. Lecture-11 (April 2) - Draft materials due in each student's assignment repository
+5. **Lecture-13 (April 16) - Response to reviewer due as a GitHub issue in each student's assignment repository**
 6. Lecture-15 (April 30) - Progress report from each student due as a GitHub issue in each student's assignment repository
 
 ## Data Cleaning
