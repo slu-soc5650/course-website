@@ -17,10 +17,10 @@ weight: 32
 
 ## Resources
 
-{{< github "slu-soc5650" "lecture-12" >}}
+{{< github "slu-soc5650" "lecture-13" >}}
 {{< button "ArcMap" "https://github.com/slu-soc5650/lecture-13/blob/master/handouts/lecture-13-arcmap.pdf" >}}
 {{< button "Lab-12" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lab-12/lab-12.pdf" >}}
-{{< button "LP-13" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lp-13/lp-13.pdf" >}}
+{{< button "LP-12" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lp-12/lp-12.pdf" >}}
 
 ## Lecture Prep 13 Replication
 <p> </p>
