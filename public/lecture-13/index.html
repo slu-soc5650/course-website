@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Lecture 09 - Spatial Joins - SLU SOC 4650 &amp; SOC 5650</title>
+    <title>Lecture 13 - Geoprocessing (2) - SLU SOC 4650 &amp; SOC 5650</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4650 &amp; SOC 5650: Introduction to Geographic Information Science">
     
-    <link rel="canonical" href="/lecture-09/">
+    <link rel="canonical" href="/lecture-13/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/lecture-09/">
+    <meta property="og:url" content="/lecture-13/">
     <meta property="og:title" content="SLU SOC 4650 &amp; SOC 5650">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SLU SOC 4650 &amp; SOC 5650">
@@ -102,7 +102,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Lecture 09 - Spatial Joins
+        Lecture 13 - Geoprocessing (2)
       </div>
     </div>
 
@@ -413,14 +413,11 @@
 
 
 
-<a class="current" title="Lecture 09 - Spatial Joins" href="/lecture-09/">
+<a  title="Lecture 09 - Spatial Joins" href="/lecture-09/">
 	
 	Lecture 09 - Spatial Joins
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -488,11 +485,14 @@
 
 
 
-<a  title="Lecture 13 - Geoprocessing (2)" href="/lecture-13/">
+<a class="current" title="Lecture 13 - Geoprocessing (2)" href="/lecture-13/">
 	
 	Lecture 13 - Geoprocessing (2)
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -615,66 +615,38 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Lecture 09 - Spatial Joins </h1> 
+			<h1>Lecture 13 - Geoprocessing (2) </h1> 
 
 			
 
 <h2 id="meta">Meta</h2>
 
 <p><img src="https://img.shields.io/badge/semester-spring%202018-orange.svg" alt="" />
-<img src="https://img.shields.io/badge/release-updated-brightgreen.svg" alt="" />
-<a href="https://github.com/slu-soc5650/lecture-09/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--03--28-brightgreen.svg" alt="" /></a></p>
+<img src="https://img.shields.io/badge/release-draft-red.svg" alt="" />
+<a href="https://github.com/slu-soc5650/lecture-11/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--04--23-brightgreen.svg" alt="" /></a></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
 <p><a href="/topic-index/#a-d"><i class="tool"><i class="fas fa-desktop"></i> ArcMap</i></a>
-<a href="/topic-index/#q-t"><i class="package"><i class="fas fa-archive"></i> dplyr</i></a>
-<a href="/topic-index/#q-t"><i class="tool"><i class="fas fa-desktop"></i> R</i></a>
-<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> Spatial Joins</i> </a>
-<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> Table Joins</i> </a>
-<a href="/topic-index/#u-z"><i class="keyword"><i class="fas fa-tags"></i> Writing Data</i> </a></p>
+<a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Merge</i> </a>
+<a href="/topic-index/#i-l"><i class="keyword"><i class="fas fa-tags"></i> Intersect</i> </a>
+<a href="/topic-index/#u-z"><i class="keyword"><i class="fas fa-tags"></i> Union</i> </a></p>
 
 <h2 id="resources">Resources</h2>
 
-<p><a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09/blob/master/handouts/lecture-09-arcmap.pdf" target="_blank"> ArcMap Processes </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09/blob/master/handouts/lecture-09-functions.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09/blob/master/assignments/lab-08/lab-08.pdf" target="_blank"> Lab-06 </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09/blob/master/assignments/lp-08/lp-08.pdf" target="_blank"> LP-08 </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-09/blob/master/assignments/ps-05/ps-05.pdf" target="_blank"> PS-05 </a></p>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-12" target="_blank"> Open on <i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-13/blob/master/handouts/lecture-13-arcmap.pdf" target="_blank"> ArcMap </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lab-12/lab-12.pdf" target="_blank"> Lab-12 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lp-13/lp-13.pdf" target="_blank"> LP-13 </a></p>
 
-<h2 id="lecture-slides">Lecture Slides</h2>
-
-<p><p> </p>
-<script async class='speakerdeck-embed' data-id='0060e503b40448448bfdc73cb336b4e7' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script></p>
-
-<h2 id="lecture-prep-08-replication">Lecture Prep 08 Replication</h2>
+<h2 id="lecture-prep-13-replication">Lecture Prep 13 Replication</h2>
 
 <p><p> </p>
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/yqm0mirGzFY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/paV4yxw5m9w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
  </div>
 </p>
-
-<h2 id="whacky-variable-names">Whacky Variable Names</h2>
-
-<p>The data for PS-05 included a variable name with a space in it, which presents unique challenges for recoding data. The best course of action is to rename the variable to one that is more appropriately named. There are two ways to do this. One way is to use the <code>rename()</code> from <code>dplyr</code>:</p>
-
-<pre><code class="language-r">x &lt;- rename(x, estimated_value = `estimated value`)
-</code></pre>
-
-<p>Notice how the backtick symbol was used on each end of the multi-word variable name to encompass it in its entirety. This will work in <code>R</code> functions any time there is a multi-word variable.</p>
-
-<p>The other way to deal with this is to use <code>clean_names()</code> to adjust the variable name automatically:</p>
-
-<pre><code>&gt; clean_names(x)
-  id estimated_value
-1  1              22
-2  2              44
-</code></pre>
-
-<p>There are no special arguments needed to get <code>clean_names()</code> to work with these data - it will handle multi-word variable names just fine.</p>
 
 
       <hr>
@@ -696,7 +668,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/lecture-08/" title="Lecture 08 - Demographic Data">
+      <a href="/lecture-12/" title="Lecture 12 - Geoprocessing (1)">
         <span class="direction">
           Previous
         </span>
@@ -706,7 +678,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Lecture 08 - Demographic Data
+              Lecture 12 - Geoprocessing (1)
             </div>
           </div>
         </div>
@@ -716,14 +688,14 @@
 
   <div class="next">
   
-      <a href="/lecture-10/" title="Lecture 10 - Projections">
+      <a href="/final-project/" title="Final Project">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Lecture 10 - Projections
+              Final Project
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
