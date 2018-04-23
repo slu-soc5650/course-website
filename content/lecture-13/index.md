@@ -22,6 +22,10 @@ weight: 32
 {{< button "Lab-12" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lab-12/lab-12.pdf" >}}
 {{< button "LP-12" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lp-12/lp-12.pdf" >}}
 
+## Lecture Slides
+<p> </p>
+{{< speakerdeck 23151d99a80c41d7b9492400e5eb4e7b >}}
+
 ## Lecture Prep 13 Replication
 <p> </p>
 {{< youtube paV4yxw5m9w >}}
