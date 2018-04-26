@@ -17,7 +17,7 @@ weight: 33
 ## Resources
 
 {{< github "slu-soc5650" "lecture-14" >}}
-{{< button "ArcMap" "https://github.com/slu-soc5650/lecture-13/blob/master/handouts/lecture-14-arcmap.pdf" >}}
-{{< button "Lab-13" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lab-13/lab-13.pdf" >}}
-{{< button "LP-13" "https://github.com/slu-soc5650/lecture-13/blob/master/assignments/lp-13/lp-13.pdf" >}}
+{{< button "ArcMap" "https://github.com/slu-soc5650/lecture-14/blob/master/handouts/lecture-14-arcmap.pdf" >}}
+{{< button "Lab-13" "https://github.com/slu-soc5650/lecture-14/blob/master/assignments/lab-13/lab-13.pdf" >}}
+{{< button "LP-13" "https://github.com/slu-soc5650/lecture-14/blob/master/assignments/lp-13/lp-13.pdf" >}}
 
