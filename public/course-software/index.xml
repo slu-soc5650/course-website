@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course-softwares on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/course-software/</link>
+    <link>https://slu-soc5650.github.io/course-software/</link>
     <description>Recent content in Course-softwares on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="/course-software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/course-software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Course Software</title>
-      <link>/course-software/</link>
+      <link>https://slu-soc5650.github.io/course-software/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-software/</guid>
+      <guid>https://slu-soc5650.github.io/course-software/</guid>
       <description>Meta 
 Overview We rely on several packages that require additional steps to install and use. This section provides details on installing the sf package as well as the development version of ggplot2.
 sf sf is a package for working with spatial data in R. It is the most &amp;ldquo;modern&amp;rdquo;, which means it can sometimes be difficult to find examples or help online. This has changed significantly since I first started using it, and the developers are continuing to add vignettes and expand their userbase.</description>
