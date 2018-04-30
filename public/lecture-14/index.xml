@@ -2,25 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-14s on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/lecture-14/</link>
+    <link>/lecture-14/</link>
     <description>Recent content in Lecture-14s on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/lecture-14/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-14/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 14 - Digitizing Data</title>
-      <link>https://slu-soc5650.github.io/lecture-14/</link>
+      <link>/lecture-14/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/lecture-14/</guid>
+      <guid>/lecture-14/</guid>
       <description>Meta 
 Key Topics  ArcMap  Digtizing data   Remote sensing 
-Resources Open on   ArcMap  Lab-13  LP-13</description>
+Resources Open on   ArcMap  Lab-13  LP-13 
+Lecture Slides</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@ weight: 33
 
 ## Meta
 ![](https://img.shields.io/badge/semester-spring%202018-orange.svg) 
-![](https://img.shields.io/badge/release-draft-red.svg) 
+![](https://img.shields.io/badge/release-lecture-orange.svg) 
 [![](https://img.shields.io/badge/last%20update-2018--04--27-brightgreen.svg)](https://github.com/slu-soc5650/lecture-11/blob/master/NEWS_SITE.md)
 
 ## Key Topics
@@ -21,3 +21,6 @@ weight: 33
 {{< button "Lab-13" "https://github.com/slu-soc5650/lecture-14/blob/master/assignments/lab-13/lab-13.pdf" >}}
 {{< button "LP-13" "https://github.com/slu-soc5650/lecture-14/blob/master/assignments/lp-13/lp-13.pdf" >}}
 
+## Lecture Slides
+<p> </p>
+{{< speakerdeck 1423381e2c8046c2a1d29bc237e5e9dd >}}
