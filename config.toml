@@ -142,6 +142,11 @@ googleAnalytics = ""
 	weight = 33
 
 [[menu.main]]
+	name   = "Lecture 15 - Geocoding Data"
+	url    = "lecture-15/"
+	weight = 34
+
+[[menu.main]]
 	name   = "Final Project"
 	url    = "final-project/"
 	weight = 40

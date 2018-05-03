@@ -5,7 +5,7 @@ weight: 41
 ---
 ![](https://img.shields.io/badge/semester-spring%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) ![](https://img.shields.io/badge/last%20update-2018--03--25-brightgreen.svg)
 
-The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. *Italicized items* are only covered in the readings. If you have additions or suggestions, please let Chris know! 
+The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. *Italicized items* are only covered in the readings. If you have additions or suggestions, please let Chris know!
 
 ## A-D
 - American Community Survey ([Lecture-08](/lecture-08/))
@@ -15,13 +15,13 @@ The following is a list of topics and skills covered during the semester. This w
 - Assignment operator, `<-` ([Lecture-01](/lecture-01/))
 - `base`, see "[`R`, `base`](/topic-index/#q-t)"
 - Broken data connections, repairing ([Lecture-04](/lecture-04/))
-- Cartography 
+- Cartography
   - Basic design principles ([Lecture-01](/lecture-01/))
   - Visual hirearchy ([Lecture-04](/lecture-04/))
 - Centroids ([Lecture-09](/lecture-09/))
   - Calcuating in ArcGIS
-  - Calculating in `R`, see [`sf`](/topic-index/#q-t) 
-- Coordinate system 
+  - Calculating in `R`, see [`sf`](/topic-index/#q-t)
+- Coordinate system
   - EPSG codes ([Lecture-10](/lecture-10/))
   - Geographic coordinate systems ([Lecture-10](/lecture-10/))
       - and Datums
@@ -35,8 +35,8 @@ The following is a list of topics and skills covered during the semester. This w
       - State plane system
       - UTM system
   - Working with in `ArcGIS` ([Lecture-10](/lecture-10/))
-  - Working with in `R`, see [`sf`](/topic-index/#q-t) 
-- Census geography 
+  - Working with in `R`, see [`sf`](/topic-index/#q-t)
+- Census geography
   - Downloading, see [`tigris`](/topic-index/#q-t) ([Lecture-08](/lecture-08/))
   - Overview ([Lecture-04](/lecture-04/))
 - Coral, Lilian ([Course Preview](/course-preview/))
@@ -51,14 +51,14 @@ The following is a list of topics and skills covered during the semester. This w
 - Descartes, Rene ([Lecture-10](/lecture-10/))
 - `devtools`, see "[GitHub, Install packages from](/topic-index/#e-h)"
 - `dplyr`, see [`tidyverse`](/topic-index/#q-t)
-  
+
 ## E-H
 - Folder connections ([Lecture-04](/lecture-04/))
 - Fonts, see "[Typography](/topic-index/#q-t)"
 - Gauss, Carl Fredrich ([Lecture-10](/lecture-10/))
 - Geodatabases
   - Overview ([Lecture-04](/lecture-04/))
-- Geographic coordinate system, see "[Coordinate system](/topic-index/#a-d)" 
+- Geographic coordinate system, see "[Coordinate system](/topic-index/#a-d)"
 - `ggplot2`, see [`tidyverse`](/topic-index/#q-t)
 - Git ([Lecture-02](/lecture-02/))
 - GitHub
@@ -76,12 +76,12 @@ The following is a list of topics and skills covered during the semester. This w
   - in `R` with `leaflet` ([Lecture-01](/lecture-01/)), see also "`leaflet`"
   - Los Angeles GeoHub ([Course Preview](/course-preview/))
 - `janitor` - data cleaning ([Lecture-03](/lecture-03/))
-  - Duplicate observation analysis, `get_dupes()` 
+  - Duplicate observation analysis, `get_dupes()`
   - Rename variables en-mase, `clean_names()`
 - Layers in ArcGIS ([Lecture-04](/lecture-04/))
-  - Adding and removing 
-  - Editing symbology 
-  - Reordering 
+  - Adding and removing
+  - Editing symbology
+  - Reordering
 - `leaflet`, see also "Interactive maps"
   - Adding map tiles, `addTiles()` (Lectures [01](/lecture-01/) and [10](/lecture-10/))
   - Adding markers to map, `addMarkers()` (Lectures [01](/lecture-01/) and [10](/lecture-10/))
@@ -136,11 +136,11 @@ The following is a list of topics and skills covered during the semester. This w
 - Scale (Lectures [03](/lecture-03/) and [04](/lecture-04/))
 - Selecting features ([Lecture-04](/lecture-04/))
 - Shapefiles ([Lecture-04](/lecture-04/))
-  - Copy-and-pasting using ArcCatalog 
-  - Deleting using ArcCatalog 
-  - Overview 
+  - Copy-and-pasting using ArcCatalog
+  - Deleting using ArcCatalog
+  - Overview
 - Spatial autocorrelation ([Lecture-03](/lecture-03/))
-- Spatial joins 
+- Spatial joins
   - in ArcMap ([Lecture-09](/lecture-09/))
       - Point to polygon joins
       - Polygon to point joins
@@ -153,7 +153,7 @@ The following is a list of topics and skills covered during the semester. This w
   - Download decennial census data, `get_decennial()`
   - Download list of variables, `load_variables()`
   - Set-up, `census_api_key()`
-  
+
 - `tidyverse`
   - `dplyr` - data wrangling
       - convert to tibble, `as_tibble()`
@@ -164,7 +164,7 @@ The following is a list of topics and skills covered during the semester. This w
       - subsetting data by column, `select()` ([Lecture-03](/lecture-03/))
       - subsetting data by observation, `filter()` ([Lecture-03](/lecture-03/))
       - table joins, left, `left_join()` ([Lecture-09](/lecture-09/))
-  - `ggplot2` - data plotting 
+  - `ggplot2` - data plotting
       - create plot object, `ggplot()` ([Lecture-02](/lecture-02/))
       - histgoram, `geom_histogram()` ([Lecture-02](/lecture-02/))
       - map with `sf`, `geom_sf()` ([Lecture-04](/lecture-04/))
@@ -176,6 +176,6 @@ The following is a list of topics and skills covered during the semester. This w
 
 ## U-Z
 - `utils` ([Lecture-01](/lecture-01/))
-  - Install packages from CRAN, `install.packages()` 
+  - Install packages from CRAN, `install.packages()`
   - Structure of an object, `str()`
   - Spreadsheet-like data view, `View()`
