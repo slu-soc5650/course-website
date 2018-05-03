@@ -24,3 +24,7 @@ weight: 33
 ## Lecture Slides
 <p> </p>
 {{< speakerdeck 1423381e2c8046c2a1d29bc237e5e9dd >}}
+
+## Lecture Prep 13 Replication
+<p> </p>
+{{< youtube 4FS_JqBfz3w >}}
