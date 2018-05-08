@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLU SOC 4650 &amp; SOC 5650</title>
-    <link>/</link>
+    <link>https://slu-soc5650.github.io/</link>
     <description>Recent content on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5650.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to Geographic Information Science</title>
-      <link>/</link>
+      <link>https://slu-soc5650.github.io/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>/</guid>
+      <guid>https://slu-soc5650.github.io/</guid>
       <description>Enrollment Closed
 SOC 4650 &amp;amp; 5650 is the Department of Sociology and Anthropology&amp;rsquo;s undergraduate and graduate introductory GIS course at Saint Louis University. It is currently offered but enrollment is closed. If you have an interest in the course, you are encouraged to enroll next time it is offered, which will likely be in Spring 2019! This site is for sections taught by Assistant Professor Christopher Prener.
  Course Description This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc).</description>
