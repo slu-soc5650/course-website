@@ -7,7 +7,7 @@ weight: 34
 ## Meta
 ![](https://img.shields.io/badge/semester-spring%202018-orange.svg) 
 ![](https://img.shields.io/badge/release-lp%20only-red.svg) 
-[![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)](https://github.com/slu-soc5650/lecture-11/blob/master/NEWS_SITE.md)
+[![](https://img.shields.io/badge/last%20update-2018--05--06-brightgreen.svg)](https://github.com/slu-soc5650/lecture-11/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< tool name="ArcMap" >}}](/topic-index/#a-d)

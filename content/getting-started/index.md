@@ -7,6 +7,8 @@ weight: 10
 
 Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 22nd.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://github.com/slu-soc5650/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
+HAM
+
 ## Onboarding Checklist
 This section provides details on completing the following steps:
 
