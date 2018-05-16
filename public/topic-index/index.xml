@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topic-indices on SLU SOC 4650 &amp; SOC 5650</title>
-    <link>https://slu-soc5650.github.io/topic-index/</link>
+    <link>/topic-index/</link>
     <description>Recent content in Topic-indices on SLU SOC 4650 &amp; SOC 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a CC BY-SA 4.0 License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5650.github.io/topic-index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/topic-index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Topic Index</title>
-      <link>https://slu-soc5650.github.io/topic-index/</link>
+      <link>/topic-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5650.github.io/topic-index/</guid>
+      <guid>/topic-index/</guid>
       <description>The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
 A-D  American Community Survey (Lecture-08)  Downlading, see tidycensus  American Fact Finder (Lecture-08) Analysis development (Course Preview, Lectues 01, 02, and 04) Assignment operator, &amp;lt;- (Lecture-01) base, see &amp;ldquo;R, base&amp;ldquo; Broken data connections, repairing (Lecture-04) Cartography  Basic design principles (Lecture-01) Visual hirearchy (Lecture-04)  Centroids (Lecture-09)  Calcuating in ArcGIS Calculating in R, see sf  Coordinate system  EPSG codes (Lecture-10) Geographic coordinate systems (Lecture-10)  and Datums and Ellipsoids NAD 1983 WGS 1984  Overview (Lecture-04) Projected coordinate systems (Lecture-10)  Albers family of equal area projections Lambert family of conic projections State plane system UTM system  Working with in ArcGIS (Lecture-10) Working with in R, see sf  Census geography  Downloading, see tigris (Lecture-08) Overview (Lecture-04)  Coral, Lilian (Course Preview) Data  and levels of measurement (Lecture-03) Data types (Lecture-03) Data wranglng and cleaning (Lecture-03) Open data (Course Preview, Lecture-01) stlData, see &amp;ldquo;stlData&amp;ldquo;  Data frames in ArcGIS (Lecture-04) Demography (Lecture-08) Descartes, Rene (Lecture-10) devtools, see &amp;ldquo;GitHub, Install packages from&amp;ldquo; dplyr, see tidyverse  E-H  Folder connections (Lecture-04) Fonts, see &amp;ldquo;Typography&amp;ldquo; Gauss, Carl Fredrich (Lecture-10) Geodatabases  Overview (Lecture-04)  Geographic coordinate system, see &amp;ldquo;Coordinate system&amp;ldquo; ggplot2, see tidyverse Git (Lecture-02) GitHub  Install packages from with devtools, install_github() (Lecture-01) Integration with Git workflow (Lecture-02)  here - file path management  Create file paths, here() (Lectures 02 and 03)   I-L  Inspecting features in ArcGIS (Lecture-04) Install packages in R  From CRAN, see utils From GitHub, see devtools  Interactive maps  in R with leaflet (Lecture-01), see also &amp;ldquo;leaflet&amp;ldquo; Los Angeles GeoHub (Course Preview)  janitor - data cleaning (Lecture-03)  Duplicate observation analysis, get_dupes() Rename variables en-mase, clean_names()  Layers in ArcGIS (Lecture-04)  Adding and removing Editing symbology Reordering  leaflet, see also &amp;ldquo;Interactive maps&amp;rdquo;  Adding map tiles, addTiles() (Lectures 01 and 10) Adding markers to map, addMarkers() (Lectures 01 and 10) Adding tiles from other providers, addProviderTiles() (Lecture-01) Creating map widget, leaflet() (Lectures 01 and 10)  Literate programming (Lecture-02)  M-P  magrittr, see &amp;ldquo;Pipe operator, %&amp;gt;%&amp;ldquo; Markdown (Lecture-02)  In R, see &amp;ldquo;Markdown&amp;ldquo;  naniar - missing data (Lecture-03)  Missing data analysis by observation, miss_case_summary() Missing data analysis by variable, miss_var_summary()  Navigating map documents (Lecture-04) Normalization (Lecture-03) Open data, see &amp;ldquo;Data&amp;ldquo; Packages, see &amp;ldquo;R, Packages&amp;ldquo; Parker, Hilary (Course Preview) Pipe operator, %&amp;gt;% (Lectures 01 and 03) Projected coordinate system, see &amp;ldquo;Coordinate system&amp;ldquo; Public saftey  Cyclist saftey (Course Preview) Pedestrian saftey (Course Preview)   Q-T  R  base  if-else statements, ifelse() (Lecture-03) get class, class() (Lecture-09) test if vector is character, is.</description>
     </item>
