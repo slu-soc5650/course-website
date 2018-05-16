@@ -40,4 +40,4 @@ This website itself is the product of [Yihui Xie's](https://yihui.name) work on 
 
 Finally, I want to acknowledge my now eight semesters' worth of students in GIS as well as statistics, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. For example, the [topic](/topic-index/) and [package indexes](/package-index/) on this site are direct responses to student suggestions and feedback. I am immensely grateful for each of your contributions to my research methods courses.
 
-[^1]: This course focuses largely on data for the United States, though we do briefly discuss data standards and projection systems for mapping the entire world as well as other countries.
+[^1]: This course focuses largely on data for the United States, though we do briefly discuss data standards and projection systems for mapping the entire world as well as other countries. There are also a small number of assignments each semester that use data that is not specific to the United States.
