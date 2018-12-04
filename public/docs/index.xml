@@ -7,20 +7,71 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Christopher G. Prener</copyright>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Page</title>
-      <link>/docs/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
+      <title>Course Onboarding</title>
+      <link>/docs/course-onboarding/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       
-      <guid>/docs/example/</guid>
-      <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
-Tip 1 &amp;hellip;
-Tip 2 &amp;hellip;</description>
+      <guid>/docs/course-onboarding/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+Resources Onboarding Checklist 
+Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on January 14th. Before you do anything else, though, you should read through the Syllabus. Make sure you have a good sense of what is required for the course.</description>
+    </item>
+    
+    <item>
+      <title>Course Preview</title>
+      <link>/docs/course-preview/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/course-preview/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+Key Topics &amp;nbsp; Analysis development &amp;nbsp; Interactive maps &amp;nbsp; Open data &amp;nbsp; Reproducibility
+Open Data and GIS in Los Angeles One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semseter is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible.</description>
+    </item>
+    
+    <item>
+      <title>Course Software</title>
+      <link>/docs/course-software/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/course-software/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+Overview This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language R, the graphical user interface for R called RStudio, and GitHub Desktop. As I noted on the course onboarding page, there are two choices for accessing software. Please read through the course onboarding page page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer.</description>
+    </item>
+    
+    <item>
+      <title>Final Project</title>
+      <link>/docs/project/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/project/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04</description>
+    </item>
+    
+    <item>
+      <title>Topic Index</title>
+      <link>/docs/topic-index/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/topic-index/</guid>
+      <description> Overview A-D  Analysis development (Course Preview)  E-H I-L  Interactive maps (Course Preview)  M-P  Open data (Course Preview)  Q-T  Reproducibility (Course Preview)  U-Z </description>
+    </item>
+    
+    <item>
+      <title>Writing in Markdown</title>
+      <link>/docs/markdown/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/markdown/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+Resources RMarkdown Cheatsheet  RMarkdown Reference Guide 
+Basics Markdown is a simple markup language. Markup languages are used to give computer programs directions on how particular blocks of text should be processed. Markdown was developed in 2004 by writer and developer John Gruber. Gruber describes Markdown on his website:
+ Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</description>
     </item>
     
   </channel>

@@ -1,0 +1,60 @@
+.meta-badge {
+    border-radius: 2px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.semester-sp19 {
+    background-color: #1e49ff;
+    border: 2px solid #1e49ff;
+}
+
+.progress-draft {
+    background-color: #ff1e49;
+    border: 2px solid #ff1e49;
+}
+
+.progress-lecture {
+    background-color: #FF641E;
+    border: 2px solid #FF641E;
+}
+
+.progress-full,
+.progress-update,
+.keyword {
+    background-color: #259b24;
+    border: 2px solid #259b24;
+}
+
+.package {
+    background-color: #6889ff;
+    border: 2px solid #6889ff;
+    font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+}
+
+.tool {
+    background-color: #24259b;
+    border: 2px solid #24259b;
+}
+
+.resource {
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

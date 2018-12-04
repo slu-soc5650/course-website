@@ -4,8 +4,24 @@
     
     <url>
     
-      <loc>/docs/example/</loc>
-      <lastmod>2018-09-09T00:00:00-05:00</lastmod>
+      <loc>/docs/course-onboarding/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/course-preview/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/course-software/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -13,7 +29,31 @@
     <url>
     
       <loc>/docs/</loc>
-      <lastmod>2018-09-09T00:00:00-05:00</lastmod>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/project/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/topic-index/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/docs/markdown/</loc>
+      <lastmod>2018-12-04T00:00:00-06:00</lastmod>
     </url>
     
   
