@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview on SLU SOC 4650 and 5650</title>
-    <link>/tutorial/</link>
+    <link>/docs/</link>
     <description>Recent content in Overview on SLU SOC 4650 and 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2019 Christopher G. Prener</copyright>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example Page</title>
-      <link>/tutorial/example/</link>
+      <link>/docs/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
       
-      <guid>/tutorial/example/</guid>
+      <guid>/docs/example/</guid>
       <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
 Tip 1 &amp;hellip;
 Tip 2 &amp;hellip;</description>

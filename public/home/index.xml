@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Christopher Prener&#39;s DataViz Gallery</title>
+    <title>Homes on SLU SOC 4650 and 5650</title>
     <link>/home/</link>
-    <description>Recent content in Homes on Christopher Prener&#39;s DataViz Gallery</description>
+    <description>Recent content in Homes on SLU SOC 4650 and 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Christopher G. Prener</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2017-2019 Christopher G. Prener</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to GIS</title>
+      <link>/home/hero/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description>An introduction to fundamental techniques for geospatial data science and geoscience using a modern GIS toolkit that includes ArcGIS Pro and the programming language R.</description>
+    </item>
     
     <item>
       <title></title>
@@ -31,15 +40,6 @@
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
-      
-      <guid>/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
@@ -47,15 +47,6 @@
       <guid>/home/about/</guid>
       <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
-      
-      <guid>/home/skills/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -68,12 +59,40 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
+      <title>Course Description</title>
+      <link>/home/description/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/home/description/</guid>
+      <description>This class introduces both the theoretical and technical skills that constitute the nascent field of geospatial data science. Techniques introduced include map production and cartography, spatial data cleaning and management, and the manipulation of both tabular and spatial data. The course incorporates a wide variety of social, economic, health, urban, meteorological, and environmental data. These data are mapped at a variety of extents, from the City of St. Louis to the St.</description>
+    </item>
+    
+    <item>
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>/home/publications_selected/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thanks</title>
+      <link>/home/acknowledge/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/home/acknowledge/</guid>
+      <description>Like many things in academia, the &amp;ldquo;final&amp;rdquo; product here is the result of others&amp;rsquo; hard work as well as my own. I owe gratitude and thanks to Hadley Wickham, whose data science tools are featured as part of this course. I also draw significant inspiration from Jenny Bryan, whose Stat 545 course has served as a significant resource and a model for my own teaching.
+This website itself is the product of Yihui Xie&amp;rsquo;s work on the blogdown package for R as well as&amp;hellip;</description>
     </item>
     
     <item>

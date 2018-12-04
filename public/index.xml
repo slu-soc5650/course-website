@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Christopher Prener&#39;s DataViz Gallery on Christopher Prener&#39;s DataViz Gallery</title>
+    <title>SLU SOC 4650 and 5650 on SLU SOC 4650 and 5650</title>
     <link>/</link>
-    <description>Recent content in Christopher Prener&#39;s DataViz Gallery on Christopher Prener&#39;s DataViz Gallery</description>
+    <description>Recent content in SLU SOC 4650 and 5650 on SLU SOC 4650 and 5650</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Christopher G. Prener</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2017-2019 Christopher G. Prener</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Example Page</title>
-      <link>/tutorial/example/</link>
+      <link>/docs/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
       
-      <guid>/tutorial/example/</guid>
+      <guid>/docs/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;

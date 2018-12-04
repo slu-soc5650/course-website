@@ -9,11 +9,11 @@
 baseurl = "/"
 
 # Title of your site
-title = "Christopher Prener's DataViz Gallery"
+title = "SLU SOC 4650 and 5650"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 Christopher G. Prener"
+copyright = "&copy; 2017-2019 Christopher G. Prener"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -62,11 +62,11 @@ enableGitInfo = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "chris.prener@slu.edu"
+  address = "1918 Morrissey Hall"
+  office_hours = "Wednesdays 10am-noon, 3600 Morrissey Hall"
+  phone = ""
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -99,7 +99,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "ocean"
+  color_theme = "forest"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -286,14 +286,19 @@ enableGitInfo = false
   align_right = true
 
 [[menu.main]]
-  name = "Gallery Home"
-  url = "/"
+  name = "Description"
+  url = "#description"
   weight = 1
 
 [[menu.main]]
-  name = "Chris's Homepage"
-  url = "https://chris-prener.github.io"
-  weight = 2
+  name = "Resources"
+  url = "#skills"
+  weight = 1
+
+[[menu.main]]
+  name = "Docs"
+  url = "/docs"
+  weight = 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

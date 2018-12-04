@@ -1,7 +1,7 @@
 +++
 # Contact widget.
 widget = "contact"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 title = "Contact"
@@ -17,6 +17,6 @@ autolink = true
 #   0: Disable email form
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
-email_form = 2
+email_form = 0
 +++
 

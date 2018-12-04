@@ -4,13 +4,13 @@ widget = "featurette"  # Do not modify this line!
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = false
+active = true
 
-title = "Skills"
+title = "Resources"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 7
+weight = 15
 
 # Showcase personal skills or business features.
 # 
@@ -22,21 +22,39 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
+  icon = "book"
+  icon_pack = "fas"
+  name = "[Syllabus](https://slu-soc5650.github.io/syllabus)"
+  description = "policies, assignments, due dates"
+  
+[[feature]]
+  icon = "briefcase"
+  icon_pack = "fas"
+  name = "[Docs](/docs)"
+  description = "general and lecture-specific notes"  
+  
+[[feature]]
+  icon = "github"
+  icon_pack = "fab"
+  name = "[GitHub Org](https://github.com/slu-soc5650)"
+  description = "course repositories"
+
+[[feature]]
+  icon = "discourse"
+  icon_pack = "fab"
+  name = "[Discussion](/)"
+  description = "ask questions"
+
+[[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  name = "[*R for Data Science*](http://r4ds.had.co.nz)"
+  description = "data science in `R`"
+
 [[feature]]
-  icon = "chart-line"
+  icon = "globe-americas"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "[*Geocomputation with R*](https://geocompr.robinlovelace.net)"
+  description = "GIS in `R`"
 
 +++
