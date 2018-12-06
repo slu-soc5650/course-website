@@ -11,7 +11,7 @@ type = "docs"  # Do not modify.
 # Add menu entry to sidebar.
 linktitle = "Course Onboarding"
 [menu.docs]
-  parent = "First Steps"
+  parent = "Getting Started"
   weight = 1
 +++
 

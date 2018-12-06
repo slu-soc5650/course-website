@@ -11,8 +11,8 @@ type = "docs"  # Do not modify.
 # Add menu entry to sidebar.
 linktitle = "Course Preview"
 [menu.docs]
-  parent = "Lectures"
-  weight = 1
+  parent = "Getting Started"
+  weight = 3
 +++
 
 ## Meta

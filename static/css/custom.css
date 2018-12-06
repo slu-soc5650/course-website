@@ -1,3 +1,9 @@
+a:hover,
+a:focus {
+  color: #b3b3b3;
+}
+
+
 .meta-badge {
     border-radius: 2px;
     color: white;
@@ -13,12 +19,13 @@
     font-size: 12px;
 }
 
-.semester-sp19 {
+.semester-sp19,
+.tool {
     background-color: #1e49ff;
     border: 2px solid #1e49ff;
 }
 
-.progress-draft {
+.progress-draft{
     background-color: #ff1e49;
     border: 2px solid #ff1e49;
 }
@@ -29,21 +36,16 @@
 }
 
 .progress-full,
-.progress-update,
+.progress-update, 
 .keyword {
     background-color: #259b24;
     border: 2px solid #259b24;
 }
 
 .package {
-    background-color: #6889ff;
-    border: 2px solid #6889ff;
+    background-color: #5f249b;
+    border: 2px solid #5f249b;
     font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
-}
-
-.tool {
-    background-color: #24259b;
-    border: 2px solid #24259b;
 }
 
 .resource {

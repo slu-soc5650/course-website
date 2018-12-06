@@ -11,6 +11,792 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Approaching Coursework</title>
+      <link>/docs/course-approach/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/course-approach/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Students have varying experiences learning computational techniques. For some, the math and programming that are the foundation for modern data science techniques come naturally. For others, being introduced to these concepts can be an anxiety producing experience. I am fond the phrase &amp;ldquo;your mileage will vary&amp;rdquo; for describing these differences - no two students have the exact same experience taking a computational methods course. Like the previous chapter, some of the content below is specific to the courses (&lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;) I teach at &lt;a href=&#34;https://www.slu.edu&#34; target=&#34;_blank&#34;&gt;Saint Louis University&lt;/a&gt;, the general outlook on approaching data science work that I describe below is hopefully applicable in a far wider arena.&lt;/p&gt;
+
+&lt;h2 id=&#34;zen-and-the-art-of-data-analysis&#34;&gt;Zen and the Art of Data Analysis&lt;/h2&gt;
+
+&lt;p&gt;One of the biggest challenges with this course can be controlling the anxiety that comes along with learning new skills. &lt;code&gt;R&lt;/code&gt; syntax, GIS terms, LaTeX commands, and Markdown can seem like foreign alphabets at first. Debugging &lt;code&gt;R&lt;/code&gt; syntax can be both challenging and a large time suck, in part because you are not yet fluent with this language. Imagine trying to proofread a document written in a language that you only know in a cursory way but where you must find minute inconsistencies like misplaced commas.&lt;/p&gt;
+
+&lt;p&gt;For this reason, I also think it is worth reminding you that many students in the social sciences struggle with computational methods at first. It is normal to find this challenging and frustrating. I find that students who can recognize when they are beginning to go around in circles are often the most successful at managing the issues that will certainly arise during this course. Recognizing the signs that you are starting to spin your wheels and taking either ten minutes, an hour or two, or a day away from computational coursework is often a much better approach than trying to power through problems.&lt;/p&gt;
+
+&lt;p&gt;Data analysis therefore requires a certain mindfulness. I mentioned in the [Preface] that much of what this book covers are &amp;ldquo;habits of mind and habits of method&amp;rdquo;. These mental habits extend past being able to recognize that frustration is setting in. They also include the mental habits needed for [Getting and Staying Organized] and strategies for [Getting Help] as you navigate the inevitable errors that come with learning new analytically skills.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-and-staying-organized&#34;&gt;Getting and Staying Organized&lt;/h2&gt;
+
+&lt;p&gt;Doing data science work, and having the space to step away for a day as the last section suggests, requires discipline and organization. Similarly, computational coursework can demanding not just because it is complex but because the courses often have a number of moving pieces that you need to keep track of. Being mindful of this challenge from the beginning, and taking steps to plan for it, is an important part of this course.&lt;/p&gt;
+
+&lt;h3 id=&#34;keeping-track-of-where-you-are&#34;&gt;Keeping Track of Where You Are&lt;/h3&gt;
+
+&lt;p&gt;Students who have some system for tracking their work and creating to-do lists are often the most successful in this course, not because they have a fundamentally better grasp on the content but because they simply are more organized. If you have never thought particularly hard about how you manage tasks, now is an excellent time to start doing so. You do not need fancy computer software to accomplish this, though there are an array of possibilities if you do want to use software to keep yourself organized. A legal pad or a notebook can be just as effective as a $50 to-do list manager. The point is, do &lt;em&gt;something&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;I am fond of recommending the &lt;a href=&#34;http://gettingthingsdone.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Getting Things Done&lt;/strong&gt;&lt;/a&gt; methodology to students as part of thinking more holistically about staying organized. The website &lt;a href=&#34;https://lifehacker.com&#34; target=&#34;_blank&#34;&gt;Lifehacker&lt;/a&gt; posted an &lt;a href=&#34;https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955&#34; target=&#34;_blank&#34;&gt;excellent introduction to GTD&lt;/a&gt; that is a great way to get a sense of how it works and find additional resources for implementing it.&lt;/p&gt;
+
+&lt;p&gt;The GTD website has a &lt;a href=&#34;http://gettingthingsdone.com/common-tools-software/&#34; target=&#34;_blank&#34;&gt;great list of software&lt;/a&gt; for those of you looking for a to-do list application. One that isn&amp;rsquo;t listed that I use for collaborating with my student research team is &lt;a href=&#34;https://trello.com&#34; target=&#34;_blank&#34;&gt;Trello&lt;/a&gt;, a freemium website that allows you to create simple to-do lists. It isn&amp;rsquo;t sophisticated enough for implementing GTD, but it is more than sufficient for managing to-do lists related to this course.&lt;/p&gt;
+
+&lt;h3 id=&#34;managing-course-materials&#34;&gt;Managing Course Materials&lt;/h3&gt;
+
+&lt;p&gt;For both courses covered by this book, materials will be disseminated in physical and digital form. The topic of keeping digital materials organized is the subject of the next chapter [Protecting Your Work]. The physical handouts and materials that we&amp;rsquo;ll give out will all come three hole punched, and you are expected to purchase a three-ring binder for this course. I give out enough handouts that, without a binder, it becomes difficult to keep track of where handouts are located. I have watched students spend more time looking for the handout than it takes to find the answer to their question once they have the handout itself.&lt;/p&gt;
+
+&lt;p&gt;There are two recommended ways to keep your binder tidy. One is to organize by lecture. There are sixteen lectures worth of handouts in both courses (not including the course preview and the final research conference session), so two sets of dividers (which often come in packs of eight) should be sufficient. The other way to organize handouts is by topic. We hand out a number of different types of documents that could be organized thematically like so:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Syllabus and reading list&lt;/li&gt;
+&lt;li&gt;Workflow diagrams&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;R&lt;/code&gt; function sheets&lt;/li&gt;
+&lt;li&gt;ArcGIS process sheets (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt; only)&lt;/li&gt;
+&lt;li&gt;LaTeX command sheets (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt; only)&lt;/li&gt;
+&lt;li&gt;Sample outputs&lt;/li&gt;
+&lt;li&gt;Exercise handouts&lt;/li&gt;
+&lt;li&gt;Lab handouts&lt;/li&gt;
+&lt;li&gt;Problem set handouts&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Since there are approximately eight different types of handouts in each class, a single package of dividers should be sufficient for this approach to organizing them.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think that one way of organization, thematically or temporally, is inherently better or worse than the other. In large part it comes down to how &lt;em&gt;you&lt;/em&gt; like to organize information. After all, learning how to process and organize information in a way that works for you is the most important takeaway here.&lt;/p&gt;
+
+&lt;h2 id=&#34;staying-current&#34;&gt;Staying Current&lt;/h2&gt;
+
+&lt;p&gt;Course content is maintained both on the respective course websites (&lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt;) and GitHub organizations (&lt;a href=&#34;https://github.com/slu-soc5050&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; and &lt;a href=&#34;https://github.com/slu-soc5650&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt;). Course materials are available throughout the semester and after the course is done. This creates two challenges. First, for all students, attention must be paid to when updates are pushed to GitHub and the course website. This is particularly true for content updated &lt;em&gt;after&lt;/em&gt; a lecture. Second, for students who like to work ahead, care must be taken to ensure that you are working off of materials for the current semester and not the last semester the course was taught. There are two ways in which I help communicate the status of course content - badges and Slack.&lt;/p&gt;
+
+&lt;h3 id=&#34;badges&#34;&gt;Badges&lt;/h3&gt;
+
+&lt;p&gt;I use badges on both the GitHub &lt;code&gt;README.md&lt;/code&gt; files in individual lecture repositories and on individual lecture webpages to signal which semester the content is current for and what stage of development the content is in. These badges are used not just because they are effective but as part of a more general socialization into data science software development, where badges are used to signal development status on &lt;code&gt;R&lt;/code&gt; package GitHub repositories. For example, the &lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt; &lt;code&gt;README.md&lt;/code&gt; file looks like this:&lt;/p&gt;
+
+&lt;p&gt;There are four badges in total, all of which sit under the &lt;code&gt;ggplot2&lt;/code&gt; package name. We can see from the first two badges that &lt;a href=&#34;https://en.wikipedia.org/wiki/Continuous_integration&#34; target=&#34;_blank&#34;&gt;continuous integration services&lt;/a&gt; are used, and that &lt;code&gt;ggplot2&lt;/code&gt; is only passing its tests on one of them. The third badge indicates that the built-in tests for &lt;code&gt;ggplot2&lt;/code&gt; test 74% of the package&amp;rsquo;s code. We can also see from the fourth badge that the current version of the software on CRAN is version &lt;code&gt;2.2.1&lt;/code&gt; (as of December, 2017). Details like these are not critical when you are first learning to use &lt;code&gt;R&lt;/code&gt;, but they grow more important as your data science skills progress.&lt;/p&gt;
+
+&lt;p&gt;We use the following badges for our course repositories and on the course websites:&lt;/p&gt;
+
+&lt;p&gt;Here is an example of how the badges look on a course repository. As of January 2018, the &lt;code&gt;README.md&lt;/code&gt; associated with the &lt;a href=&#34;https://github.com/slu-soc5050/Core-Documents&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Core-Documents&lt;/code&gt; repository&lt;/a&gt; for &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; looked like this:&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;README.md&lt;/code&gt; badges, from left to right, represent the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;semester&lt;/strong&gt;: the contents are current for the Fall 2017 semester&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;release&lt;/strong&gt;: the contents have been updated since they were first released to students&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: the version number of the repository (see [Versioning] below) is &lt;code&gt;v17.4.2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;last commit&lt;/strong&gt;: the last time the repository was edited was the day the screenshot was taken&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;repo size&lt;/strong&gt;: the repository size is 2.46 megabytes (MB, see &lt;a href=&#34;https://www.computerhope.com/issues/chspace.htm&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; for details on what computer disk drive size measurements mean)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here is an example of how the badges look on a course website. As of January 2018, the &lt;a href=&#34;https://slu-soc5650.github.io/course-preview&#34; target=&#34;_blank&#34;&gt;Course Preview page&lt;/a&gt; for &lt;a href=&#34;https://slu-soc5650.github.io/&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt; looked like this:&lt;/p&gt;
+
+&lt;p&gt;From these three badges, we can see that the webpage is current for the Spring 2018 semester and that it is the full release - no additional updates to the site are planned. Finally, we can see the date on which the page was last updated - December 29, 2017.&lt;/p&gt;
+
+&lt;h3 id=&#34;versioning&#34;&gt;Versioning&lt;/h3&gt;
+
+&lt;p&gt;The versioning system used on course repositories is meant to emulate the release system used for data science software. Software development increasingly takes place on a website called [GitHub.com]. GitHub includes tools for packaging a repository at particular points in time. The release system allows developers to identify how an &lt;code&gt;R&lt;/code&gt; package, for instance, has changed over time. This is important for reproducibility. For instance, you can see this example of the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/releases/tag/v2.2.0&#34; target=&#34;_blank&#34;&gt;release history for &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;The package&amp;rsquo;s developers use the release system to document what has changed. We will emulate this with the &lt;code&gt;Core-Documents&lt;/code&gt;, lecture, and &lt;code&gt;finalProject&lt;/code&gt; repositories. For example, here is the release documentation for &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents&#34; target=&#34;_blank&#34;&gt;SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt; &lt;code&gt;Core-Documents&lt;/code&gt; repository&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;If you want to see what has changed over the course of the semester in a course&amp;rsquo;s repositories, you can use the release notes to compare different versions. These notes are also stored in the &lt;code&gt;NEWS.md&lt;/code&gt; file for each repository. The use of both releases and a &lt;code&gt;NEWS.md&lt;/code&gt; file is a common way to document changes on GitHub. For example, you can see look at the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/blob/master/NEWS.md&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;NEWS.md&lt;/code&gt; file for &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;, which will mirror the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/releases&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; for the package.&lt;/p&gt;
+
+&lt;p&gt;In software development, &lt;a href=&#34;https://en.wikipedia.org/wiki/Software_versioning&#34; target=&#34;_blank&#34;&gt;version numbers&lt;/a&gt; are used along with releases to make it easy for end users to keep track of how releases have progressed. In the picture above of the &lt;code&gt;ggplot2&lt;/code&gt; package&amp;rsquo;s &lt;code&gt;README.md&lt;/code&gt; (see [Badges]), one of the badges indicated the version of the software that was available via CRAN - &lt;code&gt;2.2.1&lt;/code&gt;. The initial &lt;code&gt;2&lt;/code&gt; is what is known as the major release number. Major releases typically represent large changes to the software. The second number, also a &lt;code&gt;2&lt;/code&gt; in this case, represents the minor release number. Minor releases introduce fewer changes and may be aimed more at fixing issues. Finally, the &lt;code&gt;1&lt;/code&gt; represents the patch release number. Patch (or maintenance) releases are aimed exclusively at fixing bugs and issues.&lt;/p&gt;
+
+&lt;p&gt;For the course, version numbers will also have three parts. From left to right, the first pair of digits represents the year of the current course offering, the second pair represents whether it the development status is (&lt;code&gt;1&lt;/code&gt;) draft, (&lt;code&gt;2&lt;/code&gt;) lecture, (&lt;code&gt;3&lt;/code&gt;) full, and (&lt;code&gt;4&lt;/code&gt;) updated, and the final number represents maintenance changes that do not rise to a change in the development status. For example, &lt;code&gt;v18.1.1&lt;/code&gt; would represent the initial maintenance release for the 2018 version of a course that is in the draft development stage.&lt;/p&gt;
+
+&lt;p&gt;If you see a version number like &lt;code&gt;v18.1.1.9000&lt;/code&gt; in &lt;code&gt;NEWS.md&lt;/code&gt;, the notes will be tracking changes that have not been incorporated into an official release yet. The use of the &lt;code&gt;9000&lt;/code&gt; designation follows &lt;a href=&#34;http://r-pkgs.had.co.nz/release.html&#34; target=&#34;_blank&#34;&gt;common practice in the &lt;code&gt;R&lt;/code&gt; community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;discourse&#34;&gt;Discourse&lt;/h3&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Help</title>
+      <link>/docs/getting-help/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/getting-help/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;reprex&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;One of the biggest challenges for students first learning tools like &lt;code&gt;R&lt;/code&gt;, ArcGIS, and LaTeX is dealing with the inevitable speed-bumps and errors that come along with scientific computing. Remember, first and foremost, that these tools are not consumer software. They do not always &amp;ldquo;just work&amp;rdquo;, to borrow a turn of phrase from &lt;a href=&#34;https://en.wikipedia.org/wiki/Steve_Jobs&#34; target=&#34;_blank&#34;&gt;Steve Jobs&lt;/a&gt;. Learning strategies for navigating issues when the software is most definitely not working is therefore an important part of success.&lt;/p&gt;
+
+&lt;p&gt;One misconception that I think is important to confront is that data analysts, software engineers, and others who appear to be experts may indeed be very good at what they do, but they are equally skilled at problem solving. This &lt;a href=&#34;https://www.xkcd.com/627/&#34; target=&#34;_blank&#34;&gt;xkcd comic&lt;/a&gt;  illustrates (a bit sarcastically!) the point:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/tech_support_cheat_sheet.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Navigating challenges with data science may not be quite as easy following the flowchart above, but there are definitely strategies for working your way through errors and challenges in data science work.&lt;/p&gt;
+
+&lt;h2 id=&#34;helping-yourself&#34;&gt;Helping Yourself&lt;/h2&gt;
+
+&lt;p&gt;As I noted in [Zen and the Art of Data Analysis], a key challenge of data science work is mental. One of the traits I see frequently among students who are confronted with errors is that they stop working and wait for office hours or they immediately ask a question on Slack. Both office hours and Slack are excellent options for getting help, but there are a few strategies you should pursue first.&lt;/p&gt;
+
+&lt;p&gt;Before you doing anything else, however, &lt;em&gt;take a deep breath&lt;/em&gt; and consider taking a break. When you being trying to fix the issue, check the time. I have spent hours trying to fix some code in &lt;code&gt;R&lt;/code&gt; or mis-projected data in ArcGIS without success, and I have seen students do the same. Give yourself an hour time limit to try the steps below before you move on to constructing a reproducible example and asking for help from others.&lt;/p&gt;
+
+&lt;h3 id=&#34;check-spelling&#34;&gt;Check Spelling&lt;/h3&gt;
+
+&lt;p&gt;With &lt;code&gt;R&lt;/code&gt;, the number one cause of errors that I see are misspellings. If objects in the global environment or variable names within a data frame are not spelled correctly (case matters!), you will get an error that an object cannot be found. The same goes for package and function names - they must be spelled 100% correctly.&lt;/p&gt;
+
+&lt;h3 id=&#34;check-course-resources&#34;&gt;Check Course Resources&lt;/h3&gt;
+
+&lt;p&gt;If the issue is one other students have come across as well, it is likely to be discussed on Slack in the relevant channel. I may have also updated some of the course handouts or the relevant lecture&amp;rsquo;s course webpage with details for how to address the concern. Check both Slack and the webpage for updates before digging deeper. Check the topic index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/topic-index/&#34; target=&#34;_blank&#34;&gt;GIS topic index&lt;/a&gt;) for links to different lectures where concepts or processes were covered.&lt;/p&gt;
+
+&lt;h3 id=&#34;check-your-process&#34;&gt;Check Your Process&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; functions and ArcGIS processes often have specific parameters and requirements. If you have double checked your spelling and are sure (100% sure!) that spelling is not an issue, check to make sure that you have followed all of the requirements of the workflow for the skill you are stuck on. There are two different ways to go about doing this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Check the course handouts and lecture slides for the relevant processes. If you cannot remember where the concepts were introduced, check the topic index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/topic-index/&#34; target=&#34;_blank&#34;&gt;GIS topic index&lt;/a&gt;). When I introduce processes, I often skip some (or many!) of the associated arguments and options, so the course materials are often easier to navigate than materials for other sources.&lt;/li&gt;
+&lt;li&gt;Search official documentation sources:
+
+&lt;ul&gt;
+&lt;li&gt;For &lt;code&gt;R&lt;/code&gt;, check package documentation files on CRAN. These are linked to in the package index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/package-index/&#34; target=&#34;_blank&#34;&gt;GIS package index&lt;/a&gt;). You can also use &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;CRAN&amp;rsquo;s website&lt;/a&gt; to search for package information.&lt;/li&gt;
+&lt;li&gt;For ArcGIS, check ESRI&amp;rsquo;s &lt;a href=&#34;http://desktop.arcgis.com/en/arcmap/&#34; target=&#34;_blank&#34;&gt;official documentation files&lt;/a&gt;. Make sure that you are looking at the help files for ArcGIS 10.3!&lt;/li&gt;
+&lt;li&gt;For Git and GitHub, check GitHub&amp;rsquo;s &lt;a href=&#34;https://help.github.com&#34; target=&#34;_blank&#34;&gt;help website&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;For LaTeX, &lt;a href=&#34;https://www.sharelatex.com/&#34; target=&#34;_blank&#34;&gt;ShareLaTeX&lt;/a&gt; has an excellent set of documentation files on their &lt;a href=&#34;https://www.sharelatex.com/learn/Main_Page&#34; target=&#34;_blank&#34;&gt;knowledge base&lt;/a&gt;. &lt;a href=&#34;https://ctan.org&#34; target=&#34;_blank&#34;&gt;CTAN&lt;/a&gt;, the LaTeX package repository, also contains documentation files for all packages that can be searched.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Use these resources to try and narrow down what might be causing your issue. Be mindful that the root cause of an error may be several steps back in your workflow. Walk back through your process to make sure your initial steps are not the cause of the error.&lt;/p&gt;
+
+&lt;h3 id=&#34;cast-a-wider-net&#34;&gt;Cast a Wider Net&lt;/h3&gt;
+
+&lt;p&gt;If none of these resources are sufficient, there are a few other options for seeking out guidance. When you search the following sites, it is often a good idea to search based on the specific error you are getting. Take out any aspects of the error that are specific to you, like a file path in ArcGIS, a file name, or a variable name. One set of options to search are the wealth of web resources that are available for some of the tools we use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For &lt;code&gt;R&lt;/code&gt;, check out &lt;a href=&#34;https://www.rstudio.com/resources/cheatsheets/&#34; target=&#34;_blank&#34;&gt;RStudio&amp;rsquo;s cheatsheets&lt;/a&gt; and &lt;a href=&#34;https://community.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio&amp;rsquo;s community forums&lt;/a&gt;. If the package is part of the &lt;code&gt;tidyverse&lt;/code&gt;, check the &lt;a href=&#34;http://tidyverse.org&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; as well as &lt;a href=&#34;http://r4ds.had.co.nz&#34; target=&#34;_blank&#34;&gt;R for Data Science&lt;/a&gt;. Other packages have their own websites as well. For all of these resources, links are provided in the package index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/package-index/&#34; target=&#34;_blank&#34;&gt;GIS package index&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;For LaTeX, there is a &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX&#34; target=&#34;_blank&#34;&gt;LaTeX wikibook&lt;/a&gt; with some excellent resources.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another resource is &lt;a href=&#34;https://stackexchange.com&#34; target=&#34;_blank&#34;&gt;Stack Exchange&lt;/a&gt;, a network of online communities on a variety of topics including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com&#34; target=&#34;_blank&#34;&gt;Stack Overflow&lt;/a&gt; for &lt;code&gt;R&lt;/code&gt;, Git, and GitHub - search using tags like &lt;code&gt;[r]&lt;/code&gt;, &lt;code&gt;[ggplot2]&lt;/code&gt;, &lt;code&gt;[dplyr]&lt;/code&gt;, &lt;code&gt;[git]&lt;/code&gt;, &lt;code&gt;[github]&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gis.stackexchange.com&#34; target=&#34;_blank&#34;&gt;Geographic Information Systems&lt;/a&gt; for GIS - search using the &lt;code&gt;[arcgis-desktop]&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tex.stackexchange.com&#34; target=&#34;_blank&#34;&gt;TeX&lt;/a&gt; for LaTeX&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stack Exchange may have posts that address the issue or question you have. However, the match may only be partial and may require additional modification or tinkering to solve your specific concern. You may spend just as much time trying to get a Stack Exchange solution to work as you would waiting for a response on Slack, so proceed with caution if you decide to go this route.&lt;/p&gt;
+
+&lt;p&gt;Finally, if you have exhausted these other options, a Google search may be effective. This may help you identify GitHub issues, blogs, and other online tutorials that can help address whatever roadblock you have run into. Try searching first with double quotes around the main body of the error message&amp;rsquo;s text. If nothing comes up, try searching without the double quotes. Search strings that include &lt;code&gt;R&lt;/code&gt; package names or specific processes in ArcGIS are sometimes helpful for narrowing down a large amount of search results, especially if those results are not specific to the tool you are using. The same warning for Stack Exchange also exists for Google, however. You may find imperfect matches for your problem that take considerably more tinkering to implement.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-seek-help&#34;&gt;How to Seek Help&lt;/h2&gt;
+
+&lt;p&gt;If all else fails and the strategies for [Helping Yourself] have not yielded a solution, it is time to ask for help! Before you head to office hours or Slack, you will want to construct a &lt;strong&gt;reproducible example&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-your-question&#34;&gt;What is your question?&lt;/h3&gt;
+
+&lt;p&gt;Start with a basic step - narrow down what your question is. Neither &amp;ldquo;I am getting an error&amp;rdquo; or &amp;ldquo;This isn&amp;rsquo;t working&amp;rdquo; are effective questions. What exactly is causing the error? What context does it appear in? To borrow from the examples below, a good question might be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to calculate descriptive statistics for an entire data frame using the &lt;code&gt;mean()&lt;/code&gt; function but am getting and error. What might be the cause of the error?&lt;/p&gt;
+
+&lt;p&gt;I am trying to create a thematic choropleth map in ArcGIS, but when I try and select my variable from the dropdown menu in the symbology tab under layer properties, the menu is empty. Why are all of the variables missing?&lt;/p&gt;
+
+&lt;p&gt;I am trying to make my text bold in LaTeX, but the text is not rendering with bold font. I am also getting an error that says &amp;ldquo;Undefined control sequence.&amp;rdquo; What is missing from my document to create bold font?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Be specific about what your issue is, and then provide a reproducible example that illustrates what you are asking about.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-a-reproducible-example&#34;&gt;What is a reproducible example?&lt;/h3&gt;
+
+&lt;p&gt;A reproducible example, or reprex, is a term we&amp;rsquo;ll borrow from the &lt;code&gt;R&lt;/code&gt; ecosystem. It was coined by &lt;a href=&#34;https://twitter.com/romain_francois/status/530011023743655936&#34; target=&#34;_blank&#34;&gt;Roman François&lt;/a&gt; and has been enshrined in the &lt;a href=&#34;http://reprex.tidyverse.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package&lt;/a&gt;, which I&amp;rsquo;ll describe below. The goal for a reprex is to strip down the process you have used to the minimal number of steps needed to replicate the error. This means using the fewest steps and data sources possible. Cut out anything that does not directly contribute to causing the error when making your reprex.&lt;/p&gt;
+
+&lt;p&gt;I have often found that the process of making a reprex actually helps isolate the cause of the problem. For instance, it may become clear that a specific step is causing an issue. Even if you are not sure how to fix the problem, having narrowed it down can be immensely helpful. If you can use built-in data in &lt;code&gt;R&lt;/code&gt; to create the reprex, or at least example data from the course, that may also help you identify whether the issue is with the process itself or something that is idiosyncratic to the data you are using. Using built-in data from &lt;code&gt;R&lt;/code&gt; should be the default for any reprex you create, &lt;em&gt;unless assignment data are the cause of your issue&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-reprex&#34;&gt;Creating a reprex&lt;/h3&gt;
+
+&lt;p&gt;Creating reproducible examples will differ slightly based on what you are trying to get help on.&lt;/p&gt;
+
+&lt;h4 id=&#34;r&#34;&gt;&lt;code&gt;R&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;To create a reprex in &lt;code&gt;R&lt;/code&gt;, you will need to install the &lt;a href=&#34;http://reprex.tidyverse.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package&lt;/a&gt;. It is part of the &lt;a href=&#34;https://www.tidyverse.org&#34; target=&#34;_blank&#34;&gt;tidyverse&lt;/a&gt; but it is not installed when the &lt;code&gt;tidyverse&lt;/code&gt; package is installed, so you will need to install it separately:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;reprex&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once you have it loaded (use the &lt;code&gt;library()&lt;/code&gt; function), create a minimal example of the necessary functions that get to you to the error you are confronting. Make sure to include the &lt;code&gt;library()&lt;/code&gt; functions for all packages your example depends on (except for &lt;code&gt;reprex&lt;/code&gt;). Write the example in a &lt;code&gt;.R&lt;/code&gt; script file (&lt;code&gt;File &amp;gt; New File &amp;gt; R Script&lt;/code&gt;). For example, one might be struggling with calculating the mean of each variable in a data frame:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# attempt to calculate mean
+mean(data)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last of the three functions above will return this error in your &lt;code&gt;R&lt;/code&gt; session:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; mean(data)
+[1] NA
+Warning message:
+In mean.default(data) : argument is not numeric or logical: returning NA
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With the three functions written in a &lt;code&gt;.R&lt;/code&gt; script, highlight all seven lines of code (the three functions, both comments, and both white space lines)  and copy them to your clipboard (&lt;code&gt;Edit &amp;gt; Copy&lt;/code&gt;). Then call the &lt;code&gt;reprex()&lt;/code&gt; function. Markdown formatted text that weaves both the functions and their output together will appear in the viewer tab:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/reprex.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will also be available on your clipboard so that you can copy and paste it into Slack or another venue that accepts Markdown syntax (like GitHub). If your reprex contains image output, such as a plot or a map, it will be automatically uploaded to imgur and a link will be embedded in your Markdown syntax. For example, say we had a question about the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# plot highway mpg
+ggplot(data = data, mapping = aes(x = hwy)) + 
+  geom_histogram()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once we copy the above code and render it using &lt;code&gt;reprex()&lt;/code&gt;, it will return the following output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# plot highway mpg
+ggplot(data = data, mapping = aes(x = hwy)) + 
+  geom_histogram()
+#&amp;gt; `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+
+![](https://i.imgur.com/8hiC7od.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;![](hyperlink)&lt;/code&gt; syntax will allow an image of your plot to appear below the code.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://reprex.tidyverse.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package website&lt;/a&gt; has some great resources, including a &lt;a href=&#34;http://reprex.tidyverse.org&#34; target=&#34;_blank&#34;&gt;basic overview&lt;/a&gt;, some &lt;a href=&#34;http://reprex.tidyverse.org/articles/reprex-dos-and-donts.html&#34; target=&#34;_blank&#34;&gt;reprex do’s and don’ts&lt;/a&gt;, and a &lt;a href=&#34;http://reprex.tidyverse.org/articles/articles/magic-reprex.html&#34; target=&#34;_blank&#34;&gt;detailed article&lt;/a&gt; introducing the package&amp;rsquo;s functionality.&lt;/p&gt;
+
+&lt;h4 id=&#34;arcgis&#34;&gt;ArcGIS&lt;/h4&gt;
+
+&lt;p&gt;Creating a reprex in ArcGIS is not as straightforward since there is not a dedicated tool for doing so like there is in &lt;code&gt;R&lt;/code&gt;. Reprex creation is complicated by the fact that many steps you will be taking are manual. Nevertheless, it is possible to create a repex. Follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In a new map document, load the minimum number of shapefiles needed to illustrate the issue you are having. Note where the shapefiles are available (in the course data release?) and what their names are.&lt;/li&gt;
+&lt;li&gt;Note what the coordinate system of the data frame is set to.&lt;/li&gt;
+&lt;li&gt;Provide notes for each step that gets you to your question or error.&lt;/li&gt;
+&lt;li&gt;Take a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the error or the window you have a question about.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, a reprex of a question in ArcGIS could look like the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. I have a single map shapefile open in a new map document. The shapefile is the St. Louis census tracts shapefile from the example data in the course data release.
+2. The coordinate system is Missouri State Plane East (Feet)
+3. When I right click on the shapefile, I click on Properties and then the Symbology tab
+4. Attached is a screenshot of what the symbology tab looks like for these data.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;latex&#34;&gt;LaTeX&lt;/h4&gt;
+
+&lt;p&gt;Like ArcGIS, there is no specific tool for creating a reprex using LaTeX. The LaTeX community does have, however, a long tradition of creating &amp;ldquo;minimal working examples&amp;rdquo;, which are similar to reprexs. Follow these general steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a new LaTeX project. Use the &lt;code&gt;\documentclass{article}&lt;/code&gt; if you are using something different.&lt;/li&gt;
+&lt;li&gt;Only include packages in the preamble that are &lt;strong&gt;directly&lt;/strong&gt; related to the question or issue you have.&lt;/li&gt;
+&lt;li&gt;Skip creating a title block&lt;/li&gt;
+&lt;li&gt;Provide just enough body text in your LaTeX document to illustrate the issue.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A repex for LaTeX might look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\documentclass{article}
+
+\begin{document}
+
+\textbold{Foo bar.} Spam and eggs.
+
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also provide a written description of what is wrong (such as &amp;ldquo;the text is not being rendered as bold&amp;rdquo;) and, if helpful, a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of your output. There is a great &lt;a href=&#34;https://tex.meta.stackexchange.com/questions/228/ive-just-been-asked-to-write-a-minimal-example-what-is-that&#34; target=&#34;_blank&#34;&gt;overview on Stack Exchange&lt;/a&gt; of how to write a reprex for LaTeX. If you are using ShareLaTeX, also take a look at the error log and take a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the relevant error message. If you are using another LaTeX application, provide the text of your error message instead.&lt;/p&gt;
+
+&lt;h4 id=&#34;other-tools&#34;&gt;Other Tools&lt;/h4&gt;
+
+&lt;p&gt;For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to recreate your issue outside of the context of your assignment (this may not be possible for GitHub), and provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the relevant error message.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-don-t-think-i-can-make-a-reprex&#34;&gt;&amp;ldquo;I don&amp;rsquo;t think I can make a reprex!&amp;rdquo;&lt;/h3&gt;
+
+&lt;p&gt;I am 99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your &lt;code&gt;R&lt;/code&gt; code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.&lt;/p&gt;
+
+&lt;h3 id=&#34;isn-t-this-a-lot-of-work&#34;&gt;&amp;ldquo;Isn&amp;rsquo;t this a lot of work?&amp;rdquo;&lt;/h3&gt;
+
+&lt;p&gt;Well, yes, it does require some extra effort. This effort is almost always worth it, however. In some cases, the time it takes you to produce the repex leads you to the answer on your own, which is part of the problem solving process that this class is designed to foster. Even when this does not happen, making reprex informed inquires is a technique that you will be able to take with you at the end of the semester. Even if you are not working in a technical setting, being able to structure clear, concise questions about a process is a valuable skill!&lt;/p&gt;
+
+&lt;p&gt;Finally, creating a reprex saves you time in the long run. When I get vague questions, it often takes some experimenting on my part to reproduce the error. If you send me a question with a reproducible error, you cut out that experimentation time on my end and I can get right to answering your question. Likewise, students often come to office hours without an example of their issue ready to go and hope that I can conjure in my mind the scenario they are describing. Despite my best efforts, I am usually unable to do so and ask students to reproduce the error during office hours. If you come to office hours with a reprex, we can get to answering your question right away!&lt;/p&gt;
+
+&lt;h2 id=&#34;where-to-seek-help&#34;&gt;Where to Seek Help&lt;/h2&gt;
+
+&lt;p&gt;Once you have tried [Helping Yourself] and have gone through the steps outlined in &lt;a href=&#34;i.e. made a reprex&#34; target=&#34;_blank&#34;&gt;How to Seek Help&lt;/a&gt;, it is time to ask your question. There are a number of different places that you can pose questions. The sections below outline these and suggest some ways to make your question most effective.&lt;/p&gt;
+
+&lt;h3 id=&#34;internal-venues&#34;&gt;Internal Venues&lt;/h3&gt;
+
+&lt;p&gt;Within the confines of the course, the two best places to ask questions are on Slack and during office hours. When asking a question on Slack, please consider doing so in a public channel. This helps others learn from the question that you have. The only course-related questions that are not appropriate for Slack are those that reference specific parts of a problem set or the final project. However, if you are creating reproducible examples, your questions should not be that specific even if they ultimately are about a homework assignment. If you are not sure whether the question is appropriate or not for a public channel, or just would prefer not to ask your question out in the open, feel free to send me a &lt;a href=&#34;https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs&#34; target=&#34;_blank&#34;&gt;direct message on Slack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you pose a question on Slack, it should contain three or four pieces of information:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The question itself - what are you hoping to get help with?&lt;/li&gt;
+&lt;li&gt;A reproducible example - give as many details as you need to clearly illustrate the question&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; or image output that illustrates your reprex&lt;/li&gt;
+&lt;li&gt;What you&amp;rsquo;ve tried - lay out the steps you took to quickly (&amp;ldquo;I&amp;rsquo;ve checked the spelling, gone through the Lecture 03 documents, looked at the &lt;code&gt;dplyr&lt;/code&gt; website, and have done a quick Google search.&amp;ldquo;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Post your reprex as a &lt;a href=&#34;https://get.slack.help/hc/en-us/articles/204145658-Create-a-snippet&#34; target=&#34;_blank&#34;&gt;snippet&lt;/a&gt; in Slack by:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Clicking the plus sign on the left side of the message box&lt;/li&gt;
+&lt;li&gt;Selecting &lt;strong&gt;Code or text snippet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Filling out the pop-up window&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you are posting a reprex from &lt;code&gt;R&lt;/code&gt;, remove the three backticks and the letter &lt;code&gt;r&lt;/code&gt; from the first line as well as the three backticks from the bottom line. If you are including an image hyperlink created by the &lt;code&gt;reprex&lt;/code&gt; package, remove that from the code snippet and paste it into Slack separately. A good question on Slack should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/slackQuestion.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This same general process holds for asking questions in person - come ready with a solid question, a reproducible example, and be ready to pull it up on your computer or a lab computer.&lt;/p&gt;
+
+&lt;h3 id=&#34;external-venues&#34;&gt;External Venues&lt;/h3&gt;
+
+&lt;p&gt;There are two good places to ask questions external to the course as well. For questions related to RStudio, R Markdown, and the &lt;a href=&#34;http://tidyverse.org&#34; target=&#34;_blank&#34;&gt;tidyverse&lt;/a&gt;, RStudio maintains a web forum called &lt;a href=&#34;https://community.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio Community&lt;/a&gt;. If you are posting there, you can use &lt;code&gt;reprex()&lt;/code&gt; to generate Markdown formatted reprexs.&lt;/p&gt;
+
+&lt;p&gt;Another place to post questions in on one of the relevant &lt;a href=&#34;https://stackexchange.com&#34; target=&#34;_blank&#34;&gt;Stack Exchange&lt;/a&gt; communities:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com&#34; target=&#34;_blank&#34;&gt;Stack Overflow&lt;/a&gt; for &lt;code&gt;R&lt;/code&gt;, Git, and GitHub - post using tags like &lt;code&gt;[r]&lt;/code&gt;, &lt;code&gt;[ggplot2]&lt;/code&gt;, &lt;code&gt;[dplyr]&lt;/code&gt;, &lt;code&gt;[git]&lt;/code&gt;, &lt;code&gt;[github]&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gis.stackexchange.com&#34; target=&#34;_blank&#34;&gt;Geographic Information Systems&lt;/a&gt; for GIS - post using the &lt;code&gt;[arcgis-desktop]&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tex.stackexchange.com&#34; target=&#34;_blank&#34;&gt;TeX&lt;/a&gt; for LaTeX&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before you post, search thoroughly to make sure that your question has not already been answered. Stack Exchange has strong norms about how to post appropriately. You can descriptions of what makes a good post &lt;a href=&#34;https://codereview.stackexchange.com/help/how-to-ask&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://stackoverflow.com/help/how-to-ask&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. You can also find a description of &lt;a href=&#34;https://stackoverflow.com/help/dont-ask&#34; target=&#34;_blank&#34;&gt;what not to ask&lt;/a&gt;. If you are going to post on Stack Overflow, the &lt;code&gt;reprex()&lt;/code&gt; function can be modified to produce well-formatted output specific to that site by adding the &lt;code&gt;venue&lt;/code&gt; argument, as in &lt;code&gt;reprex(venue = &amp;quot;so&amp;quot;)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Of the two sites, I find &lt;a href=&#34;https://community.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio Community&lt;/a&gt; to be a friendlier place that is more relaxed than Stack Overflow and its cousins. However, Stack Exchange communities have much larger user bases to draw from.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Good Enough Research Practices</title>
+      <link>/docs/good-enough-practices/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/good-enough-practices/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;This section introduces some of the core concepts that support sociospatial data science works. The title of the chapter takes inspiration from a recent article titled &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017). The authors note in their introduction that scientific computing advice can sometimes be both overwhelming and focused on tools that are inaccessible to many analysts. Their goal, and the goal of this text, is to de-mystify the simplest tools that enable researchers to streamline their workflows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Our intended audience is researchers who are working alone or with a handful of collaborators on projects lasting a few days to a few months, and who are ready to move beyond emailing themselves a spreadsheet named &lt;code&gt;results-updated-3-revised.xlsx&lt;/code&gt; at the end of the workday&amp;hellip;Many of our recommendations are for the benefit of the collaborator every researcher cares about most: their future self.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I would argue that the skills they describe are useful beyond just a few months. Indeed, most of the skills here can dramatically improve students&amp;rsquo; dissertation experiences:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Most importantly, these practices make researchers more productive individually by enabling them to get more done in less time and with less pain. They also accelerate research as a whole by making computational work (which increasingly means all work) more reproducible. But progress will not happen by itself. Universities and funding agencies need to support training for researchers in the use of these tools. Such investment will improve confidence in the results of computational work and allow us to make more rapid progress on important research questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While much of what we will talk about in this text is aimed at supporting your work, there are benefits that extend beyond your dissertation or your research projects. These benefits, which include developing sustainable workflows and structuring the way you interact with your own computer, can make everyday computing practices like checking email or organizing files an easier, more structured process.&lt;/p&gt;
+
+&lt;h2 id=&#34;reproducibility&#34;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;One of the mantras of this text is an emphasis on reproducibility. The unifying feature of all of the &amp;ldquo;good enough&amp;rdquo; research practices discussed below is that they contribute to a more reproducible research product.&lt;/p&gt;
+
+&lt;p&gt;Reproducibility is very much in vogue right now for number of reasons. &lt;a href=&#34;http://science.sciencemag.org/content/349/6251/aac4716&#34; target=&#34;_blank&#34;&gt;Assessments of studies in psychology&lt;/a&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Open-Science-Col&#34;&gt;&lt;a href=&#34;#fn:Open-Science-Col&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, for example, have found weaker on average effect sizes and far fewer statistically significant results than the initial studies reported. There have also been high profile instances of falsified research, including &lt;a href=&#34;http://nymag.com/scienceofus/2015/05/how-a-grad-student-uncovered-a-huge-fraud.html&#34; target=&#34;_blank&#34;&gt;research by a graduate student at UCLA&lt;/a&gt;. This particular instance of fraud was identified by graduate students intent on replicating the original study.&lt;/p&gt;
+
+&lt;p&gt;At the same time, there is a recognition that the skills necessary for producing reproducible research are not being fostered in academic disciplines and graduate programs. Thus one of the goals of this course, and this &lt;strong&gt;User&amp;rsquo;s Guide&lt;/strong&gt; in particular, is to help develop a working knowledge of many of these skills.&lt;/p&gt;
+
+&lt;p&gt;One challenge, however, is that reproducibility does not have a consistent definition. Some researchers use the term to narrowly refer to code that can execute without alteration on a person&amp;rsquo;s computer. Others use it to refer to research designs that can be replicated by other researchers. Still others discuss reproducibility as the ability to obtain a similar set of results or draw similar inferences from identical research designs.&lt;/p&gt;
+
+&lt;p&gt;When we talk about reproducibility in this class. We&amp;rsquo;ll be primarily concerned with &lt;strong&gt;methods reproducibility&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;the ability to implement, as exactly as possible, the experimental and computational procedures, with the same data and tools, to obtain the same results.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Goodman-S-N-Fane&#34;&gt;&lt;a href=&#34;#fn:Goodman-S-N-Fane&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Methods reproducibility in statistics means that other analysts have full access to both the original data and the steps used to render those original data into a final research product, such as a set of regression models This is increasingly seen not just a matter of good research methodology, but as a matter of research ethics as well. Being able to be transparent with research decreases the potential for cases like the &lt;a href=&#34;http://nymag.com/scienceofus/2015/05/how-a-grad-student-uncovered-a-huge-fraud.html&#34; target=&#34;_blank&#34;&gt;fraudulent dissertation research conducted by a UCLA graduate student named Michael LaCour&lt;/a&gt;. It was the efforts of &lt;a href=&#34;https://fivethirtyeight.com/features/how-two-grad-students-uncovered-michael-lacour-fraud-and-a-way-to-change-opinions-on-transgender-rights/&#34; target=&#34;_blank&#34;&gt;two Stanford graduate students who wanted to reproduce LaCour&amp;rsquo;s findings&lt;/a&gt; that ultimately led to the identification of problematic work.&lt;/p&gt;
+
+&lt;p&gt;For statistics, methods reproducibility is derived from a number of sources. The first source is the use of &lt;strong&gt;computer code&lt;/strong&gt; for working with data. Rather than making manual changes to tabular data in a spreadsheet application like Microsoft Excel, computer code provides detailed records of each individual alterations. Code can be used execute tasks repeatedly, meaning that errors can be easily fixed if they are discovered an hour, a day, a week, or a month later. During this semester, we&amp;rsquo;ll use &lt;code&gt;R&lt;/code&gt;&amp;rsquo;s programming language to execute reproducible data cleaning processes.&lt;/p&gt;
+
+&lt;p&gt;The second source of reproducibility in statistics is therefore derived from the &lt;strong&gt;documentation&lt;/strong&gt; that we create to accompany our research products. These documents outline where our data originated, what specific variables mean (a codebook), what steps were taken to create specific maps (a research log), and how our data files are organized (a metadictionary).&lt;/p&gt;
+
+&lt;p&gt;Our code can also be used as documentation if it is written using &lt;a href=&#34;https://en.wikipedia.org/wiki/Literate_programming&#34; target=&#34;_blank&#34;&gt;literate programming&lt;/a&gt; techniques. In &lt;code&gt;R&lt;/code&gt;, these techniques produce well annotated output that &amp;ldquo;weaves&amp;rdquo; together code, output, and narrative text that describes the function of the code and the results of the output.&lt;/p&gt;
+
+&lt;p&gt;The third and final primary source of reproducibility in statistics is derived from our &lt;strong&gt;organizational approach&lt;/strong&gt; to our work. Statistics projects can require many megabytes of data spread across dozens of data files, scripts, and output files. A disorganized file system can make replicating your work difficult if not impossible. Much of the research practices discussed in the remainder of this section are aimed at supporting one or more of these three major sources of reproducibility.&lt;/p&gt;
+
+&lt;h2 id=&#34;thinking-in-workflows&#34;&gt;Thinking in Workflows&lt;/h2&gt;
+
+&lt;p&gt;One way to increase the reproducibility of a project is to approach each and every task with purposeful organization and thoughtfulness. &lt;strong&gt;Workflows&lt;/strong&gt; are the processes that we use to approach a given task. Think of checking your email. You (hopefully!) follow a series of steps when you check your email that help you organize your inbox. In his excellent primer &lt;em&gt;The workflow of data analysis using Stata&lt;/em&gt; (2009), Scott Long describes a structured strategy for approaching statistical research. In Long&amp;rsquo;s model, a data analysis project consists of four steps: (a) data cleaning, (b) analysis, &amp;copy; presenting results, and (d) protecting files. This is a useful model to build upon, and one that we will discuss over the course of the semester.&lt;/p&gt;
+
+&lt;p&gt;Even more useful, not just for statistical work but for any process, are the tasks Long lays out for each step in the data analysis workflow:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Planning&lt;/li&gt;
+&lt;li&gt;Organization&lt;/li&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;li&gt;Execution&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A good example of the utility of extending this logic to other workflows is with the problem sets. The &amp;ldquo;typical&amp;rdquo; approach students take with homework assignments is to sit down, open up their software, and start with question 1. Using Long&amp;rsquo;s four task approach, a workflow-based strategy to the assignment would involve beginning by reading the assignment through in its entirety to develop a &lt;strong&gt;plan&lt;/strong&gt; for approaching it - think about what techniques and skills are needed for each step. With a plan in place, you can proceed to &lt;strong&gt;organizing&lt;/strong&gt; yourself for the assignment - identifying and obtaining files that you will need, creating dedicated directories for saving assignment data, and getting any necessary software documentation. After pulling together all of these materials, you are ready to move on to &lt;strong&gt;documentation&lt;/strong&gt; - setting up your assignment code and output files, and (later in the course) your research log and meta-dictionary. Once you are set-up, you would then begin to address individual assignment questions as part of the &lt;strong&gt;execution&lt;/strong&gt; task.&lt;/p&gt;
+
+&lt;p&gt;The goal here is to approach everything you do for research or work with an element of mindfulness and structure about your process. This mental model for approaching research supports the creation of &lt;strong&gt;reproducible&lt;/strong&gt; research products because we approach our work in a routinized, predictable, organized, and efficient manner. Thinking in terms of workflows also encourages a greater awareness of the complexity of tasks, which also helps you plan more accurately for how long a particular task or project will take.&lt;/p&gt;
+
+&lt;p&gt;In reality, there will be multiple workflows that you find yourself navigating. You will want a structured process not just for approaching a large research project like the final project, but also a process for maintaining notes related to a specific assignment, a process for documenting code, a process for approaching assignments, and even a process for backing your data up. As you go through the text, think about how to best integrate these ideas into your work habits.&lt;/p&gt;
+
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;One of the themes in &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017) is an emphasis on data management. One of their core messages is to ``save the raw data&amp;rdquo;. Particularly in GISc work, the raw data can be expansive - dozens of shapefiles, tabular files, and associated metadata. These files often come from disparate sources - city open data sites, the U.S. Census Bureau, state data repositories, and other federal agencies. Moreover, GIS data are often updated over time to reflect on-the-ground changes. Saving the raw data in sociospatial data science work therefore means not only creating a well-organized directory containing &lt;em&gt;all&lt;/em&gt; of your original data. It also means logging the source of each file, when it was downloaded, and (if applicable) a permanent web link to your data source. For that reason, we&amp;rsquo;ll give you not just the course data but a read me file and a metadictionary that lists all of the files we&amp;rsquo;ve disseminated to you.&lt;/p&gt;
+
+&lt;p&gt;A second message in the paper is to &amp;ldquo;create the data you wish to see in the world&amp;rdquo;. The authors encourage readers to &amp;ldquo;create the data set you wish you had received.&amp;rdquo; First and foremost, this means using open and not proprietary data formats. For spatial data, &lt;a href=&#34;https://en.wikipedia.org/wiki/Shapefile&#34; target=&#34;_blank&#34;&gt;ESRI shapefiles&lt;/a&gt; are technically proprietary, though their standard is open. This means that other software applications, like &lt;code&gt;R&lt;/code&gt; and QGIS can read and in some cases write shapefiles. For sharing spatial data, a better option is the &lt;a href=&#34;https://en.wikipedia.org/wiki/GeoJSON&#34; target=&#34;_blank&#34;&gt;GeoJSON&lt;/a&gt;, which is a plain text file format. Tabular data are best stored as &lt;code&gt;CSV&lt;/code&gt; files, which is also a plain text file format that can be opened by a wide variety of applications. In contrast, common file formats like Microsoft Excel&amp;rsquo;s &lt;code&gt;XLS&lt;/code&gt; and &lt;code&gt;XLSX&lt;/code&gt; are proprietary file packages that cannot be read as plain text and are therefore less desirable for storing data.&lt;/p&gt;
+
+&lt;h2 id=&#34;plain-text&#34;&gt;Plain Text&lt;/h2&gt;
+
+&lt;p&gt;Along with creating the data we wish to see, &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017) repeatedly emphasizes the importance of using plain text files for writing as well as for data. Using plain text file formats, like &lt;code&gt;.txt&lt;/code&gt; and &lt;code&gt;.md&lt;/code&gt; files, frees us from reliance on proprietary applications that we cannot be sure will exist in ten or twenty years (and are thus threats to reproducible research). They can also be opened on virtually any computer across a variety of operating systems. The authors of the article reference [Markdown] files, which a really just plain-text files containing special characters that can be rendered by websites and other applications. [Markdown], which is discussed later in this text, provides us with the best of both worlds. We can produce outputs with rich text like styling but that is saved in a plain text file container. Writing in a markup language can seem daunting at first, but within a few weeks I have found that most people can start to feel comfortable inserting markup syntax without significant cognitive burden.&lt;/p&gt;
+
+&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
+
+&lt;p&gt;One of the key emphases of both &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017) and &lt;a href=&#34;https://peerj.com/preprints/3210/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;opinionated analysis development&amp;rdquo;&lt;/a&gt; is that data science work should be tracked using version control software. This text introduces &lt;a href=&#34;https://git-scm.com&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; in the [Basic Git] chapter, though there are other options like &lt;a href=&#34;http://subversion.apache.org&#34; target=&#34;_blank&#34;&gt;Subversion&lt;/a&gt; and &lt;a href=&#34;https://www.mercurial-scm.org&#34; target=&#34;_blank&#34;&gt;Mercurial&lt;/a&gt;. Git is introduced because it has been widely adopted by the &lt;code&gt;R&lt;/code&gt; community and because of the robust web tools associated with &lt;a href=&#34;http://github.com&#34; target=&#34;_blank&#34;&gt;GitHub.com&lt;/a&gt;. Using version control gives us a timeline of our work along with the ability to revert back to previous versions of our files. This creates a &amp;ldquo;chain of evidence&amp;rdquo; for our research process and protects us from irrevocably altering files.&lt;/p&gt;
+
+&lt;p&gt;As the authors of &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017) note, learning version control software can be tricky. There are two chapters later in this text dedicated to &lt;a href=&#34;https://git-scm.com&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; covering both [Basic Git] and [Advanced Git] techniques. Those chapters also provide links to other resources and tips for using those tools successfully.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:Open-Science-Col&#34;&gt;Open Science Collaboration, 2015. Estimating the reproducibility of psychological science. &lt;em&gt;Science&lt;/em&gt;, 349(6251), p.aac4716. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Open-Science-Col&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Goodman-S-N-Fane&#34;&gt;Goodman, S.N., Fanelli, D. and Ioannidis, J.P., 2016. What does research reproducibility mean?. &lt;em&gt;Science translational medicine&lt;/em&gt;, 8(341), pp.341ps12-341ps12. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Goodman-S-N-Fane&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opinionated Tools and Processes</title>
+      <link>/docs/opinionated-tools/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/opinionated-tools/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;This text, and both of the courses it is written with an eye towards, is meant to be &amp;ldquo;opinionated&amp;rdquo;. We&amp;rsquo;ll introduce a high level definition of opinionated process here, and discuss how these ideas might fit into previous coursework you&amp;rsquo;ve taken.&lt;/p&gt;
+
+&lt;h2 id=&#34;opinionated-processes&#34;&gt;Opinionated Processes&lt;/h2&gt;
+
+&lt;p&gt;The idea of research being opinionated is something we borrow from &lt;a href=&#34;https://twitter.com/hspter&#34; target=&#34;_blank&#34;&gt;Hiliary Parker&lt;/a&gt;, who has been developing the idea of &lt;a href=&#34;https://peerj.com/preprints/3210/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;opinionated analysis development&amp;rdquo;&lt;/a&gt; over the last several years. Parker (2017) argues that opinionated analysis development is a guard against human errors in data analysis that are common but preventable. She emphasizes process repeatedly because, in her view, errors in data analysis are often the result of poor process (and not the individual failures of an analyst).&lt;/p&gt;
+
+&lt;p&gt;Following Hilary&amp;rsquo;s lead, we will also make process a cornerstone of our coursework. This emphasis on process is not routine in research methods courses (Long 2009), which often treat methods and techniques in isolation and leave much about how they fit together to be learned &amp;ldquo;the hard way&amp;rdquo;. A common experience with statistics coursework is that students will learn the assumptions and requirements of various tests, but not how to fit them together to produce a well-conceptualized analysis. Thus, students working on their first research projects often feel personal responsibility for errors &amp;ldquo;despite not being taught processes that protect against them&amp;rdquo; (Parker 2017:2).&lt;/p&gt;
+
+&lt;p&gt;Parker (2017) lays out three core areas for analysis development. Analyses should be (1) reproducible and auditable, (2) accurate, and (3) collaborative. She also provides a set of opinions and questions about each of these these categories. Projects that are both reproducible and auditable, for example, should be driven by executable analysis scripts with clearly defined dependencies. Projects that are accurate should use modular, tested code and should assertively test data, assumptions, and results. Finally, projects that are collaborative should use version control software for project management, should have the ability to track issues, and should allow for communications that can be archived easily.&lt;/p&gt;
+
+&lt;p&gt;This text introduces strategies and techniques for implementing these opinions in data science research, with special emphasis on doing so in social science and geospatial projects. While these ideas appear in nearly every chapter, the chapter on [&amp;ldquo;Good Enough&amp;rdquo; Research Practices] pays particular attention to these concepts in greater detail.&lt;/p&gt;
+
+&lt;h2 id=&#34;opinionated-tools&#34;&gt;Opinionated Tools&lt;/h2&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;contextualizing-these-ideas&#34;&gt;Contextualizing These Ideas&lt;/h2&gt;
+
+&lt;p&gt;Each time I teach a research methods course, I have students with a mix of experiences. For some students, all of these concepts and techniques are new and they therefore do not have a strong conception of what it means to do research. For other students, particularly those with research experience, these ideas can directly conflict with how they have been taught in the past and how they work. For everyone, these ideas require a greater mindfulness and attention to detail than they are used to.&lt;/p&gt;
+
+&lt;p&gt;Occasionally, students react strongly to these ideas. For example, these opinions could be interpreted as an indictment of students&amp;rsquo; own processes or seen as a desire to micromanage. Others could see the focus on process as misplaced. After all, as long as the final product looks good, what does it matter how organized the analyst&amp;rsquo;s hard drive is (or isn&amp;rsquo;t)? If you feel like this at any point in the semester, I can sympathize greatly. I remember the frustration I felt the first time I was told that I didn&amp;rsquo;t name variables well and that my code was written in a way that was hard to read.&lt;/p&gt;
+
+&lt;p&gt;What I didn&amp;rsquo;t understand at the time, and what I strive to emphasize now, is that process cannot be separated from product. If the process is unclear, undefined, or disorganized, our faith in the final product should be diminished because these flaws limit our ability to judge its accuracy. Thus being &amp;ldquo;right&amp;rdquo; is not solely a judgement of the final results but also how they were obtained. This emphasis on process is inherently more time consuming, slower, and more deliberate than a slapdash approach to data analysis. Our goal is not to conduct data science work in the easiest way, however, it is to conduct it in the most robust way possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Protecting Your Work</title>
+      <link>/docs/protecting-work/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/protecting-work/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;One of the biggest challenges to with doing computational work is that it requires a high degree of organization. Our approaches to file management on computers are often haphazard, with &lt;code&gt;Documents&lt;/code&gt; and &lt;code&gt;Downloads&lt;/code&gt; folders filled with disorganized files or a &lt;code&gt;Desktop&lt;/code&gt; covered in dozens of files. Perhaps this has worked in the past, but that approach (or lack thereof) &lt;strong&gt;will&lt;/strong&gt; fail students in &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;. Moreover, if left un-checked, it will fail students down the road when a hard drive failure or natural disaster renders their data irrevocably inaccessible. This chapter covers what some of those threats are and ways to manage those risks when conducting computational research.&lt;/p&gt;
+
+&lt;h2 id=&#34;threats-to-our-data&#34;&gt;Threats To Our Data&lt;/h2&gt;
+
+&lt;p&gt;Each semester that I teach &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt;, several things happen. The first thing that happens is that students regularly lose files. The effects of losing files can range from being a minor frustration to a major headache depending on the file in question. Losing files often results in downloading multiple copies of the same data and recreating work. Both of these are wastes of your time. Moreover, files are rarely gone. They are typically just misplaced. This is bad for reproducibility, particularly when you happen across multiple versions of the same file and have to sort out which version is the version you last worked on.&lt;/p&gt;
+
+&lt;p&gt;The second thing that happens is that students who use thumb drives for data storage lose them. Depending on the timing of this loss, this can again range from being a minor frustration (very early in the semester) to being downright anxiety attack producing (last few weeks of the semester). Recreating an entire semester’s worth of work on the final project is both a tremendous waste of your time and a particularly unpleasant experience.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I have never had a student’s computer hard drive die during the course of the semester. However, I assume that if I teach this course long enough a hard drive failure will indeed occur. The backup provider &lt;a href=&#34;https://www.backblaze.com/&#34; target=&#34;_blank&#34;&gt;Backblaze&lt;/a&gt; has &lt;a href=&#34;https://www.backblaze.com/blog/how-long-do-disk-drives-last/&#34; target=&#34;_blank&#34;&gt;analyzed&lt;/a&gt; their own hard drives and found that about 5% of drives fail within the first year. After four years, a quarter (25%) of drives in their data center fail. Similarly, it is only a matter of time before a student’s computer is stolen along with all of their hard work. A less likely though still very plausible scenario involves the destruction of a student’s belongings (computer and thumb drive included) in a fire, car accident, or natural disaster.&lt;/p&gt;
+
+&lt;p&gt;Despite the likelihood that you will at some-point lose a thumb drive (if not during this semester than sometime down the road) and the near certainty that your computer’s hard drive will eventually fail if a rogue wave does not get it first, few students and faculty take these risks seriously. While you cannot prevent many of these things from happening, I want to suggest to you that you can take some simple steps to sure that &lt;em&gt;when&lt;/em&gt; (not if) they happen, you are well prepared to get back to work with minimal disruption.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-a-sustainable-file-system&#34;&gt;Creating a Sustainable File System&lt;/h2&gt;
+
+&lt;p&gt;The first thing that students can do to stave off problems with lost files is to actively and mindfully manage their files. In his excellent document &lt;a href=&#34;http://plain-text.co&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Plain Person’s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;, Kieran Healy describes two important revolutions in computing that are currently taking place. One of them is the advent of mobile touch-screen devices, which he notes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;hide from the user both the workings of the operating system and (especially) the structure of the file system where items are stored and moved around.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For most users, I would argue that this extends to their laptop or desktop computers as well. I would venture to guess that the majority of my students are used to keeping large numbers of files on their desktops or in an (distressingly) disorganized &lt;code&gt;Documents&lt;/code&gt; folder. For research, particularly quantitative research, such an approach to file management is unsustainable. It is difficult to produce &lt;em&gt;any&lt;/em&gt; research, let alone work that is reproducible, without an active and mindful approach to file management.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-a-single-course-directory&#34;&gt;Create a &lt;em&gt;Single&lt;/em&gt; Course Directory&lt;/h3&gt;
+
+&lt;p&gt;The most successful approach to organizing files is to identify &lt;em&gt;one and only one&lt;/em&gt; area that you will store course files in. Having files scattered around you hard drive between you &lt;code&gt;Desktop&lt;/code&gt; directory, &lt;code&gt;Downloads&lt;/code&gt;, &lt;code&gt;Documents&lt;/code&gt;, and a half dozen other places is a recipe for lost files. It can also add complexity to the task of backing these files up. I recommend naming this directory simply based on the course you are enrolled in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SOC4650&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SOC4930&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SOC5050&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SOC5650&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These names are short, have no punctuation or spaces (which can create conflicts with software), and explicitly connects the directory to this course as opposed to other courses you may take that are also statistics or GIS courses (a good reason to avoid naming the directory &lt;code&gt;Stats&lt;/code&gt; or &lt;code&gt;GIS&lt;/code&gt;!).&lt;/p&gt;
+
+&lt;p&gt;This single course directory should reside in &lt;em&gt;one and only one&lt;/em&gt; place. Once you have these folders set-up, I want you to an agreement with yourself: files for the course will &lt;em&gt;only&lt;/em&gt; be saved within this structure. Do not temporarily save files to the &lt;code&gt;Desktop&lt;/code&gt;, for example, intending to move them later. They will be forgotten. Like New Years resolutions, it is easy to say that you will use a file system but difficult to maintain that promise when stress sets in or you are rushed. Do &lt;em&gt;everything&lt;/em&gt; you can to maintain your file system.&lt;/p&gt;
+
+&lt;h3 id=&#34;storing-the-course-directory&#34;&gt;Storing the Course Directory&lt;/h3&gt;
+
+&lt;p&gt;Storing this directory inside a sync&amp;rsquo;d directory (like Dropbox or Google Drive) may cause conflicts with your Git repositories. Instead, students for both of my courses should utilize a large sized thumb drive or an external hard drive for data storage (see the &amp;ldquo;Course Onboarding&amp;rdquo; section of the respective course&amp;rsquo;s website for additional details). Having data stored on an external device raises the risk of physical loss, but also makes it easier to move work between different computers. This is particularly challenging for GI Science work, where spatial data sources can be may megabytes in size.&lt;/p&gt;
+
+&lt;p&gt;macOS users should make sure that the external drive is formatted using the ExFat file system specification so that it is readable both by their operating system and the Windows operating system in the computer lab. If you buy a new drive, you will likely have to re-format it. Directions for doing so are &lt;a href=&#34;https://support.apple.com/kb/PH22241?locale=en_US&#34; target=&#34;_blank&#34;&gt;available from Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;approach-organizing-systematically&#34;&gt;Approach Organizing Systematically&lt;/h3&gt;
+
+&lt;p&gt;Within your single course directory, I recommend following a mindful, purposeful approach to organization. This approach begins with having a number of dedicated subfolders within your course directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/SOC5650
+  /Core-Documents
+  /DataLibrary
+  /DoeAssignments
+  /Lectures
+  /Notes
+  /Readings
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note again how these directories are named - there are no spaces, special characters, and the names are deliberately short but specific. For a directory with two words (e.g. &lt;code&gt;DataLibrary&lt;/code&gt;), I use what is known as camelCase to name the file where the second (any any subsequent) words have their first character capitalized. You could also use dash-case (e.g. &lt;code&gt;Core-Documents&lt;/code&gt;) or snake_case (e.g. &lt;code&gt;Core_Documents&lt;/code&gt;) as a naming strategy. Regardless of which of these approaches you take, try to use it consistently.&lt;/p&gt;
+
+&lt;p&gt;For both of the courses that I teach, a basic file system will be made available for download onto your external device. See the respective course websites for more information about course data releases. Only the data release for &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; will contain a &lt;code&gt;DataLibrary&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-core-documents-directory&#34;&gt;The &lt;code&gt;Core-Documents&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;Core-Documents&lt;/code&gt; directory is used for storing the course syllabus, reading list, and a sample schedule for 3600 Morrissey Hall for the semester. You can view it online for both &lt;a href=&#34;https://github.com/slu-soc5050/Core-Documents&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt; and &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents&#34; target=&#34;_blank&#34;&gt;Quanitative Analysis&lt;/a&gt;. Once we cover using Git and GitHub in class, you should &lt;strong&gt;clone&lt;/strong&gt; the appropriate &lt;code&gt;Core-Documents&lt;/code&gt; repository into your file system. If there are updates, you will want to make sure you &lt;strong&gt;pull&lt;/strong&gt; them down onto your local copy of the repository. You can read ahead in the [Basic Git] chapter for more information on how this works.&lt;/p&gt;
+
+&lt;p&gt;You will not be able to &lt;strong&gt;push&lt;/strong&gt; changes that you make in this directory to GitHub, and making other changes could cause conflicts. I suggest not making changes inside this repository beyond opening files for reference purposes.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-datalibrary-directory&#34;&gt;The &lt;code&gt;DataLibrary&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;This directory is only applicable to students in &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt;, whose data release will contain it. It will have copies of most data not disseminated to you as &lt;code&gt;R&lt;/code&gt; packages. The data in this directory should be used as needed but not altered (one of the of the [&amp;ldquo;Good Enough&amp;rdquo; Research Practices] from the next chapter).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-doeassignments-directory&#34;&gt;The &lt;code&gt;DoeAssignments&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;Like the &lt;code&gt;Core-Documents&lt;/code&gt; repository, this will not be included in the course data release. Once we cover using Git and GitHub in class, you should &lt;strong&gt;clone&lt;/strong&gt; the appropriate &lt;code&gt;Core-Documents&lt;/code&gt; repository into your file system. It will also have a different name - your last name instead of &amp;lsquo;Doe&amp;rsquo;. Once you add it, it will contain a number of subdirectories:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /SOC5650
+    /DoeAssignments
+      /FinalProject
+
+      /Labs
+        /Lab-01
+        ...
+        /Lab-15
+
+      /LecturePreps
+        /LP-01
+        ...
+        /LP-15
+        
+      /ProblemSets
+        /PS-01
+        ...
+        /PS-08
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;FinalProject&lt;/code&gt; directory will not have any subfolders in it. You will be asked to populate it with the appropriate subdirectories (see [Organizing Projects] below). These will be detailed in the final project instructions. The &lt;code&gt;Labs&lt;/code&gt;, &lt;code&gt;LecturePreps&lt;/code&gt;, and &lt;code&gt;ProblemSets&lt;/code&gt; subdirectories have folders dedicated to the individual assignments you&amp;rsquo;ll have to submit over the course of the semester. Like the &lt;code&gt;FinalProject&lt;/code&gt; directory, you will need to populate them with the appropriate deliverables. These will be detailed in each assignment&amp;rsquo;s instructions.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-lectures-directory&#34;&gt;The &lt;code&gt;Lectures&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;This directory should contain subfolders for each of the sixteen weeks of the course.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /SOC5650
+    /Lectures
+      /Lecture-01
+      ...
+      /Lecture-16
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You will need to add these subfolders each week by &lt;strong&gt;cloning&lt;/strong&gt; them from GitHub.com. You will not be able to push changes that you make in these directories to GitHub, and making other changes could cause conflicts. I suggest not making changes inside this repository beyond opening files for reference purposes. If there is something you need to edit, copy it to the appropriate subdirectory of &lt;code&gt;DoeAssignments&lt;/code&gt; and make your changes there.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-notes-directory&#34;&gt;The &lt;code&gt;Notes&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;Use this as a home for course notes if you decide to take notes digitally and do not already use notebook software of some kind that organizes notes for you.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-readings-directory&#34;&gt;The &lt;code&gt;Readings&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;Use this as a home for &lt;code&gt;.pdf&lt;/code&gt; copies of course readings. I suggest creating subdirectories &lt;em&gt;only&lt;/em&gt; for weeks that have readings assigned from outside of the main texts, such as Lecture 01:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /SOC5650
+    /Readings
+      /Lecture-01
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;organizing-projects&#34;&gt;Organizing Projects&lt;/h2&gt;
+
+&lt;p&gt;Following the excellent article &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017), I suggest data science projects should be organized in a specific, standardized way. This approach serves much the same purpose as the previous section on [Creating a Sustainable File System] - work that is well organized is better insured against loss.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-sample-project&#34;&gt;A Sample Project&lt;/h3&gt;
+
+&lt;p&gt;Much as I suggested above that course files reside in one and only one place, projects should be organized similarly (with one important caveat below). What follows is a sample project and then descriptions of each element. More details about each folder (excepting &lt;code&gt;maps&lt;/code&gt;) can be found in the article. The project below contains all of key elements of a small geospatial research project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /projectName
+    /data
+      rawData.csv
+      rawTracts.shp
+    /doc
+      joinedTracts.md
+      notebook.Rmd
+      notebook.nb.html
+      researchLog.md
+    /maps
+      map.mxd
+    /results
+      joinedTracts.shp
+      map.png
+    /src
+      script.R
+    LICENSE.md
+    projectName.Rproj
+    README.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;top-level-files&#34;&gt;Top-Level Files&lt;/h3&gt;
+
+&lt;p&gt;At least two files should be present in each project directory - a &lt;code&gt;README.md&lt;/code&gt; and a &lt;code&gt;LICENSE.md&lt;/code&gt;. As I noted in the previous chapter, both of these files should be plain-text files. Typically, they are formatted using [Markdown] syntax The &lt;code&gt;README&lt;/code&gt; should describe your project, detail any key dependencies or outside data sources that might be required, and provide other important details like how to cite your project and what other online resources might be available.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;LICENSE&lt;/code&gt; is a key element of open source research. This spells out how others may use (and not use) your work. The excellent guide &lt;a href=&#34;https://opensource.guide/&#34; target=&#34;_blank&#34;&gt;The Legal Side of Open Source&lt;/a&gt; notes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Open source is an unusual circumstance&amp;hellip;because the author expects that others will use, modify, and share the work. But because the legal default is still exclusive copyright, you need a license that explicitly states these permissions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are lots of different options for open source licenses, and &lt;a href=&#34;https://choosealicense.com&#34; target=&#34;_blank&#34;&gt;GitHub&amp;rsquo;s choose a license site&lt;/a&gt; does a great job of explaining some of the &lt;a href=&#34;https://choosealicense.com/appendix/&#34; target=&#34;_blank&#34;&gt;many options&lt;/a&gt;. In the &lt;code&gt;R&lt;/code&gt; community, many packages are made available using the &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; or &lt;a href=&#34;https://choosealicense.com/licenses/gpl-3.0/&#34; target=&#34;_blank&#34;&gt;GNU GPLv3&lt;/a&gt; licenses. For written content, presentations, and other non-code works, the Creative Commons &lt;a href=&#34;https://choosealicense.com/licenses/cc-by-4.0/&#34; target=&#34;_blank&#34;&gt;Attribution&lt;/a&gt; and &lt;a href=&#34;https://choosealicense.com/licenses/cc-by-sa-4.0/&#34; target=&#34;_blank&#34;&gt;Attribution-ShareAlike&lt;/a&gt; licenses are both common options. For data, the &lt;a href=&#34;https://opendatacommons.org&#34; target=&#34;_blank&#34;&gt;Open Data Commons&lt;/a&gt; licenses are not discussed on GitHub&amp;rsquo;s site but are options for data-specific licenses. Finally, large projects sometimes require &lt;a href=&#34;https://choosealicense.com/non-software/&#34; target=&#34;_blank&#34;&gt;multiple licenses&lt;/a&gt;. If you use a data-specific, code-specific, and/or content-specific mix of licenses, be sure to describe in the &lt;code&gt;README&lt;/code&gt; which license applies to which element of of the project. Licensing your projects is another form of protecting your work. If these projects are out in the open, licensing ensures that your work will be used under terms that you are comfortable with.&lt;/p&gt;
+
+&lt;p&gt;If the project uses &lt;code&gt;R&lt;/code&gt;, an &lt;code&gt;R&lt;/code&gt; project file (&lt;code&gt;.Rproj&lt;/code&gt;) should also be saved in the top-level of the project. This will facilitate the top-level folder being set automatically as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Working_directory&#34; target=&#34;_blank&#34;&gt;working directory&lt;/a&gt;. The working directory is the folder that &lt;code&gt;R&lt;/code&gt; will open data from and save data to by default.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-data-directory&#34;&gt;The &lt;code&gt;data&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;All data sources, with a few exceptions, should be stored here. For instance, in the example above, a tabular data source and a raw shapefile are both used as part of the project. There are, however, a number of exceptions to this. One exception is data that has been packaged in an &lt;code&gt;R&lt;/code&gt; package. For example, I have packaged a large set of tables containing historical census data to make them easier to work with. When these are used in projects, I do not save the tables in the &lt;code&gt;data&lt;/code&gt; folder. Rather, I make reference to them in the &lt;code&gt;README&lt;/code&gt; file and in other project documents.&lt;/p&gt;
+
+&lt;p&gt;A second exception is for large geospatial data libraries, like the data release for my &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt;. Given the size of these files, it is sometimes impractical to reproduce them multiple times across different projects. Clearly noting that specific files are stored on local libraries available elsewhere in the &lt;code&gt;README&lt;/code&gt; file and in other project documents is also an acceptable alternative here.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-doc-directory&#34;&gt;The &lt;code&gt;doc&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;doc&lt;/code&gt; directory should be used for all text documents associated with the project. These might include metadata associated with different project data files, an interactive &lt;code&gt;R&lt;/code&gt; notebook, a research log file, and article manuscripts. If needed, subdirectories within &lt;code&gt;doc&lt;/code&gt; should be used to keep different files organized. In the example above, &lt;code&gt;joinedTracts.md&lt;/code&gt; is the metadata for the similarly named shapefile in the &lt;code&gt;data&lt;/code&gt; subdirectory. The &lt;code&gt;notebook&lt;/code&gt; files are the interactive &lt;code&gt;R&lt;/code&gt; notebook and its associated &lt;code&gt;html&lt;/code&gt; output. Finally, the &lt;code&gt;researchLog.md&lt;/code&gt; is used for tracking higher level progress over the course of the project.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-maps-directory&#34;&gt;The &lt;code&gt;maps&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;maps&lt;/code&gt; is a deviation from &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017), which does not envision some of the complexity of working with geospatial data. It should be used for storing the &lt;code&gt;.mxd&lt;/code&gt; files from ArcGIS projects or the equivalent QGIS files if that application is being used instead. Illustrator files used for post-processing work should also be stored here if used. Remember that these files should be saved using relative paths to link them to data sources to limit the possibility of conflicts down the road.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-results-directory&#34;&gt;The &lt;code&gt;results&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;results&lt;/code&gt; directory should contain any data outputs, plots, and map images. These might include intermediate and final versions of data sets as well as shapefiles and GeoJSON files created as part of the analysis process. In the example above, a shapefile combining both of the raw data sources named &lt;code&gt;joinedTracts.shp&lt;/code&gt; is saved here along with the exported map image from the map file in the &lt;code&gt;maps&lt;/code&gt; subdirectory. Depending on the complexity of the project, subdirectories within &lt;code&gt;results&lt;/code&gt; might be necessary.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-src-directory&#34;&gt;The &lt;code&gt;src&lt;/code&gt; Directory&lt;/h3&gt;
+
+&lt;p&gt;For projects that rely on functions not included in packages, for example, or that rely on other pre-made scripts, the &lt;code&gt;src&lt;/code&gt; subdirectory should be used for storing script files that are called by notebooks in &lt;code&gt;doc&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;storing-your-project&#34;&gt;Storing Your Project&lt;/h3&gt;
+
+&lt;p&gt;There are a number of places where work can be deposited. I teach all students in my classes how to use &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;GitHub.com&lt;/a&gt; because it integrates directly into version control software, which I see as a critical component of [&amp;ldquo;Good Enough&amp;rdquo; Research Practices]. There are other options, however. For larger projects that may not just be on GitHub (see [Basic Git]) but also utilize a collaborative writing space like Google Docs, the &lt;a href=&#34;https://osf.io&#34; target=&#34;_blank&#34;&gt;Open Science Framework&lt;/a&gt; is an excellent tool. It allows for an even wider set of version control tools to be applied to projects and can be used to organize work that is not easily stored on GitHub, like large number of pdf articles, for which version control is not critical.&lt;/p&gt;
+
+&lt;p&gt;Once a research project has begun dissemination, repositories like &lt;a href=&#34;https://zenodo.org&#34; target=&#34;_blank&#34;&gt;Zenodo&lt;/a&gt; and &lt;a href=&#34;https://figshare.com&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt; are designed to make open source data and project materials accessible and citeable. For papers specifically, there are a number of discipline specific archives for pre-prints of papers. Many journals will allow pre-prints to remain freely available even after more formal publication. The original pre-print archive, &lt;a href=&#34;https://arxiv.org&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;, is focused on the STEM sciences and has inspired a number of spinoffs. Many of these are supported by the &lt;a href=&#34;https://cos.io&#34; target=&#34;_blank&#34;&gt;Center for Open Science&lt;/a&gt;, the same organization that operates the &lt;a href=&#34;https://osf.io&#34; target=&#34;_blank&#34;&gt;Open Science Framework&lt;/a&gt; tool described above. For social scientists, &lt;a href=&#34;https://socopen.org/welcome/&#34; target=&#34;_blank&#34;&gt;SocArXiv&lt;/a&gt; is a growing pre-print repository that is part of the &lt;a href=&#34;https://osf.io/preprints/socarxiv&#34; target=&#34;_blank&#34;&gt;Center for Open Science&amp;rsquo;s pre-print network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;organizing-coursework&#34;&gt;Organizing Coursework&lt;/h3&gt;
+
+&lt;p&gt;For &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;, problem sets and the final project should both be organized following the general template above.&lt;/p&gt;
+
+&lt;h2 id=&#34;backing-up-your-data&#34;&gt;Backing Up Your Data&lt;/h2&gt;
+
+&lt;p&gt;All of the organization in the world cannot prevent a computer hard drive from failing or a natural disaster from destroying your hardware. Similarly, even the best organized of us lose things sometimes or accidentally delete files. Backing up files is therefore a critical piece of not just doing computational work but, in this day and age, it is a requisite skill for owning computer hardware. Every device you own including your phone can and should be backed up. There are a number of different ways to think about backing up your data. The most successful backup strategies will incorporate all of these three elements.&lt;/p&gt;
+
+&lt;h3 id=&#34;bootable-backups&#34;&gt;Bootable Backups&lt;/h3&gt;
+
+&lt;p&gt;“Bootable” backups are mirrored images of your &lt;em&gt;entire&lt;/em&gt; hard drive, down to temporary files, icons, and system files. With a bootable backup, you can restore your entire computer in the event of a hard drive failure or a corruption of the operating system files. They are named as such because you can plug in the external drive that you are using for this backup and literally boot your computer up from that drive (typically a &lt;em&gt;very&lt;/em&gt; slow process).&lt;/p&gt;
+
+&lt;p&gt;These backups are often made less frequently because they can be resource intensive and it is best not to use your operating system while creating a clone. They are typically made to an external hard drive, which is subject to similar failure rates as the hard drives inside your computer. So bootable drives need to be replaced every few years to maintain their reliability.&lt;/p&gt;
+
+&lt;p&gt;Both major operating systems come with applications for creating clones of your main hard drive that are bootable, and there are a number of third party applications that provide this service as well.&lt;/p&gt;
+
+&lt;h3 id=&#34;incremental-backups&#34;&gt;Incremental Backups&lt;/h3&gt;
+
+&lt;p&gt;Incremental backups are designed to keep multiple copies of a single file (how often depends on the type of software you use and the settings you select). These can be used to restore an older copy of a file if work is lost or a newer file is corrupted.&lt;/p&gt;
+
+&lt;p&gt;Apple’s TimeMachine is a great example of an incremental backup - when kept on, it creates hourly backups of files that have been changed, daily backups for the previous month, and weekly backups for previous months. Once the disk is full, the oldest backups are deleted. Dropbox also provides a similar service, retaining all previous versions of files (and deleted files) for thirty days.&lt;/p&gt;
+
+&lt;p&gt;Incremental backups are typically good options for recovering files that have been recently changed (again, depending on the software you use and the settings you select). Since they run frequently (every time a file is changed or every hour, for example), recent changes tend to get captured. They can be limited in terms of their long-term storage - it may not be possible to recover older versions of a file past a few weeks.&lt;/p&gt;
+
+&lt;p&gt;They are also not always good solutions for recreating your entire computer since they do not save all necessary program and operating system files, and may be cumbersome to work with if you need to recover a large quantity of files. Like bootable backups, these are typically stored on external hard drives that need to be replaced on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;In addition to the aforementioned Apple TimeMachine, the Windows OS also comes with a built-in service for creating incremental backups. Dropbox is a good option if you have a small number of files, but you may find the need to upgrade to a paid account if you have a large amount of data.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloud-backups&#34;&gt;Cloud Backups&lt;/h3&gt;
+
+&lt;p&gt;Cloud backup services like &lt;a href=&#34;https://www.backblaze.com&#34; target=&#34;_blank&#34;&gt;Backblaze&lt;/a&gt; or &lt;a href=&#34;https://www.code42.com/crashplan/&#34; target=&#34;_blank&#34;&gt;Crashplan&lt;/a&gt; offer comprehensive backup solutions for customers. These plans typically require a monthly subscription fee to maintain access to your backups. While bootable backups protect against hard drive failure and incremental backups protect against data corruption, cloud backups protect against catastrophic events like robberies, fires, and other natural disasters. A fire or a tornado that affect your house may destroy your laptop and any external hard drives you use for backup, but your cloud backup will be unaffected.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-workflow-for-backups&#34;&gt;A Workflow for Backups&lt;/h3&gt;
+
+&lt;p&gt;Just as we need a workflow for approaching file management, it is also important to establish a routine for backups. With backups, the most successful workflows are those that require next to no effort on your part. If you primarily use a desktop, this can be as simple as leaving two external hard drives plugged into your computer since most backup software can be set to run automatically. If you have tasks that require you to manually do something (plug an external hard drive into your computer, for instance), create a reminder for yourself on a paper calendar or a digital calendar or to-do list application.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;I gave a presentation on workflows for backing data up as part of the &lt;a href=&#34;https://slu-dss.github.io&#34; target=&#34;_blank&#34;&gt;Data Science Seminar&lt;/a&gt; series at &lt;a href=&#34;https://slu.edu&#34; target=&#34;_blank&#34;&gt;Saint Louis University&lt;/a&gt;. You can easily view the slides from that presentation on &lt;a href=&#34;https://speakerdeck.com/chrisprener/protecting-your-data&#34; target=&#34;_blank&#34;&gt;Speaker Deck&lt;/a&gt;, and you can download the session&amp;rsquo;s materials from &lt;a href=&#34;https://github.com/slu-dss/protectData&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;For this course in particular, it is &lt;em&gt;imperative&lt;/em&gt; that you backup the data on your flash drive. A number of possibilities exist for accomplishing this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Keep a local copy of your flash drive&amp;rsquo;s files on your computer.&lt;/li&gt;
+&lt;li&gt;Keep a &lt;code&gt;.zip&lt;/code&gt; archive of your files in a service like Dropbox or Google Drive. (Using a &lt;code&gt;.zip&lt;/code&gt; archive will prevent issues with your &lt;code&gt;.git&lt;/code&gt; repositories.)&lt;/li&gt;
+&lt;li&gt;Maintain a second flash drive copies of all of your files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whatever solution you select, make sure you regularly update your backup. The more often you keep your backup archive updated, the less stressful and disruptive losing your drive will be. This will likely be a manual task, so follow the guidance above about creating a repeating calendar event or to-do list task reminder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Course Onboarding</title>
       <link>/docs/course-onboarding/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
@@ -287,6 +1073,48 @@
     </item>
     
     <item>
+      <title>Creating RMarkdown Documents</title>
+      <link>/docs/rmarkdown/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/rmarkdown/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;knitr&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Reproducibility&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;testDriveR&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://www.rstudio.com/resources/cheatsheets/#rmarkdown&#34; target=&#34;_blank&#34;&gt; RMarkdown Cheatsheet &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;This document assumes you are already comfortable with the content in the &lt;a href=&#34;/docs/markdown&#34;&gt;Writing in Markdown&lt;/a&gt; doc.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;literate-programming&#34;&gt;Literate Programming&lt;/h2&gt;
+
+&lt;h2 id=&#34;rmarkdown-basics&#34;&gt;RMarkdown Basics&lt;/h2&gt;
+
+&lt;h2 id=&#34;assignment-layout&#34;&gt;Assignment Layout&lt;/h2&gt;
+
+&lt;h2 id=&#34;code-chunks&#34;&gt;Code Chunks&lt;/h2&gt;
+
+&lt;h2 id=&#34;enviornment-considerations&#34;&gt;Enviornment Considerations&lt;/h2&gt;
+
+&lt;h2 id=&#34;working-directory-considerations&#34;&gt;Working Directory Considerations&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Final Project</title>
       <link>/docs/project/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
@@ -350,11 +1178,15 @@
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-04&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://www.rstudio.com/resources/cheatsheets/#rmarkdown&#34; target=&#34;_blank&#34;&gt; RMarkdown Cheatsheet &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf&#34; target=&#34;_blank&#34;&gt; RMarkdown Reference Guide &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt; GitHub Mastering Markdown &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf&#34; target=&#34;_blank&#34;&gt; RMarkdown Reference Guide &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;basics&#34;&gt;Basics&lt;/h2&gt;
 
@@ -417,9 +1249,187 @@ in est ante.
 
 &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam pellentesque nec nam aliquam sem et tortor consequat. Auctor urna nunc id cursus metus. Eleifend mi in nulla posuere. Facilisis sed odio morbi quis. Nibh nisl condimentum id venenatis. Lectus nulla at volutpat diam ut venenatis.&lt;/p&gt;
+&lt;h2 id=&#34;working-with-text&#34;&gt;Working with Text&lt;/h2&gt;
 
-&lt;p&gt;Pretium lectus quam id leo in vitae. Neque vitae tempus quam pellentesque nec nam aliquam. Curabitur gravida arcu ac tortor. Arcu risus quis varius quam quisque id diam. Viverra aliquet eget sit amet tellus cras adipiscing. Tellus molestie nunc non blandit massa enim nec. Tempus imperdiet nulla malesuada pellentesque elit eget. Non blandit massa enim nec. Sed risus pretium quam vulputate dignissim suspendisse in est ante.&lt;/p&gt;
+&lt;p&gt;Markdown provides a number of tools for working with and stylizing text. These include options for bold and italicized text, adding code blocks, quoting text, and creating bulleted and enumerated lists.&lt;/p&gt;
+
+&lt;h3 id=&#34;styling-text&#34;&gt;Styling Text&lt;/h3&gt;
+
+&lt;p&gt;Text can be styled using bold and italics To create italicized text, wrap your text with a single asterisk &lt;code&gt;*&lt;/code&gt;. To create bold text, wrap your text with double asterisks &lt;code&gt;**&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;*This is an italicized sentence.*
+
+**This is a bolded sentence.**
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;quoting-text&#34;&gt;Quoting Text&lt;/h3&gt;
+
+&lt;p&gt;Quoting text (which I have used above to illustrate examples) is done with a greater then symbol (&lt;code&gt;&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; This is quoted text.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;quoting-code&#34;&gt;Quoting Code&lt;/h3&gt;
+
+&lt;h4 id=&#34;in-line-code&#34;&gt;In-Line Code&lt;/h4&gt;
+
+&lt;p&gt;There are two types of code quotes in Markdown. In-line quotes, which are included in a sentence, are wrapped in single backticks:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;The `stlLead` data contains a variable named `totalPop`.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h4&gt;
+
+&lt;p&gt;To include code blocks, which are better for including the full syntax of particular commands and their output, use triple backticks:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;```r
+&amp;gt; summary(stlLead$totalPop)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    620    2025    2912    2999    3784    7069 
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Note how the letter &amp;lsquo;r&amp;rsquo; is written after the first set of triple backticks. This is an indicator for GitHub that the code is written in &lt;code&gt;R&lt;/code&gt;&amp;rsquo;s programming language. By including this, GitHub can apply some syntax highlighting to your files. This makes them easier to read.&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;In Markdown, adding hyperlinks is a two step process. The text that you want to have hyperlinked is written first and is wrapped in brackets &lt;code&gt;[]&lt;/code&gt;. After this, you include the URL wrapped in parentheses &lt;code&gt;()&lt;/code&gt;. This is an example of including in-line hyperlinks:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;The [Sociospatial Data Science book](http://chris-prener.github.io/SSDSBook/) is hosted using the service [GitHub](https://github.com).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;embedding-images&#34;&gt;Embedding Images&lt;/h3&gt;
+
+&lt;p&gt;Images can be embedded in Markdown documents with syntax that is nearly identical to how [Links] were inserted, except that text in the brackets can be omitted. You will add an &lt;code&gt;!&lt;/code&gt; to the beginning of the syntax, and use a URL to an image in the link:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![](http://slu-soc5650.github.io/images/logo.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can replace the URL to an image with a path within a repository organized as suggested in [Organizing Projects] - &lt;code&gt;![](results/map1.png)&lt;/code&gt;. The path can be as long as necessary if there are additional directories - &lt;code&gt;![](results/maps/firstDraft/map1.png)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+
+&lt;h4 id=&#34;bulleted-lists&#34;&gt;Bulleted Lists&lt;/h4&gt;
+
+&lt;p&gt;Bulleted lists are indicated in Markdown using the dash &lt;code&gt;-&lt;/code&gt; or a single asterisk &lt;code&gt;*&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- mean
+- median
+- mode
+* variance
+* standard deviation
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;enumerated-lists&#34;&gt;Enumerated Lists&lt;/h4&gt;
+
+&lt;p&gt;Enumerated lists are created by preceding each line with the appropriate number:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. calculate the mean
+2. calculate the variance
+3. calculate the standard deviation
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;nested-lists&#34;&gt;Nested Lists&lt;/h4&gt;
+
+&lt;p&gt;You can create more complex lists by preceding a line with four single spaces. You can also combine bulleted and enumerated lists when using this approach.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. create a basemap
+    * add street centerlines and the city boundary
+    * use a light hue for the centerline
+2. add points for incidents
+    * use red points for fire incidents
+    * use blue points for EMS incidents
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;github-markdown&#34;&gt;GitHub Markdown&lt;/h2&gt;
+
+&lt;p&gt;Markdown&amp;rsquo;s original syntax has been augmented numerous times since it was first released. Users sometimes call these different &lt;a href=&#34;https://github.com/commonmark/CommonMark/wiki/Markdown-Flavors&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;flavors&amp;rdquo;&lt;/a&gt; of Markdown. One key flavor of Markdown to be familiar with is GitHub Markdown, which adds a number of additional syntax features to the base syntax discussed in the previous two sections.&lt;/p&gt;
+
+&lt;h3 id=&#34;styling-text-1&#34;&gt;Styling Text&lt;/h3&gt;
+
+&lt;p&gt;Strikethrough text can be useful for indicating that a particular comment or piece of information is no longer relevant while also preserving that text in the document. Strikethrough text can be created by wrapping your text with two tildes &lt;code&gt;~~ ~~&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;~~This is a sentence with strikethrough text.~~
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;simple-tables&#34;&gt;Simple Tables&lt;/h3&gt;
+
+&lt;p&gt;Tables can be created using a combination of pipe (&lt;code&gt;|&lt;/code&gt;) and dash (&lt;code&gt;-&lt;/code&gt;) characters. The dashes are used to separate the header row from the data rows, and there must be at least three dashes per column. The spacing is not required, mis-aligned text in the rows should not prevent the table from rendering nicely. However, I do think that well spaced tables are easier to edit down the road.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| `id` | `name` | `value` |
+| ---- | ------ | ------- |
+| 1    | ham    | 23      |
+| 2    | eggs   | 18      |
+| 3    | spam   | 6       |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;task-lists&#34;&gt;Task Lists&lt;/h3&gt;
+
+&lt;p&gt;If you want to create task lists on GitHub, you can include brackets separated by a space before each list item &lt;code&gt;[ ]&lt;/code&gt;. Completed tasks include an &lt;code&gt;x&lt;/code&gt; in place of the space &lt;code&gt;[x]&lt;/code&gt;.  These task lists are interactive - when published on GitHub in &lt;strong&gt;Issues&lt;/strong&gt; for instance, you can click on the resulting checkboxes to toggle them between complete / incomplete.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. [x] calculate the mean
+2. [ ] calculate the variance
+3. [ ] calculate the standard deviation
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output in Static Markdown Doc:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output in Issue or Pull Request:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mentioning-other-github-users&#34;&gt;Mentioning Other GitHub Users&lt;/h3&gt;
+
+&lt;p&gt;If you want to mention me or one of your classmates in a comment, include the &lt;code&gt;@&lt;/code&gt; symbol before their username. Once the document is uploaded to GitHub, the username will render as a hyperlink and the user will be alerted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Hey @chris-prener, thanks for the feedback. I made the changes to lines 40 and 41.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -464,599 +1474,6 @@ in est ante.
       
       <guid>/project/external-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/post/getting-started/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
-
-&lt;p&gt;Follow our easy &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34; target=&#34;_blank&#34;&gt;step by step guide&lt;/a&gt; to learn how to build your own free website with Academic. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the personal demo&lt;/a&gt; or the &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;business demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34; target=&#34;_blank&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of Academic:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Key features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-
-&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-1950s.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-apogee.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-coffee-playfair.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-cupcake.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-dark.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-default.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-forest.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-ocean.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
-&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
-&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
-&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
-&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
-
-&lt;p&gt;Prerequisites:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd My_Website
-git submodule update --init --recursive
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
-
-&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
-
-&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
-
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
-
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/person-re-id/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>/slides/example-slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slides/example-slides/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Code block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-
-&lt;p&gt;Block math:&lt;/p&gt;
-
-&lt;p&gt;$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  Three
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

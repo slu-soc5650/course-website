@@ -312,6 +312,30 @@ enableGitInfo = false
 #    url = "files/cv.pdf"
 #    weight = 7
 
+# Documentation menu
+
+[[menu.docs]]
+  name = "Overview"
+  url = "/docs/"
+  weight = 5 
+
+[[menu.docs]]
+  name = "Getting Started"
+  weight = 10
+  
+[[menu.docs]]
+  name = "Fundamentals"
+  weight = 20
+  
+[[menu.docs]]
+  name = "Final Project"
+  url = "/docs/project"
+  weight = 80  
+
+[[menu.docs]]
+  name = "Topics"
+  weight = 90  
+
 # Search.
 [params.search]
   # Search provider:
