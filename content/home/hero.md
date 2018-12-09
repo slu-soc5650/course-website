@@ -19,9 +19,11 @@ weight = 1
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
-[cta]
-  url = "./docs/"
-  label = '<i class="fas fa-share"></i> Open Docs'
+# [cta]
+#  url = "./docs/"
+#  label = '<i class="fas fa-share"></i> Open Docs'
 +++
 
 An introduction to fundamental techniques for geospatial data science and geoscience using a modern GIS toolkit that includes ArcGIS Pro and the programming language R.
+
+<div> <a class="btn btn-outline-light btn-lg" href="/docs/"> <i class="fas fa-share"></i> Open Docs </a> &nbsp; <a class="btn btn-outline-light btn-lg" href="https://slu-soc5650.github.io/syllabus"> <i class="fas fa-share"></i> Open Syllabus </a> </div>

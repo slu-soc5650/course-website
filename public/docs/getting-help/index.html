@@ -221,9 +221,30 @@ Overview One of the biggest challenges for students first learning tools like R,
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">
+          <a class="nav-link" href="/docs">
             
-            <span>Contact</span>
+            <span>Docs</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://slu-soc5650.github.io/syllabus" target="_blank" rel="noopener">
+            
+            <span>Syllabus</span>
             
           </a>
         </li>
@@ -240,9 +261,9 @@ Overview One of the biggest challenges for students first learning tools like R,
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/docs">
+          <a class="nav-link" href="/#contact">
             
-            <span>Docs</span>
+            <span>Contact</span>
             
           </a>
         </li>
@@ -348,6 +369,23 @@ Overview One of the biggest challenges for students first learning tools like R,
         <a href="/docs/rmarkdown/">Creating RMarkdown Documents</a>
       </li>
       
+      <li >
+        <a href="/docs/git/">Git and GitHub</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/docs/lecture-01/">Lectures</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/docs/lecture-01/">Lecture-01 - Introduction</a>
+      </li>
+      
     </ul>
     
 
@@ -396,7 +434,7 @@ Overview One of the biggest challenges for students first learning tools like R,
 <li><a href="#check-your-process">Check Your Process</a></li>
 <li><a href="#cast-a-wider-net">Cast a Wider Net</a></li>
 </ul></li>
-<li><a href="#how-to-seek-help">How to Seek Help</a>
+<li><a href="#seeking-help-with-reproducible-examples">Seeking Help with Reproducible Examples</a>
 <ul>
 <li><a href="#what-is-your-question">What is your question?</a></li>
 <li><a href="#what-is-a-reproducible-example">What is a reproducible example?</a></li>
@@ -404,7 +442,6 @@ Overview One of the biggest challenges for students first learning tools like R,
 <ul>
 <li><a href="#r"><code>R</code></a></li>
 <li><a href="#arcgis">ArcGIS</a></li>
-<li><a href="#latex">LaTeX</a></li>
 <li><a href="#other-tools">Other Tools</a></li>
 </ul></li>
 <li><a href="#i-don-t-think-i-can-make-a-reprex">&ldquo;I don&rsquo;t think I can make a reprex!&rdquo;</a></li>
@@ -511,7 +548,7 @@ Overview One of the biggest challenges for students first learning tools like R,
 
 <p>Finally, if you have exhausted these other options, a Google search may be effective. This may help you identify GitHub issues, blogs, and other online tutorials that can help address whatever roadblock you have run into. Try searching first with double quotes around the main body of the error message&rsquo;s text. If nothing comes up, try searching without the double quotes. Search strings that include <code>R</code> package names or specific processes in ArcGIS are sometimes helpful for narrowing down a large amount of search results, especially if those results are not specific to the tool you are using. The same warning for Stack Exchange also exists for Google, however. You may find imperfect matches for your problem that take considerably more tinkering to implement.</p>
 
-<h2 id="how-to-seek-help">How to Seek Help</h2>
+<h2 id="seeking-help-with-reproducible-examples">Seeking Help with Reproducible Examples</h2>
 
 <p>If all else fails and the strategies for [Helping Yourself] have not yielded a solution, it is time to ask for help! Before you head to office hours or Slack, you will want to construct a <strong>reproducible example</strong>.</p>
 
@@ -620,37 +657,13 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 4. Attached is a screenshot of what the symbology tab looks like for these data.
 </code></pre>
 
-<h4 id="latex">LaTeX</h4>
-
-<p>Like ArcGIS, there is no specific tool for creating a reprex using LaTeX. The LaTeX community does have, however, a long tradition of creating &ldquo;minimal working examples&rdquo;, which are similar to reprexs. Follow these general steps:</p>
-
-<ol>
-<li>Create a new LaTeX project. Use the <code>\documentclass{article}</code> if you are using something different.</li>
-<li>Only include packages in the preamble that are <strong>directly</strong> related to the question or issue you have.</li>
-<li>Skip creating a title block</li>
-<li>Provide just enough body text in your LaTeX document to illustrate the issue.</li>
-</ol>
-
-<p>A repex for LaTeX might look something like this:</p>
-
-<pre><code class="language-latex">\documentclass{article}
-
-\begin{document}
-
-\textbold{Foo bar.} Spam and eggs.
-
-\end{document}
-</code></pre>
-
-<p>Also provide a written description of what is wrong (such as &ldquo;the text is not being rendered as bold&rdquo;) and, if helpful, a <a href="https://www.take-a-screenshot.org" target="_blank">screenshot</a> of your output. There is a great <a href="https://tex.meta.stackexchange.com/questions/228/ive-just-been-asked-to-write-a-minimal-example-what-is-that" target="_blank">overview on Stack Exchange</a> of how to write a reprex for LaTeX. If you are using ShareLaTeX, also take a look at the error log and take a <a href="https://www.take-a-screenshot.org" target="_blank">screenshot</a> of the relevant error message. If you are using another LaTeX application, provide the text of your error message instead.</p>
-
 <h4 id="other-tools">Other Tools</h4>
 
-<p>For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to recreate your issue outside of the context of your assignment (this may not be possible for GitHub), and provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a <a href="https://www.take-a-screenshot.org" target="_blank">screenshot</a> of the relevant error message.</p>
+<p>For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a <a href="https://www.take-a-screenshot.org" target="_blank">screenshot</a> of the relevant error message.</p>
 
 <h3 id="i-don-t-think-i-can-make-a-reprex">&ldquo;I don&rsquo;t think I can make a reprex!&rdquo;</h3>
 
-<p>I am 99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your <code>R</code> code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.</p>
+<p>I am 99.99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your <code>R</code> code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.</p>
 
 <h3 id="isn-t-this-a-lot-of-work">&ldquo;Isn&rsquo;t this a lot of work?&rdquo;</h3>
 

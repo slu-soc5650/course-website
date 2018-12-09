@@ -293,17 +293,24 @@ enableGitInfo = false
 [[menu.main]]
   name = "Resources"
   url = "#skills"
-  weight = 1
+  weight = 2
+
+[[menu.main]]
+  name = "Docs"
+  url = "/docs"
+  weight = 3
+
+[[menu.main]]
+  name = "Syllabus"
+  url = "https://slu-soc5650.github.io/syllabus"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 9
 
-[[menu.main]]
-  name = "Docs"
-  url = "/docs"
-  weight = 10
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -326,15 +333,19 @@ enableGitInfo = false
 [[menu.docs]]
   name = "Fundamentals"
   weight = 20
+
+[[menu.docs]]
+  name = "Lectures"
+  weight = 30
   
 [[menu.docs]]
   name = "Final Project"
   url = "/docs/project"
-  weight = 80  
+  weight = 40  
 
 [[menu.docs]]
   name = "Topics"
-  weight = 90  
+  weight = 50  
 
 # Search.
 [params.search]

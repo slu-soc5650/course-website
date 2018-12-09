@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>Git and GitHub</title>
+      <link>/docs/git/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/git/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-06 
+Key Topics &amp;nbsp; GitHub
+Overview Much of our interaction this semester outside of class will utilize GitHub.com (or just &amp;ldquo;GitHub&amp;rdquo;). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
+We&amp;rsquo;ll use GitHub as an alternative to Blackboard, the course management system that students are typically familiar with.</description>
+    </item>
+    
+    <item>
       <title>Approaching Coursework</title>
       <link>/docs/course-approach/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
@@ -41,6 +53,17 @@ Overview One of the biggest challenges for students first learning tools like R,
       <guid>/docs/good-enough-practices/</guid>
       <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-05 
 Overview This section introduces some of the core concepts that support sociospatial data science works. The title of the chapter takes inspiration from a recent article titled Good enough practices in scientific computing (Wilson et al. 2017). The authors note in their introduction that scientific computing advice can sometimes be both overwhelming and focused on tools that are inaccessible to many analysts.</description>
+    </item>
+    
+    <item>
+      <title>Lecture-01 - Course Introduction</title>
+      <link>/docs/lecture-01/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/lecture-01/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-05 
+Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography &amp;nbsp; Interactive maps  leaflet
+Lecture Slides    Working with R Packages During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an R package called stlData. Packages are small software programs that extend R&amp;rsquo;s base functionality.</description>
     </item>
     
     <item>

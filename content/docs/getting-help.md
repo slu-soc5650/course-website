@@ -71,7 +71,7 @@ Stack Exchange may have posts that address the issue or question you have. Howev
 
 Finally, if you have exhausted these other options, a Google search may be effective. This may help you identify GitHub issues, blogs, and other online tutorials that can help address whatever roadblock you have run into. Try searching first with double quotes around the main body of the error message's text. If nothing comes up, try searching without the double quotes. Search strings that include `R` package names or specific processes in ArcGIS are sometimes helpful for narrowing down a large amount of search results, especially if those results are not specific to the tool you are using. The same warning for Stack Exchange also exists for Google, however. You may find imperfect matches for your problem that take considerably more tinkering to implement. 
 
-## How to Seek Help
+## Seeking Help with Reproducible Examples
 If all else fails and the strategies for [Helping Yourself] have not yielded a solution, it is time to ask for help! Before you head to office hours or Slack, you will want to construct a **reproducible example**.
 
 ### What is your question?
@@ -177,33 +177,11 @@ For example, a reprex of a question in ArcGIS could look like the following:
 4. Attached is a screenshot of what the symbology tab looks like for these data.
 ```
 
-#### LaTeX
-Like ArcGIS, there is no specific tool for creating a reprex using LaTeX. The LaTeX community does have, however, a long tradition of creating "minimal working examples", which are similar to reprexs. Follow these general steps:
-
-1. Create a new LaTeX project. Use the `\documentclass{article}` if you are using something different.
-2. Only include packages in the preamble that are **directly** related to the question or issue you have.
-3. Skip creating a title block
-4. Provide just enough body text in your LaTeX document to illustrate the issue. 
-
-A repex for LaTeX might look something like this:
-
-```latex
-\documentclass{article}
-
-\begin{document}
-
-\textbold{Foo bar.} Spam and eggs.
-
-\end{document}
-```
-
-Also provide a written description of what is wrong (such as "the text is not being rendered as bold") and, if helpful, a [screenshot](https://www.take-a-screenshot.org) of your output. There is a great [overview on Stack Exchange](https://tex.meta.stackexchange.com/questions/228/ive-just-been-asked-to-write-a-minimal-example-what-is-that) of how to write a reprex for LaTeX. If you are using ShareLaTeX, also take a look at the error log and take a [screenshot](https://www.take-a-screenshot.org) of the relevant error message. If you are using another LaTeX application, provide the text of your error message instead.
-
 #### Other Tools
-For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to recreate your issue outside of the context of your assignment (this may not be possible for GitHub), and provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a [screenshot](https://www.take-a-screenshot.org) of the relevant error message.
+For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a [screenshot](https://www.take-a-screenshot.org) of the relevant error message.
 
 ### "I don't think I can make a reprex!"
-I am 99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your `R` code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you. 
+I am 99.99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your `R` code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you. 
 
 ### "Isn't this a lot of work?"
 Well, yes, it does require some extra effort. This effort is almost always worth it, however. In some cases, the time it takes you to produce the repex leads you to the answer on your own, which is part of the problem solving process that this class is designed to foster. Even when this does not happen, making reprex informed inquires is a technique that you will be able to take with you at the end of the semester. Even if you are not working in a technical setting, being able to structure clear, concise questions about a process is a valuable skill! 

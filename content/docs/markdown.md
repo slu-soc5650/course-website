@@ -19,7 +19,7 @@ linktitle = "Writing in Markdown"
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-12-05** </i>
 
 ## Key Topics
-<a class="meta-badge tool" href="/docs/topic-index/#e-h"><i class="fas fa-tags fa-lg"></i>&nbsp; **GitHub**</a> <a class="meta-badge keyword" href="/docs/topic-index/#m-p"><i class="fas fa-tags fa-lg"></i>&nbsp; **Markdown**</a>
+<a class="meta-badge tool" href="/docs/topic-index/#e-h"><i class="fas fa-desktop fa-lg"></i>&nbsp; **GitHub**</a> <a class="meta-badge keyword" href="/docs/topic-index/#m-p"><i class="fas fa-tags fa-lg"></i>&nbsp; **Markdown**</a>
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://guides.github.com/features/mastering-markdown/" target="_blank"> GitHub Mastering Markdown </a> <a class="btn btn-outline-primary resource" href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" target="_blank"> RMarkdown Reference Guide </a>

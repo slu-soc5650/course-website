@@ -11,6 +11,122 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Git and GitHub</title>
+      <link>/docs/git/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/git/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-06&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Much of our interaction this semester outside of class will utilize GitHub.com (or just &amp;ldquo;GitHub&amp;rdquo;). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll use GitHub as an alternative to Blackboard, the &lt;em&gt;course management system&lt;/em&gt; that students are typically familiar with. Course materials will be posted there, and GitHub&amp;rsquo;s features will allow you to copy them and keep them updated as changes are made. You&amp;rsquo;ll also use GitHub to submit assignments for grading, and we&amp;rsquo;ll give you feedback and grades via GitHub as well.&lt;/p&gt;
+
+&lt;h2 id=&#34;git-basics&#34;&gt;Git Basics&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;p&gt;GitHub is a web application that utilizes &lt;a href=&#34;https://git-scm.com&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Essentially, Git is a project-wide system for tracking changes to files. Think of it as Microsoft office&amp;rsquo;s track changes feature on steroids - every change to every file in a directory is tracked. A directory that has tracking enabled with Git is called a &lt;strong&gt;repository&lt;/strong&gt; or &amp;ldquo;repo&amp;rdquo; in Git-lingo.&lt;/p&gt;
+
+&lt;p&gt;You do no need to host files online to use Git. If you have a project saved locally (say, a doctoral thesis), you could utilize Git to version control that project without ever uploading it to the Internet. However, Git integrates seemlessly with &lt;strong&gt;remote&lt;/strong&gt; repositories. The most well-known host of remote repos is [GitHub.com].&lt;/p&gt;
+
+&lt;p&gt;Beyond &amp;ldquo;repositories&amp;rdquo;, there are a few additional terms that are specific to Git and that are helpful to know:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clone&lt;/strong&gt;: Make an identical copy of a repository on your local hard drive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt;: Approve any changes you have made to a repository.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sync&lt;/strong&gt;: For cloned repositories, files that have been changed need to be synced or &lt;strong&gt;pushed&lt;/strong&gt; to GitHub.com after they are committed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For our purposes, this is just about all you need to know about Git. If you want to learn more, &lt;a href=&#34;https://git-scm.com/about&#34; target=&#34;_blank&#34;&gt;Git&amp;rsquo;s &amp;lsquo;About&amp;rsquo; page&lt;/a&gt; is a great place to start.&lt;/p&gt;
+
+&lt;h3 id=&#34;github-com&#34;&gt;GitHub.com&lt;/h3&gt;
+
+&lt;p&gt;GitHub is a web service that can host projects using Git&amp;rsquo;s version tracking. It is widely used by programmers, software developers, data scientists, and academics to host and collaborate projects.&lt;/p&gt;
+
+&lt;p&gt;GitHub is an excellent way to backup files for a project since you can &amp;ldquo;sync&amp;rdquo; changes made to a repository up to GitHub&amp;rsquo;s servers. It is also an excellent way to collaborate on files with colleagues while also using Git&amp;rsquo;s version tracking. Repositories can be either public (like all of the repos for our seminar) or private, which means that only people who have been given access to can view the contents of the repo. Private repos require an upgraded account, which retails for $7/month.&lt;/p&gt;
+
+&lt;p&gt;Students can get access to GitHub&amp;rsquo;s paid services for free, however, by signing up for a &lt;a href=&#34;https://education.github.com&#34; target=&#34;_blank&#34;&gt;free student account&lt;/a&gt;. This will give you access to private repositories for as long as you are a student. GitHub also provides this free upgrade service to educators, which is how our classes have private repositories.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-workflow-of-git-and-github&#34;&gt;The Workflow of Git and GitHub&lt;/h2&gt;
+
+&lt;p&gt;The typical approach to versioning for many students is manual. For a hypothetical class response paper, it might look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/gitFlow01.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The author made an initial copy of the paper, and then used a haphazard and inconsistent approach for naming subsequent copies of the paper. We can presume that changes were made in a linear fashion, though it is easy to make changes to, say, &lt;code&gt;First Response Paper 2.doc&lt;/code&gt; after &lt;code&gt;First Response Paper 3.doc&lt;/code&gt; has been created and edited.&lt;/p&gt;
+
+&lt;h3 id=&#34;commits&#34;&gt;Commits&lt;/h3&gt;
+
+&lt;p&gt;Instead of saving copies of their hypothetical paper, a student using GitHub could write the paper in a single document, &lt;strong&gt;commiting&lt;/strong&gt; their changes as they progress to take &amp;ldquo;snapshots&amp;rdquo; of their progress. These snapshots contain information on changes the student has made, tracked line-by-line. So, at each point in which a new document would have been created in the typical workflow, a student using GitHub would simply &lt;strong&gt;commit&lt;/strong&gt; their changes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/gitFlow02.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Git provides a number of useful features beyond simply tracking changes. Each commit is accompanied a &lt;strong&gt;message&lt;/strong&gt;. These messages must have a short summary that appears on GitHub and can also have a longer description that can be used to describe in detail what changes are being applied with a specific commit:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/gitFlow03.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Messages, combined with the changes that are tracked, allow users to trace the development of a single document or an entire project overtime:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_graphics(&amp;quot;images/gitFlow04.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This means that, if necessary, the project can also be rolled back to an earlier period. Finally, users can &lt;strong&gt;sync&lt;/strong&gt; their commits with GitHub.com, hosting their changes and their data in a way that protects them against certain types of computer failures and also allowing them to easily share their work with others.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-about-repositories&#34;&gt;More About Repositories&lt;/h3&gt;
+
+&lt;p&gt;Users of GitHub.com adhere to a couple of norms with their repositories that are worth knowing about. Repositories cannot have spaces in their names (much like objects in &lt;code&gt;R&lt;/code&gt;), so the naming conventions that we will discuss in relation to &lt;code&gt;R&lt;/code&gt; this semester all apply to GitHub as well!&lt;/p&gt;
+
+&lt;p&gt;Public GitHub repositories also contain (typically) at least three core files:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;A &lt;strong&gt;license&lt;/strong&gt; file - since the data is out there for public consumption, it is important to think about how that data is licensed. The norm among GitHub users has been to use open source licenses, which let others edit and adapt your work. There are a range of &lt;a href=&#34;http://choosealicense.com&#34; target=&#34;_blank&#34;&gt;licenses&lt;/a&gt; that are commonly used on GitHub.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A &lt;strong&gt;README&lt;/strong&gt; file - this describes the purpose and content of the project.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A &lt;strong&gt;.gitignore&lt;/strong&gt; file - this stops certain types of files from being swept up by GitHub when a user syncs their files with a server.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you clone your repositories, you will be prompted to save them on your computer. There are a number of ways in which this process can introduce sources for trouble down the road. The principle way that I have seen students run into problems with GitHub is by storing repositories on cloud storage services like Dropbox or Google Drive. In order to avoid any issues, I advise against storing GitHub repositories in an area of your computer that syncs with a cloud service.&lt;/p&gt;
+
+&lt;h2 id=&#34;github-issues&#34;&gt;GitHub Issues&lt;/h2&gt;
+
+&lt;p&gt;GitHub has a powerful tool for interaction called &lt;a href=&#34;https://help.github.com/articles/about-issues/&#34; target=&#34;_blank&#34;&gt;Issues&lt;/a&gt;. These can be accessed by opening a repository and then clicking on the &amp;ldquo;Issues&amp;rdquo; tab. Issues can be &amp;ldquo;opened&amp;rdquo; by anyone with access to the repository. They allow for a conversation to occur in the form of messages posted within the Issue itself. Files can be attached to Issues, and the messages can contain Markdown formatting. Once the conversation is complete, issues can be marked as &amp;ldquo;closed&amp;rdquo;, which moves them into a secondary view on the website so that they are archived.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll use issues for both assignment feedback and grading. Please keep up with issues are they appear, and feel free to follow-up with specific questions about your grade or the assignment feedback in the Issue conversation. Once you are satisfied, please mark the issue as closed.&lt;/p&gt;
+
+&lt;h2 id=&#34;github-desktop&#34;&gt;GitHub Desktop&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://desktop.github.com&#34; target=&#34;_blank&#34;&gt;GitHub Desktop&lt;/a&gt; is a tool that allows you to easily clone repositories hosted on GitHub, commit changes to them, and then sync those changes up to the website. You can also create new repositories, however this is not task you will have to do this semester. GitHub Desktop is not a fully functional desktop version of GitHub. For our purposes, it is important to note that the Desktop application will not let you easily identify when repositories have been updated by other users, view Wikis associated with repositories, or view Issues.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-more&#34;&gt;Learning More&lt;/h2&gt;
+
+&lt;p&gt;GitHub has a &lt;a href=&#34;https://help.github.com/articles/good-resources-for-learning-git-and-github/&#34; target=&#34;_blank&#34;&gt;resources page&lt;/a&gt; with links to websites that are great for helping you learn more about how Git and GitHub work! The next chapter also has some additional GitHub and Git information.&lt;/p&gt;
+
+&lt;p&gt;One particularly great &lt;a href=&#34;https://try.github.io/&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt; walks you through the command line process for creating and using a git repository. Even if you do not want to use Git via the command line, the tutorial does an &lt;em&gt;excellent&lt;/em&gt; job of describing the logic and sequence behind the Git workflow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Approaching Coursework</title>
       <link>/docs/course-approach/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
@@ -198,7 +314,7 @@
 
 &lt;p&gt;Finally, if you have exhausted these other options, a Google search may be effective. This may help you identify GitHub issues, blogs, and other online tutorials that can help address whatever roadblock you have run into. Try searching first with double quotes around the main body of the error message&amp;rsquo;s text. If nothing comes up, try searching without the double quotes. Search strings that include &lt;code&gt;R&lt;/code&gt; package names or specific processes in ArcGIS are sometimes helpful for narrowing down a large amount of search results, especially if those results are not specific to the tool you are using. The same warning for Stack Exchange also exists for Google, however. You may find imperfect matches for your problem that take considerably more tinkering to implement.&lt;/p&gt;
 
-&lt;h2 id=&#34;how-to-seek-help&#34;&gt;How to Seek Help&lt;/h2&gt;
+&lt;h2 id=&#34;seeking-help-with-reproducible-examples&#34;&gt;Seeking Help with Reproducible Examples&lt;/h2&gt;
 
 &lt;p&gt;If all else fails and the strategies for [Helping Yourself] have not yielded a solution, it is time to ask for help! Before you head to office hours or Slack, you will want to construct a &lt;strong&gt;reproducible example&lt;/strong&gt;.&lt;/p&gt;
 
@@ -307,37 +423,13 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 4. Attached is a screenshot of what the symbology tab looks like for these data.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;latex&#34;&gt;LaTeX&lt;/h4&gt;
-
-&lt;p&gt;Like ArcGIS, there is no specific tool for creating a reprex using LaTeX. The LaTeX community does have, however, a long tradition of creating &amp;ldquo;minimal working examples&amp;rdquo;, which are similar to reprexs. Follow these general steps:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create a new LaTeX project. Use the &lt;code&gt;\documentclass{article}&lt;/code&gt; if you are using something different.&lt;/li&gt;
-&lt;li&gt;Only include packages in the preamble that are &lt;strong&gt;directly&lt;/strong&gt; related to the question or issue you have.&lt;/li&gt;
-&lt;li&gt;Skip creating a title block&lt;/li&gt;
-&lt;li&gt;Provide just enough body text in your LaTeX document to illustrate the issue.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;A repex for LaTeX might look something like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\documentclass{article}
-
-\begin{document}
-
-\textbold{Foo bar.} Spam and eggs.
-
-\end{document}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also provide a written description of what is wrong (such as &amp;ldquo;the text is not being rendered as bold&amp;rdquo;) and, if helpful, a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of your output. There is a great &lt;a href=&#34;https://tex.meta.stackexchange.com/questions/228/ive-just-been-asked-to-write-a-minimal-example-what-is-that&#34; target=&#34;_blank&#34;&gt;overview on Stack Exchange&lt;/a&gt; of how to write a reprex for LaTeX. If you are using ShareLaTeX, also take a look at the error log and take a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the relevant error message. If you are using another LaTeX application, provide the text of your error message instead.&lt;/p&gt;
-
 &lt;h4 id=&#34;other-tools&#34;&gt;Other Tools&lt;/h4&gt;
 
-&lt;p&gt;For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to recreate your issue outside of the context of your assignment (this may not be possible for GitHub), and provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the relevant error message.&lt;/p&gt;
+&lt;p&gt;For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a &lt;a href=&#34;https://www.take-a-screenshot.org&#34; target=&#34;_blank&#34;&gt;screenshot&lt;/a&gt; of the relevant error message.&lt;/p&gt;
 
 &lt;h3 id=&#34;i-don-t-think-i-can-make-a-reprex&#34;&gt;&amp;ldquo;I don&amp;rsquo;t think I can make a reprex!&amp;rdquo;&lt;/h3&gt;
 
-&lt;p&gt;I am 99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your &lt;code&gt;R&lt;/code&gt; code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.&lt;/p&gt;
+&lt;p&gt;I am 99.99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your &lt;code&gt;R&lt;/code&gt; code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.&lt;/p&gt;
 
 &lt;h3 id=&#34;isn-t-this-a-lot-of-work&#34;&gt;&amp;ldquo;Isn&amp;rsquo;t this a lot of work?&amp;rdquo;&lt;/h3&gt;
 
@@ -492,6 +584,138 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;li id=&#34;fn:Goodman-S-N-Fane&#34;&gt;Goodman, S.N., Fanelli, D. and Ioannidis, J.P., 2016. What does research reproducibility mean?. &lt;em&gt;Science translational medicine&lt;/em&gt;, 8(341), pp.341ps12-341ps12. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Goodman-S-N-Fane&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lecture-01 - Course Introduction</title>
+      <link>/docs/lecture-01/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/lecture-01/</guid>
+      <description>
+
+&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b023eb9d7ee463faea3a90532221987&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&#34;working-with-r-packages&#34;&gt;Working with R Packages&lt;/h2&gt;
+
+&lt;p&gt;During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an &lt;code&gt;R&lt;/code&gt; package called &lt;a href=&#34;https://chris-prener.github.io/stlData/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;stlData&lt;/code&gt;&lt;/a&gt;. Packages are small software programs that extend &lt;code&gt;R&lt;/code&gt;&amp;rsquo;s base functionality. Most packages we&amp;rsquo;ll use this semester are available via &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;CRAN&lt;/a&gt;. To get started, you&amp;rsquo;ll need to fire up RStudio. In the console, enter the following function and hit return:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;stldata&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once it installs, we can access the data included in &lt;code&gt;stldata&lt;/code&gt; by loading the package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;stlData&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will be our standard workflow for installing packages this semester.&lt;/p&gt;
+
+&lt;h2 id=&#34;leaflet-basics&#34;&gt;Leaflet Basics&lt;/h2&gt;
+
+&lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&amp;rsquo;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&amp;rsquo;ll need to install &lt;code&gt;leaflet&lt;/code&gt; via CRAN:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;leaflet&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Just like before, we can open &lt;code&gt;leaflet&lt;/code&gt; with the &lt;code&gt;library()&lt;/code&gt; function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;leaflet&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;a-simple-map&#34;&gt;A Simple Map&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;leaflet&lt;/code&gt; itself is straightforward to get up and running. If we wanted an interactive map with a marker placed on-top of Morrissey Hall, we would use the following script entered into &lt;code&gt;R&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet() %&amp;gt;%
+  addTiles() %&amp;gt;%
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&amp;quot;Morrissey Hall&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;leaflet()&lt;/code&gt; function creates a map widget, and the &lt;code&gt;addTiles()&lt;/code&gt; function adds a basemap to it. By default, &lt;a href=&#34;https://www.openstreetmap.org&#34; target=&#34;_blank&#34;&gt;OpenStreetMap&lt;/a&gt; is used for the basemap. Finally, we use &lt;code&gt;addMarkers()&lt;/code&gt; to specify the longitude and latitude of our marker, and we enter in a label that will appear as a pop-up when a user clicks on the marker. &lt;code&gt;lng&lt;/code&gt;, &lt;code&gt;lat&lt;/code&gt;, and &lt;code&gt;popup&lt;/code&gt; are all called &amp;ldquo;arguments&amp;rdquo; - these are used to control how a function operates.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;%&amp;gt;%&lt;/code&gt; is called the &amp;ldquo;pipe operator&amp;rdquo;, and it is used to chain together functions in what we will call &amp;ldquo;pipelines&amp;rdquo;. This pipeline can be read like a list, with the word &lt;strong&gt;then&lt;/strong&gt; substituted for each instance of &lt;code&gt;%&amp;gt;%&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;First we create a map widget, &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;we add basemap tiles, &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;we add a marker at the given longitude and latitude.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The code chunk above produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/leaflet01.png&#34; alt=&#34;leaflet01&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the &lt;strong&gt;Show in new window&lt;/strong&gt; icon (a white box with a small arrow facing up and right) to open the map in your web browser.&lt;/p&gt;
+
+&lt;h3 id=&#34;changing-the-basemap&#34;&gt;Changing the Basemap&lt;/h3&gt;
+
+&lt;p&gt;To alter the basemap, we can use &lt;code&gt;addProviderTiles()&lt;/code&gt; in place of &lt;code&gt;addTiles()&lt;/code&gt;. I like the CartoDB &amp;ldquo;Positron&amp;rdquo; basemap. To use the Positron basemap, we create a second pipeline:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet() %&amp;gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&amp;quot;Morrissey Hall&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Two things are important to note here. When we load the &lt;code&gt;leaflet&lt;/code&gt; package, we have access to a data object called &lt;code&gt;providers&lt;/code&gt;. You can use &lt;code&gt;names(providers)&lt;/code&gt; to explore it. &lt;code&gt;providers&lt;/code&gt; is a vector of items, each of which corresponds to a different basemap. We can select one of those items, &lt;code&gt;CartoDB.Positron&lt;/code&gt;, by separating &lt;code&gt;providers&lt;/code&gt; from the item name with a dollar sign (&lt;code&gt;$&lt;/code&gt;). This is a classic way in which elements of a data set are accessed in &lt;code&gt;R&lt;/code&gt; syntax.&lt;/p&gt;
+
+&lt;p&gt;The second code chunk produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/leaflet02.png&#34; alt=&#34;leaflet02&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;loading-and-exploring-data&#34;&gt;Loading and Exploring Data&lt;/h2&gt;
+
+&lt;p&gt;Our example data package, &lt;a href=&#34;https://chris-prener.github.io/stlData/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;stlData&lt;/code&gt;&lt;/a&gt;, contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called &lt;code&gt;sluPlaces&lt;/code&gt;. We can reference these data in our &lt;code&gt;leaflet()&lt;/code&gt; call and again in the &lt;code&gt;addMarkers()&lt;/code&gt; function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We&amp;rsquo;ll take the &lt;code&gt;sluPlaces&lt;/code&gt; table and assign it to the object &lt;code&gt;sluData&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;sluData &amp;lt;- sluPlaces
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice how we always assign data in reverse like this, and that we don&amp;rsquo;t use an equal sign. &lt;a href=&#34;http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html&#34; target=&#34;_blank&#34;&gt;These are both just R quirks that take some getting used to&lt;/a&gt;. We can explore the data a number of ways, including with the &lt;code&gt;View()&lt;/code&gt; function and the &lt;code&gt;str()&lt;/code&gt; function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; View(sluData)
+
+&amp;gt; str(sluData)
+&#39;data.frame&#39;:	6 obs. of  4 variables:
+ $ id  : num  1 2 3 4 5 6
+ $ name: chr  &amp;quot;Morrissey Hall&amp;quot; &amp;quot;Starbucks&amp;quot; &amp;quot;Simon Rec&amp;quot; &amp;quot;Pius Library&amp;quot; ...
+ $ lng : num  -90.2 -90.2 -90.2 -90.2 -90.2 ...
+ $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;View()&lt;/code&gt; function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The &lt;code&gt;str()&lt;/code&gt; function gives us an overview of the structure of an object - typically the variables included in the data along with some sample values.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-sources-and-leaflet&#34;&gt;Data Sources and Leaflet&lt;/h2&gt;
+
+&lt;p&gt;Now that we have some data loaded in our global environment, we can project (map) it using &lt;code&gt;leaflet&lt;/code&gt;. We need to reference the data frame (our data object) in the &lt;code&gt;leaflet()&lt;/code&gt; call and both the longitude (&lt;code&gt;lng&lt;/code&gt;) and latitude (&lt;code&gt;lat&lt;/code&gt;) variable names in our &lt;code&gt;addMarkers()&lt;/code&gt; call. We&amp;rsquo;ll also set the &lt;code&gt;name&lt;/code&gt; variable to be the source for the popup text:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = sluData) %&amp;gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;%  # Add alternative map tiles
+  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice how we use the tilde symbol (&lt;code&gt;~&lt;/code&gt;) in &lt;code&gt;addMarkers()&lt;/code&gt; before the variable names. This is idiosyncratic to &lt;code&gt;leaflet&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The code chunk produces the following plot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/leaflet03.png&#34; alt=&#34;leaflet03&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations - you have now made three maps!&lt;/p&gt;
+
+&lt;h2 id=&#34;replication-code&#34;&gt;Replication Code&lt;/h2&gt;
+
+&lt;p&gt;All of the code used in our lecture today, in one place:&lt;/p&gt;
 </description>
     </item>
     
@@ -1182,7 +1406,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
-&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -1441,39 +1665,6 @@ in est ante.
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/project/external-project/</guid>
-      <description></description>
     </item>
     
   </channel>
