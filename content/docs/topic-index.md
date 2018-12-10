@@ -19,7 +19,7 @@ linktitle = "Topic Index"
 
 ## A-D
 
-* Analysis development ([Course Preview](/docs/course-preview/))
+* Analysis development (Fundamentals Articles [[a](/docs/opinionated-tools/), [b](/docs/good-enough-practices/), [c](/docs/protecting-work/)], [Course Preview](/docs/course-preview/), [Lecture-01](/docs/lecture-01/))
 
 ## E-H
 
