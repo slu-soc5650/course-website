@@ -2,7 +2,7 @@
 title = "Opinionated Tools and Processes"
 
 date = 2018-12-05T00:00:00
-lastmod = 2018-12-05T00:00:00
+lastmod = 2018-12-09T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -16,19 +16,26 @@ linktitle = "Opinionated Tools and Processes"
 +++
 
 ## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-12-05** </i>
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-12-09** </i>
+
+## Key Topics
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a>
 
 ## Overview
-This text, and both of the courses it is written with an eye towards, is meant to be "opinionated". We'll introduce a high level definition of opinionated process here, and discuss how these ideas might fit into previous coursework you've taken.
+The methods introduced in this course are meant to be "opinionated" - we start from a strong conception about what "good" geospatial data science looks like. I want to introduce a high level definition of opinionated processes here, and discuss how these ideas might fit into previous coursework you've taken as well as this one.
 
 ## Opinionated Processes
-The idea of research being opinionated is something we borrow from [Hiliary Parker](https://twitter.com/hspter), who has been developing the idea of ["opinionated analysis development"](https://peerj.com/preprints/3210/) over the last several years. Parker (2017) argues that opinionated analysis development is a guard against human errors in data analysis that are common but preventable. She emphasizes process repeatedly because, in her view, errors in data analysis are often the result of poor process (and not the individual failures of an analyst). 
+The idea of research being opinionated is something I borrow from [Hiliary Parker](https://twitter.com/hspter), who has been developing the idea of ["opinionated analysis development"](https://peerj.com/preprints/3210/) over the last several years. Parker (2017) argues that opinionated analysis development is a guard against human errors in data analysis that are common but preventable. She emphasizes process repeatedly because, in her view, errors in data analysis are often the result of poor process (and not the individual failures of an analyst). 
 
 Following Hilary's lead, we will also make process a cornerstone of our coursework. This emphasis on process is not routine in research methods courses (Long 2009), which often treat methods and techniques in isolation and leave much about how they fit together to be learned "the hard way". A common experience with statistics coursework is that students will learn the assumptions and requirements of various tests, but not how to fit them together to produce a well-conceptualized analysis. Thus, students working on their first research projects often feel personal responsibility for errors "despite not being taught processes that protect against them" (Parker 2017:2).
 
-Parker (2017) lays out three core areas for analysis development. Analyses should be (1) reproducible and auditable, (2) accurate, and (3) collaborative. She also provides a set of opinions and questions about each of these these categories. Projects that are both reproducible and auditable, for example, should be driven by executable analysis scripts with clearly defined dependencies. Projects that are accurate should use modular, tested code and should assertively test data, assumptions, and results. Finally, projects that are collaborative should use version control software for project management, should have the ability to track issues, and should allow for communications that can be archived easily.
+Parker (2017) lays out three core areas for analysis development. Analyses should be:
 
-This text introduces strategies and techniques for implementing these opinions in data science research, with special emphasis on doing so in social science and geospatial projects. While these ideas appear in nearly every chapter, the chapter on ["Good Enough" Research Practices] pays particular attention to these concepts in greater detail.
+1. reproducible and auditable, 
+2. accurate, and 
+3. collaborative. 
+
+She also provides a set of opinions and questions about each of these these categories. Projects that are both reproducible and auditable, for example, should be driven by executable analysis scripts with clearly defined dependencies. Projects that are accurate should use modular, tested code and should assertively test data, assumptions, and results. Finally, projects that are collaborative should use version control software for project management, should have the ability to track issues, and should allow for communications that can be archived easily. Many of these same core ideas appear in the article on ["Good Enough" Research Practices](/docs/good-enough-practices).
 
 ## Opinionated Tools
 TBD

@@ -729,21 +729,31 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-09&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;This text, and both of the courses it is written with an eye towards, is meant to be &amp;ldquo;opinionated&amp;rdquo;. We&amp;rsquo;ll introduce a high level definition of opinionated process here, and discuss how these ideas might fit into previous coursework you&amp;rsquo;ve taken.&lt;/p&gt;
+&lt;p&gt;The methods introduced in this course are meant to be &amp;ldquo;opinionated&amp;rdquo; - we start from a strong conception about what &amp;ldquo;good&amp;rdquo; geospatial data science looks like. I want to introduce a high level definition of opinionated processes here, and discuss how these ideas might fit into previous coursework you&amp;rsquo;ve taken as well as this one.&lt;/p&gt;
 
 &lt;h2 id=&#34;opinionated-processes&#34;&gt;Opinionated Processes&lt;/h2&gt;
 
-&lt;p&gt;The idea of research being opinionated is something we borrow from &lt;a href=&#34;https://twitter.com/hspter&#34; target=&#34;_blank&#34;&gt;Hiliary Parker&lt;/a&gt;, who has been developing the idea of &lt;a href=&#34;https://peerj.com/preprints/3210/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;opinionated analysis development&amp;rdquo;&lt;/a&gt; over the last several years. Parker (2017) argues that opinionated analysis development is a guard against human errors in data analysis that are common but preventable. She emphasizes process repeatedly because, in her view, errors in data analysis are often the result of poor process (and not the individual failures of an analyst).&lt;/p&gt;
+&lt;p&gt;The idea of research being opinionated is something I borrow from &lt;a href=&#34;https://twitter.com/hspter&#34; target=&#34;_blank&#34;&gt;Hiliary Parker&lt;/a&gt;, who has been developing the idea of &lt;a href=&#34;https://peerj.com/preprints/3210/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;opinionated analysis development&amp;rdquo;&lt;/a&gt; over the last several years. Parker (2017) argues that opinionated analysis development is a guard against human errors in data analysis that are common but preventable. She emphasizes process repeatedly because, in her view, errors in data analysis are often the result of poor process (and not the individual failures of an analyst).&lt;/p&gt;
 
 &lt;p&gt;Following Hilary&amp;rsquo;s lead, we will also make process a cornerstone of our coursework. This emphasis on process is not routine in research methods courses (Long 2009), which often treat methods and techniques in isolation and leave much about how they fit together to be learned &amp;ldquo;the hard way&amp;rdquo;. A common experience with statistics coursework is that students will learn the assumptions and requirements of various tests, but not how to fit them together to produce a well-conceptualized analysis. Thus, students working on their first research projects often feel personal responsibility for errors &amp;ldquo;despite not being taught processes that protect against them&amp;rdquo; (Parker 2017:2).&lt;/p&gt;
 
-&lt;p&gt;Parker (2017) lays out three core areas for analysis development. Analyses should be (1) reproducible and auditable, (2) accurate, and (3) collaborative. She also provides a set of opinions and questions about each of these these categories. Projects that are both reproducible and auditable, for example, should be driven by executable analysis scripts with clearly defined dependencies. Projects that are accurate should use modular, tested code and should assertively test data, assumptions, and results. Finally, projects that are collaborative should use version control software for project management, should have the ability to track issues, and should allow for communications that can be archived easily.&lt;/p&gt;
+&lt;p&gt;Parker (2017) lays out three core areas for analysis development. Analyses should be:&lt;/p&gt;
 
-&lt;p&gt;This text introduces strategies and techniques for implementing these opinions in data science research, with special emphasis on doing so in social science and geospatial projects. While these ideas appear in nearly every chapter, the chapter on [&amp;ldquo;Good Enough&amp;rdquo; Research Practices] pays particular attention to these concepts in greater detail.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;reproducible and auditable,&lt;/li&gt;
+&lt;li&gt;accurate, and&lt;/li&gt;
+&lt;li&gt;collaborative.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;She also provides a set of opinions and questions about each of these these categories. Projects that are both reproducible and auditable, for example, should be driven by executable analysis scripts with clearly defined dependencies. Projects that are accurate should use modular, tested code and should assertively test data, assumptions, and results. Finally, projects that are collaborative should use version control software for project management, should have the ability to track issues, and should allow for communications that can be archived easily. Many of these same core ideas appear in the article on &lt;a href=&#34;/docs/good-enough-practices&#34;&gt;&amp;ldquo;Good Enough&amp;rdquo; Research Practices&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;opinionated-tools&#34;&gt;Opinionated Tools&lt;/h2&gt;
 
