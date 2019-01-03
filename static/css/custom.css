@@ -1,9 +1,16 @@
+/* Body text */
+p {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+/* site colors */
 a:hover,
 a:focus {
   color: #b3b3b3;
 }
 
-
+/* badges */
 .meta-badge {
     border-radius: 2px;
     color: white;
