@@ -50,7 +50,7 @@ If you are using **your own computer**, you should do the following before proce
 
 2. We'll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to "ITS Software Downloads" under "Tools" on [mySLU](https://myslu.slu.edu/tools).
 
-3. You'll also need to download files, so you'll need to make sure you have at least **forty gigabytes** free on your hard drive if you are installing ArcGIS Pro and at least **fifteen gigabytes** free if you are not. If you're not sure how to check this, here are some instructions for [Windows](https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187) and [macOS](https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html)
+3. You'll also need to download files, so you'll need to make sure you have at least **forty gigabytes** free on your hard drive if you are installing ArcGIS Pro and at least **fifteen gigabytes** free if you are not. If you're not sure how to check this, here are some instructions for [Windows](https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187) and [macOS](https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html).
     - Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).
 
 4. Make sure you know how to access your computer's file management system.
