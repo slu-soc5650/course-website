@@ -29,7 +29,7 @@ ArcGIS Pro is installed in the GIS lab.
 I am able to provide licenses for ArcGIS Pro to students who are interested in obtaining them. If you would like a license, please [check the system requirements](http://pro.arcgis.com/en/pro-app/get-started/arcgis-pro-system-requirements.htm) first. If your computer meets the minimum requirements, email me for a license. Then:
 
 1. Visit ESRI's [education edition website](http://www.esri.com/educationedition) to begin the process of activating and downloading your ArcGIS Pro Student Trial software.
-2. Log in using your **Existing Esri account** (the same one you were given during the [course onboarding process](/docs/course-onboarding)).
+2. Log in using your **Existing ESRI account** (the same one you were given during the [course onboarding process](/docs/course-onboarding)).
 3. Enter the license code and click Activate ArcGIS.
 4. Click the button for the ArcGIS for Desktop software version being activated - the latest version of ArcGIS Pro.
 5. If necessary, download the ArcGIS Uninstall Utility and uninstall previous versions of ArcGIS Desktop or ArcGIS Pro.
@@ -37,7 +37,7 @@ I am able to provide licenses for ArcGIS Pro to students who are interested in o
 
 ## Spatial Libraries
 {{% alert note %}}
-These libraries are installed in the GIS lab.
+These libraries are installed in the GIS lab and need to be installed only if you are using `R` on your personal computer.
 {{% /alert %}}
 
 There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They'll be used by the `R` package `sf`.
@@ -60,19 +60,8 @@ If you already have `R` installed, please make sure you have the latest version.
 
 ### Installing R Packages
 {{% alert warning %}}
-R packages will need be installed both in the lab and on personal computers.
+R packages will need be installed both in the lab and on personal computers. **Check back on January 13th, 2018 for details.**
 {{% /alert %}}
-
-There are a number of `R` packages that you will need for this semester. If you feel feel comfortable, go ahead and take care of this before the semester starts. If not, we'll go over how to do this type of installation on the first day of class!
-
-The following code snipped can be pasted into your `R` console to install all of these required packages.
-
-```
-install.packages(c("tidyverse", "janitor", "sf", 
-    "stldata", "testDriveR"))
-```
-
-Depending on your version of `R` and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested on different operating system and hardware configurations, and though it is unlikely, you may encounter issues. If you do, please let Chris know!
 
 ## RStudio
 {{% alert note %}}

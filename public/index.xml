@@ -1241,7 +1241,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;ol&gt;
 &lt;li&gt;Visit ESRI&amp;rsquo;s &lt;a href=&#34;http://www.esri.com/educationedition&#34; target=&#34;_blank&#34;&gt;education edition website&lt;/a&gt; to begin the process of activating and downloading your ArcGIS Pro Student Trial software.&lt;/li&gt;
-&lt;li&gt;Log in using your &lt;strong&gt;Existing Esri account&lt;/strong&gt; (the same one you were given during the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding process&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Log in using your &lt;strong&gt;Existing ESRI account&lt;/strong&gt; (the same one you were given during the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding process&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Enter the license code and click Activate ArcGIS.&lt;/li&gt;
 &lt;li&gt;Click the button for the ArcGIS for Desktop software version being activated - the latest version of ArcGIS Pro.&lt;/li&gt;
 &lt;li&gt;If necessary, download the ArcGIS Uninstall Utility and uninstall previous versions of ArcGIS Desktop or ArcGIS Pro.&lt;/li&gt;
@@ -1251,7 +1251,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;h2 id=&#34;spatial-libraries&#34;&gt;Spatial Libraries&lt;/h2&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;These libraries are installed in the GIS lab.&lt;/p&gt;
+  &lt;p&gt;These libraries are installed in the GIS lab and need to be installed only if you are using &lt;code&gt;R&lt;/code&gt; on your personal computer.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1283,20 +1283,10 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;h3 id=&#34;installing-r-packages&#34;&gt;Installing R Packages&lt;/h3&gt;
 
 &lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;R packages will need be installed both in the lab and on personal computers.&lt;/p&gt;
+  &lt;p&gt;R packages will need be installed both in the lab and on personal computers. &lt;strong&gt;Check back on January 13th, 2018 for details.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
-
-&lt;p&gt;There are a number of &lt;code&gt;R&lt;/code&gt; packages that you will need for this semester. If you feel feel comfortable, go ahead and take care of this before the semester starts. If not, we&amp;rsquo;ll go over how to do this type of installation on the first day of class!&lt;/p&gt;
-
-&lt;p&gt;The following code snipped can be pasted into your &lt;code&gt;R&lt;/code&gt; console to install all of these required packages.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;sf&amp;quot;, 
-    &amp;quot;stldata&amp;quot;, &amp;quot;testDriveR&amp;quot;))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Depending on your version of &lt;code&gt;R&lt;/code&gt; and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested on different operating system and hardware configurations, and though it is unlikely, you may encounter issues. If you do, please let Chris know!&lt;/p&gt;
 
 &lt;h2 id=&#34;rstudio&#34;&gt;RStudio&lt;/h2&gt;
 
