@@ -24,6 +24,6 @@ deploy:
   on:
     branch: master
   local_dir: public
-  repo: slu-soc5650/soc5650.github.io
+  repo: slu-soc5650/slu-soc5650.github.io
   target_branch: master
   
