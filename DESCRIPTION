@@ -1,0 +1,6 @@
+Package: course-website
+Type: Website
+Title: SLU SOC 5650 Course Website
+Version: 0.0.1
+Imports: blogdown
+Remotes: rstudio/blogdown
