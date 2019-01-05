@@ -15,7 +15,7 @@ export LC_TIME=en_US.UTF-8
 # GitHub username.
 USERNAME=slu-soc5650
 # Name of the branch containing the Hugo source files.
-SOURCE=source
+SOURCE=newSite
 # The commit message.
 MESSAGE="Site rebuild $(date)"
 
