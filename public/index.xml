@@ -1050,7 +1050,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-04&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-01-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -1062,15 +1062,25 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;account-signups&#34;&gt;Account Signups&lt;/h2&gt;
 
-&lt;h3 id=&#34;get-started-with-discourse&#34;&gt;Get Started with Discourse&lt;/h3&gt;
+&lt;h3 id=&#34;get-started-with-the-discussion-board&#34;&gt;Get Started with the Discussion Board&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;TBA&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Discourse is an open source forum platform that we will be using this semester to stay in touch and host virutal office hours. You should recieve an email with registration information, and the site can be found &lt;a href=&#34;https://discuss.slu-ssds.org&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Once you recieve the invitation and accept, you can update your profile by clicking on the profile icon in the upper right-hand corner and selecting the gear icon:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/discoursePreferences.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At a minimum, please fill out the &lt;code&gt;Name&lt;/code&gt; field under &lt;code&gt;Account&lt;/code&gt; with your preferred first and last name!&lt;/p&gt;
 
 &lt;h3 id=&#34;get-started-with-github&#34;&gt;Get Started with GitHub&lt;/h3&gt;
 
 &lt;p&gt;The service that is hosting this website is called &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&amp;rsquo;s &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;homepage&lt;/a&gt;. If you already have a GitHub account, you do not need a new one.&lt;/p&gt;
 
-&lt;p&gt;Once you have a GitHub user name, send Chris a Direct Message via our Discourse site with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34; target=&#34;_blank&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&amp;rsquo;ve seen it.&lt;/p&gt;
+&lt;p&gt;Once you have a GitHub user name, send Chris a direct message via our &lt;a href=&#34;https://discuss.slu-ssds.org&#34; target=&#34;_blank&#34;&gt;discussion board&lt;/a&gt; with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34; target=&#34;_blank&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. Your direct message inbox can be found by clicking on the profile icon in the upper right-hand corner and selecting the envelope icon:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/discourseMessages.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chris&amp;rsquo;s username on the discussion board is &lt;code&gt;chris.prener&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&amp;rsquo;ve seen it.&lt;/p&gt;
 
 &lt;h2 id=&#34;course-software&#34;&gt;Course Software&lt;/h2&gt;
 
@@ -1096,7 +1106,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;li&gt;&lt;p&gt;We&amp;rsquo;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to &amp;ldquo;ITS Software Downloads&amp;rdquo; under &amp;ldquo;Tools&amp;rdquo; on &lt;a href=&#34;https://myslu.slu.edu/tools&#34; target=&#34;_blank&#34;&gt;mySLU&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;You&amp;rsquo;ll also need to download files, so you&amp;rsquo;ll need to make sure you have at least &lt;strong&gt;forty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;fifteen gigabytes&lt;/strong&gt; free if you are not. If you&amp;rsquo;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34; target=&#34;_blank&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;You&amp;rsquo;ll also need to download files, so you&amp;rsquo;ll need to make sure you have at least &lt;strong&gt;fifty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;twenty gigabytes&lt;/strong&gt; free if you are not. If you&amp;rsquo;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34; target=&#34;_blank&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).&lt;/li&gt;
@@ -1126,11 +1136,11 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;other-materials&#34;&gt;Other Materials&lt;/h2&gt;
 
-&lt;p&gt;The other item to purchase is a 1.5&amp;rdquo; three-ring binder (like high school! extra points for a &lt;a href=&#34;http://mentalfloss.com/article/52726/history-trapper-keeper&#34; target=&#34;_blank&#34;&gt;Trapper Keeper&lt;/a&gt;!!). While all course materials are available online, they are often easier to use if they are printed. Each week you&amp;rsquo;ll receive various handouts, including (typically) cheat sheets for &lt;code&gt;R&lt;/code&gt; functions and ArcGIS processes, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they&amp;rsquo;ll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).&lt;/p&gt;
+&lt;p&gt;The other item to &lt;em&gt;optionally&lt;/em&gt; purchase is a 1.5&amp;rdquo; three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue reciving hardcopies beyond the first lecture, or if you&amp;rsquo;d prefer to only have the digital copies. If you do opt-in to reciving the hardcopies, a biner will help keep things organized.&lt;/p&gt;
 
 &lt;h2 id=&#34;administrative-tasks&#34;&gt;Administrative Tasks&lt;/h2&gt;
 
-&lt;p&gt;All students should complete the [Student Information Sheet](), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and understand the course policies.&lt;/p&gt;
+&lt;p&gt;All students should complete the &lt;a href=&#34;https://goo.gl/forms/7plVgjijZ4i042X52&#34; target=&#34;_blank&#34;&gt;Student Information Sheet&lt;/a&gt;, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and understand the course policies.&lt;/p&gt;
 
 &lt;h2 id=&#34;coursework&#34;&gt;Coursework&lt;/h2&gt;
 
@@ -1138,8 +1148,10 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;ol&gt;
 &lt;li&gt;You should view two videos posted on the &lt;a href=&#34;/docs/course-preview/&#34;&gt;Course Preview&lt;/a&gt; page and check out the interactive map discussed in the first video.&lt;/li&gt;
+&lt;li&gt;You should complete the assigned reading (and if you want, the optional ones too) listed in the &lt;a href=&#34;http://slu-soc5650.github.io/syllabus/course-preview/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;You should complete &lt;a href=&#34;/docs/course-preview/#lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/a&gt;, which asks a few short questions about the videos and interactive map.&lt;/li&gt;
-&lt;li&gt;You should complete the assigned readings for Lecture-01, which are listed in the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and are available either through &lt;a href=&#34;http://eres.slu.edu/eres/coursepage.aspx?cid=4444&#34; target=&#34;_blank&#34;&gt;electronic reserves site&lt;/a&gt; or through the Course Docs.&lt;/li&gt;
+&lt;li&gt;You should complete the assigned readings for Lecture-01, which are listed in the &lt;a href=&#34;http://slu-soc5650.github.io/syllabus/lecture-01-course-introduction/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Come to class stoked to make your first maps!&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

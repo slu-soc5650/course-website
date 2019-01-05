@@ -42,8 +42,8 @@ weight = 15
 [[feature]]
   icon = "discourse"
   icon_pack = "fab"
-  name = "[Discussion](/)"
-  description = "ask questions"
+  name = "[Discussion](https://discuss.slu-ssds.org)"
+  description = "ask questions, get help"
 
 [[feature]]
   icon = "r-project"
