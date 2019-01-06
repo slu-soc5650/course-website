@@ -2,7 +2,7 @@
 title = "Overview"
 
 date = 2018-12-04T00:00:00
-lastmod = 2018-12-05T00:00:00
+lastmod = 2018-01-05T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
@@ -28,4 +28,4 @@ Each lecture has a page here that includes the primary topics, links to resource
 This is a landing page with links to final project resources, data, instructions, and a list of the final project due dates.
 
 ## Topics
-There are two indicies included in this section - a listing of all of the topic keywords, ArcGIS processes, and `R` functions that we cover throughout the semester and a listing of `R` packages used (with links to documentation and resources).
+There are two indices included in this section - a listing of all of the topic keywords, ArcGIS processes, and `R` functions that we cover throughout the semester and a listing of `R` packages used (with links to documentation and resources).

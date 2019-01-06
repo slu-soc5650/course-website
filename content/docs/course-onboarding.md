@@ -26,7 +26,7 @@ Before you begin the semester, there are a number of things that you should do t
 
 ## Account Signups
 ### Get Started with the Discussion Board
-Discourse is an open source forum platform that we will be using this semester to stay in touch and host virutal office hours. You should recieve an email with registration information, and the site can be found [here](https://discuss.slu-ssds.org). Once you recieve the invitation and accept, you can update your profile by clicking on the profile icon in the upper right-hand corner and selecting the gear icon:
+Discourse is an open source forum platform that we will be using this semester to stay in touch and host virutal office hours. You should receive an email with registration information, and the site can be found [here](https://discuss.slu-ssds.org). Once you receive the invitation and accept, you can update your profile by clicking on the profile icon in the upper right-hand corner and selecting the gear icon:
 
 ![](/images/discoursePreferences.png)
 
@@ -79,7 +79,7 @@ There are a number of different books required for this course. Each book has be
 All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The [**Reading List**](https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf) includes the assigned readings for both the web and print versions of Wickham and Grolemund's *R for data science* (2016), and you are free to choose either version.
 
 ## Other Materials
-The other item to *optionally* purchase is a 1.5" three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue reciving hardcopies beyond the first lecture, or if you'd prefer to only have the digital copies. If you do opt-in to reciving the hardcopies, a biner will help keep things organized.
+The other item to *optionally* purchase is a 1.5" three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you'd prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.
 
 ## Administrative Tasks
 All students should complete the [Student Information Sheet](https://goo.gl/forms/7plVgjijZ4i042X52), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://slu-soc5650.github.io/syllabus) and understand the course policies.
