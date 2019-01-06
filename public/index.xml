@@ -136,19 +136,19 @@
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-01-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Students have varying experiences learning computational techniques. For some, the math and programming that are the foundation for modern data science techniques come naturally. For others, being introduced to these concepts can be an anxiety producing experience. I am fond the phrase &amp;ldquo;your mileage will vary&amp;rdquo; for describing these differences - no two students have the exact same experience taking a computational methods course. Like the previous chapter, some of the content below is specific to the courses (&lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;) I teach at &lt;a href=&#34;https://www.slu.edu&#34; target=&#34;_blank&#34;&gt;Saint Louis University&lt;/a&gt;, the general outlook on approaching data science work that I describe below is hopefully applicable in a far wider arena.&lt;/p&gt;
+&lt;p&gt;Students have varying experiences learning computational techniques. For some, the math and programming that are the foundation for modern data science techniques come naturally. For others, being introduced to these concepts can be an anxiety producing experience. I am fond the phrase &amp;ldquo;your mileage will vary&amp;rdquo; for describing these differences - no two students have the exact same experience taking a computational methods course. While some of this is specific to this course, the general outlook on approaching data science work that I describe below is hopefully applicable in a far wider arena.&lt;/p&gt;
 
 &lt;h2 id=&#34;zen-and-the-art-of-data-analysis&#34;&gt;Zen and the Art of Data Analysis&lt;/h2&gt;
 
-&lt;p&gt;One of the biggest challenges with this course can be controlling the anxiety that comes along with learning new skills. &lt;code&gt;R&lt;/code&gt; syntax, GIS terms, LaTeX commands, and Markdown can seem like foreign alphabets at first. Debugging &lt;code&gt;R&lt;/code&gt; syntax can be both challenging and a large time suck, in part because you are not yet fluent with this language. Imagine trying to proofread a document written in a language that you only know in a cursory way but where you must find minute inconsistencies like misplaced commas.&lt;/p&gt;
+&lt;p&gt;One of the biggest challenges with this course can be controlling the anxiety that comes along with learning new skills. &lt;code&gt;R&lt;/code&gt; syntax, GIS terms, and Markdown can seem like foreign alphabets at first. Debugging &lt;code&gt;R&lt;/code&gt; syntax can be both challenging and a large time suck, in part because you are not yet fluent with this language. Imagine trying to proofread a document written in a language that you only know in a cursory way but where you must find minute inconsistencies like misplaced commas.&lt;/p&gt;
 
 &lt;p&gt;For this reason, I also think it is worth reminding you that many students in the social sciences struggle with computational methods at first. It is normal to find this challenging and frustrating. I find that students who can recognize when they are beginning to go around in circles are often the most successful at managing the issues that will certainly arise during this course. Recognizing the signs that you are starting to spin your wheels and taking either ten minutes, an hour or two, or a day away from computational coursework is often a much better approach than trying to power through problems.&lt;/p&gt;
 
-&lt;p&gt;Data analysis therefore requires a certain mindfulness. I mentioned in the [Preface] that much of what this book covers are &amp;ldquo;habits of mind and habits of method&amp;rdquo;. These mental habits extend past being able to recognize that frustration is setting in. They also include the mental habits needed for [Getting and Staying Organized] and strategies for [Getting Help] as you navigate the inevitable errors that come with learning new analytically skills.&lt;/p&gt;
+&lt;p&gt;Data analysis therefore requires a certain mindfulness or what I call &amp;ldquo;habits of mind and habits of method.&amp;rdquo; These mental habits extend past being able to recognize that frustration is setting in. They also include the mental habits needed for &lt;a href=&#34;#getting-and-staying-organized&#34;&gt;Getting and Staying Organized&lt;/a&gt; and strategies for &lt;a href=&#34;/docs/getting-help/&#34;&gt;Getting Help&lt;/a&gt; as you navigate the inevitable errors that come with learning new analytically skills.&lt;/p&gt;
 
 &lt;h2 id=&#34;getting-and-staying-organized&#34;&gt;Getting and Staying Organized&lt;/h2&gt;
 
@@ -160,75 +160,7 @@
 
 &lt;p&gt;I am fond of recommending the &lt;a href=&#34;http://gettingthingsdone.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Getting Things Done&lt;/strong&gt;&lt;/a&gt; methodology to students as part of thinking more holistically about staying organized. The website &lt;a href=&#34;https://lifehacker.com&#34; target=&#34;_blank&#34;&gt;Lifehacker&lt;/a&gt; posted an &lt;a href=&#34;https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955&#34; target=&#34;_blank&#34;&gt;excellent introduction to GTD&lt;/a&gt; that is a great way to get a sense of how it works and find additional resources for implementing it.&lt;/p&gt;
 
-&lt;p&gt;The GTD website has a &lt;a href=&#34;http://gettingthingsdone.com/common-tools-software/&#34; target=&#34;_blank&#34;&gt;great list of software&lt;/a&gt; for those of you looking for a to-do list application. One that isn&amp;rsquo;t listed that I use for collaborating with my student research team is &lt;a href=&#34;https://trello.com&#34; target=&#34;_blank&#34;&gt;Trello&lt;/a&gt;, a freemium website that allows you to create simple to-do lists. It isn&amp;rsquo;t sophisticated enough for implementing GTD, but it is more than sufficient for managing to-do lists related to this course.&lt;/p&gt;
-
-&lt;h3 id=&#34;managing-course-materials&#34;&gt;Managing Course Materials&lt;/h3&gt;
-
-&lt;p&gt;For both courses covered by this book, materials will be disseminated in physical and digital form. The topic of keeping digital materials organized is the subject of the next chapter [Protecting Your Work]. The physical handouts and materials that we&amp;rsquo;ll give out will all come three hole punched, and you are expected to purchase a three-ring binder for this course. I give out enough handouts that, without a binder, it becomes difficult to keep track of where handouts are located. I have watched students spend more time looking for the handout than it takes to find the answer to their question once they have the handout itself.&lt;/p&gt;
-
-&lt;p&gt;There are two recommended ways to keep your binder tidy. One is to organize by lecture. There are sixteen lectures worth of handouts in both courses (not including the course preview and the final research conference session), so two sets of dividers (which often come in packs of eight) should be sufficient. The other way to organize handouts is by topic. We hand out a number of different types of documents that could be organized thematically like so:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Syllabus and reading list&lt;/li&gt;
-&lt;li&gt;Workflow diagrams&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;R&lt;/code&gt; function sheets&lt;/li&gt;
-&lt;li&gt;ArcGIS process sheets (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt; only)&lt;/li&gt;
-&lt;li&gt;LaTeX command sheets (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt; only)&lt;/li&gt;
-&lt;li&gt;Sample outputs&lt;/li&gt;
-&lt;li&gt;Exercise handouts&lt;/li&gt;
-&lt;li&gt;Lab handouts&lt;/li&gt;
-&lt;li&gt;Problem set handouts&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Since there are approximately eight different types of handouts in each class, a single package of dividers should be sufficient for this approach to organizing them.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t think that one way of organization, thematically or temporally, is inherently better or worse than the other. In large part it comes down to how &lt;em&gt;you&lt;/em&gt; like to organize information. After all, learning how to process and organize information in a way that works for you is the most important takeaway here.&lt;/p&gt;
-
-&lt;h2 id=&#34;staying-current&#34;&gt;Staying Current&lt;/h2&gt;
-
-&lt;p&gt;Course content is maintained both on the respective course websites (&lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt;) and GitHub organizations (&lt;a href=&#34;https://github.com/slu-soc5050&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; and &lt;a href=&#34;https://github.com/slu-soc5650&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt;). Course materials are available throughout the semester and after the course is done. This creates two challenges. First, for all students, attention must be paid to when updates are pushed to GitHub and the course website. This is particularly true for content updated &lt;em&gt;after&lt;/em&gt; a lecture. Second, for students who like to work ahead, care must be taken to ensure that you are working off of materials for the current semester and not the last semester the course was taught. There are two ways in which I help communicate the status of course content - badges and Slack.&lt;/p&gt;
-
-&lt;h3 id=&#34;badges&#34;&gt;Badges&lt;/h3&gt;
-
-&lt;p&gt;I use badges on both the GitHub &lt;code&gt;README.md&lt;/code&gt; files in individual lecture repositories and on individual lecture webpages to signal which semester the content is current for and what stage of development the content is in. These badges are used not just because they are effective but as part of a more general socialization into data science software development, where badges are used to signal development status on &lt;code&gt;R&lt;/code&gt; package GitHub repositories. For example, the &lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt; &lt;code&gt;README.md&lt;/code&gt; file looks like this:&lt;/p&gt;
-
-&lt;p&gt;There are four badges in total, all of which sit under the &lt;code&gt;ggplot2&lt;/code&gt; package name. We can see from the first two badges that &lt;a href=&#34;https://en.wikipedia.org/wiki/Continuous_integration&#34; target=&#34;_blank&#34;&gt;continuous integration services&lt;/a&gt; are used, and that &lt;code&gt;ggplot2&lt;/code&gt; is only passing its tests on one of them. The third badge indicates that the built-in tests for &lt;code&gt;ggplot2&lt;/code&gt; test 74% of the package&amp;rsquo;s code. We can also see from the fourth badge that the current version of the software on CRAN is version &lt;code&gt;2.2.1&lt;/code&gt; (as of December, 2017). Details like these are not critical when you are first learning to use &lt;code&gt;R&lt;/code&gt;, but they grow more important as your data science skills progress.&lt;/p&gt;
-
-&lt;p&gt;We use the following badges for our course repositories and on the course websites:&lt;/p&gt;
-
-&lt;p&gt;Here is an example of how the badges look on a course repository. As of January 2018, the &lt;code&gt;README.md&lt;/code&gt; associated with the &lt;a href=&#34;https://github.com/slu-soc5050/Core-Documents&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Core-Documents&lt;/code&gt; repository&lt;/a&gt; for &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis&lt;/a&gt; looked like this:&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;README.md&lt;/code&gt; badges, from left to right, represent the following:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;semester&lt;/strong&gt;: the contents are current for the Fall 2017 semester&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;release&lt;/strong&gt;: the contents have been updated since they were first released to students&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: the version number of the repository (see [Versioning] below) is &lt;code&gt;v17.4.2&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;last commit&lt;/strong&gt;: the last time the repository was edited was the day the screenshot was taken&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;repo size&lt;/strong&gt;: the repository size is 2.46 megabytes (MB, see &lt;a href=&#34;https://www.computerhope.com/issues/chspace.htm&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; for details on what computer disk drive size measurements mean)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here is an example of how the badges look on a course website. As of January 2018, the &lt;a href=&#34;https://slu-soc5650.github.io/course-preview&#34; target=&#34;_blank&#34;&gt;Course Preview page&lt;/a&gt; for &lt;a href=&#34;https://slu-soc5650.github.io/&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt; looked like this:&lt;/p&gt;
-
-&lt;p&gt;From these three badges, we can see that the webpage is current for the Spring 2018 semester and that it is the full release - no additional updates to the site are planned. Finally, we can see the date on which the page was last updated - December 29, 2017.&lt;/p&gt;
-
-&lt;h3 id=&#34;versioning&#34;&gt;Versioning&lt;/h3&gt;
-
-&lt;p&gt;The versioning system used on course repositories is meant to emulate the release system used for data science software. Software development increasingly takes place on a website called [GitHub.com]. GitHub includes tools for packaging a repository at particular points in time. The release system allows developers to identify how an &lt;code&gt;R&lt;/code&gt; package, for instance, has changed over time. This is important for reproducibility. For instance, you can see this example of the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/releases/tag/v2.2.0&#34; target=&#34;_blank&#34;&gt;release history for &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;The package&amp;rsquo;s developers use the release system to document what has changed. We will emulate this with the &lt;code&gt;Core-Documents&lt;/code&gt;, lecture, and &lt;code&gt;finalProject&lt;/code&gt; repositories. For example, here is the release documentation for &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents&#34; target=&#34;_blank&#34;&gt;SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt; &lt;code&gt;Core-Documents&lt;/code&gt; repository&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;If you want to see what has changed over the course of the semester in a course&amp;rsquo;s repositories, you can use the release notes to compare different versions. These notes are also stored in the &lt;code&gt;NEWS.md&lt;/code&gt; file for each repository. The use of both releases and a &lt;code&gt;NEWS.md&lt;/code&gt; file is a common way to document changes on GitHub. For example, you can see look at the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/blob/master/NEWS.md&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;NEWS.md&lt;/code&gt; file for &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;, which will mirror the &lt;a href=&#34;https://github.com/tidyverse/ggplot2/releases&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; for the package.&lt;/p&gt;
-
-&lt;p&gt;In software development, &lt;a href=&#34;https://en.wikipedia.org/wiki/Software_versioning&#34; target=&#34;_blank&#34;&gt;version numbers&lt;/a&gt; are used along with releases to make it easy for end users to keep track of how releases have progressed. In the picture above of the &lt;code&gt;ggplot2&lt;/code&gt; package&amp;rsquo;s &lt;code&gt;README.md&lt;/code&gt; (see [Badges]), one of the badges indicated the version of the software that was available via CRAN - &lt;code&gt;2.2.1&lt;/code&gt;. The initial &lt;code&gt;2&lt;/code&gt; is what is known as the major release number. Major releases typically represent large changes to the software. The second number, also a &lt;code&gt;2&lt;/code&gt; in this case, represents the minor release number. Minor releases introduce fewer changes and may be aimed more at fixing issues. Finally, the &lt;code&gt;1&lt;/code&gt; represents the patch release number. Patch (or maintenance) releases are aimed exclusively at fixing bugs and issues.&lt;/p&gt;
-
-&lt;p&gt;For the course, version numbers will also have three parts. From left to right, the first pair of digits represents the year of the current course offering, the second pair represents whether it the development status is (&lt;code&gt;1&lt;/code&gt;) draft, (&lt;code&gt;2&lt;/code&gt;) lecture, (&lt;code&gt;3&lt;/code&gt;) full, and (&lt;code&gt;4&lt;/code&gt;) updated, and the final number represents maintenance changes that do not rise to a change in the development status. For example, &lt;code&gt;v18.1.1&lt;/code&gt; would represent the initial maintenance release for the 2018 version of a course that is in the draft development stage.&lt;/p&gt;
-
-&lt;p&gt;If you see a version number like &lt;code&gt;v18.1.1.9000&lt;/code&gt; in &lt;code&gt;NEWS.md&lt;/code&gt;, the notes will be tracking changes that have not been incorporated into an official release yet. The use of the &lt;code&gt;9000&lt;/code&gt; designation follows &lt;a href=&#34;http://r-pkgs.had.co.nz/release.html&#34; target=&#34;_blank&#34;&gt;common practice in the &lt;code&gt;R&lt;/code&gt; community&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;discourse&#34;&gt;Discourse&lt;/h3&gt;
-
-&lt;p&gt;TBA&lt;/p&gt;
+&lt;p&gt;The GTD website has a &lt;a href=&#34;http://gettingthingsdone.com/common-tools-software/&#34; target=&#34;_blank&#34;&gt;great list of software&lt;/a&gt; for those of you looking for a to-do list application. One that isn&amp;rsquo;t listed that I have used for collaborating with my student research team is &lt;a href=&#34;https://trello.com&#34; target=&#34;_blank&#34;&gt;Trello&lt;/a&gt;, a freemium website that allows you to create simple to-do lists. It isn&amp;rsquo;t sophisticated enough for implementing GTD, but it is more than sufficient for managing to-do lists related to this course.&lt;/p&gt;
 </description>
     </item>
     
@@ -1166,7 +1098,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-04&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-01-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
@@ -1199,6 +1131,8 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;p&gt;Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&amp;rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&amp;rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis. Thoughout the semester, we&amp;rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&amp;rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the &lt;em&gt;processes&lt;/em&gt; that can be used to increase the reproducibility and accuracy of our geospatial work.&lt;/p&gt;
 
+&lt;p&gt;Some of these processes, like using RMarkdown, are introduced in the &lt;a href=&#34;http://plain-text.co&#34; target=&#34;_blank&#34;&gt;introductory &amp;ldquo;chapter&amp;rdquo;&lt;/a&gt; (it is quite short!) to Duke University sociologist &lt;a href=&#34;http://kieranhealy.org&#34; target=&#34;_blank&#34;&gt;Kieran Healy&amp;rsquo;s&lt;/a&gt; primer &lt;a href=&#34;http://plain-text.co&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Plain Person&amp;rsquo;s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;. This is the one &lt;em&gt;required&lt;/em&gt; reading for the entry ticket (though there are several optional ones listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/course-preview.html&#34; target=&#34;_blank&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/h2&gt;
 
 &lt;p&gt;The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.&amp;rsquo;s interactive website. Please answer these questions and submit them before class on &lt;strong&gt;January 14th&lt;/strong&gt;. Answers &lt;strong&gt;must&lt;/strong&gt; be submitted through &lt;a href=&#34;/&#34;&gt;Google Forms&lt;/a&gt; and each response should be three to four sentances in length. The questions are provided here for reference:&lt;/p&gt;
@@ -1207,6 +1141,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;li&gt;Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.&lt;/li&gt;
 &lt;li&gt;After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?&lt;/li&gt;
 &lt;li&gt;In your own words, what are the key aspects of opinionated analysis development?&lt;/li&gt;
+&lt;li&gt;What are some of the advantages of using plain text for data analysis?&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;The entry ticket also asks for an update on your course onboarding process.&lt;/p&gt;

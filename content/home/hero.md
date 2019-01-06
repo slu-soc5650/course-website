@@ -26,4 +26,4 @@ weight = 1
 
 An introduction to fundamental techniques for geospatial data science and geoscience using a modern GIS toolkit that includes ArcGIS Pro and the programming language R.
 
-<div> <a class="btn btn-outline-light btn-lg" href="/docs/"> <i class="fas fa-share"></i> Open Docs </a> &nbsp; <a class="btn btn-outline-light btn-lg" href="https://slu-soc5650.github.io/syllabus"> <i class="fas fa-share"></i> Open Syllabus </a> </div>
+<div> <a class="btn btn-outline-light btn-lg" href="/docs/"> <i class="fas fa-share"></i> Open Docs </a> &nbsp; <a class="btn btn-outline-light btn-lg" href="https://slu-soc5650.github.io/syllabus" target="_blank"> <i class="fas fa-share"></i> Open Syllabus </a> </div>
