@@ -19,7 +19,7 @@ linktitle = "Course Onboarding"
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
 
 ## Resources
-<a class="btn btn-outline-primary resource" href="/" target="_blank"> Onboarding Checklist </a>
+<a class="btn btn-outline-primary resource" href="/files/onboarding-checklist.pdf" target="_blank"> Onboarding Checklist </a>
 
 ## Overview
 Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 14th.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://slu-soc5650.github.io/syllabus). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!

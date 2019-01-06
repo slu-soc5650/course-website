@@ -986,7 +986,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;/&#34; target=&#34;_blank&#34;&gt; Onboarding Checklist &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;/files/onboarding-checklist.pdf&#34; target=&#34;_blank&#34;&gt; Onboarding Checklist &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
