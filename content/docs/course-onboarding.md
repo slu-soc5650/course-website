@@ -2,7 +2,7 @@
 title = "Course Onboarding"
 
 date = 2018-12-04T00:00:00
-lastmod = 2018-12-04T00:00:00
+lastmod = 2018-01-05T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -90,5 +90,5 @@ There are three pieces of coursework that you should complete:
 1. You should view two videos posted on the [Course Preview](/docs/course-preview/) page and check out the interactive map discussed in the first video.
 2. You should complete the assigned reading (and if you want, the optional ones too) listed in the [**Syllabus**](http://slu-soc5650.github.io/syllabus/course-preview/).
 3. You should complete [Lecture-01 Entry Ticket](/docs/course-preview/#lecture-01-entry-ticket), which asks a few short questions about the videos and interactive map.
-4. You should complete the assigned readings for Lecture-01, which are listed in the [**Syllabus**](http://slu-soc5650.github.io/syllabus/lecture-01-course-introduction/).
+4. You should complete the assigned readings for Lecture-01, which are listed in the [**Syllabus**](https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html).
 5. Come to class stoked to make your first maps!
