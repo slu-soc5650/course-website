@@ -61,9 +61,10 @@ Overview This section introduces some of the core concepts that support sociospa
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/lecture-01/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-05 
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2018-12-05 
 Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography &amp;nbsp; Interactive maps  leaflet
-Lecture Slides    Working with R Packages During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an R package called stlData. Packages are small software programs that extend R&amp;rsquo;s base functionality.</description>
+Resources Exercise - Email  Exercise - Shaw Crime  Functions 
+Lecture Slides    Working with R Packages During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an R package called stlData.</description>
     </item>
     
     <item>

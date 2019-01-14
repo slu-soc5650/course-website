@@ -529,11 +529,15 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-lecture&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
 &lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf&#34; target=&#34;_blank&#34;&gt; Exercise - Email &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-shawCrime.pdf&#34; target=&#34;_blank&#34;&gt; Exercise - Shaw Crime &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf&#34; target=&#34;_blank&#34;&gt; Functions &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
 
