@@ -21,6 +21,9 @@ linktitle = "Lecture-01 - Introduction"
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> <a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> **base**</a> <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> <a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; **Interactive maps**</a> <a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> **leaflet**</a>
 
+## Resources
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"> Exercise - Email </a> <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-shawCrime.pdf" target="_blank"> Exercise - Shaw Crime </a> <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"> Functions </a>
+
 ## Lecture Slides
 <p> </p>
 <script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
