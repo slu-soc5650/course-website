@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Lecture  &nbsp; 2019-01-21 
-Key Topics &nbsp; Analysis development  base &nbsp; Cartography &nbsp; Interactive maps  leaflet &nbsp; R
+  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-01-22 
+Key Topics &nbsp; Analysis development  base &nbsp; Cartography  here &nbsp; Interactive maps  leaflet  magrittr &nbsp; R  readr  sf
 Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; Exercise - Email  &nbsp; Exercise - Shaw Crime  &nbsp; Functions 
-Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use some sample data for in-class exercises and lecture examples.">
+Lecture Slides    Leaflet Basics As a way to get to know R and RStudio, we&rsquo;ll be working with the R package leaflet.">
 
   
   <link rel="alternate" hreflang="en-us" href="/docs/lecture-01/">
@@ -105,15 +105,15 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
   <meta property="og:url" content="/docs/lecture-01/">
   <meta property="og:title" content="Lecture-01 - Course Introduction | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Lecture  &nbsp; 2019-01-21 
-Key Topics &nbsp; Analysis development  base &nbsp; Cartography &nbsp; Interactive maps  leaflet &nbsp; R
+  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-01-22 
+Key Topics &nbsp; Analysis development  base &nbsp; Cartography  here &nbsp; Interactive maps  leaflet  magrittr &nbsp; R  readr  sf
 Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; Exercise - Email  &nbsp; Exercise - Shaw Crime  &nbsp; Functions 
-Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use some sample data for in-class exercises and lecture examples."><meta property="og:image" content="/img/portrait.jpg">
+Lecture Slides    Leaflet Basics As a way to get to know R and RStudio, we&rsquo;ll be working with the R package leaflet."><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-12-05T00:00:00-06:00">
   
-  <meta property="article:modified_time" content="2019-01-21T00:00:00-06:00">
+  <meta property="article:modified_time" content="2019-01-22T00:00:00-06:00">
   
 
   
@@ -434,15 +434,14 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
 <li><a href="#key-topics">Key Topics</a></li>
 <li><a href="#resources">Resources</a></li>
 <li><a href="#lecture-slides">Lecture Slides</a></li>
-<li><a href="#working-with-r-packages">Working with R Packages</a></li>
 <li><a href="#leaflet-basics">Leaflet Basics</a>
 <ul>
+<li><a href="#get-data">Get Data</a></li>
 <li><a href="#a-simple-map">A Simple Map</a></li>
 <li><a href="#changing-the-basemap">Changing the Basemap</a></li>
+<li><a href="#adding-additional-points">Adding Additional Points</a></li>
+<li><a href="#reading-in-spatial-data">Reading in Spatial Data</a></li>
 </ul></li>
-<li><a href="#loading-and-exploring-data">Loading and Exploring Data</a></li>
-<li><a href="#data-sources-and-leaflet">Data Sources and Leaflet</a></li>
-<li><a href="#replication-code">Replication Code</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -468,17 +467,21 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
 <h2 id="meta">Meta</h2>
 
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i>
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Lecture</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-01-21</strong> </i></p>
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Full</strong> </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-01-22</strong> </i></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
 <p><a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Analysis development</strong></a>
 <a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> <strong>base</strong></a>
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Cartography</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> <strong>here</strong></a>
 <a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Interactive maps</strong></a>
 <a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> <strong>leaflet</strong></a>
-<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>R</strong></a></p>
+<a class="meta-badge package" href="/docs/topic-index/#m-p"><i class="fas fa-archive fa-lg"></i> <strong>magrittr</strong></a>
+<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>R</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>readr</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a></p>
 
 <h2 id="resources">Resources</h2>
 
@@ -495,30 +498,27 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
 <script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
 
-<h2 id="working-with-r-packages">Working with R Packages</h2>
-
-<p>During the semester, we&rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an <code>R</code> package called <a href="https://chris-prener.github.io/stlData/" target="_blank"><code>stlData</code></a>. Packages are small software programs that extend <code>R</code>&rsquo;s base functionality. Most packages we&rsquo;ll use this semester are available via <a href="https://cran.r-project.org" target="_blank">CRAN</a>. To get started, you&rsquo;ll need to fire up RStudio. In the console, enter the following function and hit return:</p>
-
-<pre><code class="language-r">install.packages(&quot;stldata&quot;)
-</code></pre>
-
-<p>Once it installs, we can access the data included in <code>stldata</code> by loading the package:</p>
-
-<pre><code class="language-r">library(&quot;stlData&quot;)
-</code></pre>
-
-<p>This will be our standard workflow for installing packages this semester.</p>
-
 <h2 id="leaflet-basics">Leaflet Basics</h2>
 
-<p>As a way to get to know <code>R</code> and RStudio, we&rsquo;ll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/" target="_blank"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com" target="_blank"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you&rsquo;ll need to install <code>leaflet</code> via CRAN:</p>
+<p>As a way to get to know <code>R</code> and RStudio, we&rsquo;ll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/" target="_blank"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com" target="_blank"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you&rsquo;ll need to install <code>leaflet</code> and a number of other packages via CRAN:</p>
 
-<pre><code class="language-r">install.packages(&quot;leaflet&quot;)
+<pre><code class="language-r">install.packages(c(&quot;here&quot;, &quot;leaflet&quot;, &quot;sf&quot;, &quot;tidyverse&quot;, &quot;usethis&quot;))
 </code></pre>
 
-<p>Just like before, we can open <code>leaflet</code> with the <code>library()</code> function:</p>
+<p>We can open <code>leaflet</code> and the other packages we&rsquo;ll need with the <code>library()</code> function:</p>
 
-<pre><code class="language-r">library(&quot;leaflet&quot;)
+<pre><code class="language-r">library(&quot;here&quot;)
+library(&quot;leaflet&quot;)
+library(&quot;magrittr&quot;)
+library(&quot;readr&quot;)
+library(&quot;sf&quot;)
+</code></pre>
+
+<h3 id="get-data">Get Data</h3>
+
+<p>To get data quickly for today, you can use the following code snippet in your console:</p>
+
+<pre><code class="language-r">usethis::use_course(&quot;https://github.com/slu-soc5650/lecture-01/archive/master.zip&quot;)
 </code></pre>
 
 <h3 id="a-simple-map">A Simple Map</h3>
@@ -542,7 +542,7 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
 
 <p>The code chunk above produces the following map in RStudio&rsquo;s <strong>Viewer</strong> tab:</p>
 
-<p><img src="/images/leaflet01.png" alt="leaflet01" /></p>
+<p><img src="/images/lecture-01/map1.png" alt="leaflet01" /></p>
 
 <p>You can use the <strong>Show in new window</strong> icon (a white box with a small arrow facing up and right) to open the map in your web browser.</p>
 
@@ -559,49 +559,77 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
 
 <p>The second code chunk produces the following map in RStudio&rsquo;s <strong>Viewer</strong> tab:</p>
 
-<p><img src="/images/leaflet02.png" alt="leaflet02" /></p>
+<p><img src="/images/lecture-01/map2.png" alt="leaflet02" /></p>
 
-<h2 id="loading-and-exploring-data">Loading and Exploring Data</h2>
+<h3 id="adding-additional-points">Adding Additional Points</h3>
 
-<p>Our example data package, <a href="https://chris-prener.github.io/stlData/" target="_blank"><code>stlData</code></a>, contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called <code>sluPlaces</code>. We can reference these data in our <code>leaflet()</code> call and again in the <code>addMarkers()</code> function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We&rsquo;ll take the <code>sluPlaces</code> table and assign it to the object <code>sluData</code>:</p>
+<p>The <code>data/sluPlaces.csv</code> file (a <code>.csv</code> file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into <code>R</code> using the <code>readr</code> package (part of the tidyverse):</p>
 
-<pre><code class="language-r">sluData &lt;- sluPlaces
+<pre><code class="language-r">sluPlaces &lt;- read_csv(here(&quot;data&quot;, &quot;sluPlaces.csv&quot;))
 </code></pre>
 
-<p>Notice how we always assign data in reverse like this, and that we don&rsquo;t use an equal sign. <a href="http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html" target="_blank">These are both just R quirks that take some getting used to</a>. We can explore the data a number of ways, including with the <code>View()</code> function and the <code>str()</code> function:</p>
+<p>We read the statement from right to left - the data found at <code>data/sluPlaces.csv</code> is read correctly as <code>.csv</code> data, and the resulting imported data is stored in an object in our global environment named <code>sluPlaces</code>. The <code>here()</code> function helps us write simple, operating system agnostic file paths that will always be relative to where the <code>.Rproj</code> file is stored. We&rsquo;ll talk more about this as the semester progresses.</p>
 
-<pre><code class="language-r">&gt; View(sluData)
+<p>We can explore the data a number of ways, including with the <code>View()</code> (output not shown) function and the <code>str()</code> function:</p>
 
-&gt; str(sluData)
-'data.frame':	6 obs. of  4 variables:
- $ id  : num  1 2 3 4 5 6
- $ name: chr  &quot;Morrissey Hall&quot; &quot;Starbucks&quot; &quot;Simon Rec&quot; &quot;Pius Library&quot; ...
- $ lng : num  -90.2 -90.2 -90.2 -90.2 -90.2 ...
- $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
+<pre><code class="language-r">str(sluPlaces)
 </code></pre>
 
-<p>The <code>View()</code> function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The <code>str()</code> function gives us an overview of the structure of an object - typically the variables included in the data along with some sample values.</p>
+<p>If we wanted to use <code>View()</code>, it would be implemented like this:</p>
 
-<h2 id="data-sources-and-leaflet">Data Sources and Leaflet</h2>
+<pre><code class="language-r">View(sluPlaces)
+</code></pre>
 
-<p>Now that we have some data loaded in our global environment, we can project (map) it using <code>leaflet</code>. We need to reference the data frame (our data object) in the <code>leaflet()</code> call and both the longitude (<code>lng</code>) and latitude (<code>lat</code>) variable names in our <code>addMarkers()</code> call. We&rsquo;ll also set the <code>name</code> variable to be the source for the popup text:</p>
+<p>When executed in the console, it will produce a spreadsheet-like view within RStudio.</p>
 
-<pre><code class="language-r">leaflet(data = sluData) %&gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&gt;%  # Add alternative map tiles
+<p>The <code>.csv</code> data are <em>tabular</em> data - they contain longitude and latitude data, but they are not <em>projected</em>. This means we are missing the geometric data that locates these longitude and latitude data in space. leaflet can take these spatial references, however, and convert them to usable geometric data. We do so using a very similar process to what we did before:</p>
+
+<pre><code class="language-r">leaflet(data = sluPlaces) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
   addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
 </code></pre>
 
-<p>Notice how we use the tilde symbol (<code>~</code>) in <code>addMarkers()</code> before the variable names. This is idiosyncratic to <code>leaflet</code>.</p>
+<p>The <code>data = sluPlaces</code> argument in <code>leaflet()</code> directs <code>R</code> to the appropriate data set to map. We use the tilde (<code>~</code>) to indicate to leaflet that these are variables within <code>sluPlaces</code>.</p>
 
 <p>The code chunk produces the following plot:</p>
 
-<p><img src="/images/leaflet03.png" alt="leaflet03" /></p>
+<p><img src="/images/lecture-01/map3.png" alt="leaflet03" /></p>
 
-<p>Congratulations - you have now made three maps!</p>
+<h3 id="reading-in-spatial-data">Reading in Spatial Data</h3>
 
-<h2 id="replication-code">Replication Code</h2>
+<p>For data that have already been converted to geometric data, we use the <code>sf</code> package to read them. The importing process looks similar to what we used with the <code>.csv</code> file. We&rsquo;ll demonstrate this with the violent crime data for Shaw:</p>
 
-<p>All of the code used in our lecture today, in one place:</p>
+<pre><code class="language-r">shawViolent &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Violent_2018.shp&quot;), stringsAsFactors = FALSE)
+</code></pre>
+
+<p>We&rsquo;ll still use <code>here()</code> to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the <code>.shp</code> file - this is the primary piece of the <em>family</em> of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with <code>SHAW_Violent_2018.shp</code>, but the other parts must be present as well.</p>
+
+<p>To map these data, we no longer need to specify <code>lng</code> and <code>lat</code> because we&rsquo;re using geometric data as well:</p>
+
+<pre><code class="language-r">leaflet(data = shawViolent) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(popup = ~crimeCt)
+</code></pre>
+
+<p>We use the simplified crime category (<code>crimeCt</code>) for the popup this time.</p>
+
+<p>The code chunk produces the following plot:</p>
+
+<p><img src="/images/lecture-01/map4.png" alt="leaflet04" /></p>
+
+<p>Finally, we can make a similar map with all Part 1 crimes:</p>
+
+<pre><code class="language-r">shawP1 &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Part1_2018.shp&quot;), stringsAsFactors = FALSE)
+</code></pre>
+
+<p>And then we&rsquo;ll map them:</p>
+
+<pre><code class="language-r">leaflet(data = shawP1) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(popup = ~crimeCt)
+</code></pre>
+
+<p><img src="/images/lecture-01/map5.png" alt="leaflet05" /></p>
 
           </div>
 
@@ -610,7 +638,7 @@ Lecture Slides    Working with R Packages During the semester, we&rsquo;ll use s
         </div>
 
         <div class="body-footer">
-          Last updated on Jan 21, 2019
+          Last updated on Jan 22, 2019
         </div>
 
       </article>

@@ -61,10 +61,10 @@ Overview This section introduces some of the core concepts that support sociospa
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/lecture-01/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-01-21 
-Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography &amp;nbsp; Interactive maps  leaflet &amp;nbsp; R
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-01-22 
+Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography  here &amp;nbsp; Interactive maps  leaflet  magrittr &amp;nbsp; R  readr  sf
 Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording  &amp;nbsp; Exercise - Email  &amp;nbsp; Exercise - Shaw Crime  &amp;nbsp; Functions 
-Lecture Slides    Working with R Packages During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples.</description>
+Lecture Slides    Leaflet Basics As a way to get to know R and RStudio, we&amp;rsquo;ll be working with the R package leaflet.</description>
     </item>
     
     <item>

@@ -530,17 +530,21 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
 &lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
-&lt;i class=&#34;meta-badge progress-lecture&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt;
-&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-01-21&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-01-22&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
 &lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;
 &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt;
 &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;
 &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt;
 &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;
-&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;magrittr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;readr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;sf&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -557,30 +561,27 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b023eb9d7ee463faea3a90532221987&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
 
-&lt;h2 id=&#34;working-with-r-packages&#34;&gt;Working with R Packages&lt;/h2&gt;
-
-&lt;p&gt;During the semester, we&amp;rsquo;ll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an &lt;code&gt;R&lt;/code&gt; package called &lt;a href=&#34;https://chris-prener.github.io/stlData/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;stlData&lt;/code&gt;&lt;/a&gt;. Packages are small software programs that extend &lt;code&gt;R&lt;/code&gt;&amp;rsquo;s base functionality. Most packages we&amp;rsquo;ll use this semester are available via &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;CRAN&lt;/a&gt;. To get started, you&amp;rsquo;ll need to fire up RStudio. In the console, enter the following function and hit return:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;stldata&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once it installs, we can access the data included in &lt;code&gt;stldata&lt;/code&gt; by loading the package:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;stlData&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will be our standard workflow for installing packages this semester.&lt;/p&gt;
-
 &lt;h2 id=&#34;leaflet-basics&#34;&gt;Leaflet Basics&lt;/h2&gt;
 
-&lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&amp;rsquo;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&amp;rsquo;ll need to install &lt;code&gt;leaflet&lt;/code&gt; via CRAN:&lt;/p&gt;
+&lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&amp;rsquo;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&amp;rsquo;ll need to install &lt;code&gt;leaflet&lt;/code&gt; and a number of other packages via CRAN:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;leaflet&amp;quot;)
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;here&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;tidyverse&amp;quot;, &amp;quot;usethis&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Just like before, we can open &lt;code&gt;leaflet&lt;/code&gt; with the &lt;code&gt;library()&lt;/code&gt; function:&lt;/p&gt;
+&lt;p&gt;We can open &lt;code&gt;leaflet&lt;/code&gt; and the other packages we&amp;rsquo;ll need with the &lt;code&gt;library()&lt;/code&gt; function:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;leaflet&amp;quot;)
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;here&amp;quot;)
+library(&amp;quot;leaflet&amp;quot;)
+library(&amp;quot;magrittr&amp;quot;)
+library(&amp;quot;readr&amp;quot;)
+library(&amp;quot;sf&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;get-data&#34;&gt;Get Data&lt;/h3&gt;
+
+&lt;p&gt;To get data quickly for today, you can use the following code snippet in your console:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;usethis::use_course(&amp;quot;https://github.com/slu-soc5650/lecture-01/archive/master.zip&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;a-simple-map&#34;&gt;A Simple Map&lt;/h3&gt;
@@ -604,7 +605,7 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;p&gt;The code chunk above produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/leaflet01.png&#34; alt=&#34;leaflet01&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/lecture-01/map1.png&#34; alt=&#34;leaflet01&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use the &lt;strong&gt;Show in new window&lt;/strong&gt; icon (a white box with a small arrow facing up and right) to open the map in your web browser.&lt;/p&gt;
 
@@ -621,49 +622,77 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;p&gt;The second code chunk produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/leaflet02.png&#34; alt=&#34;leaflet02&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/lecture-01/map2.png&#34; alt=&#34;leaflet02&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;loading-and-exploring-data&#34;&gt;Loading and Exploring Data&lt;/h2&gt;
+&lt;h3 id=&#34;adding-additional-points&#34;&gt;Adding Additional Points&lt;/h3&gt;
 
-&lt;p&gt;Our example data package, &lt;a href=&#34;https://chris-prener.github.io/stlData/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;stlData&lt;/code&gt;&lt;/a&gt;, contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called &lt;code&gt;sluPlaces&lt;/code&gt;. We can reference these data in our &lt;code&gt;leaflet()&lt;/code&gt; call and again in the &lt;code&gt;addMarkers()&lt;/code&gt; function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We&amp;rsquo;ll take the &lt;code&gt;sluPlaces&lt;/code&gt; table and assign it to the object &lt;code&gt;sluData&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;data/sluPlaces.csv&lt;/code&gt; file (a &lt;code&gt;.csv&lt;/code&gt; file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into &lt;code&gt;R&lt;/code&gt; using the &lt;code&gt;readr&lt;/code&gt; package (part of the tidyverse):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;sluData &amp;lt;- sluPlaces
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;sluPlaces &amp;lt;- read_csv(here(&amp;quot;data&amp;quot;, &amp;quot;sluPlaces.csv&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Notice how we always assign data in reverse like this, and that we don&amp;rsquo;t use an equal sign. &lt;a href=&#34;http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html&#34; target=&#34;_blank&#34;&gt;These are both just R quirks that take some getting used to&lt;/a&gt;. We can explore the data a number of ways, including with the &lt;code&gt;View()&lt;/code&gt; function and the &lt;code&gt;str()&lt;/code&gt; function:&lt;/p&gt;
+&lt;p&gt;We read the statement from right to left - the data found at &lt;code&gt;data/sluPlaces.csv&lt;/code&gt; is read correctly as &lt;code&gt;.csv&lt;/code&gt; data, and the resulting imported data is stored in an object in our global environment named &lt;code&gt;sluPlaces&lt;/code&gt;. The &lt;code&gt;here()&lt;/code&gt; function helps us write simple, operating system agnostic file paths that will always be relative to where the &lt;code&gt;.Rproj&lt;/code&gt; file is stored. We&amp;rsquo;ll talk more about this as the semester progresses.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; View(sluData)
+&lt;p&gt;We can explore the data a number of ways, including with the &lt;code&gt;View()&lt;/code&gt; (output not shown) function and the &lt;code&gt;str()&lt;/code&gt; function:&lt;/p&gt;
 
-&amp;gt; str(sluData)
-&#39;data.frame&#39;:	6 obs. of  4 variables:
- $ id  : num  1 2 3 4 5 6
- $ name: chr  &amp;quot;Morrissey Hall&amp;quot; &amp;quot;Starbucks&amp;quot; &amp;quot;Simon Rec&amp;quot; &amp;quot;Pius Library&amp;quot; ...
- $ lng : num  -90.2 -90.2 -90.2 -90.2 -90.2 ...
- $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str(sluPlaces)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The &lt;code&gt;View()&lt;/code&gt; function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The &lt;code&gt;str()&lt;/code&gt; function gives us an overview of the structure of an object - typically the variables included in the data along with some sample values.&lt;/p&gt;
+&lt;p&gt;If we wanted to use &lt;code&gt;View()&lt;/code&gt;, it would be implemented like this:&lt;/p&gt;
 
-&lt;h2 id=&#34;data-sources-and-leaflet&#34;&gt;Data Sources and Leaflet&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;View(sluPlaces)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Now that we have some data loaded in our global environment, we can project (map) it using &lt;code&gt;leaflet&lt;/code&gt;. We need to reference the data frame (our data object) in the &lt;code&gt;leaflet()&lt;/code&gt; call and both the longitude (&lt;code&gt;lng&lt;/code&gt;) and latitude (&lt;code&gt;lat&lt;/code&gt;) variable names in our &lt;code&gt;addMarkers()&lt;/code&gt; call. We&amp;rsquo;ll also set the &lt;code&gt;name&lt;/code&gt; variable to be the source for the popup text:&lt;/p&gt;
+&lt;p&gt;When executed in the console, it will produce a spreadsheet-like view within RStudio.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = sluData) %&amp;gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;%  # Add alternative map tiles
+&lt;p&gt;The &lt;code&gt;.csv&lt;/code&gt; data are &lt;em&gt;tabular&lt;/em&gt; data - they contain longitude and latitude data, but they are not &lt;em&gt;projected&lt;/em&gt;. This means we are missing the geometric data that locates these longitude and latitude data in space. leaflet can take these spatial references, however, and convert them to usable geometric data. We do so using a very similar process to what we did before:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = sluPlaces) %&amp;gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
   addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Notice how we use the tilde symbol (&lt;code&gt;~&lt;/code&gt;) in &lt;code&gt;addMarkers()&lt;/code&gt; before the variable names. This is idiosyncratic to &lt;code&gt;leaflet&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;data = sluPlaces&lt;/code&gt; argument in &lt;code&gt;leaflet()&lt;/code&gt; directs &lt;code&gt;R&lt;/code&gt; to the appropriate data set to map. We use the tilde (&lt;code&gt;~&lt;/code&gt;) to indicate to leaflet that these are variables within &lt;code&gt;sluPlaces&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;The code chunk produces the following plot:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/leaflet03.png&#34; alt=&#34;leaflet03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/lecture-01/map3.png&#34; alt=&#34;leaflet03&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Congratulations - you have now made three maps!&lt;/p&gt;
+&lt;h3 id=&#34;reading-in-spatial-data&#34;&gt;Reading in Spatial Data&lt;/h3&gt;
 
-&lt;h2 id=&#34;replication-code&#34;&gt;Replication Code&lt;/h2&gt;
+&lt;p&gt;For data that have already been converted to geometric data, we use the &lt;code&gt;sf&lt;/code&gt; package to read them. The importing process looks similar to what we used with the &lt;code&gt;.csv&lt;/code&gt; file. We&amp;rsquo;ll demonstrate this with the violent crime data for Shaw:&lt;/p&gt;
 
-&lt;p&gt;All of the code used in our lecture today, in one place:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;shawViolent &amp;lt;- st_read(here(&amp;quot;data&amp;quot;, &amp;quot;SHAW_Violent_2018.shp&amp;quot;), stringsAsFactors = FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We&amp;rsquo;ll still use &lt;code&gt;here()&lt;/code&gt; to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the &lt;code&gt;.shp&lt;/code&gt; file - this is the primary piece of the &lt;em&gt;family&lt;/em&gt; of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with &lt;code&gt;SHAW_Violent_2018.shp&lt;/code&gt;, but the other parts must be present as well.&lt;/p&gt;
+
+&lt;p&gt;To map these data, we no longer need to specify &lt;code&gt;lng&lt;/code&gt; and &lt;code&gt;lat&lt;/code&gt; because we&amp;rsquo;re using geometric data as well:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = shawViolent) %&amp;gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
+  addMarkers(popup = ~crimeCt)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We use the simplified crime category (&lt;code&gt;crimeCt&lt;/code&gt;) for the popup this time.&lt;/p&gt;
+
+&lt;p&gt;The code chunk produces the following plot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/lecture-01/map4.png&#34; alt=&#34;leaflet04&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we can make a similar map with all Part 1 crimes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;shawP1 &amp;lt;- st_read(here(&amp;quot;data&amp;quot;, &amp;quot;SHAW_Part1_2018.shp&amp;quot;), stringsAsFactors = FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then we&amp;rsquo;ll map them:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = shawP1) %&amp;gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
+  addMarkers(popup = ~crimeCt)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/lecture-01/map5.png&#34; alt=&#34;leaflet05&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

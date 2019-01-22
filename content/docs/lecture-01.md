@@ -2,7 +2,7 @@
 title = "Lecture-01 - Course Introduction"
 
 date = 2018-12-05T00:00:00
-lastmod = 2019-01-21T00:00:00
+lastmod = 2019-01-22T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,16 +17,20 @@ linktitle = "Lecture-01 - Introduction"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-01-21** </i>
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-01-22** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
 <a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> **base**</a> 
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> 
+<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> **here**</a> 
 <a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; **Interactive maps**</a> 
 <a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> **leaflet**</a>
+<a class="meta-badge package" href="/docs/topic-index/#m-p"><i class="fas fa-archive fa-lg"></i> **magrittr**</a>
 <a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; **R**</a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **readr**</a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **sf**</a>
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
@@ -41,32 +45,28 @@ linktitle = "Lecture-01 - Introduction"
 <script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
 
-## Working with R Packages
-During the semester, we'll use some sample data for in-class exercises and lecture examples. To make things easy, these data available as an `R` package called [`stlData`](https://chris-prener.github.io/stlData/). Packages are small software programs that extend `R`'s base functionality. Most packages we'll use this semester are available via [CRAN](https://cran.r-project.org). To get started, you'll need to fire up RStudio. In the console, enter the following function and hit return:
-
-```r
-install.packages("stldata")
-```
-
-Once it installs, we can access the data included in `stldata` by loading the package:
-
-```r
-library("stlData")
-```
-
-This will be our standard workflow for installing packages this semester.
-
 ## Leaflet Basics
-As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to install `leaflet` via CRAN:
+As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to install `leaflet` and a number of other packages via CRAN:
 
 ```r
-install.packages("leaflet")
+install.packages(c("here", "leaflet", "sf", "tidyverse", "usethis"))
 ```
 
-Just like before, we can open `leaflet` with the `library()` function:
+We can open `leaflet` and the other packages we'll need with the `library()` function:
 
 ```r
+library("here")
 library("leaflet")
+library("magrittr")
+library("readr")
+library("sf")
+```
+
+### Get Data
+To get data quickly for today, you can use the following code snippet in your console:
+
+```r
+usethis::use_course("https://github.com/slu-soc5650/lecture-01/archive/master.zip")
 ```
 
 ### A Simple Map
@@ -89,7 +89,7 @@ The `%>%` is called the "pipe operator", and it is used to chain together functi
 
 The code chunk above produces the following map in RStudio's **Viewer** tab:
 
-![leaflet01](/images/leaflet01.png)
+![leaflet01](/images/lecture-01/map1.png)
 
 You can use the **Show in new window** icon (a white box with a small arrow facing up and right) to open the map in your web browser.
 
@@ -107,46 +107,82 @@ Two things are important to note here. When we load the `leaflet` package, we ha
 
 The second code chunk produces the following map in RStudio's **Viewer** tab:
 
-![leaflet02](/images/leaflet02.png)
+![leaflet02](/images/lecture-01/map2.png)
 
-## Loading and Exploring Data
-Our example data package, [`stlData`](https://chris-prener.github.io/stlData/), contains a simple table of some places that I frequent around campus in addition to Morrissey Hall. In the package, it is called `sluPlaces`. We can reference these data in our `leaflet()` call and again in the `addMarkers()` function to project (map) them onto our basemap. First, we need to assign these data to an object in our global environment. We'll take the `sluPlaces` table and assign it to the object `sluData`:
+### Adding Additional Points
+
+The `data/sluPlaces.csv` file (a `.csv` file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into `R` using the `readr` package (part of the tidyverse):
 
 ```r
-sluData <- sluPlaces
+sluPlaces <- read_csv(here("data", "sluPlaces.csv"))
 ```
 
-Notice how we always assign data in reverse like this, and that we don't use an equal sign. [These are both just R quirks that take some getting used to](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html). We can explore the data a number of ways, including with the `View()` function and the `str()` function:
+We read the statement from right to left - the data found at `data/sluPlaces.csv` is read correctly as `.csv` data, and the resulting imported data is stored in an object in our global environment named `sluPlaces`. The `here()` function helps us write simple, operating system agnostic file paths that will always be relative to where the `.Rproj` file is stored. We'll talk more about this as the semester progresses.
+
+We can explore the data a number of ways, including with the `View()` (output not shown) function and the `str()` function:
 
 ```r
-> View(sluData)
-
-> str(sluData)
-'data.frame':	6 obs. of  4 variables:
- $ id  : num  1 2 3 4 5 6
- $ name: chr  "Morrissey Hall" "Starbucks" "Simon Rec" "Pius Library" ...
- $ lng : num  -90.2 -90.2 -90.2 -90.2 -90.2 ...
- $ lat : num  38.6 38.6 38.6 38.6 38.6 ...
+str(sluPlaces)
 ```
 
-The `View()` function does not produce any console output, but does open a viewer that (reassuringly for some of you!) looks a bit like a spreadsheet. The `str()` function gives us an overview of the structure of an object - typically the variables included in the data along with some sample values.
-
-## Data Sources and Leaflet
-Now that we have some data loaded in our global environment, we can project (map) it using `leaflet`. We need to reference the data frame (our data object) in the `leaflet()` call and both the longitude (`lng`) and latitude (`lat`) variable names in our `addMarkers()` call. We'll also set the `name` variable to be the source for the popup text:
+If we wanted to use `View()`, it would be implemented like this:
 
 ```r
-leaflet(data = sluData) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%  # Add alternative map tiles
+View(sluPlaces)
+```
+
+When executed in the console, it will produce a spreadsheet-like view within RStudio.
+
+The `.csv` data are *tabular* data - they contain longitude and latitude data, but they are not *projected*. This means we are missing the geometric data that locates these longitude and latitude data in space. leaflet can take these spatial references, however, and convert them to usable geometric data. We do so using a very similar process to what we did before:
+
+```r
+leaflet(data = sluPlaces) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
   addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
 ```
 
-Notice how we use the tilde symbol (`~`) in `addMarkers()` before the variable names. This is idiosyncratic to `leaflet`. 
+The `data = sluPlaces` argument in `leaflet()` directs `R` to the appropriate data set to map. We use the tilde (`~`) to indicate to leaflet that these are variables within `sluPlaces`.
 
 The code chunk produces the following plot:
 
-![leaflet03](/images/leaflet03.png)
+![leaflet03](/images/lecture-01/map3.png)
 
-Congratulations - you have now made three maps!
+### Reading in Spatial Data
 
-## Replication Code
-All of the code used in our lecture today, in one place:
+For data that have already been converted to geometric data, we use the `sf` package to read them. The importing process looks similar to what we used with the `.csv` file. We'll demonstrate this with the violent crime data for Shaw:
+
+```r
+shawViolent <- st_read(here("data", "SHAW_Violent_2018.shp"), stringsAsFactors = FALSE)
+```
+
+We'll still use `here()` to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the `.shp` file - this is the primary piece of the *family* of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with `SHAW_Violent_2018.shp`, but the other parts must be present as well.
+
+To map these data, we no longer need to specify `lng` and `lat` because we're using geometric data as well:
+
+```r
+leaflet(data = shawViolent) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addMarkers(popup = ~crimeCt)
+```
+
+We use the simplified crime category (`crimeCt`) for the popup this time.
+
+The code chunk produces the following plot:
+
+![leaflet04](/images/lecture-01/map4.png)
+
+Finally, we can make a similar map with all Part 1 crimes:
+
+```r
+shawP1 <- st_read(here("data", "SHAW_Part1_2018.shp"), stringsAsFactors = FALSE)
+```
+
+And then we'll map them:
+
+```r
+leaflet(data = shawP1) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addMarkers(popup = ~crimeCt)
+```
+
+![leaflet05](/images/lecture-01/map5.png)
