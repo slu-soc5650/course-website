@@ -529,15 +529,27 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-lecture&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-lecture&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-01-21&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
-&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt; &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf&#34; target=&#34;_blank&#34;&gt; Exercise - Email &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-shawCrime.pdf&#34; target=&#34;_blank&#34;&gt; Exercise - Shaw Crime &lt;/a&gt; &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf&#34; target=&#34;_blank&#34;&gt; Functions &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; View on Syllabus &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; View on GitHub &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.tegrity.com/#/recording/02d45d04-3643-4ff8-b55f-f57483875d55&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; View Recording &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; Exercise - Email &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-shawCrime.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; Exercise - Shaw Crime &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; Functions &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
 
