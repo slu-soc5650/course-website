@@ -17,7 +17,7 @@ linktitle = "Lecture-03 - Cartography 101"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
 <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-01-30** </i>
 
 ## Key Topics
@@ -50,4 +50,9 @@ The following videos cover the in-class examples from the lecture that we were n
 ### Part 2 - Thematic Mapping
 <p> </p>
 <iframe style="position:relative;width:100%;height:50vh;" src="https://www.youtube.com/embed/b8U7-FJ3kzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p> </p>
+
+## Lab-02 Replication
+<p> </p>
+<script async class="speakerdeck-embed" data-id="aeec1176e5df4a929c8153773d887972" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
