@@ -19,13 +19,13 @@ linktitle = "Topic Index"
 
 ## A-D
 
-* Analysis development (Fundamentals Articles [[a](/docs/opinionated-tools/), [b](/docs/good-enough-practices/), [c](/docs/protecting-work/)], [Course Preview](/docs/course-preview/), [Lecture-01](/docs/lecture-01/))
+* Analysis development (Fundamentals Articles [[a](/docs/opinionated-tools/), [b](/docs/good-enough-practices/), [c](/docs/protecting-work/)], [Course Preview](/docs/course-preview/), [Lecture-01](/docs/lecture-01/), [Lecture-03](/docs/lecture-03/))
 
 ## E-H
 
 ## I-L
 
-* Interactive maps ([Course Preview](/docs/course-preview/))
+* Interactive maps ([Course Preview](/docs/course-preview/), [Lecture-01](/docs/lecture-01/))
 
 ## M-P
 
