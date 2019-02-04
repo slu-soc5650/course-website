@@ -32,7 +32,8 @@ linktitle = "Lecture-03 - Cartography 101"
 <a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/e4888ab7-6933-4434-a26a-6ef391686a8c" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/QdmHzRwBmvK4JZtB2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-03 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Git Workflow </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-02 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/tree/master/assignments/lab-02-replication" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-02 Replication </a>
 
 ## Lecture Slides
 <p> </p>
