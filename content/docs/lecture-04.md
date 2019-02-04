@@ -29,5 +29,7 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-04-map-production-in-arcgis-pro.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite2.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Black and White Maps 2 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Color Maps </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/b7pyzAkGG4T5OP7k1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
-
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
