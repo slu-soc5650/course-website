@@ -2,7 +2,7 @@
 title = "Lecture-04 - Map Production in ArcGIS Pro"
 
 date = 2018-02-04T00:00:00
-lastmod = 2019-02-04T00:00:00
+lastmod = 2019-02-07T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-04** </i>
+<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-07** </i>
 
 ## Key Topics
 <a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Pro**</a>
@@ -29,7 +29,15 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-04-map-production-in-arcgis-pro.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
+<a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/ac9d44ce-d8ad-4804-94b7-b934a3fc7fe4" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 1 </a>
+<a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/fc51d2df-11aa-40dc-8750-e7f6c7b839a6" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 2 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite2.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Black and White Maps 2 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Color Maps </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/b7pyzAkGG4T5OP7k1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
+
+## Lecture Slides
+<p> </p>
+<script async class="speakerdeck-embed" data-id="bd8026d03c254803ac59ea90d7048335" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
