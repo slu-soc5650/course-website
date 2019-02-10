@@ -17,8 +17,8 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-07** </i>
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-10** </i>
 
 ## Key Topics
 <a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Pro**</a>
@@ -40,4 +40,9 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Lecture Slides
 <p> </p>
 <script async class="speakerdeck-embed" data-id="bd8026d03c254803ac59ea90d7048335" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
+
+## Lab-03 Replication
+<p> </p>
+<script async class="speakerdeck-embed" data-id="9244b21573204aefae00820778bda089" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
