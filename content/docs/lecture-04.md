@@ -35,7 +35,7 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Color Maps </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/b7pyzAkGG4T5OP7k1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
 
 ## Lecture Slides
 <p> </p>

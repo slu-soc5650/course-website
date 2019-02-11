@@ -1262,11 +1262,12 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h3 id=&#34;installing-r-packages&#34;&gt;Installing R Packages&lt;/h3&gt;
 
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;R packages will need be installed both in the lab and on personal computers. &lt;strong&gt;Check back on January 13th, 2018 for details.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk:&lt;/p&gt;
 
-&lt;/div&gt;
-
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
+  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
+  &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;rstudio&#34;&gt;RStudio&lt;/h2&gt;
 

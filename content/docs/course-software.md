@@ -59,9 +59,13 @@ You can download `R` from its [website](https://cloud.r-project.org). Choose "Do
 If you already have `R` installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.
 
 ### Installing R Packages
-{{% alert warning %}}
-R packages will need be installed both in the lab and on personal computers. **Check back on January 13th, 2018 for details.**
-{{% /alert %}}
+The packages we will need this semester can be downloaded using the following code chunk:
+
+```r
+install.packages(c("tidyverse", "here", "janitor", "knitr", "leaflet",
+  "mapview", "naniar", "radix", "RColorBrewer", "remotes", "rmarkdown",
+  "sf", "testDriveR", "tmap", "viridis", "webshot"))
+```
 
 ## RStudio
 {{% alert note %}}
