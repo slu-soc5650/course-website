@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/docs/leaflet-example/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/docs/git/</loc>
       <lastmod>2018-12-06T00:00:00-06:00</lastmod>
     </url>
@@ -132,15 +140,15 @@
     
     <url>
     
-      <loc>/docs/lecture-04/</loc>
-      <lastmod>2019-02-07T00:00:00-06:00</lastmod>
+      <loc>/docs/lecture-05/</loc>
+      <lastmod>2019-02-12T00:00:00-06:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/docs/lecture-05/</loc>
+      <loc>/docs/lecture-04/</loc>
       <lastmod>2019-02-07T00:00:00-06:00</lastmod>
     </url>
     

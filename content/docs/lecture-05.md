@@ -1,8 +1,8 @@
 +++
 title = "Lecture-05 - Map Production in R"
 
-date = 2018-02-04T00:00:00
-lastmod = 2019-02-07T00:00:00
+date = 2018-02-07T00:00:00
+lastmod = 2019-02-12T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-05 - Map Production in R"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-11** </i>
+<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-12** </i>
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-05-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
@@ -30,3 +30,10 @@ linktitle = "Lecture-05 - Map Production in R"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rProjectWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Workflow - R Projects </a>
+
+
+## Example of Live Leaflet Map
+I've added a version of the map we created last night to the course docs along with all of the code I used to create it. Click on the image below to check it out!
+<p> </p>
+[![leaflet-example](/images/leaflet-example.png)](/docs/leaflet-example/)
+<p> </p>
