@@ -180,8 +180,8 @@ Basics Markdown is a simple markup language. Markup languages are used to give c
       
       <guid>/docs/lecture-05/</guid>
       <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-02-12 
-Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-05  &amp;nbsp; Handout - RStudio  &amp;nbsp; Handout - R Markdown  &amp;nbsp; Lab-04  &amp;nbsp; PS-02  &amp;nbsp; Workflow - R Projects 
-Example of Live Leaflet Map I&amp;rsquo;ve added a version of the map we created last night to the course docs along with all of the code I used to create it.</description>
+Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography  here &amp;nbsp; Interactive maps  leaflet  knitr &amp;nbsp; R  RMarkdown  sf
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-05  &amp;nbsp; Handout - RStudio  &amp;nbsp; Handout - R Markdown  &amp;nbsp; Lab-04  &amp;nbsp; PS-02  &amp;nbsp; Workflow - R Projects</description>
     </item>
     
     <item>
