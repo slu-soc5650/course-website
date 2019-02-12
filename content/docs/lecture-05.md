@@ -28,7 +28,7 @@ linktitle = "Lecture-05 - Map Production in R"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-RStudio.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - RStudio </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rMarkdown.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - R Markdown </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-04 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-02 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rProjectWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Workflow - R Projects </a>
 
 
