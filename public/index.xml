@@ -1241,7 +1241,9 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-04&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-02-12&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
@@ -1274,11 +1276,11 @@ library(&amp;quot;sf&amp;quot;)
 &lt;/div&gt;
 
 
-&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&amp;rsquo;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&amp;rsquo;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;. You should only have to run this once per computer.&lt;/p&gt;
 
 &lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
 
-&lt;p&gt;To install the libraries on Windows, you need to have &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34; target=&#34;_blank&#34;&gt;RTools&lt;/a&gt; installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password.&lt;/p&gt;
+&lt;p&gt;To install the libraries on Windows, you need to have &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34; target=&#34;_blank&#34;&gt;RTools&lt;/a&gt; installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password. You should use the latest version, which is currently &lt;code&gt;Rtools35&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;macos&#34;&gt;macOS&lt;/h3&gt;
 
@@ -1286,7 +1288,7 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
 
-&lt;h3 id=&#34;installing-base-r&#34;&gt;Installing Base R&lt;/h3&gt;
+&lt;h3 id=&#34;base-r&#34;&gt;Base R&lt;/h3&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;Base R is installed in the GIS lab.&lt;/p&gt;
@@ -1294,20 +1296,11 @@ library(&amp;quot;sf&amp;quot;)
 &lt;/div&gt;
 
 
-&lt;p&gt;You can download &lt;code&gt;R&lt;/code&gt; from its &lt;a href=&#34;https://cloud.r-project.org&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;. Choose &amp;ldquo;Download R for (Mac) OS X&amp;rdquo; or &amp;ldquo;Download R for Windows&amp;rdquo;. Windows users should look for text that says &amp;ldquo;install R for the first time&amp;rdquo; and click the &lt;code&gt;base&lt;/code&gt; to the left of that text. Both macOS and Windows users should install &lt;code&gt;R&lt;/code&gt; version 3.5.1, known as &amp;ldquo;Feather Spray&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;You can download &lt;code&gt;R&lt;/code&gt; from its &lt;a href=&#34;https://cloud.r-project.org&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;. Choose &amp;ldquo;Download R for (Mac) OS X&amp;rdquo; or &amp;ldquo;Download R for Windows&amp;rdquo;. Windows users should look for text that says &amp;ldquo;install R for the first time&amp;rdquo; and click the &lt;code&gt;base&lt;/code&gt; to the left of that text. Both macOS and Windows users should install &lt;code&gt;R&lt;/code&gt; version 3.5.2, known as &amp;ldquo;Eggshell Igloo&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;If you already have &lt;code&gt;R&lt;/code&gt; installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
 
-&lt;h3 id=&#34;installing-r-packages&#34;&gt;Installing R Packages&lt;/h3&gt;
-
-&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
-  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
-  &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;rstudio&#34;&gt;RStudio&lt;/h2&gt;
+&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;RStudio is installed in the GIS lab.&lt;/p&gt;
@@ -1318,6 +1311,34 @@ library(&amp;quot;sf&amp;quot;)
 &lt;p&gt;RStudio is a graphical user interface for &lt;code&gt;R&lt;/code&gt; that will make learning the language and using it much, much easier. You should download the &lt;em&gt;free&lt;/em&gt; version of RStudio from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34; target=&#34;_blank&#34;&gt;their website&lt;/a&gt;. Choose the appropriate installer for your platform. Make sure &lt;code&gt;R&lt;/code&gt; is already installed before installing RStudio.&lt;/p&gt;
 
 &lt;p&gt;If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
+
+&lt;h3 id=&#34;r-packages&#34;&gt;R Packages&lt;/h3&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;This has been updated since lecture-05. Please add the needed software:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;install.packages(c(&amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;))&lt;/code&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&amp;rsquo;s console:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
+  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
+  &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should only have to run this once per computer.&lt;/p&gt;
+
+&lt;h3 id=&#34;phantomjs&#34;&gt;PhantomJS&lt;/h3&gt;
+
+&lt;p&gt;PhantomJS is a means for creating &amp;ldquo;headless&amp;rdquo; web-browsers and thus rendering the output of HTML widegts in &lt;code&gt;knitr&lt;/code&gt; documents. It makes it possible to get a screengrab of a &lt;code&gt;leaflet&lt;/code&gt; map when you &amp;ldquo;knit&amp;rdquo; your &lt;code&gt;.Rmd&lt;/code&gt; files, for instance. To install it, use the following code chunk in RStudio&amp;rsquo;s console:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;webshot::install_phantomjs()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Like installing packages, you should only have to run this once per computer.&lt;/p&gt;
 
 &lt;h2 id=&#34;github-desktop&#34;&gt;GitHub Desktop&lt;/h2&gt;
 

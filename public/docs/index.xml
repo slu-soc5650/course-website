@@ -125,7 +125,7 @@ Open Data and GIS in Los Angeles One of the course learning outcomes is titled &
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/course-software/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-02-12 
 Overview This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language R, the graphical user interface for R called RStudio, and GitHub Desktop. As I noted on the course onboarding page, there are two choices for accessing software. Please read through the course onboarding page page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer.</description>
     </item>
     
@@ -180,7 +180,7 @@ Basics Markdown is a simple markup language. Markup languages are used to give c
       
       <guid>/docs/lecture-05/</guid>
       <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-02-12 
-Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography  here &amp;nbsp; Interactive maps  leaflet  knitr &amp;nbsp; R  RMarkdown  sf
+Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography  here &amp;nbsp; Interactive maps  leaflet  knitr &amp;nbsp; R  RMarkdown  sf  webshot
 Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-05  &amp;nbsp; Handout - RStudio  &amp;nbsp; Handout - R Markdown  &amp;nbsp; Lab-04  &amp;nbsp; PS-02  &amp;nbsp; Workflow - R Projects</description>
     </item>
     

@@ -31,6 +31,7 @@ linktitle = "Lecture-05 - Map Production in R"
 <a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; **R**</a>
 <a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **RMarkdown**</a>
 <a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **sf**</a>
+<a class="meta-badge package" href="/docs/topic-index/#u-z"><i class="fas fa-archive fa-lg"></i> **webshot**</a>
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-05-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
