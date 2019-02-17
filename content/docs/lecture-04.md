@@ -46,3 +46,8 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 <p> </p>
 <script async class="speakerdeck-embed" data-id="9244b21573204aefae00820778bda089" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
+
+## Definition Query Examples
+<p> </p>
+<script async class="speakerdeck-embed" data-id="a59b3627ec294ea0ba3ec3cf692d2d4f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>

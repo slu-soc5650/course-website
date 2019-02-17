@@ -179,9 +179,9 @@ Basics Markdown is a simple markup language. Markup languages are used to give c
       <pubDate>Wed, 07 Feb 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/lecture-05/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-02-12 
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-02-17 
 Key Topics &amp;nbsp; Analysis development  base &amp;nbsp; Cartography  here &amp;nbsp; Interactive maps  leaflet  knitr &amp;nbsp; R  RMarkdown  sf  webshot
-Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-05  &amp;nbsp; Handout - RStudio  &amp;nbsp; Handout - R Markdown  &amp;nbsp; Lab-04  &amp;nbsp; PS-02  &amp;nbsp; Workflow - R Projects</description>
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-05  &amp;nbsp; Handout - RStudio  &amp;nbsp; Handout - R Markdown  &amp;nbsp; Lab-04  &amp;nbsp; Lab-04 Replication  &amp;nbsp; PS-02  &amp;nbsp; Workflow - R Projects</description>
     </item>
     
     <item>
@@ -193,7 +193,7 @@ Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; Vie
       <description> Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-02-10 
 Key Topics &amp;nbsp; ArcGIS Pro &amp;nbsp; Cartography &amp;nbsp; Map Layouts &amp;nbsp; Small Multiples
 Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Recording 1  &amp;nbsp; View Recording 2  &amp;nbsp; Black and White Maps 2  &amp;nbsp; Color Maps  &amp;nbsp; eTicket-04  &amp;nbsp; Lab-03  &amp;nbsp; PS-01 
-Lecture Slides    Lab-03 Replication    </description>
+Lecture Slides    Lab-03 Replication    Definition Query Examples    </description>
     </item>
     
     <item>
