@@ -2,7 +2,7 @@
 title = "Opinionated Tools and Processes"
 
 date = 2018-12-05T00:00:00
-lastmod = 2018-12-09T00:00:00
+lastmod = 2018-02-18T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -16,7 +16,9 @@ linktitle = "Opinionated Tools and Processes"
 +++
 
 ## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-12-09** </i>
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-09-18** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a>

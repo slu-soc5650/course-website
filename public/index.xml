@@ -467,7 +467,9 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-09-18&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
@@ -744,7 +746,9 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-09&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-09-18&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 
