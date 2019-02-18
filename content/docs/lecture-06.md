@@ -30,7 +30,7 @@ linktitle = "Lecture-06 - More Map Production in R"
 <a class="meta-badge package" href="/docs/topic-index/#u-z"><i class="fas fa-archive fa-lg"></i> **virids**</a>
 
 ## Resources
-<a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-06-communicating-with-maps.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
+<a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-06-more-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/80QroqPJuRbpbBVp2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-06 </a>
