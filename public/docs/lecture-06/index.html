@@ -15,13 +15,12 @@
   
     
   
-  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Draft  &nbsp; 2018-12-06 
-Key Topics &nbsp; GitHub
-Overview Much of our interaction this semester outside of class will utilize GitHub.com (or just &ldquo;GitHub&rdquo;). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
-We&rsquo;ll use GitHub as an alternative to Blackboard, the course management system that students are typically familiar with.">
+  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Lecture  &nbsp; 2019-02-18 
+Key Topics &nbsp; Cartography &nbsp; Getting Help  ggplot2 &nbsp; R  RColorBrewer  tmap  virids
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-06  &nbsp; Lab-05  &nbsp; PS-03">
 
   
-  <link rel="alternate" hreflang="en-us" href="/docs/git/">
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-06/">
 
   
 
@@ -91,7 +90,7 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/docs/git/">
+  <link rel="canonical" href="/docs/lecture-06/">
 
   
   
@@ -103,24 +102,23 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="/docs/git/">
-  <meta property="og:title" content="Git and GitHub | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Draft  &nbsp; 2018-12-06 
-Key Topics &nbsp; GitHub
-Overview Much of our interaction this semester outside of class will utilize GitHub.com (or just &ldquo;GitHub&rdquo;). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
-We&rsquo;ll use GitHub as an alternative to Blackboard, the course management system that students are typically familiar with."><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:url" content="/docs/lecture-06/">
+  <meta property="og:title" content="Lecture-06 - More Map Production in R | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Lecture  &nbsp; 2019-02-18 
+Key Topics &nbsp; Cartography &nbsp; Getting Help  ggplot2 &nbsp; R  RColorBrewer  tmap  virids
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-06  &nbsp; Lab-05  &nbsp; PS-03"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-12-06T00:00:00-06:00">
+  <meta property="article:published_time" content="2018-02-18T00:00:00-06:00">
   
-  <meta property="article:modified_time" content="2018-12-06T00:00:00-06:00">
-  
-
+  <meta property="article:modified_time" content="2019-02-18T00:00:00-06:00">
   
 
   
 
-  <title>Git and GitHub | SLU SOC 4650 and 5650</title>
+  
+
+  <title>Lecture-06 - More Map Production in R | SLU SOC 4650 and 5650</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -371,7 +369,7 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
         <a href="/docs/rmarkdown/">Creating RMarkdown Documents</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/docs/git/">Git and GitHub</a>
       </li>
       
@@ -404,7 +402,7 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
         <a href="/docs/lecture-05/">Lecture-05 - Map Production in R</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/docs/lecture-06/">Lecture-06 - More Map Production in R</a>
       </li>
       
@@ -448,20 +446,7 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
 <ul>
 <li><a href="#meta">Meta</a></li>
 <li><a href="#key-topics">Key Topics</a></li>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#git-basics">Git Basics</a>
-<ul>
-<li><a href="#git">Git</a></li>
-<li><a href="#github-com">GitHub.com</a></li>
-</ul></li>
-<li><a href="#the-workflow-of-git-and-github">The Workflow of Git and GitHub</a>
-<ul>
-<li><a href="#commits">Commits</a></li>
-<li><a href="#more-about-repositories">More About Repositories</a></li>
-</ul></li>
-<li><a href="#github-issues">GitHub Issues</a></li>
-<li><a href="#github-desktop">GitHub Desktop</a></li>
-<li><a href="#learning-more">Learning More</a></li>
+<li><a href="#resources">Resources</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -479,116 +464,35 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Git and GitHub</h1>
+          <h1 itemprop="name">Lecture-06 - More Map Production in R</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
 <h2 id="meta">Meta</h2>
 
-<p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Draft</strong> </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2018-12-06</strong> </i></p>
+<p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i>
+<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Lecture</strong> </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-02-18</strong> </i></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
-<p><a class="meta-badge tool" href="/docs/topic-index/#e-h"><i class="fas fa-desktop fa-lg"></i>&nbsp; <strong>GitHub</strong></a></p>
+<p><a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Cartography</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#e-h"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Getting Help</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> <strong>ggplot2</strong></a>
+<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>R</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>RColorBrewer</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>tmap</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#u-z"><i class="fas fa-archive fa-lg"></i> <strong>virids</strong></a></p>
 
-<h2 id="overview">Overview</h2>
+<h2 id="resources">Resources</h2>
 
-<p>Much of our interaction this semester outside of class will utilize GitHub.com (or just &ldquo;GitHub&rdquo;). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.</p>
-
-<p>We&rsquo;ll use GitHub as an alternative to Blackboard, the <em>course management system</em> that students are typically familiar with. Course materials will be posted there, and GitHub&rsquo;s features will allow you to copy them and keep them updated as changes are made. You&rsquo;ll also use GitHub to submit assignments for grading, and we&rsquo;ll give you feedback and grades via GitHub as well.</p>
-
-<h2 id="git-basics">Git Basics</h2>
-
-<h3 id="git">Git</h3>
-
-<p>GitHub is a web application that utilizes <a href="https://git-scm.com" target="_blank">Git</a>:</p>
-
-<blockquote>
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-</blockquote>
-
-<p>Essentially, Git is a project-wide system for tracking changes to files. Think of it as Microsoft office&rsquo;s track changes feature on steroids - every change to every file in a directory is tracked. A directory that has tracking enabled with Git is called a <strong>repository</strong> or &ldquo;repo&rdquo; in Git-lingo.</p>
-
-<p>You do no need to host files online to use Git. If you have a project saved locally (say, a doctoral thesis), you could utilize Git to version control that project without ever uploading it to the Internet. However, Git integrates seemlessly with <strong>remote</strong> repositories. The most well-known host of remote repos is [GitHub.com].</p>
-
-<p>Beyond &ldquo;repositories&rdquo;, there are a few additional terms that are specific to Git and that are helpful to know:</p>
-
-<ul>
-<li><strong>Clone</strong>: Make an identical copy of a repository on your local hard drive.</li>
-<li><strong>Commit</strong>: Approve any changes you have made to a repository.</li>
-<li><strong>Sync</strong>: For cloned repositories, files that have been changed need to be synced or <strong>pushed</strong> to GitHub.com after they are committed.</li>
-</ul>
-
-<p>For our purposes, this is just about all you need to know about Git. If you want to learn more, <a href="https://git-scm.com/about" target="_blank">Git&rsquo;s &lsquo;About&rsquo; page</a> is a great place to start.</p>
-
-<h3 id="github-com">GitHub.com</h3>
-
-<p>GitHub is a web service that can host projects using Git&rsquo;s version tracking. It is widely used by programmers, software developers, data scientists, and academics to host and collaborate projects.</p>
-
-<p>GitHub is an excellent way to backup files for a project since you can &ldquo;sync&rdquo; changes made to a repository up to GitHub&rsquo;s servers. It is also an excellent way to collaborate on files with colleagues while also using Git&rsquo;s version tracking. Repositories can be either public (like all of the repos for our seminar) or private, which means that only people who have been given access to can view the contents of the repo. Private repos require an upgraded account, which retails for $7/month.</p>
-
-<p>Students can get access to GitHub&rsquo;s paid services for free, however, by signing up for a <a href="https://education.github.com" target="_blank">free student account</a>. This will give you access to private repositories for as long as you are a student. GitHub also provides this free upgrade service to educators, which is how our classes have private repositories.</p>
-
-<h2 id="the-workflow-of-git-and-github">The Workflow of Git and GitHub</h2>
-
-<p>The typical approach to versioning for many students is manual. For a hypothetical class response paper, it might look something like this:</p>
-
-<pre><code class="language-r">knitr::include_graphics(&quot;images/gitFlow01.png&quot;)
-</code></pre>
-
-<p>The author made an initial copy of the paper, and then used a haphazard and inconsistent approach for naming subsequent copies of the paper. We can presume that changes were made in a linear fashion, though it is easy to make changes to, say, <code>First Response Paper 2.doc</code> after <code>First Response Paper 3.doc</code> has been created and edited.</p>
-
-<h3 id="commits">Commits</h3>
-
-<p>Instead of saving copies of their hypothetical paper, a student using GitHub could write the paper in a single document, <strong>commiting</strong> their changes as they progress to take &ldquo;snapshots&rdquo; of their progress. These snapshots contain information on changes the student has made, tracked line-by-line. So, at each point in which a new document would have been created in the typical workflow, a student using GitHub would simply <strong>commit</strong> their changes:</p>
-
-<pre><code class="language-r">knitr::include_graphics(&quot;images/gitFlow02.png&quot;)
-</code></pre>
-
-<p>Git provides a number of useful features beyond simply tracking changes. Each commit is accompanied a <strong>message</strong>. These messages must have a short summary that appears on GitHub and can also have a longer description that can be used to describe in detail what changes are being applied with a specific commit:</p>
-
-<pre><code class="language-r">knitr::include_graphics(&quot;images/gitFlow03.png&quot;)
-</code></pre>
-
-<p>Messages, combined with the changes that are tracked, allow users to trace the development of a single document or an entire project overtime:</p>
-
-<pre><code class="language-r">knitr::include_graphics(&quot;images/gitFlow04.png&quot;)
-</code></pre>
-
-<p>This means that, if necessary, the project can also be rolled back to an earlier period. Finally, users can <strong>sync</strong> their commits with GitHub.com, hosting their changes and their data in a way that protects them against certain types of computer failures and also allowing them to easily share their work with others.</p>
-
-<h3 id="more-about-repositories">More About Repositories</h3>
-
-<p>Users of GitHub.com adhere to a couple of norms with their repositories that are worth knowing about. Repositories cannot have spaces in their names (much like objects in <code>R</code>), so the naming conventions that we will discuss in relation to <code>R</code> this semester all apply to GitHub as well!</p>
-
-<p>Public GitHub repositories also contain (typically) at least three core files:</p>
-
-<ol>
-<li><p>A <strong>license</strong> file - since the data is out there for public consumption, it is important to think about how that data is licensed. The norm among GitHub users has been to use open source licenses, which let others edit and adapt your work. There are a range of <a href="http://choosealicense.com" target="_blank">licenses</a> that are commonly used on GitHub.</p></li>
-
-<li><p>A <strong>README</strong> file - this describes the purpose and content of the project.</p></li>
-
-<li><p>A <strong>.gitignore</strong> file - this stops certain types of files from being swept up by GitHub when a user syncs their files with a server.</p></li>
-</ol>
-
-<p>When you clone your repositories, you will be prompted to save them on your computer. There are a number of ways in which this process can introduce sources for trouble down the road. The principle way that I have seen students run into problems with GitHub is by storing repositories on cloud storage services like Dropbox or Google Drive. In order to avoid any issues, I advise against storing GitHub repositories in an area of your computer that syncs with a cloud service.</p>
-
-<h2 id="github-issues">GitHub Issues</h2>
-
-<p>GitHub has a powerful tool for interaction called <a href="https://help.github.com/articles/about-issues/" target="_blank">Issues</a>. These can be accessed by opening a repository and then clicking on the &ldquo;Issues&rdquo; tab. Issues can be &ldquo;opened&rdquo; by anyone with access to the repository. They allow for a conversation to occur in the form of messages posted within the Issue itself. Files can be attached to Issues, and the messages can contain Markdown formatting. Once the conversation is complete, issues can be marked as &ldquo;closed&rdquo;, which moves them into a secondary view on the website so that they are archived.</p>
-
-<p>We&rsquo;ll use issues for both assignment feedback and grading. Please keep up with issues are they appear, and feel free to follow-up with specific questions about your grade or the assignment feedback in the Issue conversation. Once you are satisfied, please mark the issue as closed.</p>
-
-<h2 id="github-desktop">GitHub Desktop</h2>
-
-<p><a href="https://desktop.github.com" target="_blank">GitHub Desktop</a> is a tool that allows you to easily clone repositories hosted on GitHub, commit changes to them, and then sync those changes up to the website. You can also create new repositories, however this is not task you will have to do this semester. GitHub Desktop is not a fully functional desktop version of GitHub. For our purposes, it is important to note that the Desktop application will not let you easily identify when repositories have been updated by other users, view Wikis associated with repositories, or view Issues.</p>
-
-<h2 id="learning-more">Learning More</h2>
-
-<p>GitHub has a <a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/" target="_blank">resources page</a> with links to websites that are great for helping you learn more about how Git and GitHub work! The next chapter also has some additional GitHub and Git information.</p>
-
-<p>One particularly great <a href="https://try.github.io/" target="_blank">tutorial</a> walks you through the command line process for creating and using a git repository. Even if you do not want to use Git via the command line, the tutorial does an <em>excellent</em> job of describing the logic and sequence behind the Git workflow.</p>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-06-communicating-with-maps.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://goo.gl/forms/80QroqPJuRbpbBVp2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-06 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-05 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/ps-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-03 </a></p>
 
           </div>
 
@@ -597,7 +501,7 @@ We&rsquo;ll use GitHub as an alternative to Blackboard, the course management sy
         </div>
 
         <div class="body-footer">
-          Last updated on Dec 6, 2018
+          Last updated on Feb 18, 2019
         </div>
 
       </article>
