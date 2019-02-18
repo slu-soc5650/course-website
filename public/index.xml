@@ -174,7 +174,9 @@ During class last night, we worked up to building a very similar map to the one 
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-01-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-01-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
@@ -192,7 +194,7 @@ During class last night, we worked up to building a very similar map to the one 
 
 &lt;p&gt;Doing data science work, and having the space to step away for a day as the last section suggests, requires discipline and organization. Similarly, computational coursework can demanding not just because it is complex but because the courses often have a number of moving pieces that you need to keep track of. Being mindful of this challenge from the beginning, and taking steps to plan for it, is an important part of this course.&lt;/p&gt;
 
-&lt;h3 id=&#34;keeping-track-of-where-you-are&#34;&gt;Keeping Track of Where You Are&lt;/h3&gt;
+&lt;h2 id=&#34;keeping-track-of-where-you-are&#34;&gt;Keeping Track of Where You Are&lt;/h2&gt;
 
 &lt;p&gt;Students who have some system for tracking their work and creating to-do lists are often the most successful in this course, not because they have a fundamentally better grasp on the content but because they simply are more organized. If you have never thought particularly hard about how you manage tasks, now is an excellent time to start doing so. You do not need fancy computer software to accomplish this, though there are an array of possibilities if you do want to use software to keep yourself organized. A legal pad or a notebook can be just as effective as a $50 to-do list manager. The point is, do &lt;em&gt;something&lt;/em&gt;!&lt;/p&gt;
 
@@ -908,51 +910,14 @@ library(&amp;quot;sf&amp;quot;)
     README.md
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;top-level-files&#34;&gt;Top-Level Files&lt;/h3&gt;
-
-&lt;p&gt;At least two files should be present in each project directory - a &lt;code&gt;README.md&lt;/code&gt; and a &lt;code&gt;LICENSE.md&lt;/code&gt;. As I noted in the previous chapter, both of these files should be plain-text files. Typically, they are formatted using [Markdown] syntax The &lt;code&gt;README&lt;/code&gt; should describe your project, detail any key dependencies or outside data sources that might be required, and provide other important details like how to cite your project and what other online resources might be available.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;LICENSE&lt;/code&gt; is a key element of open source research. This spells out how others may use (and not use) your work. The excellent guide &lt;a href=&#34;https://opensource.guide/&#34; target=&#34;_blank&#34;&gt;The Legal Side of Open Source&lt;/a&gt; notes:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Open source is an unusual circumstance&amp;hellip;because the author expects that others will use, modify, and share the work. But because the legal default is still exclusive copyright, you need a license that explicitly states these permissions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are lots of different options for open source licenses, and &lt;a href=&#34;https://choosealicense.com&#34; target=&#34;_blank&#34;&gt;GitHub&amp;rsquo;s choose a license site&lt;/a&gt; does a great job of explaining some of the &lt;a href=&#34;https://choosealicense.com/appendix/&#34; target=&#34;_blank&#34;&gt;many options&lt;/a&gt;. In the &lt;code&gt;R&lt;/code&gt; community, many packages are made available using the &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; or &lt;a href=&#34;https://choosealicense.com/licenses/gpl-3.0/&#34; target=&#34;_blank&#34;&gt;GNU GPLv3&lt;/a&gt; licenses. For written content, presentations, and other non-code works, the Creative Commons &lt;a href=&#34;https://choosealicense.com/licenses/cc-by-4.0/&#34; target=&#34;_blank&#34;&gt;Attribution&lt;/a&gt; and &lt;a href=&#34;https://choosealicense.com/licenses/cc-by-sa-4.0/&#34; target=&#34;_blank&#34;&gt;Attribution-ShareAlike&lt;/a&gt; licenses are both common options. For data, the &lt;a href=&#34;https://opendatacommons.org&#34; target=&#34;_blank&#34;&gt;Open Data Commons&lt;/a&gt; licenses are not discussed on GitHub&amp;rsquo;s site but are options for data-specific licenses. Finally, large projects sometimes require &lt;a href=&#34;https://choosealicense.com/non-software/&#34; target=&#34;_blank&#34;&gt;multiple licenses&lt;/a&gt;. If you use a data-specific, code-specific, and/or content-specific mix of licenses, be sure to describe in the &lt;code&gt;README&lt;/code&gt; which license applies to which element of of the project. Licensing your projects is another form of protecting your work. If these projects are out in the open, licensing ensures that your work will be used under terms that you are comfortable with.&lt;/p&gt;
-
-&lt;p&gt;If the project uses &lt;code&gt;R&lt;/code&gt;, an &lt;code&gt;R&lt;/code&gt; project file (&lt;code&gt;.Rproj&lt;/code&gt;) should also be saved in the top-level of the project. This will facilitate the top-level folder being set automatically as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Working_directory&#34; target=&#34;_blank&#34;&gt;working directory&lt;/a&gt;. The working directory is the folder that &lt;code&gt;R&lt;/code&gt; will open data from and save data to by default.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-data-directory&#34;&gt;The &lt;code&gt;data&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;All data sources, with a few exceptions, should be stored here. For instance, in the example above, a tabular data source and a raw shapefile are both used as part of the project. There are, however, a number of exceptions to this. One exception is data that has been packaged in an &lt;code&gt;R&lt;/code&gt; package. For example, I have packaged a large set of tables containing historical census data to make them easier to work with. When these are used in projects, I do not save the tables in the &lt;code&gt;data&lt;/code&gt; folder. Rather, I make reference to them in the &lt;code&gt;README&lt;/code&gt; file and in other project documents.&lt;/p&gt;
-
-&lt;p&gt;A second exception is for large geospatial data libraries, like the data release for my &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt;. Given the size of these files, it is sometimes impractical to reproduce them multiple times across different projects. Clearly noting that specific files are stored on local libraries available elsewhere in the &lt;code&gt;README&lt;/code&gt; file and in other project documents is also an acceptable alternative here.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-doc-directory&#34;&gt;The &lt;code&gt;doc&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;doc&lt;/code&gt; directory should be used for all text documents associated with the project. These might include metadata associated with different project data files, an interactive &lt;code&gt;R&lt;/code&gt; notebook, a research log file, and article manuscripts. If needed, subdirectories within &lt;code&gt;doc&lt;/code&gt; should be used to keep different files organized. In the example above, &lt;code&gt;joinedTracts.md&lt;/code&gt; is the metadata for the similarly named shapefile in the &lt;code&gt;data&lt;/code&gt; subdirectory. The &lt;code&gt;notebook&lt;/code&gt; files are the interactive &lt;code&gt;R&lt;/code&gt; notebook and its associated &lt;code&gt;html&lt;/code&gt; output. Finally, the &lt;code&gt;researchLog.md&lt;/code&gt; is used for tracking higher level progress over the course of the project.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-maps-directory&#34;&gt;The &lt;code&gt;maps&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;maps&lt;/code&gt; is a deviation from &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017), which does not envision some of the complexity of working with geospatial data. It should be used for storing the &lt;code&gt;.mxd&lt;/code&gt; files from ArcGIS projects or the equivalent QGIS files if that application is being used instead. Illustrator files used for post-processing work should also be stored here if used. Remember that these files should be saved using relative paths to link them to data sources to limit the possibility of conflicts down the road.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-results-directory&#34;&gt;The &lt;code&gt;results&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;results&lt;/code&gt; directory should contain any data outputs, plots, and map images. These might include intermediate and final versions of data sets as well as shapefiles and GeoJSON files created as part of the analysis process. In the example above, a shapefile combining both of the raw data sources named &lt;code&gt;joinedTracts.shp&lt;/code&gt; is saved here along with the exported map image from the map file in the &lt;code&gt;maps&lt;/code&gt; subdirectory. Depending on the complexity of the project, subdirectories within &lt;code&gt;results&lt;/code&gt; might be necessary.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-src-directory&#34;&gt;The &lt;code&gt;src&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;For projects that rely on functions not included in packages, for example, or that rely on other pre-made scripts, the &lt;code&gt;src&lt;/code&gt; subdirectory should be used for storing script files that are called by notebooks in &lt;code&gt;doc&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;storing-your-project&#34;&gt;Storing Your Project&lt;/h3&gt;
-
-&lt;p&gt;There are a number of places where work can be deposited. I teach all students in my classes how to use &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;GitHub.com&lt;/a&gt; because it integrates directly into version control software, which I see as a critical component of [&amp;ldquo;Good Enough&amp;rdquo; Research Practices]. There are other options, however. For larger projects that may not just be on GitHub (see [Basic Git]) but also utilize a collaborative writing space like Google Docs, the &lt;a href=&#34;https://osf.io&#34; target=&#34;_blank&#34;&gt;Open Science Framework&lt;/a&gt; is an excellent tool. It allows for an even wider set of version control tools to be applied to projects and can be used to organize work that is not easily stored on GitHub, like large number of pdf articles, for which version control is not critical.&lt;/p&gt;
-
-&lt;p&gt;Once a research project has begun dissemination, repositories like &lt;a href=&#34;https://zenodo.org&#34; target=&#34;_blank&#34;&gt;Zenodo&lt;/a&gt; and &lt;a href=&#34;https://figshare.com&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt; are designed to make open source data and project materials accessible and citeable. For papers specifically, there are a number of discipline specific archives for pre-prints of papers. Many journals will allow pre-prints to remain freely available even after more formal publication. The original pre-print archive, &lt;a href=&#34;https://arxiv.org&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;, is focused on the STEM sciences and has inspired a number of spinoffs. Many of these are supported by the &lt;a href=&#34;https://cos.io&#34; target=&#34;_blank&#34;&gt;Center for Open Science&lt;/a&gt;, the same organization that operates the &lt;a href=&#34;https://osf.io&#34; target=&#34;_blank&#34;&gt;Open Science Framework&lt;/a&gt; tool described above. For social scientists, &lt;a href=&#34;https://socopen.org/welcome/&#34; target=&#34;_blank&#34;&gt;SocArXiv&lt;/a&gt; is a growing pre-print repository that is part of the &lt;a href=&#34;https://osf.io/preprints/socarxiv&#34; target=&#34;_blank&#34;&gt;Center for Open Science&amp;rsquo;s pre-print network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;organizing-coursework&#34;&gt;Organizing Coursework&lt;/h3&gt;
-
-&lt;p&gt;For &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;, problem sets and the final project should both be organized following the general template above.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;data/&lt;/code&gt; folder should contain all of the data needed for the project. For more complex assignments where you are created &amp;ldquo;clean&amp;rdquo; versions of the data, consider adding &lt;code&gt;data/raw/&lt;/code&gt; and &lt;code&gt;data/clean/&lt;/code&gt; subfolders.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;docs/&lt;/code&gt; folder should be used for all &lt;code&gt;.Rmd&lt;/code&gt; files and their output&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;results/&lt;/code&gt; folder should be used for all map outputs&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;source/&lt;/code&gt; folder should be used for any scripts you might need (these will be few and far between, if any, in this course)&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;.Rproj&lt;/code&gt; file for your project&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;README.md&lt;/code&gt; file descibing the organization of your project&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;backing-up-your-data&#34;&gt;Backing Up Your Data&lt;/h2&gt;
 

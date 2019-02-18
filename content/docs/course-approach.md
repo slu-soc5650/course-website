@@ -16,7 +16,9 @@ linktitle = "Approaching Coursework"
 +++
 
 ## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Draft** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
 
 ## Overview
 
@@ -32,7 +34,7 @@ Data analysis therefore requires a certain mindfulness or what I call "habits of
 ## Getting and Staying Organized
 Doing data science work, and having the space to step away for a day as the last section suggests, requires discipline and organization. Similarly, computational coursework can demanding not just because it is complex but because the courses often have a number of moving pieces that you need to keep track of. Being mindful of this challenge from the beginning, and taking steps to plan for it, is an important part of this course. 
 
-### Keeping Track of Where You Are
+## Keeping Track of Where You Are
 Students who have some system for tracking their work and creating to-do lists are often the most successful in this course, not because they have a fundamentally better grasp on the content but because they simply are more organized. If you have never thought particularly hard about how you manage tasks, now is an excellent time to start doing so. You do not need fancy computer software to accomplish this, though there are an array of possibilities if you do want to use software to keep yourself organized. A legal pad or a notebook can be just as effective as a $50 to-do list manager. The point is, do *something*!
 
 I am fond of recommending the [**Getting Things Done**](http://gettingthingsdone.com) methodology to students as part of thinking more holistically about staying organized. The website [Lifehacker](https://lifehacker.com) posted an [excellent introduction to GTD](https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955) that is a great way to get a sense of how it works and find additional resources for implementing it. 

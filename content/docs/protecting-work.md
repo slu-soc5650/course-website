@@ -101,41 +101,12 @@ Much as I suggested above that course files reside in one and only one place, pr
     README.md
 ```
 
-### Top-Level Files
-At least two files should be present in each project directory - a `README.md` and a `LICENSE.md`. As I noted in the previous chapter, both of these files should be plain-text files. Typically, they are formatted using [Markdown] syntax The `README` should describe your project, detail any key dependencies or outside data sources that might be required, and provide other important details like how to cite your project and what other online resources might be available. 
-
-The `LICENSE` is a key element of open source research. This spells out how others may use (and not use) your work. The excellent guide [The Legal Side of Open Source](https://opensource.guide/) notes:
-
-> Open source is an unusual circumstance...because the author expects that others will use, modify, and share the work. But because the legal default is still exclusive copyright, you need a license that explicitly states these permissions.
-
-There are lots of different options for open source licenses, and [GitHub's choose a license site](https://choosealicense.com) does a great job of explaining some of the [many options](https://choosealicense.com/appendix/). In the `R` community, many packages are made available using the [MIT](https://choosealicense.com/licenses/mit/) or [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) licenses. For written content, presentations, and other non-code works, the Creative Commons [Attribution](https://choosealicense.com/licenses/cc-by-4.0/) and [Attribution-ShareAlike](https://choosealicense.com/licenses/cc-by-sa-4.0/) licenses are both common options. For data, the [Open Data Commons](https://opendatacommons.org) licenses are not discussed on GitHub's site but are options for data-specific licenses. Finally, large projects sometimes require [multiple licenses](https://choosealicense.com/non-software/). If you use a data-specific, code-specific, and/or content-specific mix of licenses, be sure to describe in the `README` which license applies to which element of of the project. Licensing your projects is another form of protecting your work. If these projects are out in the open, licensing ensures that your work will be used under terms that you are comfortable with. 
-
-If the project uses `R`, an `R` project file (`.Rproj`) should also be saved in the top-level of the project. This will facilitate the top-level folder being set automatically as the [working directory](https://en.wikipedia.org/wiki/Working_directory). The working directory is the folder that `R` will open data from and save data to by default.
-
-### The `data` Directory
-All data sources, with a few exceptions, should be stored here. For instance, in the example above, a tabular data source and a raw shapefile are both used as part of the project. There are, however, a number of exceptions to this. One exception is data that has been packaged in an `R` package. For example, I have packaged a large set of tables containing historical census data to make them easier to work with. When these are used in projects, I do not save the tables in the `data` folder. Rather, I make reference to them in the `README` file and in other project documents.
-
-A second exception is for large geospatial data libraries, like the data release for my [Introduction to GIS](https://slu-soc5650.github.io). Given the size of these files, it is sometimes impractical to reproduce them multiple times across different projects. Clearly noting that specific files are stored on local libraries available elsewhere in the `README` file and in other project documents is also an acceptable alternative here.
-
-### The `doc` Directory
-The `doc` directory should be used for all text documents associated with the project. These might include metadata associated with different project data files, an interactive `R` notebook, a research log file, and article manuscripts. If needed, subdirectories within `doc` should be used to keep different files organized. In the example above, `joinedTracts.md` is the metadata for the similarly named shapefile in the `data` subdirectory. The `notebook` files are the interactive `R` notebook and its associated `html` output. Finally, the `researchLog.md` is used for tracking higher level progress over the course of the project.
-
-### The `maps` Directory
-`maps` is a deviation from [*Good enough practices in scientific computing*](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al. 2017), which does not envision some of the complexity of working with geospatial data. It should be used for storing the `.mxd` files from ArcGIS projects or the equivalent QGIS files if that application is being used instead. Illustrator files used for post-processing work should also be stored here if used. Remember that these files should be saved using relative paths to link them to data sources to limit the possibility of conflicts down the road.
-
-### The `results` Directory
-The `results` directory should contain any data outputs, plots, and map images. These might include intermediate and final versions of data sets as well as shapefiles and GeoJSON files created as part of the analysis process. In the example above, a shapefile combining both of the raw data sources named `joinedTracts.shp` is saved here along with the exported map image from the map file in the `maps` subdirectory. Depending on the complexity of the project, subdirectories within `results` might be necessary.
-
-### The `src` Directory
-For projects that rely on functions not included in packages, for example, or that rely on other pre-made scripts, the `src` subdirectory should be used for storing script files that are called by notebooks in `doc`.
-
-### Storing Your Project
-There are a number of places where work can be deposited. I teach all students in my classes how to use [GitHub.com](https://github.com) because it integrates directly into version control software, which I see as a critical component of ["Good Enough" Research Practices]. There are other options, however. For larger projects that may not just be on GitHub (see [Basic Git]) but also utilize a collaborative writing space like Google Docs, the [Open Science Framework](https://osf.io) is an excellent tool. It allows for an even wider set of version control tools to be applied to projects and can be used to organize work that is not easily stored on GitHub, like large number of pdf articles, for which version control is not critical.
-
-Once a research project has begun dissemination, repositories like [Zenodo](https://zenodo.org) and [Figshare](https://figshare.com) are designed to make open source data and project materials accessible and citeable. For papers specifically, there are a number of discipline specific archives for pre-prints of papers. Many journals will allow pre-prints to remain freely available even after more formal publication. The original pre-print archive, [arXiv](https://arxiv.org), is focused on the STEM sciences and has inspired a number of spinoffs. Many of these are supported by the [Center for Open Science](https://cos.io), the same organization that operates the [Open Science Framework](https://osf.io) tool described above. For social scientists, [SocArXiv](https://socopen.org/welcome/) is a growing pre-print repository that is part of the [Center for Open Science's pre-print network](https://osf.io/preprints/socarxiv).
-
-### Organizing Coursework
-For [Introduction to Geographic Information Science (SOC 4650/5650)](https://slu-soc5650.github.io) and [Quantitative Analysis: Applied Inferential Statistics (SOC 4930/5050)](https://slu-soc5050.github.io), problem sets and the final project should both be organized following the general template above.
+* The `data/` folder should contain all of the data needed for the project. For more complex assignments where you are created "clean" versions of the data, consider adding `data/raw/` and `data/clean/` subfolders. 
+* The `docs/` folder should be used for all `.Rmd` files and their output
+* The `results/` folder should be used for all map outputs
+* The `source/` folder should be used for any scripts you might need (these will be few and far between, if any, in this course)
+* A `.Rproj` file for your project
+* A `README.md` file descibing the organization of your project
 
 ## Backing Up Your Data
 All of the organization in the world cannot prevent a computer hard drive from failing or a natural disaster from destroying your hardware. Similarly, even the best organized of us lose things sometimes or accidentally delete files. Backing up files is therefore a critical piece of not just doing computational work but, in this day and age, it is a requisite skill for owning computer hardware. Every device you own including your phone can and should be backed up. There are a number of different ways to think about backing up your data. The most successful backup strategies will incorporate all of these three elements.

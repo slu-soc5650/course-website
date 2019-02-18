@@ -457,14 +457,6 @@ Overview One of the biggest challenges to with doing computational work is that 
 <li><a href="#organizing-projects">Organizing Projects</a>
 <ul>
 <li><a href="#a-sample-project-r-only">A Sample Project - R Only</a></li>
-<li><a href="#top-level-files">Top-Level Files</a></li>
-<li><a href="#the-data-directory">The <code>data</code> Directory</a></li>
-<li><a href="#the-doc-directory">The <code>doc</code> Directory</a></li>
-<li><a href="#the-maps-directory">The <code>maps</code> Directory</a></li>
-<li><a href="#the-results-directory">The <code>results</code> Directory</a></li>
-<li><a href="#the-src-directory">The <code>src</code> Directory</a></li>
-<li><a href="#storing-your-project">Storing Your Project</a></li>
-<li><a href="#organizing-coursework">Organizing Coursework</a></li>
 </ul></li>
 <li><a href="#backing-up-your-data">Backing Up Your Data</a>
 <ul>
@@ -593,51 +585,14 @@ Overview One of the biggest challenges to with doing computational work is that 
     README.md
 </code></pre>
 
-<h3 id="top-level-files">Top-Level Files</h3>
-
-<p>At least two files should be present in each project directory - a <code>README.md</code> and a <code>LICENSE.md</code>. As I noted in the previous chapter, both of these files should be plain-text files. Typically, they are formatted using [Markdown] syntax The <code>README</code> should describe your project, detail any key dependencies or outside data sources that might be required, and provide other important details like how to cite your project and what other online resources might be available.</p>
-
-<p>The <code>LICENSE</code> is a key element of open source research. This spells out how others may use (and not use) your work. The excellent guide <a href="https://opensource.guide/" target="_blank">The Legal Side of Open Source</a> notes:</p>
-
-<blockquote>
-<p>Open source is an unusual circumstance&hellip;because the author expects that others will use, modify, and share the work. But because the legal default is still exclusive copyright, you need a license that explicitly states these permissions.</p>
-</blockquote>
-
-<p>There are lots of different options for open source licenses, and <a href="https://choosealicense.com" target="_blank">GitHub&rsquo;s choose a license site</a> does a great job of explaining some of the <a href="https://choosealicense.com/appendix/" target="_blank">many options</a>. In the <code>R</code> community, many packages are made available using the <a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a> or <a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GNU GPLv3</a> licenses. For written content, presentations, and other non-code works, the Creative Commons <a href="https://choosealicense.com/licenses/cc-by-4.0/" target="_blank">Attribution</a> and <a href="https://choosealicense.com/licenses/cc-by-sa-4.0/" target="_blank">Attribution-ShareAlike</a> licenses are both common options. For data, the <a href="https://opendatacommons.org" target="_blank">Open Data Commons</a> licenses are not discussed on GitHub&rsquo;s site but are options for data-specific licenses. Finally, large projects sometimes require <a href="https://choosealicense.com/non-software/" target="_blank">multiple licenses</a>. If you use a data-specific, code-specific, and/or content-specific mix of licenses, be sure to describe in the <code>README</code> which license applies to which element of of the project. Licensing your projects is another form of protecting your work. If these projects are out in the open, licensing ensures that your work will be used under terms that you are comfortable with.</p>
-
-<p>If the project uses <code>R</code>, an <code>R</code> project file (<code>.Rproj</code>) should also be saved in the top-level of the project. This will facilitate the top-level folder being set automatically as the <a href="https://en.wikipedia.org/wiki/Working_directory" target="_blank">working directory</a>. The working directory is the folder that <code>R</code> will open data from and save data to by default.</p>
-
-<h3 id="the-data-directory">The <code>data</code> Directory</h3>
-
-<p>All data sources, with a few exceptions, should be stored here. For instance, in the example above, a tabular data source and a raw shapefile are both used as part of the project. There are, however, a number of exceptions to this. One exception is data that has been packaged in an <code>R</code> package. For example, I have packaged a large set of tables containing historical census data to make them easier to work with. When these are used in projects, I do not save the tables in the <code>data</code> folder. Rather, I make reference to them in the <code>README</code> file and in other project documents.</p>
-
-<p>A second exception is for large geospatial data libraries, like the data release for my <a href="https://slu-soc5650.github.io" target="_blank">Introduction to GIS</a>. Given the size of these files, it is sometimes impractical to reproduce them multiple times across different projects. Clearly noting that specific files are stored on local libraries available elsewhere in the <code>README</code> file and in other project documents is also an acceptable alternative here.</p>
-
-<h3 id="the-doc-directory">The <code>doc</code> Directory</h3>
-
-<p>The <code>doc</code> directory should be used for all text documents associated with the project. These might include metadata associated with different project data files, an interactive <code>R</code> notebook, a research log file, and article manuscripts. If needed, subdirectories within <code>doc</code> should be used to keep different files organized. In the example above, <code>joinedTracts.md</code> is the metadata for the similarly named shapefile in the <code>data</code> subdirectory. The <code>notebook</code> files are the interactive <code>R</code> notebook and its associated <code>html</code> output. Finally, the <code>researchLog.md</code> is used for tracking higher level progress over the course of the project.</p>
-
-<h3 id="the-maps-directory">The <code>maps</code> Directory</h3>
-
-<p><code>maps</code> is a deviation from <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510" target="_blank"><em>Good enough practices in scientific computing</em></a> (Wilson et al. 2017), which does not envision some of the complexity of working with geospatial data. It should be used for storing the <code>.mxd</code> files from ArcGIS projects or the equivalent QGIS files if that application is being used instead. Illustrator files used for post-processing work should also be stored here if used. Remember that these files should be saved using relative paths to link them to data sources to limit the possibility of conflicts down the road.</p>
-
-<h3 id="the-results-directory">The <code>results</code> Directory</h3>
-
-<p>The <code>results</code> directory should contain any data outputs, plots, and map images. These might include intermediate and final versions of data sets as well as shapefiles and GeoJSON files created as part of the analysis process. In the example above, a shapefile combining both of the raw data sources named <code>joinedTracts.shp</code> is saved here along with the exported map image from the map file in the <code>maps</code> subdirectory. Depending on the complexity of the project, subdirectories within <code>results</code> might be necessary.</p>
-
-<h3 id="the-src-directory">The <code>src</code> Directory</h3>
-
-<p>For projects that rely on functions not included in packages, for example, or that rely on other pre-made scripts, the <code>src</code> subdirectory should be used for storing script files that are called by notebooks in <code>doc</code>.</p>
-
-<h3 id="storing-your-project">Storing Your Project</h3>
-
-<p>There are a number of places where work can be deposited. I teach all students in my classes how to use <a href="https://github.com" target="_blank">GitHub.com</a> because it integrates directly into version control software, which I see as a critical component of [&ldquo;Good Enough&rdquo; Research Practices]. There are other options, however. For larger projects that may not just be on GitHub (see [Basic Git]) but also utilize a collaborative writing space like Google Docs, the <a href="https://osf.io" target="_blank">Open Science Framework</a> is an excellent tool. It allows for an even wider set of version control tools to be applied to projects and can be used to organize work that is not easily stored on GitHub, like large number of pdf articles, for which version control is not critical.</p>
-
-<p>Once a research project has begun dissemination, repositories like <a href="https://zenodo.org" target="_blank">Zenodo</a> and <a href="https://figshare.com" target="_blank">Figshare</a> are designed to make open source data and project materials accessible and citeable. For papers specifically, there are a number of discipline specific archives for pre-prints of papers. Many journals will allow pre-prints to remain freely available even after more formal publication. The original pre-print archive, <a href="https://arxiv.org" target="_blank">arXiv</a>, is focused on the STEM sciences and has inspired a number of spinoffs. Many of these are supported by the <a href="https://cos.io" target="_blank">Center for Open Science</a>, the same organization that operates the <a href="https://osf.io" target="_blank">Open Science Framework</a> tool described above. For social scientists, <a href="https://socopen.org/welcome/" target="_blank">SocArXiv</a> is a growing pre-print repository that is part of the <a href="https://osf.io/preprints/socarxiv" target="_blank">Center for Open Science&rsquo;s pre-print network</a>.</p>
-
-<h3 id="organizing-coursework">Organizing Coursework</h3>
-
-<p>For <a href="https://slu-soc5650.github.io" target="_blank">Introduction to Geographic Information Science (SOC <sup>4650</sup>&frasl;<sub>5650</sub>)</a> and <a href="https://slu-soc5050.github.io" target="_blank">Quantitative Analysis: Applied Inferential Statistics (SOC <sup>4930</sup>&frasl;<sub>5050</sub>)</a>, problem sets and the final project should both be organized following the general template above.</p>
+<ul>
+<li>The <code>data/</code> folder should contain all of the data needed for the project. For more complex assignments where you are created &ldquo;clean&rdquo; versions of the data, consider adding <code>data/raw/</code> and <code>data/clean/</code> subfolders.</li>
+<li>The <code>docs/</code> folder should be used for all <code>.Rmd</code> files and their output</li>
+<li>The <code>results/</code> folder should be used for all map outputs</li>
+<li>The <code>source/</code> folder should be used for any scripts you might need (these will be few and far between, if any, in this course)</li>
+<li>A <code>.Rproj</code> file for your project</li>
+<li>A <code>README.md</code> file descibing the organization of your project</li>
+</ul>
 
 <h2 id="backing-up-your-data">Backing Up Your Data</h2>
 
