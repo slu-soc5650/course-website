@@ -35,4 +35,3 @@ linktitle = "Lecture-06 - More Map Production in R"
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/80QroqPJuRbpbBVp2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-06 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-05 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/ps-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-03 </a>
