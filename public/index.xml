@@ -471,6 +471,10 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
 &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-09-18&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;This section introduces some of the core concepts that support sociospatial data science works. The title of the chapter takes inspiration from a recent article titled &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017). The authors note in their introduction that scientific computing advice can sometimes be both overwhelming and focused on tools that are inaccessible to many analysts. Their goal, and the goal of this text, is to de-mystify the simplest tools that enable researchers to streamline their workflows:&lt;/p&gt;
@@ -808,11 +812,17 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 
-&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Draft&lt;/strong&gt; &lt;/i&gt; &lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2018-12-05&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Spring 2019&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;2019-02-18&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;&amp;nbsp; &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;One of the biggest challenges to with doing computational work is that it requires a high degree of organization. Our approaches to file management on computers are often haphazard, with &lt;code&gt;Documents&lt;/code&gt; and &lt;code&gt;Downloads&lt;/code&gt; folders filled with disorganized files or a &lt;code&gt;Desktop&lt;/code&gt; covered in dozens of files. Perhaps this has worked in the past, but that approach (or lack thereof) &lt;strong&gt;will&lt;/strong&gt; fail students in &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; and &lt;a href=&#34;https://slu-soc5050.github.io&#34; target=&#34;_blank&#34;&gt;Quantitative Analysis: Applied Inferential Statistics (SOC &lt;sup&gt;4930&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5050&lt;/sub&gt;)&lt;/a&gt;. Moreover, if left un-checked, it will fail students down the road when a hard drive failure or natural disaster renders their data irrevocably inaccessible. This chapter covers what some of those threats are and ways to manage those risks when conducting computational research.&lt;/p&gt;
+&lt;p&gt;One of the biggest challenges to with doing computational work is that it requires a high degree of organization. Our approaches to file management on computers are often haphazard, with &lt;code&gt;Documents&lt;/code&gt; and &lt;code&gt;Downloads&lt;/code&gt; folders filled with disorganized files or a &lt;code&gt;Desktop&lt;/code&gt; covered in dozens of files. Perhaps this has worked in the past, but that approach (or lack thereof) &lt;strong&gt;will&lt;/strong&gt; fail students in this course. Moreover, if left un-checked, it will fail students down the road when a hard drive failure or natural disaster renders their data irrevocably inaccessible. This chapter covers what some of those threats are and ways to manage those risks when conducting computational research.&lt;/p&gt;
 
 &lt;h2 id=&#34;threats-to-our-data&#34;&gt;Threats To Our Data&lt;/h2&gt;
 
@@ -836,130 +846,65 @@ library(&amp;quot;sf&amp;quot;)
 
 &lt;h3 id=&#34;create-a-single-course-directory&#34;&gt;Create a &lt;em&gt;Single&lt;/em&gt; Course Directory&lt;/h3&gt;
 
-&lt;p&gt;The most successful approach to organizing files is to identify &lt;em&gt;one and only one&lt;/em&gt; area that you will store course files in. Having files scattered around you hard drive between you &lt;code&gt;Desktop&lt;/code&gt; directory, &lt;code&gt;Downloads&lt;/code&gt;, &lt;code&gt;Documents&lt;/code&gt;, and a half dozen other places is a recipe for lost files. It can also add complexity to the task of backing these files up. I recommend naming this directory simply based on the course you are enrolled in:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;SOC4650&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;SOC4930&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;SOC5050&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;SOC5650&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These names are short, have no punctuation or spaces (which can create conflicts with software), and explicitly connects the directory to this course as opposed to other courses you may take that are also statistics or GIS courses (a good reason to avoid naming the directory &lt;code&gt;Stats&lt;/code&gt; or &lt;code&gt;GIS&lt;/code&gt;!).&lt;/p&gt;
+&lt;p&gt;The most successful approach to organizing files is to identify &lt;em&gt;one and only one&lt;/em&gt; area that you will store course files in. Having files scattered around you hard drive between you &lt;code&gt;Desktop&lt;/code&gt; directory, &lt;code&gt;Downloads&lt;/code&gt;, &lt;code&gt;Documents&lt;/code&gt;, and a half dozen other places is a recipe for lost files. It can also add complexity to the task of backing these files up. I recommend naming this directory simply based on the course you are enrolled in, either &lt;code&gt;SOC4650&lt;/code&gt; or &lt;code&gt;SOC5650&lt;/code&gt;. These names are short, have no punctuation or spaces (which can create conflicts with software), and explicitly connects the directory to this course as opposed to other courses you may take that are also GIS courses (a good reason to avoid naming the directory &lt;code&gt;GIS&lt;/code&gt;!).&lt;/p&gt;
 
 &lt;p&gt;This single course directory should reside in &lt;em&gt;one and only one&lt;/em&gt; place. Once you have these folders set-up, I want you to an agreement with yourself: files for the course will &lt;em&gt;only&lt;/em&gt; be saved within this structure. Do not temporarily save files to the &lt;code&gt;Desktop&lt;/code&gt;, for example, intending to move them later. They will be forgotten. Like New Years resolutions, it is easy to say that you will use a file system but difficult to maintain that promise when stress sets in or you are rushed. Do &lt;em&gt;everything&lt;/em&gt; you can to maintain your file system.&lt;/p&gt;
 
 &lt;h3 id=&#34;storing-the-course-directory&#34;&gt;Storing the Course Directory&lt;/h3&gt;
 
-&lt;p&gt;Storing this directory inside a sync&amp;rsquo;d directory (like Dropbox or Google Drive) may cause conflicts with your Git repositories. Instead, students for both of my courses should utilize a large sized thumb drive or an external hard drive for data storage (see the &amp;ldquo;Course Onboarding&amp;rdquo; section of the respective course&amp;rsquo;s website for additional details). Having data stored on an external device raises the risk of physical loss, but also makes it easier to move work between different computers. This is particularly challenging for GI Science work, where spatial data sources can be may megabytes in size.&lt;/p&gt;
+&lt;p&gt;Storing this directory inside a sync&amp;rsquo;d directory (like Dropbox or Google Drive) may cause conflicts with your Git repositories. Instead, students for both of my courses are encouraged utilize a large sized thumb drive or an external hard drive for data storage (see the &amp;ldquo;Course Onboarding&amp;rdquo; section of the respective course&amp;rsquo;s website for additional details). Having data stored on an external device raises the risk of physical loss, but also makes it easier to move work between different computers. This is particularly challenging for GI Science work, where spatial data sources can be may megabytes in size.&lt;/p&gt;
 
 &lt;p&gt;macOS users should make sure that the external drive is formatted using the ExFat file system specification so that it is readable both by their operating system and the Windows operating system in the computer lab. If you buy a new drive, you will likely have to re-format it. Directions for doing so are &lt;a href=&#34;https://support.apple.com/kb/PH22241?locale=en_US&#34; target=&#34;_blank&#34;&gt;available from Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to use a thumb drive, you will need to take extra care to keep your course materials spread across different computers in-sync.&lt;/p&gt;
 
 &lt;h3 id=&#34;approach-organizing-systematically&#34;&gt;Approach Organizing Systematically&lt;/h3&gt;
 
 &lt;p&gt;Within your single course directory, I recommend following a mindful, purposeful approach to organization. This approach begins with having a number of dedicated subfolders within your course directory:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;/SOC5650
-  /Core-Documents
-  /DataLibrary
+&lt;pre&gt;&lt;code&gt;/SOC4650
   /DoeAssignments
-  /Lectures
+  /DoeProject
+  /LectureExamples
+  /LectureRepos
   /Notes
   /Readings
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Note again how these directories are named - there are no spaces, special characters, and the names are deliberately short but specific. For a directory with two words (e.g. &lt;code&gt;DataLibrary&lt;/code&gt;), I use what is known as camelCase to name the file where the second (any any subsequent) words have their first character capitalized. You could also use dash-case (e.g. &lt;code&gt;Core-Documents&lt;/code&gt;) or snake_case (e.g. &lt;code&gt;Core_Documents&lt;/code&gt;) as a naming strategy. Regardless of which of these approaches you take, try to use it consistently.&lt;/p&gt;
 
-&lt;p&gt;For both of the courses that I teach, a basic file system will be made available for download onto your external device. See the respective course websites for more information about course data releases. Only the data release for &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Information Science (SOC &lt;sup&gt;4650&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5650&lt;/sub&gt;)&lt;/a&gt; will contain a &lt;code&gt;DataLibrary&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;Each folder in this example has a dedicated purpose:&lt;/p&gt;
 
-&lt;h3 id=&#34;the-core-documents-directory&#34;&gt;The &lt;code&gt;Core-Documents&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;Core-Documents&lt;/code&gt; directory is used for storing the course syllabus, reading list, and a sample schedule for 3600 Morrissey Hall for the semester. You can view it online for both &lt;a href=&#34;https://github.com/slu-soc5050/Core-Documents&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt; and &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents&#34; target=&#34;_blank&#34;&gt;Quanitative Analysis&lt;/a&gt;. Once we cover using Git and GitHub in class, you should &lt;strong&gt;clone&lt;/strong&gt; the appropriate &lt;code&gt;Core-Documents&lt;/code&gt; repository into your file system. If there are updates, you will want to make sure you &lt;strong&gt;pull&lt;/strong&gt; them down onto your local copy of the repository. You can read ahead in the [Basic Git] chapter for more information on how this works.&lt;/p&gt;
-
-&lt;p&gt;You will not be able to &lt;strong&gt;push&lt;/strong&gt; changes that you make in this directory to GitHub, and making other changes could cause conflicts. I suggest not making changes inside this repository beyond opening files for reference purposes.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-datalibrary-directory&#34;&gt;The &lt;code&gt;DataLibrary&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;This directory is only applicable to students in &lt;a href=&#34;https://slu-soc5650.github.io&#34; target=&#34;_blank&#34;&gt;Introduction to GIS&lt;/a&gt;, whose data release will contain it. It will have copies of most data not disseminated to you as &lt;code&gt;R&lt;/code&gt; packages. The data in this directory should be used as needed but not altered (one of the of the [&amp;ldquo;Good Enough&amp;rdquo; Research Practices] from the next chapter).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-doeassignments-directory&#34;&gt;The &lt;code&gt;DoeAssignments&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;Like the &lt;code&gt;Core-Documents&lt;/code&gt; repository, this will not be included in the course data release. Once we cover using Git and GitHub in class, you should &lt;strong&gt;clone&lt;/strong&gt; the appropriate &lt;code&gt;Core-Documents&lt;/code&gt; repository into your file system. It will also have a different name - your last name instead of &amp;lsquo;Doe&amp;rsquo;. Once you add it, it will contain a number of subdirectories:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  /SOC5650
-    /DoeAssignments
-      /FinalProject
-
-      /Labs
-        /Lab-01
-        ...
-        /Lab-15
-
-      /LecturePreps
-        /LP-01
-        ...
-        /LP-15
-        
-      /ProblemSets
-        /PS-01
-        ...
-        /PS-08
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;FinalProject&lt;/code&gt; directory will not have any subfolders in it. You will be asked to populate it with the appropriate subdirectories (see [Organizing Projects] below). These will be detailed in the final project instructions. The &lt;code&gt;Labs&lt;/code&gt;, &lt;code&gt;LecturePreps&lt;/code&gt;, and &lt;code&gt;ProblemSets&lt;/code&gt; subdirectories have folders dedicated to the individual assignments you&amp;rsquo;ll have to submit over the course of the semester. Like the &lt;code&gt;FinalProject&lt;/code&gt; directory, you will need to populate them with the appropriate deliverables. These will be detailed in each assignment&amp;rsquo;s instructions.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-lectures-directory&#34;&gt;The &lt;code&gt;Lectures&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;This directory should contain subfolders for each of the sixteen weeks of the course.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  /SOC5650
-    /Lectures
-      /Lecture-01
-      ...
-      /Lecture-16
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You will need to add these subfolders each week by &lt;strong&gt;cloning&lt;/strong&gt; them from GitHub.com. You will not be able to push changes that you make in these directories to GitHub, and making other changes could cause conflicts. I suggest not making changes inside this repository beyond opening files for reference purposes. If there is something you need to edit, copy it to the appropriate subdirectory of &lt;code&gt;DoeAssignments&lt;/code&gt; and make your changes there.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-notes-directory&#34;&gt;The &lt;code&gt;Notes&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;Use this as a home for course notes if you decide to take notes digitally and do not already use notebook software of some kind that organizes notes for you.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-readings-directory&#34;&gt;The &lt;code&gt;Readings&lt;/code&gt; Directory&lt;/h3&gt;
-
-&lt;p&gt;Use this as a home for &lt;code&gt;.pdf&lt;/code&gt; copies of course readings. I suggest creating subdirectories &lt;em&gt;only&lt;/em&gt; for weeks that have readings assigned from outside of the main texts, such as Lecture 01:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  /SOC5650
-    /Readings
-      /Lecture-01
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;DoeAssignments&lt;/code&gt; - your assignments repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DoeProject&lt;/code&gt; - your final project repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LectureExamples&lt;/code&gt; - a folder for creating projects specific to in-class examples during lectures&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LectureRepos&lt;/code&gt; - a folder for cloning lecture repositories into&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Notes&lt;/code&gt; - keep any class notes here&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Readings&lt;/code&gt; - keep and &lt;code&gt;.pdf&lt;/code&gt; readings here&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;organizing-projects&#34;&gt;Organizing Projects&lt;/h2&gt;
 
 &lt;p&gt;Following the excellent article &lt;a href=&#34;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Good enough practices in scientific computing&lt;/em&gt;&lt;/a&gt; (Wilson et al. 2017), I suggest data science projects should be organized in a specific, standardized way. This approach serves much the same purpose as the previous section on [Creating a Sustainable File System] - work that is well organized is better insured against loss.&lt;/p&gt;
 
-&lt;h3 id=&#34;a-sample-project&#34;&gt;A Sample Project&lt;/h3&gt;
+&lt;h3 id=&#34;a-sample-project-r-only&#34;&gt;A Sample Project - R Only&lt;/h3&gt;
 
 &lt;p&gt;Much as I suggested above that course files reside in one and only one place, projects should be organized similarly (with one important caveat below). What follows is a sample project and then descriptions of each element. More details about each folder (excepting &lt;code&gt;maps&lt;/code&gt;) can be found in the article. The project below contains all of key elements of a small geospatial research project:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  /projectName
+&lt;pre&gt;&lt;code&gt;  /sample-project
     /data
       rawData.csv
       rawTracts.shp
-    /doc
-      joinedTracts.md
+    /docs
+      notebook.md
       notebook.Rmd
       notebook.nb.html
-      researchLog.md
-    /maps
-      map.mxd
     /results
-      joinedTracts.shp
       map.png
-    /src
+    /source
       script.R
-    LICENSE.md
-    projectName.Rproj
+    sample-project.Rproj
     README.md
 &lt;/code&gt;&lt;/pre&gt;
 

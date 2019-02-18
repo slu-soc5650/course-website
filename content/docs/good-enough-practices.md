@@ -20,6 +20,9 @@ linktitle = "Good Enough Research Practices"
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
 <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-09-18** </i>
 
+## Key Topics
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a>
+
 ## Overview
 This section introduces some of the core concepts that support sociospatial data science works. The title of the chapter takes inspiration from a recent article titled [*Good enough practices in scientific computing*](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al. 2017). The authors note in their introduction that scientific computing advice can sometimes be both overwhelming and focused on tools that are inaccessible to many analysts. Their goal, and the goal of this text, is to de-mystify the simplest tools that enable researchers to streamline their workflows:
 
