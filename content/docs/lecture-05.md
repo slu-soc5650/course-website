@@ -2,7 +2,7 @@
 title = "Lecture-05 - Map Production in R"
 
 date = 2018-02-07T00:00:00
-lastmod = 2019-02-18T00:00:00
+lastmod = 2019-02-24T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-05 - Map Production in R"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-18** </i>
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-24** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
@@ -44,7 +44,6 @@ linktitle = "Lecture-05 - Map Production in R"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rMarkdown.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - R Markdown </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-04 Replication </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-02 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rProjectWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Workflow - R Projects </a>
 
 ## Example of Live Leaflet Map

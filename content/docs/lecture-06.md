@@ -2,7 +2,7 @@
 title = "Lecture-06 - More Map Production in R"
 
 date = 2018-02-18T00:00:00
-lastmod = 2019-02-18T00:00:00
+lastmod = 2019-02-24T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-06 - More Map Production in R"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-lecture"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-18** </i>
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-24** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> 
@@ -35,3 +35,5 @@ linktitle = "Lecture-06 - More Map Production in R"
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/80QroqPJuRbpbBVp2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-06 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-05 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-05 Replication </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-02 </a>
