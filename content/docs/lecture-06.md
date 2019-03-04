@@ -18,7 +18,7 @@ linktitle = "Lecture-06 - More Map Production in R"
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-24** </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-03-04** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> 
@@ -33,6 +33,7 @@ linktitle = "Lecture-06 - More Map Production in R"
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-06-more-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-06/additional-examples.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Additional Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/80QroqPJuRbpbBVp2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-06 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-05 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-05 Replication </a>

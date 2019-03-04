@@ -15,13 +15,13 @@
   
     
   
-  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-01-30 
-Key Topics &nbsp; Analysis development &nbsp; ArcGIS Pro &nbsp; Cartography &nbsp; Color
-Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; eTicket-03  &nbsp; Git Workflow  &nbsp; Lab-02  &nbsp; Lab-02 Replication 
-Lecture Slides    Videos The following videos cover the in-class examples from the lecture that we were not able to complete.">
+  <meta name="description" content=" Meta &nbsp; Spring 2019  &nbsp; Draft  &nbsp; 2019-03-04 
+Key Topics &nbsp; ArcGIS Pro &nbsp; Data Cleaning  dplyr &nbsp; Geodatabases &nbsp; R  sf &nbsp; Table Joins  tidyr
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-08 
+Lecture Slides    ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/docs/lecture-03/">
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-08/">
 
   
 
@@ -91,7 +91,7 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/docs/lecture-03/">
+  <link rel="canonical" href="/docs/lecture-08/">
 
   
   
@@ -103,24 +103,24 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="/docs/lecture-03/">
-  <meta property="og:title" content="Lecture-03 - Cartography 101 | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-01-30 
-Key Topics &nbsp; Analysis development &nbsp; ArcGIS Pro &nbsp; Cartography &nbsp; Color
-Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; eTicket-03  &nbsp; Git Workflow  &nbsp; Lab-02  &nbsp; Lab-02 Replication 
-Lecture Slides    Videos The following videos cover the in-class examples from the lecture that we were not able to complete."><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:url" content="/docs/lecture-08/">
+  <meta property="og:title" content="Lecture-08 - Table Joins and Geodatabases | SLU SOC 4650 and 5650">
+  <meta property="og:description" content=" Meta &nbsp; Spring 2019  &nbsp; Draft  &nbsp; 2019-03-04 
+Key Topics &nbsp; ArcGIS Pro &nbsp; Data Cleaning  dplyr &nbsp; Geodatabases &nbsp; R  sf &nbsp; Table Joins  tidyr
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-08 
+Lecture Slides    "><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-21T00:00:00-06:00">
+  <meta property="article:published_time" content="2018-03-04T00:00:00-06:00">
   
-  <meta property="article:modified_time" content="2019-01-30T00:00:00-06:00">
-  
-
+  <meta property="article:modified_time" content="2019-03-04T00:00:00-06:00">
   
 
   
 
-  <title>Lecture-03 - Cartography 101 | SLU SOC 4650 and 5650</title>
+  
+
+  <title>Lecture-08 - Table Joins and Geodatabases | SLU SOC 4650 and 5650</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -392,7 +392,7 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
         <a href="/docs/lecture-02/">Lecture-02 - ArcGIS Pro</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/docs/lecture-03/">Lecture-03 - Cartography 101</a>
       </li>
       
@@ -412,7 +412,7 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
         <a href="/docs/lecture-07/">Lecture-07 - Data Cleaning</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/docs/lecture-08/">Lecture-08 - Table Joins and Geodatabases</a>
       </li>
       
@@ -458,12 +458,6 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
 <li><a href="#key-topics">Key Topics</a></li>
 <li><a href="#resources">Resources</a></li>
 <li><a href="#lecture-slides">Lecture Slides</a></li>
-<li><a href="#videos">Videos</a>
-<ul>
-<li><a href="#part-1-github-review-and-color-selection">Part 1 - GitHub Review and Color Selection</a></li>
-<li><a href="#part-2-thematic-mapping">Part 2 - Thematic Mapping</a></li>
-</ul></li>
-<li><a href="#lab-02-replication">Lab-02 Replication</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -481,7 +475,7 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Lecture-03 - Cartography 101</h1>
+          <h1 itemprop="name">Lecture-08 - Table Joins and Geodatabases</h1>
 
           <div class="article-style" itemprop="articleBody">
             
@@ -489,52 +483,31 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
 <h2 id="meta">Meta</h2>
 
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i>
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Full</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-01-30</strong> </i></p>
+<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Draft</strong> </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-03-04</strong> </i></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
-<p><a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Analysis development</strong></a>
-<a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>ArcGIS Pro</strong></a>
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Cartography</strong></a>
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Color</strong></a></p>
+<p><a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>ArcGIS Pro</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Data Cleaning</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> <strong>dplyr</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Geodatabases</strong></a>
+<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>R</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#q-t"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Table Joins</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>tidyr</strong></a></p>
 
 <h2 id="resources">Resources</h2>
 
-<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-03-cartography-101.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a>
-<a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/e4888ab7-6933-4434-a26a-6ef391686a8c" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording </a>
-<a class="btn btn-outline-primary resource" href="https://goo.gl/forms/QdmHzRwBmvK4JZtB2" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-03 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Git Workflow </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-02 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/tree/master/assignments/lab-02-replication" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-02 Replication </a></p>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-08-table-joins-data-storage.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-08/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://goo.gl/forms/9tQMohHG36yqHmPw1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-08 </a></p>
 
 <h2 id="lecture-slides">Lecture Slides</h2>
 
 <p> </p>
-<script async class="speakerdeck-embed" data-id="5996e30bb0254f8fb5f6d972c606d3f7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-<p> </p>
-
-<h2 id="videos">Videos</h2>
-
-<p>The following videos cover the in-class examples from the lecture that we were not able to complete.</p>
-
-<h3 id="part-1-github-review-and-color-selection">Part 1 - GitHub Review and Color Selection</h3>
-
-<p> </p>
-<iframe style="position:relative;width:100%;height:50vh;" src="https://www.youtube.com/embed/PFEhfNQkhFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p> </p>
-
-<h3 id="part-2-thematic-mapping">Part 2 - Thematic Mapping</h3>
-
-<p> </p>
-<iframe style="position:relative;width:100%;height:50vh;" src="https://www.youtube.com/embed/b8U7-FJ3kzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p> </p>
-
-<h2 id="lab-02-replication">Lab-02 Replication</h2>
-
-<p> </p>
-<script async class="speakerdeck-embed" data-id="aeec1176e5df4a929c8153773d887972" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="ff6667777234406d8d79eb70633a28cf" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
 
           </div>
@@ -544,7 +517,7 @@ Lecture Slides    Videos The following videos cover the in-class examples from t
         </div>
 
         <div class="body-footer">
-          Last updated on Jan 30, 2019
+          Last updated on Mar 4, 2019
         </div>
 
       </article>

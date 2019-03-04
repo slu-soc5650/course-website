@@ -176,14 +176,38 @@ Basics Markdown is a simple markup language. Markup languages are used to give c
     </item>
     
     <item>
+      <title>Lecture-08 - Table Joins and Geodatabases</title>
+      <link>/docs/lecture-08/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/lecture-08/</guid>
+      <description> Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2019-03-04 
+Key Topics &amp;nbsp; ArcGIS Pro &amp;nbsp; Data Cleaning  dplyr &amp;nbsp; Geodatabases &amp;nbsp; R  sf &amp;nbsp; Table Joins  tidyr
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-08 
+Lecture Slides    </description>
+    </item>
+    
+    <item>
       <title>Lecture-06 - More Map Production in R</title>
       <link>/docs/lecture-06/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/lecture-06/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-02-24 
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-03-04 
 Key Topics &amp;nbsp; Cartography &amp;nbsp; Getting Help  ggplot2 &amp;nbsp; R  RColorBrewer  tmap  virids
-Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-06  &amp;nbsp; Lab-05  &amp;nbsp; Lab-05 Replication  &amp;nbsp; PS-02</description>
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; View Additional Notebook  &amp;nbsp; eTicket-06  &amp;nbsp; Lab-05  &amp;nbsp; Lab-05 Replication  &amp;nbsp; PS-02</description>
+    </item>
+    
+    <item>
+      <title>Lecture-07 - Data Cleaning</title>
+      <link>/docs/lecture-07/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/docs/lecture-07/</guid>
+      <description> Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-03-04 
+Key Topics &amp;nbsp; Data Cleaning  dplyr &amp;nbsp; R
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook 
+Slides    </description>
     </item>
     
     <item>
