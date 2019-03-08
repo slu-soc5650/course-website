@@ -29,6 +29,7 @@ linktitle = "Lecture-07 - Data Cleaning"
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-07-data-cleaning.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-07/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07/blob/master/assignments/lab-06.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-06 </a>
 
 ## Slides
 <p> </p>

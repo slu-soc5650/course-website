@@ -35,6 +35,7 @@ linktitle = "Lecture-08 - Table Joins and Geodatabases"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-08/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://goo.gl/forms/9tQMohHG36yqHmPw1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-08 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08/blob/master/assignments/lab-07.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-07 </a>
 
 ## Lecture Slides
 <p> </p>
