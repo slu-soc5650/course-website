@@ -15,12 +15,13 @@
   
     
   
-  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-02-24 
-Key Topics &nbsp; Analysis development  base &nbsp; Cartography  here &nbsp; Interactive maps  leaflet  knitr &nbsp; R  RColorBrewer  RMarkdown  sf  webshot
-Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; View Lecture Notebook  &nbsp; eTicket-05  &nbsp; Handout - RStudio  &nbsp; Handout - R Markdown  &nbsp; Lab-04  &nbsp; Lab-04 Replication  &nbsp; Workflow - R Projects">
+  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-03-25 
+Key Topics &nbsp; ArcGIS Pro &nbsp; Projections &nbsp; R &nbsp; Select by location  sf
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-10  &nbsp; Lab-09  &nbsp; Lab-09 Replication 
+Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for crs arguments in R:">
 
   
-  <link rel="alternate" hreflang="en-us" href="/docs/lecture-05/">
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-10/">
 
   
 
@@ -90,7 +91,7 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/docs/lecture-05/">
+  <link rel="canonical" href="/docs/lecture-10/">
 
   
   
@@ -102,23 +103,24 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="/docs/lecture-05/">
-  <meta property="og:title" content="Lecture-05 - Map Production in R | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-02-24 
-Key Topics &nbsp; Analysis development  base &nbsp; Cartography  here &nbsp; Interactive maps  leaflet  knitr &nbsp; R  RColorBrewer  RMarkdown  sf  webshot
-Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording  &nbsp; View Lecture Notebook  &nbsp; eTicket-05  &nbsp; Handout - RStudio  &nbsp; Handout - R Markdown  &nbsp; Lab-04  &nbsp; Lab-04 Replication  &nbsp; Workflow - R Projects"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:url" content="/docs/lecture-10/">
+  <meta property="og:title" content="Lecture-10 - Projections | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-03-25 
+Key Topics &nbsp; ArcGIS Pro &nbsp; Projections &nbsp; R &nbsp; Select by location  sf
+Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-10  &nbsp; Lab-09  &nbsp; Lab-09 Replication 
+Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for crs arguments in R:"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-02-07T00:00:00-06:00">
+  <meta property="article:published_time" content="2018-03-18T00:00:00-05:00">
   
-  <meta property="article:modified_time" content="2019-02-24T00:00:00-06:00">
-  
-
+  <meta property="article:modified_time" content="2019-03-25T00:00:00-05:00">
   
 
   
 
-  <title>Lecture-05 - Map Production in R | SLU SOC 4650 and 5650</title>
+  
+
+  <title>Lecture-10 - Projections | SLU SOC 4650 and 5650</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -398,7 +400,7 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
         <a href="/docs/lecture-04/">Lecture-04 - Map Production in ArcGIS Pro</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/docs/lecture-05/">Lecture-05 - Map Production in R</a>
       </li>
       
@@ -418,7 +420,7 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
         <a href="/docs/lecture-09/">Lecture-09 - Acessing Census Data</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/docs/lecture-10/">Lecture-10 - Projections</a>
       </li>
       
@@ -467,7 +469,10 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
 <li><a href="#meta">Meta</a></li>
 <li><a href="#key-topics">Key Topics</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#example-of-live-leaflet-map">Example of Live Leaflet Map</a></li>
+<li><a href="#lecture-slides">Lecture Slides</a></li>
+<li><a href="#lab-09-replication-slides">Lab-09 Replication Slides</a></li>
+<li><a href="#key-websites">Key Websites</a></li>
+<li><a href="#common-coordinate-systems">Common Coordinate Systems</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -485,7 +490,7 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Lecture-05 - Map Production in R</h1>
+          <h1 itemprop="name">Lecture-10 - Projections</h1>
 
           <div class="article-style" itemprop="articleBody">
             
@@ -494,42 +499,58 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
 
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i>
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Full</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-02-24</strong> </i></p>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-03-25</strong> </i></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
-<p><a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Analysis development</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> <strong>base</strong></a>
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Cartography</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> <strong>here</strong></a>
-<a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Interactive maps</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> <strong>leaflet</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> <strong>knitr</strong></a>
+<p><a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>ArcGIS Pro</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#m-p"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Projections</strong></a>
 <a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; <strong>R</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>RColorBrewer</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>RMarkdown</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#u-z"><i class="fas fa-archive fa-lg"></i> <strong>webshot</strong></a></p>
+<a class="meta-badge keyword" href="/docs/topic-index/#q-t"><i class="fas fa-tags fa-lg"></i>&nbsp; <strong>Select by location</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a></p>
 
 <h2 id="resources">Resources</h2>
 
-<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-05-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a>
-<a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/0114fd3f-6ac2-4013-b5d2-c6cbd04cfd17" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording </a>
-<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-05/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
-<a class="btn btn-outline-primary resource" href="https://goo.gl/forms/HCfCVSrdglBfPcpi1" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-05 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-RStudio.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - RStudio </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rMarkdown.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - R Markdown </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-04 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-04 Replication </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rProjectWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Workflow - R Projects </a></p>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-10-projections.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-10" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-10/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://goo.gl/forms/scxILPmkXJjtcQr72" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-10 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lab-09.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-09 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-10/blob/master/assignments/lab-09-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-09 Replication </a></p>
 
-<h2 id="example-of-live-leaflet-map">Example of Live Leaflet Map</h2>
+<h2 id="lecture-slides">Lecture Slides</h2>
 
-<p>I&rsquo;ve added a version of the map we created last night to the course docs along with all of the code I used to create it. Click on the image below to check it out!
 <p> </p>
-<a href="/docs/leaflet-example/"><img src="/images/leaflet-example.png" alt="leaflet-example" /></a>
-<p> </p></p>
+<script async class="speakerdeck-embed" data-id="b5ad8a7638cd441c8e1d4f95dc169454" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
+
+<h2 id="lab-09-replication-slides">Lab-09 Replication Slides</h2>
+
+<p> </p>
+<script async class="speakerdeck-embed" data-id="8ee2961aeba546af9a1f9d016341a200" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
+
+<h2 id="key-websites">Key Websites</h2>
+
+<p>There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for <code>crs</code> arguments in <code>R</code>:</p>
+
+<ul>
+<li><a href="http://epsg.io" target="_blank">epsg.io</a></li>
+<li><a href="http://spatialreference.org" target="_blank">Spatial Reference</a></li>
+</ul>
+
+<h2 id="common-coordinate-systems">Common Coordinate Systems</h2>
+
+<p>The following are common coordinate systems for mapping in Missouri and, in particular, the St. Louis area. All are based on the NAD 1983 system.</p>
+
+<ul>
+<li><a href="http://spatialreference.org/ref/esri/usa-contiguous-albers-equal-area-conic/" target="_blank">Albers Equal Area Conic</a></li>
+<li><a href="http://spatialreference.org/ref/esri/usa-contiguous-lambert-conformal-conic/" target="_blank">Lamber Conformal Conic</a></li>
+<li><a href="http://spatialreference.org/ref/epsg/nad83/" target="_blank">NAD 1983</a></li>
+<li><a href="http://spatialreference.org/ref/epsg/nad83-utm-zone-15n/" target="_blank">UTM-15N</a></li>
+<li><a href="http://www.spatialreference.org/ref/esri/102296/" target="_blank">State Plane Missouri East, Feet</a></li>
+<li><a href="http://www.spatialreference.org/ref/esri/102296/" target="_blank">State Plane Missouri East, Meters</a></li>
+</ul>
 
           </div>
 
@@ -538,7 +559,7 @@ Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Recording 
         </div>
 
         <div class="body-footer">
-          Last updated on Feb 24, 2019
+          Last updated on Mar 25, 2019
         </div>
 
       </article>

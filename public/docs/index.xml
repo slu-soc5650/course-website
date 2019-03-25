@@ -150,7 +150,8 @@ Overview This document assumes you are already comfortable with the content in t
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       
       <guid>/docs/project/</guid>
-      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04</description>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Draft  &amp;nbsp; 2018-12-04 
+Resources &amp;nbsp; View Instructions</description>
     </item>
     
     <item>
@@ -173,6 +174,30 @@ Key Topics &amp;nbsp; GitHub &amp;nbsp; Markdown
 Resources GitHub Mastering Markdown  RMarkdown Reference Guide 
 Basics Markdown is a simple markup language. Markup languages are used to give computer programs directions on how particular blocks of text should be processed. Markdown was developed in 2004 by writer and developer John Gruber. Gruber describes Markdown on his website:
  Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</description>
+    </item>
+    
+    <item>
+      <title>Lecture-11 - Select By and Aggregate</title>
+      <link>/docs/lecture-11/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/docs/lecture-11/</guid>
+      <description> Meta &amp;nbsp; Spring 2019  &amp;nbsp; Lecture  &amp;nbsp; 2019-03-25 
+Key Topics &amp;nbsp; ArcGIS Pro  dplyr &amp;nbsp; Geoprocessing &amp;nbsp; R &amp;nbsp; Select by location  sf &amp;nbsp; Spatial joins
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; Lab-10  &amp;nbsp; PS-04 
+Lecture Slides    </description>
+    </item>
+    
+    <item>
+      <title>Lecture-10 - Projections</title>
+      <link>/docs/lecture-10/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/docs/lecture-10/</guid>
+      <description>Meta &amp;nbsp; Spring 2019  &amp;nbsp; Full  &amp;nbsp; 2019-03-25 
+Key Topics &amp;nbsp; ArcGIS Pro &amp;nbsp; Projections &amp;nbsp; R &amp;nbsp; Select by location  sf
+Resources &amp;nbsp; View on Syllabus  &amp;nbsp; View on GitHub  &amp;nbsp; View Lecture Notebook  &amp;nbsp; eTicket-10  &amp;nbsp; Lab-09  &amp;nbsp; Lab-09 Replication 
+Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for crs arguments in R:</description>
     </item>
     
     <item>
