@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-03-25 
+  <meta name="description" content="Meta &nbsp; Spring 2019  &nbsp; Updated  &nbsp; 2019-03-26 
 Key Topics &nbsp; ArcGIS Pro &nbsp; Projections &nbsp; R &nbsp; Select by location  sf
 Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-10  &nbsp; Lab-09  &nbsp; Lab-09 Replication 
 Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for crs arguments in R:">
@@ -105,7 +105,7 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
   <meta property="og:url" content="/docs/lecture-10/">
   <meta property="og:title" content="Lecture-10 - Projections | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Full  &nbsp; 2019-03-25 
+  <meta property="og:description" content="Meta &nbsp; Spring 2019  &nbsp; Updated  &nbsp; 2019-03-26 
 Key Topics &nbsp; ArcGIS Pro &nbsp; Projections &nbsp; R &nbsp; Select by location  sf
 Resources &nbsp; View on Syllabus  &nbsp; View on GitHub  &nbsp; View Lecture Notebook  &nbsp; eTicket-10  &nbsp; Lab-09  &nbsp; Lab-09 Replication 
 Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good reference websites that contain cataloges of coordinate systems and the EPSG codes you can use for crs arguments in R:"><meta property="og:image" content="/img/portrait.jpg">
@@ -113,7 +113,7 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
   
   <meta property="article:published_time" content="2018-03-18T00:00:00-05:00">
   
-  <meta property="article:modified_time" content="2019-03-25T00:00:00-05:00">
+  <meta property="article:modified_time" content="2019-03-26T00:00:00-05:00">
   
 
   
@@ -473,6 +473,7 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
 <li><a href="#lab-09-replication-slides">Lab-09 Replication Slides</a></li>
 <li><a href="#key-websites">Key Websites</a></li>
 <li><a href="#common-coordinate-systems">Common Coordinate Systems</a></li>
+<li><a href="#coordinate-issues-on-import">Coordinate Issues on Import</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -498,8 +499,8 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
 <h2 id="meta">Meta</h2>
 
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; <strong>Spring 2019</strong> </i>
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Full</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-03-25</strong> </i></p>
+<i class="meta-badge progress-update"><i class="fas fa-tasks fa-lg"></i>&nbsp; <strong>Updated</strong> </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; <strong>2019-03-26</strong> </i></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
@@ -552,6 +553,15 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
 <li><a href="http://www.spatialreference.org/ref/esri/102296/" target="_blank">State Plane Missouri East, Meters</a></li>
 </ul>
 
+<h2 id="coordinate-issues-on-import">Coordinate Issues on Import</h2>
+
+<p>If <code>sf</code> fails to apply a coordinate system to a shapefile when you use <code>st_read()</code>, you can set the coordindate system for that shapefile using the <code>crs</code> argument with <code>st_read()</code>:</p>
+
+<pre><code class="language-r">df &lt;- st_read(here(&quot;data&quot;, &quot;shapefile&quot;, &quot;shapefile.shp&quot;), stringsAsFactors = FALSE, crs = 4269)
+</code></pre>
+
+<p>This will apply the given <code>crs</code> value to the shapefile on import.</p>
+
           </div>
 
           
@@ -559,7 +569,7 @@ Lecture Slides    Lab-09 Replication Slides    Key Websites There are two good r
         </div>
 
         <div class="body-footer">
-          Last updated on Mar 25, 2019
+          Last updated on Mar 26, 2019
         </div>
 
       </article>

@@ -2,7 +2,7 @@
 title = "Lecture-10 - Projections"
 
 date = 2018-03-18T00:00:00
-lastmod = 2019-03-25T00:00:00
+lastmod = 2019-03-26T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-10 - Projections"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-03-25** </i>
+<i class="meta-badge progress-update"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Updated** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-03-26** </i>
 
 ## Key Topics
 <a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Pro**</a>
@@ -60,3 +60,12 @@ The following are common coordinate systems for mapping in Missouri and, in part
 * [UTM-15N](http://spatialreference.org/ref/epsg/nad83-utm-zone-15n/)
 * [State Plane Missouri East, Feet](http://www.spatialreference.org/ref/esri/102296/)
 * [State Plane Missouri East, Meters](http://www.spatialreference.org/ref/esri/102296/)
+
+## Coordinate Issues on Import
+If `sf` fails to apply a coordinate system to a shapefile when you use `st_read()`, you can set the coordindate system for that shapefile using the `crs` argument with `st_read()`:
+
+```r
+df <- st_read(here("data", "shapefile", "shapefile.shp"), stringsAsFactors = FALSE, crs = 4269)
+```
+
+This will apply the given `crs` value to the shapefile on import.
