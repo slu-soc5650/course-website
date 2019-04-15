@@ -34,3 +34,8 @@ linktitle = "Lecture-13 - Merge, Intersect, and Union"
 <p> </p>
 <script async class="speakerdeck-embed" data-id="23151d99a80c41d7b9492400e5eb4e7b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
+
+## Lab-12 Replication
+<p> </p>
+<script async class="speakerdeck-embed" data-id="8056dc9bce1a4022ac417624a8e56cd3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
