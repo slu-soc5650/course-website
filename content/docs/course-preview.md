@@ -15,12 +15,6 @@ linktitle = "Course Preview"
   weight = 3
 +++
 
-## Meta
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
-
-## Key Topics
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> <a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; **Interactive maps**</a> <a class="meta-badge keyword" href="/docs/topic-index/#m-p"><i class="fas fa-tags fa-lg"></i>&nbsp; **Open data**</a> <a class="meta-badge keyword" href="/docs/topic-index/#q-t"><i class="fas fa-tags fa-lg"></i>&nbsp; **Reproducibility**</a>
-
 ## Open Data and GIS in Los Angeles
 One of the course learning outcomes is titled "GISc and Public Policy". Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible "open data". 
 
@@ -45,7 +39,7 @@ Many (but not all of you) will have experienced some parts of these processes be
 Some of these processes, like using RMarkdown, are introduced in the [introductory "chapter"](http://plain-text.co) (it is quite short!) to Duke University sociologist [Kieran Healy's](http://kieranhealy.org) primer [*The Plain Person's Guide to Plain Text Social Science*](http://plain-text.co). This is the one *required* reading for the entry ticket (though there are several optional ones listed on the [syllabus](https://slu-soc5650.github.io/syllabus/course-preview.html).
 
 ## Lecture-01 Entry Ticket
-The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.'s interactive website. Please answer these questions and submit them before class on **January 14th**. Answers **must** be submitted through [Google Forms](https://goo.gl/forms/NjiTtYGKbSVHaUcs2) and each response should be three to four sentences in length. The questions are provided here for reference:
+The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.'s interactive website. Please answer these questions and submit them before class on **January 14th**. Answers **must** be submitted through [Google Forms](https://forms.gle/9ikcLHuK93RmYyfC8) and each response should be three to four sentences in length. The questions are provided here for reference:
 
 1. Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.
 2. After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?

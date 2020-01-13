@@ -1,70 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on SLU SOC 4650 and 5650</title>
+    <title>Homes | SLU SOC 4650 and 5650</title>
     <link>/home/</link>
-    <description>Recent content in Homes on SLU SOC 4650 and 5650</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017-2019 Christopher G. Prener</copyright>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Christopher G. Prener</copyright>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Homes</title>
+      <link>/home/</link>
+    </image>
     
     <item>
-      <title>Introduction to GIS</title>
+      <title>Academic</title>
       <link>/home/hero/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/home/hero/</guid>
-      <description>An introduction to fundamental techniques for geospatial data science and geoscience using a modern GIS toolkit that includes ArcGIS Pro and the programming language R.
-  Open Docs  &amp;nbsp;  Open Syllabus   </description>
-    </item>
-    
-    <item>
-      <title>Gallery</title>
-      <link>/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Course Description</title>
-      <link>/home/description/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      
-      <guid>/home/description/</guid>
-      <description>This class introduces both the theoretical and technical skills that constitute the nascent field of geospatial data science. Techniques introduced include map production and cartography, spatial data cleaning and management, and the manipulation of both tabular and spatial data. The course incorporates a wide variety of social, economic, health, urban, meteorological, and environmental data. These data are mapped at a variety of extents, from the City of St. Louis to the St.</description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
-      
-      <guid>/home/skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thanks</title>
-      <link>/home/acknowledge/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      
-      <guid>/home/acknowledge/</guid>
-      <description>Like many things in academia, the &amp;ldquo;final&amp;rdquo; product here is the result of others&amp;rsquo; hard work as well as my own. I owe gratitude and thanks to Hadley Wickham and Edzer Pebesma, whose data science and GIS tools are featured as part of this course. I also draw significant inspiration from Jenny Bryan, whose Stat 545 course has served as a significant resource and a model for my own teaching.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/home/contact/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Build &lt;strong&gt;Anything&lt;/strong&gt; with Widgets&lt;/p&gt;
+</description>
     </item>
     
   </channel>

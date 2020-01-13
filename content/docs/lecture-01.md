@@ -15,29 +15,10 @@ linktitle = "Lecture-01 - Introduction"
   weight = 3
 +++
 
-## Meta
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-01-22** </i>
-
-## Key Topics
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
-<a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> **base**</a> 
-<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> 
-<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> **here**</a> 
-<a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; **Interactive maps**</a> 
-<a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> **leaflet**</a>
-<a class="meta-badge package" href="/docs/topic-index/#m-p"><i class="fas fa-archive fa-lg"></i> **magrittr**</a>
-<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; **R**</a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **readr**</a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **sf**</a>
-
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
-<a class="btn btn-outline-primary resource" href="https://slu.tegrity.com/#/recording/02d45d04-3643-4ff8-b55f-f57483875d55" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Exercise - Email </a> 
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-shawCrime.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Exercise - Shaw Crime </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Functions </a>
 
 ## Lecture Slides

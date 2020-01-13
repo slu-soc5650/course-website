@@ -15,11 +15,6 @@ linktitle = "Approaching Coursework"
   weight = 4
 +++
 
-## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
-
 ## Overview
 
 Students have varying experiences learning computational techniques. For some, the math and programming that are the foundation for modern data science techniques come naturally. For others, being introduced to these concepts can be an anxiety producing experience. I am fond the phrase "your mileage will vary" for describing these differences - no two students have the exact same experience taking a computational methods course. While some of this is specific to this course, the general outlook on approaching data science work that I describe below is hopefully applicable in a far wider arena.

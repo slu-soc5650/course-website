@@ -10,7 +10,7 @@ type = "docs"  # Do not modify.
 +++
 
 {{% alert warning %}}
-**Elements of the course are under revision for Spring 2019.** Please check the badges on pages in these docs as well as GitHub repositories - if they say **Spring 2018** they have not been updated for this semester yet.
+**Elements of the course are under revision for Spring 2020.** Please check the badges on pages in these docs as well as GitHub repositories - if they say **Spring 2019** they have not been updated for this semester yet.
 {{% /alert %}}
 
 The course docs are designed to provide a single place for accessing resources related to either the course as a whole or to specific lectures. If you find an error or omission, or have a suggestion, please [open an issue on GitHub](https://github.com/slu-soc5650/slu-soc5650.github.io/issues) and let me know the details. I want to make sure this is as user-friendly and informative as possible!

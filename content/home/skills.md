@@ -1,25 +1,18 @@
 +++
-# Feature/Skill widget.
-widget = "featurette"  # Do not modify this line!
-date = 2017-09-20T00:00:00
-
-# Activate this widget? true/false
-active = true
+# A Skills section created with the Featurette widget.
+widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
 title = "Resources"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 15
 
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
-# Available icon packs and icons:
-# * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
-# * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
-# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
   icon = "book"
@@ -40,21 +33,21 @@ weight = 15
   description = "course repositories"
 
 [[feature]]
-  icon = "discourse"
+  icon = "slack"
   icon_pack = "fab"
-  name = "[Discussion](https://discuss.slu-ssds.org)"
+  name = "[Slack](https://slu-soc5650.slack.com)"
   description = "ask questions, get help"
 
+[[feature]]
+  icon = "calendar-alt"
+  icon_pack = "fas"
+  name = "[Office Hours Sign-up](https://calendly.com/chris-prener)"
+  description = "slots available Tuesdays, 9am-11am"
+  
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "[*R for Data Science*](http://r4ds.had.co.nz)"
   description = "data science in `R`"
-
-[[feature]]
-  icon = "globe-americas"
-  icon_pack = "fas"
-  name = "[*Geocomputation with R*](https://geocompr.robinlovelace.net)"
-  description = "GIS in `R`"
 
 +++

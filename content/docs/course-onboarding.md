@@ -15,9 +15,6 @@ linktitle = "Course Onboarding"
   weight = 1
 +++
 
-## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> <i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2018-01-05** </i>
-
 ## Resources
 <a class="btn btn-outline-primary resource" href="/files/onboarding-checklist.pdf" target="_blank"> Onboarding Checklist </a>
 
@@ -35,11 +32,7 @@ At a minimum, please fill out the `Name` field under `Account` with your preferr
 ### Get Started with GitHub
 The service that is hosting this website is called [GitHub](https://github.com/). GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub's [homepage](https://github.com/). If you already have a GitHub account, you do not need a new one. 
 
-Once you have a GitHub user name, send Chris a direct message via our [discussion board](https://discuss.slu-ssds.org) with it so that you can be added to the [SOC 4650 & SOC 5650 organization](https://github.com/slu-soc5650). Your direct message inbox can be found by clicking on the profile icon in the upper right-hand corner and selecting the envelope icon: 
-
-![](/images/discourseMessages.png)
-
-Chris's username on the discussion board is `chris.prener`.
+Once you have a GitHub user name, send Chris a direct message via our [chat software Slack](https://slu-soc5650.github.io) with it so that you can be added to the [SOC 4650 & SOC 5650 organization](https://github.com/slu-soc5650). Chris's username is `@chris` on Slack, and the Direct Messages can be found by scrolling all the way down in the left hand sidebark. Please make sure your display name for Slack matches your real name.
 
 After you have been added to the organization, you should find your assignments repository and check the **Issues** tab. There should be an open **Issue** describing how feedback will be disseminated this semester. Please read it and then *close the issue* so that we know you've seen it.
 
@@ -82,7 +75,7 @@ All of the books are available in the bookstore. They can also be ordered online
 The other item to *optionally* purchase is a 1.5" three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you'd prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.
 
 ## Administrative Tasks
-All students should complete the [Student Information Sheet](https://goo.gl/forms/7plVgjijZ4i042X52), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://slu-soc5650.github.io/syllabus) and understand the course policies.
+All students should complete the [Student Information Sheet](https://forms.gle/9D3vzk7HgV1nRi3dA), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the [**Syllabus**](https://slu-soc5650.github.io/syllabus) and understand the course policies.
 
 ## Coursework
 There are three pieces of coursework that you should complete: 

@@ -11,9 +11,13 @@
    * Responsive scrolling for URL hashes.
    * --------------------------------------------------------------------------- */
 
-  // Dynamically get responsive navigation bar offset.
-  let $navbar = $('.navbar');
-  let navbar_offset = $navbar.innerHeight();
+  // Dynamically get responsive navigation bar height for offsetting Scrollspy.
+  function getNavBarHeight() {
+    let $navbar = $('#navbar-main');
+    let navbar_offset = $navbar.outerHeight();
+    console.debug('Navbar height: ' + navbar_offset);
+    return navbar_offset;
+  }
 
   /**
    * Responsive hash scrolling.
@@ -23,18 +27,23 @@
    */
   function scrollToAnchor(target) {
     // If `target` is undefined or HashChangeEvent object, set it to window's hash.
-    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
-    // Escape colons from IDs, such as those found in Markdown footnote links.
-    target = target.replace(/:/g, '\\:');
+    // Decode the hash as browsers can encode non-ASCII characters (e.g. Chinese symbols).
+    target = (typeof target === 'undefined' || typeof target === 'object') ? decodeURIComponent(window.location.hash) : target;
 
     // If target element exists, scroll to it taking into account fixed navigation bar offset.
     if($(target).length) {
+      // Escape special chars from IDs, such as colons found in Markdown footnote links.
+      target = '#' + $.escapeSelector(target.substring(1));  // Previously, `target = target.replace(/:/g, '\\:');`
+
+      let elementOffset = Math.ceil($(target).offset().top - getNavBarHeight());  // Round up to highlight right ID!
       $('body').addClass('scrolling');
       $('html, body').animate({
-        scrollTop: $(target).offset().top - navbar_offset
+        scrollTop: elementOffset
       }, 600, function () {
         $('body').removeClass('scrolling');
       });
+    }else{
+      console.debug('Cannot scroll to target `#'+target+'`. ID not found!');
     }
   }
 
@@ -43,9 +52,16 @@
     let $body = $('body');
     let data = $body.data('bs.scrollspy');
     if (data) {
-      data._config.offset = navbar_offset;
+      data._config.offset = getNavBarHeight();
       $body.data('bs.scrollspy', data);
       $body.scrollspy('refresh');
+    }
+  }
+
+  function removeQueryParamsFromUrl() {
+    if (window.history.replaceState) {
+      let urlWithoutSearchParams = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.hash;
+      window.history.replaceState({path:urlWithoutSearchParams}, '', urlWithoutSearchParams);
     }
   }
 
@@ -60,30 +76,24 @@
     // Store requested URL hash.
     let hash = this.hash;
 
-    // If we are on the homepage and the navigation bar link is to a homepage section.
-    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+    // If we are on a widget page and the navbar link is to a section on the same page.
+    if ( this.pathname === window.location.pathname && hash && $(hash).length && ($(".js-widget-page").length > 0)) {
       // Prevent default click behavior.
       event.preventDefault();
 
       // Use jQuery's animate() method for smooth page scrolling.
       // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      let elementOffset = Math.ceil($(hash).offset().top - getNavBarHeight());  // Round up to highlight right ID!
+
+      // Uncomment to debug.
+      // let scrollTop = $(window).scrollTop();
+      // let scrollDelta = (elementOffset - scrollTop);
+      // console.debug('Scroll Delta: ' + scrollDelta);
+
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - navbar_offset
+        scrollTop: elementOffset
       }, 800);
     }
-  });
-
-  /* ---------------------------------------------------------------------------
-   * Smooth scrolling for Back To Top link.
-   * --------------------------------------------------------------------------- */
-
-  $('#back_to_top').on('click', function(event) {
-    event.preventDefault();
-    $('html, body').animate({
-      'scrollTop': 0
-    }, 800, function() {
-      window.location.hash = "";
-    });
   });
 
   /* ---------------------------------------------------------------------------
@@ -103,18 +113,54 @@
    * Filter publications.
    * --------------------------------------------------------------------------- */
 
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Search term.
+  let searchRegex;
+
+  // Filter values (concatenated).
+  let filterValues;
+
+  // Publication container.
   let $grid_pubs = $('#container-publications');
+
+  // Initialise Isotope.
   $grid_pubs.isotope({
     itemSelector: '.isotope-item',
     percentPosition: true,
     masonry: {
       // Use Bootstrap compatible grid layout.
       columnWidth: '.grid-sizer'
+    },
+    filter: function() {
+      let $this = $(this);
+      let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
+      let filterResults = filterValues ? $this.is( filterValues ) : true;
+      return searchResults && filterResults;
     }
   });
 
-  // Active publication filters.
-  let pubFilters = {};
+  // Filter by search term.
+  let $quickSearch = $('.filter-search').keyup( debounce( function() {
+    searchRegex = new RegExp( $quickSearch.val(), 'gi' );
+    $grid_pubs.isotope();
+  }) );
+
+  // Debounce input to prevent spamming filter requests.
+  function debounce( fn, threshold ) {
+    let timeout;
+    threshold = threshold || 100;
+    return function debounced() {
+      clearTimeout( timeout );
+      let args = arguments;
+      let _this = this;
+      function delayed() {
+        fn.apply( _this, args );
+      }
+      timeout = setTimeout( delayed, threshold );
+    };
+  }
 
   // Flatten object by concatenating values.
   function concatValues( obj ) {
@@ -135,10 +181,10 @@
     pubFilters[ filterGroup ] = this.value;
 
     // Combine filters.
-    let filterValues = concatValues( pubFilters );
+    filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope({ filter: filterValues });
+    $grid_pubs.isotope();
 
     // If filtering by publication type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
@@ -165,10 +211,10 @@
     // Set filter.
     let filterGroup = 'pubtype';
     pubFilters[ filterGroup ] = filterValue;
-    let filterValues = concatValues( pubFilters );
+    filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope({ filter: filterValues });
+    $grid_pubs.isotope();
 
     // Set selected option.
     $('.pubtype-select').val(filterValue);
@@ -244,7 +290,7 @@
   function printLatestRelease(selector, repo) {
     $.getJSON('https://api.github.com/repos/' + repo + '/tags').done(function (json) {
       let release = json[0];
-      $(selector).append(release.name);
+      $(selector).append(' '+release.name);
     }).fail(function( jqxhr, textStatus, error ) {
       let err = textStatus + ", " + error;
       console.log( "Request Failed: " + err );
@@ -257,9 +303,27 @@
 
   function toggleSearchDialog() {
     if ($('body').hasClass('searching')) {
+      // Clear search query and hide search modal.
       $('[id=search-query]').blur();
-      $('body').removeClass('searching');
+      $('body').removeClass('searching compensate-for-scrollbar');
+
+      // Remove search query params from URL as user has finished searching.
+      removeQueryParamsFromUrl();
+
+      // Prevent fixed positioned elements (e.g. navbar) moving due to scrollbars.
+      $('#fancybox-style-noscroll').remove();
     } else {
+      // Prevent fixed positioned elements (e.g. navbar) moving due to scrollbars.
+      if ( !$('#fancybox-style-noscroll').length && document.body.scrollHeight > window.innerHeight ) {
+        $('head').append(
+          '<style id="fancybox-style-noscroll">.compensate-for-scrollbar{margin-right:' +
+          (window.innerWidth - document.documentElement.clientWidth) +
+          'px;}</style>'
+        );
+        $('body').addClass('compensate-for-scrollbar');
+      }
+
+      // Show search modal.
       $('body').addClass('searching');
       $('.search-results').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 200);
       $('#search-query').focus();
@@ -267,10 +331,151 @@
   }
 
   /* ---------------------------------------------------------------------------
-   * On window load.
+  * Toggle day/night mode.
+  * --------------------------------------------------------------------------- */
+
+  function toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled) {
+    if ($('body').hasClass('dark')) {
+      $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
+      $('body').removeClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = false;
+        codeHlDark.disabled = true;
+      }
+      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
+      localStorage.setItem('dark_mode', '0');
+      if (diagramEnabled) {
+        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
+        location.reload();
+      }
+    } else {
+      $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
+      $('body').addClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = true;
+        codeHlDark.disabled = false;
+      }
+      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
+      localStorage.setItem('dark_mode', '1');
+      if (diagramEnabled) {
+        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
+        location.reload();
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Normalize Bootstrap Carousel Slide Heights.
+  * --------------------------------------------------------------------------- */
+
+  function normalizeCarouselSlideHeights() {
+    $('.carousel').each(function(){
+      // Get carousel slides.
+      let items = $('.carousel-item', this);
+      // Reset all slide heights.
+      items.css('min-height', 0);
+      // Normalize all slide heights.
+      let maxHeight = Math.max.apply(null, items.map(function(){return $(this).outerHeight()}).get());
+      items.css('min-height', maxHeight + 'px');
+    })
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On document ready.
+   * --------------------------------------------------------------------------- */
+
+  $(document).ready(function() {
+    // Fix Goldmark table of contents.
+    // - Must be performed prior to initializing ScrollSpy.
+    $('#TableOfContents').addClass('nav flex-column');
+    $('#TableOfContents li').addClass('nav-item');
+    $('#TableOfContents li a').addClass('nav-link');
+
+    // Fix Goldmark task lists (remove bullet points).
+    $("input[type='checkbox'][disabled]").parents('ul').addClass('task-list');
+
+    // Fix Mermaid.js clash with Highlight.js.
+    // Refactor Mermaid code blocks as divs to prevent Highlight parsing them and enable Mermaid to parse them.
+    let mermaids = [];
+    [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+    for (let i = 0; i < mermaids.length; i++) {
+      $(mermaids[i]).unwrap('pre');  // Remove <pre> wrapper.
+      $(mermaids[i]).replaceWith(function(){
+        // Convert <code> block to <div> and add `mermaid` class so that Mermaid will parse it.
+        return $("<div />").append($(this).contents()).addClass('mermaid');
+      });
+    }
+    // Initialise code highlighting if enabled for this page.
+    // Note: this block should be processed after the Mermaid code-->div conversion.
+    if (code_highlighting) {
+      hljs.initHighlighting();
+    }
+
+    // Get theme variation (day/night).
+    let defaultThemeVariation;
+    if ($('body').hasClass('dark')) {
+      // The `color_theme` of the site is dark.
+      defaultThemeVariation = 1;
+    } else if ($('.js-dark-toggle').length && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // The visitor prefers dark themes and switching to the dark variation is allowed by admin.
+      defaultThemeVariation = 1;
+    } else {
+      // Default to day (light) theme.
+      defaultThemeVariation = 0;
+    }
+    let dark_mode = parseInt(localStorage.getItem('dark_mode') || defaultThemeVariation);
+
+    // Is code highlighting enabled in site config?
+    const codeHlEnabled = $('link[title=hl-light]').length > 0;
+    const codeHlLight = $('link[title=hl-light]')[0];
+    const codeHlDark = $('link[title=hl-dark]')[0];
+    const diagramEnabled = $('script[title=mermaid]').length > 0;
+
+    if (dark_mode) {
+      $('body').addClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = true;
+        codeHlDark.disabled = false;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'dark', securityLevel: 'loose' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
+    } else {
+      $('body').removeClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = false;
+        codeHlDark.disabled = true;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'default', securityLevel: 'loose' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
+    }
+
+    // Toggle day/night mode.
+    $('.js-dark-toggle').click(function(e) {
+      e.preventDefault();
+      toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled);
+    });
+
+    // Live update of day/night mode on system preferences update (no refresh required).
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    darkModeMediaQuery.addListener((e) => {
+      const darkModeOn = e.matches;
+      console.log(`Dark mode is ${darkModeOn ? '🌒 on' : '☀️ off'}.`);
+      toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled);
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * On window loaded.
    * --------------------------------------------------------------------------- */
 
   $(window).on('load', function() {
+    // Re-initialize Scrollspy with dynamic navbar height offset.
+    fixScrollspy();
+
     if (window.location.hash) {
       // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
       if (window.location.hash == "#top") {
@@ -284,10 +489,6 @@
       }
     }
 
-    // Initialize Scrollspy.
-    let $body = $('body');
-    $body.scrollspy({offset: navbar_offset });
-
     // Call `fixScrollspy` when window is resized.
     let resizeTimer;
     $(window).resize(function() {
@@ -299,9 +500,11 @@
     $('.projects-container').each(function(index, container) {
       let $container = $(container);
       let $section = $container.closest('section');
-      let layout = 'masonry';
+      let layout;
       if ($section.find('.isotope').hasClass('js-layout-row')) {
         layout = 'fitRows';
+      } else {
+        layout = 'masonry';
       }
 
       $container.imagesLoaded(function() {
@@ -309,6 +512,9 @@
         $container.isotope({
           itemSelector: '.isotope-item',
           layoutMode: layout,
+          masonry: {
+            gutter: 20
+          },
           filter: $section.find('.default-project-filter').text()
         });
 
@@ -337,6 +543,16 @@
       // Useful for changing hash manually (e.g. in development):
       // window.addEventListener('hashchange', filter_publications, false);
     }
+
+    // Scroll to top of page.
+    $('.back-to-top').click( function(event) {
+      event.preventDefault();
+      $('html, body').animate({
+        'scrollTop': 0
+      }, 800, function() {
+        window.location.hash = "";
+      });
+    });
 
     // Load citation modal on 'Cite' click.
     $('.js-cite-modal').click(function(e) {
@@ -375,12 +591,10 @@
     // Initialise Google Maps if necessary.
     initMap();
 
-    // Fix Hugo's inbuilt Table of Contents.
-    $('#TableOfContents > ul > li > ul').unwrap().unwrap();
-
-    // Print latest Academic version if necessary.
-    if ($('#academic-release').length > 0)
-      printLatestRelease('#academic-release', $('#academic-release').data('repo'));
+    // Print latest version of GitHub projects.
+    let githubReleaseSelector = '.js-github-release';
+    if ($(githubReleaseSelector).length > 0)
+      printLatestRelease(githubReleaseSelector, $(githubReleaseSelector).data('repo'));
 
     // On search icon click toggle search dialog.
     $('.js-search').click(function(e) {
@@ -389,15 +603,32 @@
     });
     $(document).on('keydown', function(e){
       if (e.which == 27) {
+        // `Esc` key pressed.
         if ($('body').hasClass('searching')) {
           toggleSearchDialog();
         }
-      } else if (e.which == 191) {
+      } else if (e.which == 191 && e.shiftKey == false && !$('input,textarea').is(':focus')) {
+        // `/` key pressed outside of text input.
         e.preventDefault();
         toggleSearchDialog();
       }
     });
 
+  });
+
+  // Normalize Bootstrap carousel slide heights.
+  $(window).on('load resize orientationchange', normalizeCarouselSlideHeights);
+
+  // Automatic main menu dropdowns on mouse over.
+  $('body').on('mouseenter mouseleave', '.dropdown', function (e) {
+    var dropdown = $(e.target).closest('.dropdown');
+    var menu = $('.dropdown-menu', dropdown);
+    dropdown.addClass('show');
+    menu.addClass('show');
+    setTimeout(function () {
+      dropdown[dropdown.is(':hover') ? 'addClass' : 'removeClass']('show');
+      menu[dropdown.is(':hover') ? 'addClass' : 'removeClass']('show');
+    }, 300);
   });
 
 })(jQuery);

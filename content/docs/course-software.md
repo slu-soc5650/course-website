@@ -15,11 +15,6 @@ linktitle = "Course Software"
   weight = 2
 +++
 
-## Meta 
-<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2019** </i> 
-<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-02-12** </i>
-
 ## Overview
 This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language `R`, the graphical user interface for `R` called RStudio, and GitHub Desktop. As I noted on the [course onboarding page](/docs/course-onboarding), there are two choices for *accessing* software. Please read through the [course onboarding page](/docs/course-onboarding) page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me an email if you have questions about which approach is best.
 
@@ -105,4 +100,4 @@ In addition to the applications above, everyone will need a local installation o
 If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. If you need to update GitHub Desktop, you should also [download](https://git-scm.com/downloads).
 
 ## Other Applications
-You can download mobile apps for our forum software, Discourse, for both [iOS](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiY686XhYffAhWiVN8KHU64CJYQFjABegQIABAB&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fdiscourse-app%2Fid1173672076&usg=AOvVaw07B3SNCMe5L2b0byHxYb7p) and [Android](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiY686XhYffAhWiVN8KHU64CJYQFjAAegQICBAB&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.discourse%26hl%3Den_US&usg=AOvVaw3WxkdpwbRAazq0PByDxG7-) devices.
+TBA
