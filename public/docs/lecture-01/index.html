@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Resources  View on Syllabus   View on GitHub   Exercise - Email   Functions 
+Lecture Slides    Leaflet Basics As a way to get to know R and RStudio, we&#39;ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you&#39;ll need to install leaflet and a number of other packages via CRAN:">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-01/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/docs/lecture-01/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="SLU SOC 4650 and 5650">
+  <meta property="og:url" content="/docs/lecture-01/">
+  <meta property="og:title" content="Lecture-01 - Course Introduction | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Resources  View on Syllabus   View on GitHub   Exercise - Email   Functions 
+Lecture Slides    Leaflet Basics As a way to get to know R and RStudio, we&#39;ll be working with the R package leaflet. leaflet is the R implementation of leaflet.js, an open-source Java Script library for building interactive maps. To get started, you&#39;ll need to install leaflet and a number of other packages via CRAN:"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-12-05T00:00:00-06:00">
+    
+    <meta property="article:modified_time" content="2019-01-22T00:00:00-06:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Lecture-01 - Course Introduction | SLU SOC 4650 and 5650</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">SLU SOC 4650 and 5650</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">SLU SOC 4650 and 5650</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#description"><span>Description</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/docs"><span>Docs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://slu-soc5650.github.io/syllabus" target="_blank" rel="noopener"><span>Syllabus</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/docs/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/docs/course-onboarding/">Getting Started</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/docs/course-onboarding/">Course Onboarding</a>
+      </li>
+      
+      <li >
+        <a href="/docs/course-software/">Course Software</a>
+      </li>
+      
+      <li >
+        <a href="/docs/course-preview/">Course Preview</a>
+      </li>
+      
+      <li >
+        <a href="/docs/course-approach/">Approaching Coursework</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" >Fundamentals</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/docs/lecture-01/">Lectures</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/docs/lecture-01/">Lecture-01 - Introduction</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/docs/project">Final Project</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" >Topics</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#leaflet-basics">Leaflet Basics</a>
+      <ul>
+        <li><a href="#get-data">Get Data</a></li>
+        <li><a href="#a-simple-map">A Simple Map</a></li>
+        <li><a href="#changing-the-basemap">Changing the Basemap</a></li>
+        <li><a href="#adding-additional-points">Adding Additional Points</a></li>
+        <li><a href="#reading-in-spatial-data">Reading in Spatial Data</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Lecture-01 - Course Introduction</h1>
+
+          <div class="article-style">
+            <h2 id="resources">Resources</h2>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>  View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01" target="_blank"><i class="fab fa-github fa-lg"></i>  View on GitHub </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Exercise - Email </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Functions </a></p>
+<h2 id="lecture-slides">Lecture Slides</h2>
+<p> </p>
+<script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
+<h2 id="leaflet-basics">Leaflet Basics</h2>
+<p>As a way to get to know <code>R</code> and RStudio, we'll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you'll need to install <code>leaflet</code> and a number of other packages via CRAN:</p>
+<pre><code class="language-r">install.packages(c(&quot;here&quot;, &quot;leaflet&quot;, &quot;sf&quot;, &quot;tidyverse&quot;, &quot;usethis&quot;))
+</code></pre>
+<p>We can open <code>leaflet</code> and the other packages we'll need with the <code>library()</code> function:</p>
+<pre><code class="language-r">library(&quot;here&quot;)
+library(&quot;leaflet&quot;)
+library(&quot;magrittr&quot;)
+library(&quot;readr&quot;)
+library(&quot;sf&quot;)
+</code></pre>
+<h3 id="get-data">Get Data</h3>
+<p>To get data quickly for today, you can use the following code snippet in your console:</p>
+<pre><code class="language-r">usethis::use_course(&quot;https://github.com/slu-soc5650/lecture-01/archive/master.zip&quot;)
+</code></pre>
+<h3 id="a-simple-map">A Simple Map</h3>
+<p><code>leaflet</code> itself is straightforward to get up and running. If we wanted an interactive map with a marker placed on-top of Morrissey Hall, we would use the following script entered into <code>R</code>:</p>
+<pre><code class="language-r">leaflet() %&gt;%
+  addTiles() %&gt;%
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)
+</code></pre>
+<p>The <code>leaflet()</code> function creates a map widget, and the <code>addTiles()</code> function adds a basemap to it. By default, <a href="https://www.openstreetmap.org">OpenStreetMap</a> is used for the basemap. Finally, we use <code>addMarkers()</code> to specify the longitude and latitude of our marker, and we enter in a label that will appear as a pop-up when a user clicks on the marker. <code>lng</code>, <code>lat</code>, and <code>popup</code> are all called &ldquo;arguments&rdquo; - these are used to control how a function operates.</p>
+<p>The <code>%&gt;%</code> is called the &ldquo;pipe operator&rdquo;, and it is used to chain together functions in what we will call &ldquo;pipelines&rdquo;. This pipeline can be read like a list, with the word <strong>then</strong> substituted for each instance of <code>%&gt;%</code>:</p>
+<ol>
+<li>First we create a map widget, <strong>then</strong></li>
+<li>we add basemap tiles, <strong>then</strong></li>
+<li>we add a marker at the given longitude and latitude.</li>
+</ol>
+<p>The code chunk above produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
+<p><img src="/images/lecture-01/map1.png" alt="leaflet01"></p>
+<p>You can use the <strong>Show in new window</strong> icon (a white box with a small arrow facing up and right) to open the map in your web browser.</p>
+<h3 id="changing-the-basemap">Changing the Basemap</h3>
+<p>To alter the basemap, we can use <code>addProviderTiles()</code> in place of <code>addTiles()</code>. I like the CartoDB &ldquo;Positron&rdquo; basemap. To use the Positron basemap, we create a second pipeline:</p>
+<pre><code class="language-r">leaflet() %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)
+</code></pre>
+<p>Two things are important to note here. When we load the <code>leaflet</code> package, we have access to a data object called <code>providers</code>. You can use <code>names(providers)</code> to explore it. <code>providers</code> is a vector of items, each of which corresponds to a different basemap. We can select one of those items, <code>CartoDB.Positron</code>, by separating <code>providers</code> from the item name with a dollar sign (<code>$</code>). This is a classic way in which elements of a data set are accessed in <code>R</code> syntax.</p>
+<p>The second code chunk produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
+<p><img src="/images/lecture-01/map2.png" alt="leaflet02"></p>
+<h3 id="adding-additional-points">Adding Additional Points</h3>
+<p>The <code>data/sluPlaces.csv</code> file (a <code>.csv</code> file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into <code>R</code> using the <code>readr</code> package (part of the tidyverse):</p>
+<pre><code class="language-r">sluPlaces &lt;- read_csv(here(&quot;data&quot;, &quot;sluPlaces.csv&quot;))
+</code></pre>
+<p>We read the statement from right to left - the data found at <code>data/sluPlaces.csv</code> is read correctly as <code>.csv</code> data, and the resulting imported data is stored in an object in our global environment named <code>sluPlaces</code>. The <code>here()</code> function helps us write simple, operating system agnostic file paths that will always be relative to where the <code>.Rproj</code> file is stored. We'll talk more about this as the semester progresses.</p>
+<p>We can explore the data a number of ways, including with the <code>View()</code> (output not shown) function and the <code>str()</code> function:</p>
+<pre><code class="language-r">str(sluPlaces)
+</code></pre>
+<p>If we wanted to use <code>View()</code>, it would be implemented like this:</p>
+<pre><code class="language-r">View(sluPlaces)
+</code></pre>
+<p>When executed in the console, it will produce a spreadsheet-like view within RStudio.</p>
+<p>The <code>.csv</code> data are <em>tabular</em> data - they contain longitude and latitude data, but they are not <em>projected</em>. This means we are missing the geometric data that locates these longitude and latitude data in space. leaflet can take these spatial references, however, and convert them to usable geometric data. We do so using a very similar process to what we did before:</p>
+<pre><code class="language-r">leaflet(data = sluPlaces) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
+</code></pre>
+<p>The <code>data = sluPlaces</code> argument in <code>leaflet()</code> directs <code>R</code> to the appropriate data set to map. We use the tilde (<code>~</code>) to indicate to leaflet that these are variables within <code>sluPlaces</code>.</p>
+<p>The code chunk produces the following plot:</p>
+<p><img src="/images/lecture-01/map3.png" alt="leaflet03"></p>
+<h3 id="reading-in-spatial-data">Reading in Spatial Data</h3>
+<p>For data that have already been converted to geometric data, we use the <code>sf</code> package to read them. The importing process looks similar to what we used with the <code>.csv</code> file. We'll demonstrate this with the violent crime data for Shaw:</p>
+<pre><code class="language-r">shawViolent &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Violent_2018.shp&quot;), stringsAsFactors = FALSE)
+</code></pre>
+<p>We'll still use <code>here()</code> to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the <code>.shp</code> file - this is the primary piece of the <em>family</em> of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with <code>SHAW_Violent_2018.shp</code>, but the other parts must be present as well.</p>
+<p>To map these data, we no longer need to specify <code>lng</code> and <code>lat</code> because we're using geometric data as well:</p>
+<pre><code class="language-r">leaflet(data = shawViolent) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(popup = ~crimeCt)
+</code></pre>
+<p>We use the simplified crime category (<code>crimeCt</code>) for the popup this time.</p>
+<p>The code chunk produces the following plot:</p>
+<p><img src="/images/lecture-01/map4.png" alt="leaflet04"></p>
+<p>Finally, we can make a similar map with all Part 1 crimes:</p>
+<pre><code class="language-r">shawP1 &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Part1_2018.shp&quot;), stringsAsFactors = FALSE)
+</code></pre>
+<p>And then we'll map them:</p>
+<pre><code class="language-r">leaflet(data = shawP1) %&gt;%
+  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
+  addMarkers(popup = ~crimeCt)
+</code></pre>
+<p><img src="/images/lecture-01/map5.png" alt="leaflet05"></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/docs/course-approach/" rel="next">Approaching Coursework</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/docs/course-onboarding/" rel="prev">Course Onboarding</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 22, 2019</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/slu-soc5650/course-website/edit/master/content/docs/lecture-01.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2017-2020 Christopher G. Prener &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

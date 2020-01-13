@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SLU SOC 4650 and 5650</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>SLU SOC 4650 and 5650</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Christopher G. Prener</copyright><lastBuildDate>Wed, 05 Dec 2018 00:00:00 -0600</lastBuildDate>
+    <title>Overview | SLU SOC 4650 and 5650</title>
+    <link>/docs/</link>
+      <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017-2020 Christopher G. Prener</copyright><lastBuildDate>Tue, 04 Dec 2018 00:00:00 -0600</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>SLU SOC 4650 and 5650</title>
-      <link>/</link>
+      <title>Overview</title>
+      <link>/docs/</link>
     </image>
     
     <item>
@@ -320,15 +320,6 @@ library(&amp;quot;sf&amp;quot;)
 &lt;p&gt;If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. If you need to update GitHub Desktop, you should also &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;download&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;other-applications&#34;&gt;Other Applications&lt;/h2&gt;
 &lt;p&gt;TBA&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
