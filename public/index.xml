@@ -221,15 +221,36 @@
       <link>/docs/lecture-01/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
       <guid>/docs/lecture-01/</guid>
-      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-01-20&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;base&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#e-h&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Interactive maps&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#i-l&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;leaflet&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#m-p&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;magrittr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;readr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;sf&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=430ff680-4cd0-4765-9456-ab4200063bcf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Exercise - Email &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Functions &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b023eb9d7ee463faea3a90532221987&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    The Panopto recordings made last week by instructors in our classroom did not contain audio. Dr. Sandoval put in a work request with IT.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;leaflet-basics&#34;&gt;Leaflet Basics&lt;/h2&gt;
 &lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&#39;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&#39;ll need to install &lt;code&gt;leaflet&lt;/code&gt; and a number of other packages via CRAN:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;here&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;tidyverse&amp;quot;, &amp;quot;usethis&amp;quot;))

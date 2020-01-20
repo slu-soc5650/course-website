@@ -2,7 +2,7 @@
 title = "Lecture-01 - Course Introduction"
 
 date = 2018-12-05T00:00:00
-lastmod = 2020-01-17T00:00:00
+lastmod = 2020-01-20T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -18,9 +18,27 @@ linktitle = "Lecture-01 - Introduction"
   weight = 3
 +++
 
+## Meta
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-01-20** </i>
+
+## Key Topics
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
+<a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> **base**</a> 
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Cartography**</a> 
+<a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> **here**</a> 
+<a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>&nbsp; **Interactive maps**</a> 
+<a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> **leaflet**</a>
+<a class="meta-badge package" href="/docs/topic-index/#m-p"><i class="fas fa-archive fa-lg"></i> **magrittr**</a>
+<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>&nbsp; **R**</a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **readr**</a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> **sf**</a>
+
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=430ff680-4cd0-4765-9456-ab4200063bcf" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Exercise - Email </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Functions </a>
 
@@ -28,6 +46,11 @@ linktitle = "Lecture-01 - Introduction"
 <p> </p>
 <script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
+
+{{% alert warning %}}
+The Panopto recordings made last week by instructors in our classroom did not contain audio. Dr. Sandoval put in a work request with IT.
+{{% /alert %}}
+
 
 ## Leaflet Basics
 As a way to get to know `R` and RStudio, we'll be working with the `R` package [`leaflet`](https://rstudio.github.io/leaflet/). `leaflet` is the `R` implementation of [`leaflet.js`](http://leafletjs.com), an open-source Java Script library for building interactive maps. To get started, you'll need to install `leaflet` and a number of other packages via CRAN:
