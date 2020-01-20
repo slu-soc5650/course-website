@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/course-onboarding/</loc>
+    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/course-software/</loc>
+    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/course-preview/</loc>
+    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/course-approach/</loc>
     <lastmod>2020-01-17T00:00:00-06:00</lastmod>
   </url>
@@ -13,22 +28,12 @@
   </url>
   
   <url>
+    <loc>/docs/lecture-02/</loc>
+    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/course-onboarding/</loc>
-    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/course-preview/</loc>
-    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/course-software/</loc>
     <lastmod>2020-01-17T00:00:00-06:00</lastmod>
   </url>
   
@@ -40,11 +45,6 @@
   <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/lecture-02/</loc>
-    <lastmod>2020-01-17T00:00:00-06:00</lastmod>
   </url>
   
   <url>

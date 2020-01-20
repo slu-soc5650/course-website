@@ -8,14 +8,14 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight = 5
+
 # Add menu entry to sidebar.
 linktitle = "Lecture-01 - Introduction"
 [menu.docs]
   parent = "Lectures"
   weight = 3
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 5
 +++
 
 ## Resources

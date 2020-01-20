@@ -13,6 +13,190 @@
     </image>
     
     <item>
+      <title>Course Onboarding</title>
+      <link>/docs/course-onboarding/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/course-onboarding/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;/files/onboarding-checklist.pdf&#34; target=&#34;_blank&#34;&gt; Onboarding Checklist &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Before you begin the semester, there are a number of things that you should do to help set yourself up for success. &lt;strong&gt;All of the applicable sections below should be completed before our first class on January 13th.&lt;/strong&gt; Before you do &lt;em&gt;anything&lt;/em&gt; else, though, you should read through the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;. Make sure you have a good sense of what is &lt;em&gt;required&lt;/em&gt; for the course. If you have questions, bring them to the first day of class!&lt;/p&gt;
+&lt;h2 id=&#34;account-signups&#34;&gt;Account Signups&lt;/h2&gt;
+&lt;h3 id=&#34;get-started-with-slack&#34;&gt;Get Started with Slack&lt;/h3&gt;
+&lt;p&gt;Go to &lt;a href=&#34;https://slu-soc5650.slack.com/&#34;&gt;Slack&lt;/a&gt; and sign-up using your SLU email address.&lt;/p&gt;
+&lt;h3 id=&#34;get-started-with-github&#34;&gt;Get Started with GitHub&lt;/h3&gt;
+&lt;p&gt;The service that is hosting this website is called &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&#39;s &lt;a href=&#34;https://github.com/&#34;&gt;homepage&lt;/a&gt;. If you already have a GitHub account, you do not need a new one.&lt;/p&gt;
+&lt;p&gt;Once you have a GitHub user name, send Chris a direct message via our &lt;a href=&#34;https://slu-soc5650.github.io&#34;&gt;chat software Slack&lt;/a&gt; with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. Chris&#39;s username is &lt;code&gt;@chris&lt;/code&gt; on Slack, and the Direct Messages can be found by scrolling all the way down in the left hand sidebark. Please make sure your display name for Slack matches your real name.&lt;/p&gt;
+&lt;p&gt;After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&#39;ve seen it.&lt;/p&gt;
+&lt;h2 id=&#34;course-software&#34;&gt;Course Software&lt;/h2&gt;
+&lt;p&gt;There are two options for &lt;em&gt;accessing&lt;/em&gt; the course software, and some instructions for how &lt;em&gt;install&lt;/em&gt; it. Please read through these options carefully and make the decision that is best for you.&lt;/p&gt;
+&lt;h3 id=&#34;options-for-accessing-software&#34;&gt;Options for Accessing Software&lt;/h3&gt;
+&lt;p&gt;One option is to rely on the &lt;strong&gt;computers in our classroom&lt;/strong&gt;, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, you can go right to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer - you&#39;ll need to install just the specific &lt;code&gt;R&lt;/code&gt; packages and GitHub Desktop. Details on the extent of setup required will be posted there since it is subject to change. Make sure you know how to use Windows File Explorer, especially if you are a regular macOS user.&lt;/p&gt;
+&lt;p&gt;Another option for accessing the software is to &lt;strong&gt;use your own computer&lt;/strong&gt;. If you decide to go this route, please read the next subsection on computer prep, and then head over to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer. As long as you have a relatively new computer (within the last few years), you should have no problem using any of the applications for this class.&lt;/p&gt;
+&lt;h3 id=&#34;computer-prep&#34;&gt;Computer Prep&lt;/h3&gt;
+&lt;p&gt;If you are using &lt;strong&gt;your own computer&lt;/strong&gt;, you should do the following before proceeding:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure your operating system is up-to-date. If you are able, I would also recommend upgrading your computer to the most recent release of its operating system that the computer can run.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On macOS, you can do this through the &lt;a href=&#34;https://support.apple.com/en-us/HT201541&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Both &lt;a href=&#34;https://www.dummies.com/computers/computer-networking/network-security/how-to-manually-check-for-windows-7-updates/&#34;&gt;Windows 7&lt;/a&gt; and &lt;a href=&#34;https://support.microsoft.com/en-us/help/4027667/windows-update-windows-10&#34;&gt;Windows 10&lt;/a&gt; have system update tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We&#39;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to &amp;ldquo;ITS Software Downloads&amp;rdquo; under &amp;ldquo;Tools&amp;rdquo; on &lt;a href=&#34;https://myslu.slu.edu/tools&#34;&gt;mySLU&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You&#39;ll also need to download files, so you&#39;ll need to make sure you have at least &lt;strong&gt;fifty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;twenty gigabytes&lt;/strong&gt; free if you are not. If you&#39;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure you know how to access your computer&#39;s file management system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;On macOS, this means being comfortable with Finder.app for finding folders, making new ones, and opening files. Here are some tips for using Finder on recent versions of &lt;a href=&#34;https://support.apple.com/en-us/HT201732&#34;&gt;macOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;On Windows, this means being comfortable with Windows File Explorer for finding folders, making new ones, and opening files. Here are some tips for using File Explorer on &lt;a href=&#34;https://www.dummies.com/computers/operating-systems/windows-7/how-to-navigate-windows-7-with-windows-explorer/&#34;&gt;Windows 7&lt;/a&gt; or &lt;a href=&#34;https://www.dummies.com/computers/operating-systems/windows-10/how-does-file-explorer-work-in-windows-10/&#34;&gt;Windows 10&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Head over to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;get-access-to-books&#34;&gt;Get Access to Books&lt;/h2&gt;
+&lt;p&gt;There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. Please purchase copies of the first three books and decide if you would like a physical copy of the fourth:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Brewer, Cynthia. 2015. &lt;em&gt;Designing better Maps: A Guide for GIS users&lt;/em&gt;. Redlands, CA: ESRI Press.&lt;/li&gt;
+&lt;li&gt;Gorr, Wilpen and Kristen Kurland. 2017. &lt;em&gt;GIS Tutorial 1 for ArcGIS Pro&lt;/em&gt;. Redlands, CA: ESRI Press.&lt;/li&gt;
+&lt;li&gt;Wickham, Hadley and Garrett Grolemund. 2016. &lt;em&gt;R for data science&lt;/em&gt;. Sebastopol, CA: O’Reilly. &lt;a href=&#34;http://r4ds.had.co.nz&#34;&gt;Webbook Available&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf&#34;&gt;&lt;strong&gt;Reading List&lt;/strong&gt;&lt;/a&gt; includes the assigned readings for both the web and print versions of Wickham and Grolemund&#39;s &lt;em&gt;R for data science&lt;/em&gt; (2016), and you are free to choose either version.&lt;/p&gt;
+&lt;h2 id=&#34;other-materials&#34;&gt;Other Materials&lt;/h2&gt;
+&lt;p&gt;The other item to &lt;em&gt;optionally&lt;/em&gt; purchase is a 1.5&amp;rdquo; three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you&#39;d prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.&lt;/p&gt;
+&lt;h2 id=&#34;administrative-tasks&#34;&gt;Administrative Tasks&lt;/h2&gt;
+&lt;p&gt;All students should complete the &lt;a href=&#34;https://forms.gle/9D3vzk7HgV1nRi3dA&#34;&gt;Student Information Sheet&lt;/a&gt;, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and understand the course policies.&lt;/p&gt;
+&lt;h2 id=&#34;coursework&#34;&gt;Coursework&lt;/h2&gt;
+&lt;p&gt;There are three pieces of coursework that you should complete:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You should view two videos posted on the &lt;a href=&#34;/docs/course-preview/&#34;&gt;Course Preview&lt;/a&gt; page and check out the interactive map discussed in the first video.&lt;/li&gt;
+&lt;li&gt;You should complete the assigned reading (and if you want, the optional ones too) listed in the &lt;a href=&#34;http://slu-soc5650.github.io/syllabus/course-preview/&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You should complete &lt;a href=&#34;/docs/course-preview/#lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/a&gt;, which asks a few short questions about the videos and interactive map.&lt;/li&gt;
+&lt;li&gt;You should complete the assigned readings for Lecture-01, which are listed in the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Come to class stoked to make your first maps!&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Software</title>
+      <link>/docs/course-software/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/course-software/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language &lt;code&gt;R&lt;/code&gt;, the graphical user interface for &lt;code&gt;R&lt;/code&gt; called RStudio, and GitHub Desktop. As I noted on the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt;, there are two choices for &lt;em&gt;accessing&lt;/em&gt; software. Please read through the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt; page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me an email if you have questions about which approach is best.&lt;/p&gt;
+&lt;h2 id=&#34;arcgis-pro&#34;&gt;ArcGIS Pro&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    ArcGIS Pro is installed in the GIS lab.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I am able to provide licenses for ArcGIS Pro to students who are interested in obtaining them. If you would like a license, please &lt;a href=&#34;http://pro.arcgis.com/en/pro-app/get-started/arcgis-pro-system-requirements.htm&#34;&gt;check the system requirements&lt;/a&gt; first. If your computer meets the minimum requirements, email me for a license. Then:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Visit ESRI&#39;s &lt;a href=&#34;http://www.esri.com/educationedition&#34;&gt;education edition website&lt;/a&gt; to begin the process of activating and downloading your ArcGIS Pro Student Trial software.&lt;/li&gt;
+&lt;li&gt;Log in using your &lt;strong&gt;Existing ESRI account&lt;/strong&gt; (the same one you were given during the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding process&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Enter the license code and click Activate ArcGIS.&lt;/li&gt;
+&lt;li&gt;Click the button for the ArcGIS for Desktop software version being activated - the latest version of ArcGIS Pro.&lt;/li&gt;
+&lt;li&gt;If necessary, download the ArcGIS Uninstall Utility and uninstall previous versions of ArcGIS Desktop or ArcGIS Pro.&lt;/li&gt;
+&lt;li&gt;Run the executable file that you downloaded to install ArcGIS Pro.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;spatial-libraries&#34;&gt;Spatial Libraries&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    These libraries are installed in the GIS lab and need to be installed only if you are using &lt;code&gt;R&lt;/code&gt; on your personal computer.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&#39;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;. You should only have to run this once per computer.&lt;/p&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;To install the libraries on Windows, you need to have &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password. You should use the latest version, which is currently &lt;code&gt;Rtools35&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;macos&#34;&gt;macOS&lt;/h3&gt;
+&lt;p&gt;Users on macOS will have to install the spatial data libraries on their own. An omnibus installer is available from the &lt;a href=&#34;https://www.kyngchaos.com/software/frameworks&#34;&gt;Kyng Chaos website&lt;/a&gt; - you&#39;ll want to download and run the GDAL 2.2 Complete installer.&lt;/p&gt;
+&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
+&lt;h3 id=&#34;base-r&#34;&gt;Base R&lt;/h3&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Base R is installed in the GIS lab.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;You can download &lt;code&gt;R&lt;/code&gt; from its &lt;a href=&#34;https://cloud.r-project.org&#34;&gt;website&lt;/a&gt;. Choose &amp;ldquo;Download R for (Mac) OS X&amp;rdquo; or &amp;ldquo;Download R for Windows&amp;rdquo;. Windows users should look for text that says &amp;ldquo;install R for the first time&amp;rdquo; and click the &lt;code&gt;base&lt;/code&gt; to the left of that text. Both macOS and Windows users should install &lt;code&gt;R&lt;/code&gt; version 3.5.2, known as &amp;ldquo;Eggshell Igloo&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;If you already have &lt;code&gt;R&lt;/code&gt; installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
+&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    RStudio is installed in the GIS lab.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;RStudio is a graphical user interface for &lt;code&gt;R&lt;/code&gt; that will make learning the language and using it much, much easier. You should download the &lt;em&gt;free&lt;/em&gt; version of RStudio from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34;&gt;their website&lt;/a&gt;. Choose the appropriate installer for your platform. Make sure &lt;code&gt;R&lt;/code&gt; is already installed before installing RStudio.&lt;/p&gt;
+&lt;p&gt;If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
+&lt;h3 id=&#34;r-packages&#34;&gt;R Packages&lt;/h3&gt;
+&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&#39;s console:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
+  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
+  &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You should only have to run this once per computer.&lt;/p&gt;
+&lt;h3 id=&#34;phantomjs&#34;&gt;PhantomJS&lt;/h3&gt;
+&lt;p&gt;PhantomJS is a means for creating &amp;ldquo;headless&amp;rdquo; web-browsers and thus rendering the output of HTML widegts in &lt;code&gt;knitr&lt;/code&gt; documents. It makes it possible to get a screengrab of a &lt;code&gt;leaflet&lt;/code&gt; map when you &amp;ldquo;knit&amp;rdquo; your &lt;code&gt;.Rmd&lt;/code&gt; files, for instance. To install it, use the following code chunk in RStudio&#39;s console:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;webshot::install_phantomjs()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Like installing packages, you should only have to run this once per computer.&lt;/p&gt;
+&lt;h2 id=&#34;github-desktop&#34;&gt;GitHub Desktop&lt;/h2&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    GitHub Desktop will need be installed both in the lab and on personal computers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the &lt;a href=&#34;https://desktop.github.com&#34;&gt;application&#39;s website&lt;/a&gt;. You will need to download and run the installer. Once it is complete, you will need to login to the application with your &lt;a href=&#34;/docs/onboarding&#34;&gt;GitHub.com username and password&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. If you need to update GitHub Desktop, you should also &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;download&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;other-applications&#34;&gt;Other Applications&lt;/h2&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Preview</title>
+      <link>/docs/course-preview/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/course-preview/</guid>
+      <description>&lt;h2 id=&#34;open-data-and-gis-in-los-angeles&#34;&gt;Open Data and GIS in Los Angeles&lt;/h2&gt;
+&lt;p&gt;One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &amp;ldquo;open data&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles&amp;rsquo; integration of open data and GIS. It is a 9 minute talk given by L.A.&amp;lsquo;s former Chief Data Officer &lt;a href=&#34;https://twitter.com/lcoral&#34;&gt;Lilian P. Coral&lt;/a&gt;. The talk was part of a conference organized by &lt;a href=&#34;https://www.esri.com/en-us/home&#34;&gt;ESRI&lt;/a&gt;, the makers of ArcGIS.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/etdwa768Zms&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Once you&#39;ve watched the video, check out the web application featured in the video that &lt;a href=&#34;http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0&#34;&gt;visualizes pedestrian and cyclist injuries in Los Angeles&lt;/a&gt;. You can also visit L.A.&amp;lsquo;s open data website called &lt;a href=&#34;http://geohub.lacity.org&#34;&gt;GeoHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;analysis-development&#34;&gt;Analysis Development&lt;/h2&gt;
+&lt;p&gt;Making a produce like L.A.&amp;lsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &amp;ldquo;data wrangling&amp;rdquo; or &amp;ldquo;data cleaning&amp;rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&#39;ll call this large-scale process a &amp;ldquo;workflow&amp;rdquo; this semester.&lt;/p&gt;
+&lt;p&gt;The workflow that we&#39;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at &lt;a href=&#34;http://stitchfix.com&#34;&gt;Stichfix&lt;/a&gt; and also runs a data science podcast called &lt;a href=&#34;http://nssdeviations.com&#34;&gt;Not So Standard Deviations&lt;/a&gt;. She has been speaking recently about an idea called opinionated analysis development. The &lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;video&lt;/a&gt; linked to below is a 25 minute talk she gave on this idea last year, and she now has a &lt;a href=&#34;https://peerj.com/preprints/3210/&#34;&gt;draft paper&lt;/a&gt; out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;&lt;img src=&#34;/opinionatedAnalysis.png&#34; alt=&#34;opinionatedAnalysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&#39;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&#39;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&#39;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&#39;s idea of opinionated analysis development, our goal each week will be to focus on the &lt;em&gt;processes&lt;/em&gt; that can be used to increase the reproducibility and accuracy of our geospatial work.&lt;/p&gt;
+&lt;p&gt;Some of these processes, like using RMarkdown, are introduced in the &lt;a href=&#34;http://plain-text.co&#34;&gt;introductory &amp;ldquo;chapter&amp;rdquo;&lt;/a&gt; (it is quite short!) to Duke University sociologist &lt;a href=&#34;http://kieranhealy.org&#34;&gt;Kieran Healy&#39;s&lt;/a&gt; primer &lt;a href=&#34;http://plain-text.co&#34;&gt;&lt;em&gt;The Plain Person&#39;s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;. This is the one &lt;em&gt;required&lt;/em&gt; reading for the entry ticket (though there are several optional ones listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/course-preview.html&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/h2&gt;
+&lt;p&gt;The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.&amp;lsquo;s interactive website. Please answer these questions and submit them before class on &lt;strong&gt;January 14th&lt;/strong&gt;. Answers &lt;strong&gt;must&lt;/strong&gt; be submitted through &lt;a href=&#34;https://forms.gle/9ikcLHuK93RmYyfC8&#34;&gt;Google Forms&lt;/a&gt; and each response should be three to four sentences in length. The questions are provided here for reference:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.&lt;/li&gt;
+&lt;li&gt;After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?&lt;/li&gt;
+&lt;li&gt;In your own words, what are the key aspects of opinionated analysis development?&lt;/li&gt;
+&lt;li&gt;What are some of the advantages of using plain text for data analysis?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The entry ticket also asks for an update on your course onboarding process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Approaching Coursework</title>
       <link>/docs/course-approach/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
@@ -128,198 +312,6 @@ library(&amp;quot;sf&amp;quot;)
   addMarkers(popup = ~crimeCt)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/images/lecture-01/map5.png&#34; alt=&#34;leaflet05&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course Onboarding</title>
-      <link>/docs/course-onboarding/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      <guid>/docs/course-onboarding/</guid>
-      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;/files/onboarding-checklist.pdf&#34; target=&#34;_blank&#34;&gt; Onboarding Checklist &lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Before you begin the semester, there are a number of things that you should do to help set yourself up for success. &lt;strong&gt;All of the applicable sections below should be completed before our first class on January 14th.&lt;/strong&gt; Before you do &lt;em&gt;anything&lt;/em&gt; else, though, you should read through the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;. Make sure you have a good sense of what is &lt;em&gt;required&lt;/em&gt; for the course. If you have questions, bring them to the first day of class!&lt;/p&gt;
-&lt;h2 id=&#34;account-signups&#34;&gt;Account Signups&lt;/h2&gt;
-&lt;h3 id=&#34;get-started-with-the-discussion-board&#34;&gt;Get Started with the Discussion Board&lt;/h3&gt;
-&lt;p&gt;Discourse is an open source forum platform that we will be using this semester to stay in touch and host virutal office hours. You should receive an email with registration information, and the site can be found &lt;a href=&#34;https://discuss.slu-ssds.org&#34;&gt;here&lt;/a&gt;. Once you receive the invitation and accept, you can update your profile by clicking on the profile icon in the upper right-hand corner and selecting the gear icon:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/discoursePreferences.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;At a minimum, please fill out the &lt;code&gt;Name&lt;/code&gt; field under &lt;code&gt;Account&lt;/code&gt; with your preferred first and last name!&lt;/p&gt;
-&lt;h3 id=&#34;get-started-with-github&#34;&gt;Get Started with GitHub&lt;/h3&gt;
-&lt;p&gt;The service that is hosting this website is called &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&#39;s &lt;a href=&#34;https://github.com/&#34;&gt;homepage&lt;/a&gt;. If you already have a GitHub account, you do not need a new one.&lt;/p&gt;
-&lt;p&gt;Once you have a GitHub user name, send Chris a direct message via our &lt;a href=&#34;https://slu-soc5650.github.io&#34;&gt;chat software Slack&lt;/a&gt; with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. Chris&#39;s username is &lt;code&gt;@chris&lt;/code&gt; on Slack, and the Direct Messages can be found by scrolling all the way down in the left hand sidebark. Please make sure your display name for Slack matches your real name.&lt;/p&gt;
-&lt;p&gt;After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&#39;ve seen it.&lt;/p&gt;
-&lt;h2 id=&#34;course-software&#34;&gt;Course Software&lt;/h2&gt;
-&lt;p&gt;There are two options for &lt;em&gt;accessing&lt;/em&gt; the course software, and some instructions for how &lt;em&gt;install&lt;/em&gt; it. Please read through these options carefully and make the decision that is best for you.&lt;/p&gt;
-&lt;h3 id=&#34;options-for-accessing-software&#34;&gt;Options for Accessing Software&lt;/h3&gt;
-&lt;p&gt;One option is to rely on the &lt;strong&gt;computers in our classroom&lt;/strong&gt;, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, you can go right to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer - you&#39;ll need to install just the specific &lt;code&gt;R&lt;/code&gt; packages and GitHub Desktop. Details on the extent of setup required will be posted there since it is subject to change. Make sure you know how to use Windows File Explorer, especially if you are a regular macOS user.&lt;/p&gt;
-&lt;p&gt;Another option for accessing the software is to &lt;strong&gt;use your own computer&lt;/strong&gt;. If you decide to go this route, please read the next subsection on computer prep, and then head over to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer. As long as you have a relatively new computer (within the last few years), you should have no problem using any of the applications for this class.&lt;/p&gt;
-&lt;h3 id=&#34;computer-prep&#34;&gt;Computer Prep&lt;/h3&gt;
-&lt;p&gt;If you are using &lt;strong&gt;your own computer&lt;/strong&gt;, you should do the following before proceeding:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure your operating system is up-to-date. If you are able, I would also recommend upgrading your computer to the most recent release of its operating system that the computer can run.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;On macOS, you can do this through the &lt;a href=&#34;https://support.apple.com/en-us/HT201541&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Both &lt;a href=&#34;https://www.dummies.com/computers/computer-networking/network-security/how-to-manually-check-for-windows-7-updates/&#34;&gt;Windows 7&lt;/a&gt; and &lt;a href=&#34;https://support.microsoft.com/en-us/help/4027667/windows-update-windows-10&#34;&gt;Windows 10&lt;/a&gt; have system update tools.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We&#39;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to &amp;ldquo;ITS Software Downloads&amp;rdquo; under &amp;ldquo;Tools&amp;rdquo; on &lt;a href=&#34;https://myslu.slu.edu/tools&#34;&gt;mySLU&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You&#39;ll also need to download files, so you&#39;ll need to make sure you have at least &lt;strong&gt;fifty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;twenty gigabytes&lt;/strong&gt; free if you are not. If you&#39;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure you know how to access your computer&#39;s file management system.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;On macOS, this means being comfortable with Finder.app for finding folders, making new ones, and opening files. Here are some tips for using Finder on recent versions of &lt;a href=&#34;https://support.apple.com/en-us/HT201732&#34;&gt;macOS&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;On Windows, this means being comfortable with Windows File Explorer for finding folders, making new ones, and opening files. Here are some tips for using File Explorer on &lt;a href=&#34;https://www.dummies.com/computers/operating-systems/windows-7/how-to-navigate-windows-7-with-windows-explorer/&#34;&gt;Windows 7&lt;/a&gt; or &lt;a href=&#34;https://www.dummies.com/computers/operating-systems/windows-10/how-does-file-explorer-work-in-windows-10/&#34;&gt;Windows 10&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Head over to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;get-access-to-books&#34;&gt;Get Access to Books&lt;/h2&gt;
-&lt;p&gt;There are a number of different books required for this course. Each book has been selected to correspond with one or more of the course objectives. Please purchase copies of the first three books and decide if you would like a physical copy of the fourth:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Brewer, Cynthia. 2015. &lt;em&gt;Designing better Maps: A Guide for GIS users&lt;/em&gt;. Redlands, CA: ESRI Press.&lt;/li&gt;
-&lt;li&gt;Gorr, Wilpen and Kristen Kurland. 2017. &lt;em&gt;GIS Tutorial 1 for ArcGIS Pro&lt;/em&gt;. Redlands, CA: ESRI Press.&lt;/li&gt;
-&lt;li&gt;Wickham, Hadley and Garrett Grolemund. 2016. &lt;em&gt;R for data science&lt;/em&gt;. Sebastopol, CA: O’Reilly. &lt;a href=&#34;http://r4ds.had.co.nz&#34;&gt;Webbook Available&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf&#34;&gt;&lt;strong&gt;Reading List&lt;/strong&gt;&lt;/a&gt; includes the assigned readings for both the web and print versions of Wickham and Grolemund&#39;s &lt;em&gt;R for data science&lt;/em&gt; (2016), and you are free to choose either version.&lt;/p&gt;
-&lt;h2 id=&#34;other-materials&#34;&gt;Other Materials&lt;/h2&gt;
-&lt;p&gt;The other item to &lt;em&gt;optionally&lt;/em&gt; purchase is a 1.5&amp;rdquo; three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you&#39;d prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.&lt;/p&gt;
-&lt;h2 id=&#34;administrative-tasks&#34;&gt;Administrative Tasks&lt;/h2&gt;
-&lt;p&gt;All students should complete the &lt;a href=&#34;https://forms.gle/9D3vzk7HgV1nRi3dA&#34;&gt;Student Information Sheet&lt;/a&gt;, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and understand the course policies.&lt;/p&gt;
-&lt;h2 id=&#34;coursework&#34;&gt;Coursework&lt;/h2&gt;
-&lt;p&gt;There are three pieces of coursework that you should complete:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;You should view two videos posted on the &lt;a href=&#34;/docs/course-preview/&#34;&gt;Course Preview&lt;/a&gt; page and check out the interactive map discussed in the first video.&lt;/li&gt;
-&lt;li&gt;You should complete the assigned reading (and if you want, the optional ones too) listed in the &lt;a href=&#34;http://slu-soc5650.github.io/syllabus/course-preview/&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;You should complete &lt;a href=&#34;/docs/course-preview/#lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/a&gt;, which asks a few short questions about the videos and interactive map.&lt;/li&gt;
-&lt;li&gt;You should complete the assigned readings for Lecture-01, which are listed in the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Come to class stoked to make your first maps!&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course Preview</title>
-      <link>/docs/course-preview/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      <guid>/docs/course-preview/</guid>
-      <description>&lt;h2 id=&#34;open-data-and-gis-in-los-angeles&#34;&gt;Open Data and GIS in Los Angeles&lt;/h2&gt;
-&lt;p&gt;One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &amp;ldquo;open data&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles&amp;rsquo; integration of open data and GIS. It is a 9 minute talk given by L.A.&amp;lsquo;s former Chief Data Officer &lt;a href=&#34;https://twitter.com/lcoral&#34;&gt;Lilian P. Coral&lt;/a&gt;. The talk was part of a conference organized by &lt;a href=&#34;https://www.esri.com/en-us/home&#34;&gt;ESRI&lt;/a&gt;, the makers of ArcGIS.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/etdwa768Zms&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Once you&#39;ve watched the video, check out the web application featured in the video that &lt;a href=&#34;http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0&#34;&gt;visualizes pedestrian and cyclist injuries in Los Angeles&lt;/a&gt;. You can also visit L.A.&amp;lsquo;s open data website called &lt;a href=&#34;http://geohub.lacity.org&#34;&gt;GeoHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;analysis-development&#34;&gt;Analysis Development&lt;/h2&gt;
-&lt;p&gt;Making a produce like L.A.&amp;lsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &amp;ldquo;data wrangling&amp;rdquo; or &amp;ldquo;data cleaning&amp;rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&#39;ll call this large-scale process a &amp;ldquo;workflow&amp;rdquo; this semester.&lt;/p&gt;
-&lt;p&gt;The workflow that we&#39;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at &lt;a href=&#34;http://stitchfix.com&#34;&gt;Stichfix&lt;/a&gt; and also runs a data science podcast called &lt;a href=&#34;http://nssdeviations.com&#34;&gt;Not So Standard Deviations&lt;/a&gt;. She has been speaking recently about an idea called opinionated analysis development. The &lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;video&lt;/a&gt; linked to below is a 25 minute talk she gave on this idea last year, and she now has a &lt;a href=&#34;https://peerj.com/preprints/3210/&#34;&gt;draft paper&lt;/a&gt; out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;&lt;img src=&#34;/opinionatedAnalysis.png&#34; alt=&#34;opinionatedAnalysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&#39;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&#39;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&#39;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&#39;s idea of opinionated analysis development, our goal each week will be to focus on the &lt;em&gt;processes&lt;/em&gt; that can be used to increase the reproducibility and accuracy of our geospatial work.&lt;/p&gt;
-&lt;p&gt;Some of these processes, like using RMarkdown, are introduced in the &lt;a href=&#34;http://plain-text.co&#34;&gt;introductory &amp;ldquo;chapter&amp;rdquo;&lt;/a&gt; (it is quite short!) to Duke University sociologist &lt;a href=&#34;http://kieranhealy.org&#34;&gt;Kieran Healy&#39;s&lt;/a&gt; primer &lt;a href=&#34;http://plain-text.co&#34;&gt;&lt;em&gt;The Plain Person&#39;s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;. This is the one &lt;em&gt;required&lt;/em&gt; reading for the entry ticket (though there are several optional ones listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/course-preview.html&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/h2&gt;
-&lt;p&gt;The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.&amp;lsquo;s interactive website. Please answer these questions and submit them before class on &lt;strong&gt;January 14th&lt;/strong&gt;. Answers &lt;strong&gt;must&lt;/strong&gt; be submitted through &lt;a href=&#34;https://forms.gle/9ikcLHuK93RmYyfC8&#34;&gt;Google Forms&lt;/a&gt; and each response should be three to four sentences in length. The questions are provided here for reference:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Briefly describe how the City of Los Angeles uses data and mapping to inform how they deliver city services.&lt;/li&gt;
-&lt;li&gt;After viewing the interactive map showing pedestrian and cyclist injuries, describe what you thought of the map. Some example considerations could include: was it easy to read? to navigate? did you like the colors? was it missing relevant data?&lt;/li&gt;
-&lt;li&gt;In your own words, what are the key aspects of opinionated analysis development?&lt;/li&gt;
-&lt;li&gt;What are some of the advantages of using plain text for data analysis?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The entry ticket also asks for an update on your course onboarding process.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course Software</title>
-      <link>/docs/course-software/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
-      <guid>/docs/course-software/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language &lt;code&gt;R&lt;/code&gt;, the graphical user interface for &lt;code&gt;R&lt;/code&gt; called RStudio, and GitHub Desktop. As I noted on the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt;, there are two choices for &lt;em&gt;accessing&lt;/em&gt; software. Please read through the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt; page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me an email if you have questions about which approach is best.&lt;/p&gt;
-&lt;h2 id=&#34;arcgis-pro&#34;&gt;ArcGIS Pro&lt;/h2&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    ArcGIS Pro is installed in the GIS lab.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;I am able to provide licenses for ArcGIS Pro to students who are interested in obtaining them. If you would like a license, please &lt;a href=&#34;http://pro.arcgis.com/en/pro-app/get-started/arcgis-pro-system-requirements.htm&#34;&gt;check the system requirements&lt;/a&gt; first. If your computer meets the minimum requirements, email me for a license. Then:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Visit ESRI&#39;s &lt;a href=&#34;http://www.esri.com/educationedition&#34;&gt;education edition website&lt;/a&gt; to begin the process of activating and downloading your ArcGIS Pro Student Trial software.&lt;/li&gt;
-&lt;li&gt;Log in using your &lt;strong&gt;Existing ESRI account&lt;/strong&gt; (the same one you were given during the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding process&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Enter the license code and click Activate ArcGIS.&lt;/li&gt;
-&lt;li&gt;Click the button for the ArcGIS for Desktop software version being activated - the latest version of ArcGIS Pro.&lt;/li&gt;
-&lt;li&gt;If necessary, download the ArcGIS Uninstall Utility and uninstall previous versions of ArcGIS Desktop or ArcGIS Pro.&lt;/li&gt;
-&lt;li&gt;Run the executable file that you downloaded to install ArcGIS Pro.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;spatial-libraries&#34;&gt;Spatial Libraries&lt;/h2&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    These libraries are installed in the GIS lab and need to be installed only if you are using &lt;code&gt;R&lt;/code&gt; on your personal computer.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&#39;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;. You should only have to run this once per computer.&lt;/p&gt;
-&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
-&lt;p&gt;To install the libraries on Windows, you need to have &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password. You should use the latest version, which is currently &lt;code&gt;Rtools35&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;macos&#34;&gt;macOS&lt;/h3&gt;
-&lt;p&gt;Users on macOS will have to install the spatial data libraries on their own. An omnibus installer is available from the &lt;a href=&#34;https://www.kyngchaos.com/software/frameworks&#34;&gt;Kyng Chaos website&lt;/a&gt; - you&#39;ll want to download and run the GDAL 2.2 Complete installer.&lt;/p&gt;
-&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
-&lt;h3 id=&#34;base-r&#34;&gt;Base R&lt;/h3&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Base R is installed in the GIS lab.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;You can download &lt;code&gt;R&lt;/code&gt; from its &lt;a href=&#34;https://cloud.r-project.org&#34;&gt;website&lt;/a&gt;. Choose &amp;ldquo;Download R for (Mac) OS X&amp;rdquo; or &amp;ldquo;Download R for Windows&amp;rdquo;. Windows users should look for text that says &amp;ldquo;install R for the first time&amp;rdquo; and click the &lt;code&gt;base&lt;/code&gt; to the left of that text. Both macOS and Windows users should install &lt;code&gt;R&lt;/code&gt; version 3.5.2, known as &amp;ldquo;Eggshell Igloo&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;If you already have &lt;code&gt;R&lt;/code&gt; installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
-&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    RStudio is installed in the GIS lab.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;RStudio is a graphical user interface for &lt;code&gt;R&lt;/code&gt; that will make learning the language and using it much, much easier. You should download the &lt;em&gt;free&lt;/em&gt; version of RStudio from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34;&gt;their website&lt;/a&gt;. Choose the appropriate installer for your platform. Make sure &lt;code&gt;R&lt;/code&gt; is already installed before installing RStudio.&lt;/p&gt;
-&lt;p&gt;If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
-&lt;h3 id=&#34;r-packages&#34;&gt;R Packages&lt;/h3&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    &lt;p&gt;This has been updated since lecture-05. Please add the needed software:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;install.packages(c(&amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;))&lt;/code&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&#39;s console:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
-  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
-  &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You should only have to run this once per computer.&lt;/p&gt;
-&lt;h3 id=&#34;phantomjs&#34;&gt;PhantomJS&lt;/h3&gt;
-&lt;p&gt;PhantomJS is a means for creating &amp;ldquo;headless&amp;rdquo; web-browsers and thus rendering the output of HTML widegts in &lt;code&gt;knitr&lt;/code&gt; documents. It makes it possible to get a screengrab of a &lt;code&gt;leaflet&lt;/code&gt; map when you &amp;ldquo;knit&amp;rdquo; your &lt;code&gt;.Rmd&lt;/code&gt; files, for instance. To install it, use the following code chunk in RStudio&#39;s console:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;webshot::install_phantomjs()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Like installing packages, you should only have to run this once per computer.&lt;/p&gt;
-&lt;h2 id=&#34;github-desktop&#34;&gt;GitHub Desktop&lt;/h2&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    GitHub Desktop will need be installed both in the lab and on personal computers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the &lt;a href=&#34;https://desktop.github.com&#34;&gt;application&#39;s website&lt;/a&gt;. You will need to download and run the installer. Once it is complete, you will need to login to the application with your &lt;a href=&#34;/docs/onboarding&#34;&gt;GitHub.com username and password&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. If you need to update GitHub Desktop, you should also &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;download&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;other-applications&#34;&gt;Other Applications&lt;/h2&gt;
-&lt;p&gt;TBA&lt;/p&gt;
 </description>
     </item>
     

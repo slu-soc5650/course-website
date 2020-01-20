@@ -8,14 +8,15 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight = 2
+
 # Add menu entry to sidebar.
 linktitle = "Course Software"
 [menu.docs]
   parent = "Getting Started"
   weight = 2
-  
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+
 +++
 
 ## Overview
@@ -68,12 +69,6 @@ RStudio is a graphical user interface for `R` that will make learning the langua
 If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.
 
 ### R Packages
-{{% alert warning %}}
-This has been updated since lecture-05. Please add the needed software:
-
-`install.packages(c("tidycensus", "tigris"))`
-{{% /alert %}}
-
 The packages we will need this semester can be downloaded using the following code chunk in RStudio's console:
 
 ```r

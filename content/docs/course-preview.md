@@ -8,14 +8,14 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight = 3
+
 # Add menu entry to sidebar.
 linktitle = "Course Preview"
 [menu.docs]
   parent = "Getting Started"
   weight = 3
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
 +++
 
 ## Open Data and GIS in Los Angeles

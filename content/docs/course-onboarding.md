@@ -8,29 +8,26 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight = 1
+
 # Add menu entry to sidebar.
 linktitle = "Course Onboarding"
 [menu.docs]
   parent = "Getting Started"
   weight = 1
-  
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+
 +++
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="/files/onboarding-checklist.pdf" target="_blank"> Onboarding Checklist </a>
 
 ## Overview
-Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 14th.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://slu-soc5650.github.io/syllabus). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
+Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on January 13th.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://slu-soc5650.github.io/syllabus). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
 ## Account Signups
-### Get Started with the Discussion Board
-Discourse is an open source forum platform that we will be using this semester to stay in touch and host virutal office hours. You should receive an email with registration information, and the site can be found [here](https://discuss.slu-ssds.org). Once you receive the invitation and accept, you can update your profile by clicking on the profile icon in the upper right-hand corner and selecting the gear icon:
-
-![](/images/discoursePreferences.png)
-
-At a minimum, please fill out the `Name` field under `Account` with your preferred first and last name!
+### Get Started with Slack
+Go to [Slack](https://slu-soc5650.slack.com/) and sign-up using your SLU email address.
 
 ### Get Started with GitHub
 The service that is hosting this website is called [GitHub](https://github.com/). GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub's [homepage](https://github.com/). If you already have a GitHub account, you do not need a new one. 

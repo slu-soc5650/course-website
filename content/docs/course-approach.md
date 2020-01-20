@@ -4,6 +4,9 @@ title = "Approaching Coursework"
 date = 2018-12-05T00:00:00
 lastmod = 2020-01-17T00:00:00
 
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight = 4
+
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
@@ -13,9 +16,7 @@ linktitle = "Approaching Coursework"
 [menu.docs]
   parent = "Getting Started"
   weight = 4
-  
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+
 +++
 
 ## Overview
