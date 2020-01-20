@@ -2,7 +2,7 @@
 title = "Lecture-02 - ArcGIS Pro Overview"
 
 date = 2018-01-21T00:00:00
-lastmod = 2020-01-17T00:00:00
+lastmod = 2020-01-20T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,6 +17,15 @@ linktitle = "Lecture-02 - ArcGIS Pro"
   parent = "Lectures"
   weight = 4
 +++
+
+## Meta
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-01-20** </i>
+
+## Key Topics
+<a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Online**</a>
+<a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Pro**</a>
 
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-02-arcgis-pro-overview.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
