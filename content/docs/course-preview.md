@@ -13,6 +13,9 @@ linktitle = "Course Preview"
 [menu.docs]
   parent = "Getting Started"
   weight = 3
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 3
 +++
 
 ## Open Data and GIS in Los Angeles

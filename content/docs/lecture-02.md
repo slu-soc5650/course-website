@@ -13,6 +13,9 @@ linktitle = "Lecture-02 - ArcGIS Pro"
 [menu.docs]
   parent = "Lectures"
   weight = 4
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 6
 +++
 
 ## Resources
