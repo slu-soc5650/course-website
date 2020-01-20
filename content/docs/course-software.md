@@ -2,7 +2,7 @@
 title = "Course Software"
 
 date = 2018-12-04T00:00:00
-lastmod = 2020-01-17T00:00:00
+lastmod = 2020-01-20T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -18,6 +18,11 @@ linktitle = "Course Software"
   weight = 2
 
 +++
+
+## Meta
+<i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
+<i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-01-20** </i>
 
 ## Overview
 This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language `R`, the graphical user interface for `R` called RStudio, and GitHub Desktop. As I noted on the [course onboarding page](/docs/course-onboarding), there are two choices for *accessing* software. Please read through the [course onboarding page](/docs/course-onboarding) page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me an email if you have questions about which approach is best.

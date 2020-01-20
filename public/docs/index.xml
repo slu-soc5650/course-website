@@ -17,7 +17,11 @@
       <link>/docs/course-onboarding/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       <guid>/docs/course-onboarding/</guid>
-      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-01-20&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;/files/onboarding-checklist.pdf&#34; target=&#34;_blank&#34;&gt; Onboarding Checklist &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Before you begin the semester, there are a number of things that you should do to help set yourself up for success. &lt;strong&gt;All of the applicable sections below should be completed before our first class on January 13th.&lt;/strong&gt; Before you do &lt;em&gt;anything&lt;/em&gt; else, though, you should read through the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt;. Make sure you have a good sense of what is &lt;em&gt;required&lt;/em&gt; for the course. If you have questions, bring them to the first day of class!&lt;/p&gt;
@@ -92,7 +96,11 @@
       <link>/docs/course-software/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       <guid>/docs/course-software/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-01-20&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This course is built primarily around a set of four software applications - ArcGIS Pro, the programming language &lt;code&gt;R&lt;/code&gt;, the graphical user interface for &lt;code&gt;R&lt;/code&gt; called RStudio, and GitHub Desktop. As I noted on the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt;, there are two choices for &lt;em&gt;accessing&lt;/em&gt; software. Please read through the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding page&lt;/a&gt; page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me an email if you have questions about which approach is best.&lt;/p&gt;
 &lt;h2 id=&#34;arcgis-pro&#34;&gt;ArcGIS Pro&lt;/h2&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -167,7 +175,11 @@
       <link>/docs/course-preview/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 -0600</pubDate>
       <guid>/docs/course-preview/</guid>
-      <description>&lt;h2 id=&#34;open-data-and-gis-in-los-angeles&#34;&gt;Open Data and GIS in Los Angeles&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-01-20&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;open-data-and-gis-in-los-angeles&#34;&gt;Open Data and GIS in Los Angeles&lt;/h2&gt;
 &lt;p&gt;One of the course learning outcomes is titled &amp;ldquo;GISc and Public Policy&amp;rdquo;. Much of the data that we will use this semester is available to us because governmental agencies at the Federal, state, and local levels have published it and made it accessible. We call the movement to make as much data available as possible &amp;ldquo;open data&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Different governments have embraced the open data movement to varying degrees, and the video below discusses Los Angeles&amp;rsquo; integration of open data and GIS. It is a 9 minute talk given by L.A.&amp;lsquo;s former Chief Data Officer &lt;a href=&#34;https://twitter.com/lcoral&#34;&gt;Lilian P. Coral&lt;/a&gt;. The talk was part of a conference organized by &lt;a href=&#34;https://www.esri.com/en-us/home&#34;&gt;ESRI&lt;/a&gt;, the makers of ArcGIS.&lt;/p&gt;
 
@@ -201,7 +213,11 @@
       <link>/docs/course-approach/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
       <guid>/docs/course-approach/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-01-20&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Students have varying experiences learning computational techniques. For some, the math and programming that are the foundation for modern data science techniques come naturally. For others, being introduced to these concepts can be an anxiety producing experience. I am fond the phrase &amp;ldquo;your mileage will vary&amp;rdquo; for describing these differences - no two students have the exact same experience taking a computational methods course. While some of this is specific to this course, the general outlook on approaching data science work that I describe below is hopefully applicable in a far wider arena.&lt;/p&gt;
 &lt;h2 id=&#34;zen-and-the-art-of-data-analysis&#34;&gt;Zen and the Art of Data Analysis&lt;/h2&gt;
 &lt;p&gt;One of the biggest challenges with this course can be controlling the anxiety that comes along with learning new skills. &lt;code&gt;R&lt;/code&gt; syntax, GIS terms, and Markdown can seem like foreign alphabets at first. Debugging &lt;code&gt;R&lt;/code&gt; syntax can be both challenging and a large time suck, in part because you are not yet fluent with this language. Imagine trying to proofread a document written in a language that you only know in a cursory way but where you must find minute inconsistencies like misplaced commas.&lt;/p&gt;
