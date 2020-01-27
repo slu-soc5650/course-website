@@ -411,5 +411,37 @@ library(&amp;quot;sf&amp;quot;)
 </description>
     </item>
     
+    <item>
+      <title>Lecture-03 - Cartography 101</title>
+      <link>/docs/lecture-03/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-03/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-full&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2010-01-27&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Analysis development&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;ArcGIS Pro&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Cartography&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Color&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-03-cartography-101.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/n2e3J8J4WaWw8ocD6&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-03 &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Git Workflow &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-02 &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03/tree/master/assignments/lab-02-replication&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-02 Replication &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5996e30bb0254f8fb5f6d972c606d3f7&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;lab-02-replication&#34;&gt;Lab-02 Replication&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;aeec1176e5df4a929c8153773d887972&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
