@@ -49,7 +49,7 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 <p> </p>
 
 ## Definition Query Examples
-The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the `Select` operation you did manually last week. Examples using last week's data on Jefferson City are below:
+The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the `Select` operation you did manually last week. Example that use last week's data on Jefferson City are below:
 
 <p> </p>
 <script async class="speakerdeck-embed" data-id="a59b3627ec294ea0ba3ec3cf692d2d4f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
