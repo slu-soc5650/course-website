@@ -30,8 +30,10 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-04-map-production-in-arcgis-pro.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite2.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Black and White Maps</a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Black and White Maps</a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Color Maps </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Small Multiples 1 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples6.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Small Multiples 2 </a>
 <a class="btn btn-outline-primary resource" href="https://forms.gle/3e3hQe2ekW9HvxQC7" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
@@ -47,6 +49,8 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 <p> </p>
 
 ## Definition Query Examples
+The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the `Select` operation you did manually last week. Examples using last week's data on Jefferson City are below:
+
 <p> </p>
 <script async class="speakerdeck-embed" data-id="a59b3627ec294ea0ba3ec3cf692d2d4f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 <p> </p>
