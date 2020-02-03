@@ -29,6 +29,8 @@ linktitle = "Lecture-03 - Cartography 101"
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-03-cartography-101.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f3f8bb57-98eb-45fa-9f71-ab4f0171c57a" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 1</a>
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c365009-923c-481a-8ab4-ab4f018554d2" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 2</a>
 <a class="btn btn-outline-primary resource" href="https://forms.gle/n2e3J8J4WaWw8ocD6" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-03 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Git Workflow </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-02 </a>
