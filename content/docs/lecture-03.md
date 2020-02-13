@@ -2,7 +2,7 @@
 title = "Lecture-03 - Cartography 101"
 
 date = 2018-01-21T00:00:00
-lastmod = 2020-01-27T00:00:00
+lastmod = 2020-02-13T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -18,7 +18,7 @@ linktitle = "Lecture-03 - Cartography 101"
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2010-01-27** </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-02-13** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
@@ -31,8 +31,12 @@ linktitle = "Lecture-03 - Cartography 101"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f3f8bb57-98eb-45fa-9f71-ab4f0171c57a" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 1</a>
 <a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c365009-923c-481a-8ab4-ab4f018554d2" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording 2</a>
+
+## Lecture Materials
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Git Workflow </a>
+
+## Assignments
 <a class="btn btn-outline-primary resource" href="https://forms.gle/n2e3J8J4WaWw8ocD6" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-03 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Git Workflow </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-02 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-03/tree/master/assignments/lab-02-replication" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-02 Replication </a>
 

@@ -2,7 +2,7 @@
 title = "Lecture-01 - Course Introduction"
 
 date = 2018-12-05T00:00:00
-lastmod = 2020-01-20T00:00:00
+lastmod = 2020-02-13T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -21,7 +21,7 @@ linktitle = "Lecture-01 - Introduction"
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-01-20** </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-02-13** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Analysis development**</a> 
@@ -39,8 +39,10 @@ linktitle = "Lecture-01 - Introduction"
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 <a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=430ff680-4cd0-4765-9456-ab4200063bcf" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
+
+## Lecture Materials
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Exercise - Email </a> 
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Functions </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Functions </a>
 
 ## Lecture Slides
 <p> </p>

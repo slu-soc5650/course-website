@@ -18,7 +18,7 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2019-01-28** </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-02-13** </i>
 
 ## Key Topics
 <a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>&nbsp; **ArcGIS Pro**</a>
@@ -30,17 +30,20 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 ## Resources
 <a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-04-map-production-in-arcgis-pro.html" target="_blank"><i class="fas fa-book fa-lg"></i>&nbsp; View on Syllabus </a> 
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Black and White Maps</a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Color Maps </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Small Multiples 1 </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples6.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Small Multiples 2 </a>
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d662bec-49eb-402f-ba1e-ab56017030c6" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
+
+## Lecture Materials
+<a class="btn btn-outline-primary resource" href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp; ColorBrewer 2.0 </a>
+<a class="btn btn-outline-primary resource" href="http://colorhexa.com" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp; ColorHexa </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Black and White Maps</a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Color Maps </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Small Multiples 1 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples6.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Small Multiples 2 </a>
+
+## Assignments
 <a class="btn btn-outline-primary resource" href="https://forms.gle/3e3hQe2ekW9HvxQC7" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
-
-## Web Tools
-<a class="btn btn-outline-primary resource" href="http://colorhexa.com" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; ColorHexa </a>
-<a class="btn btn-outline-primary resource" href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; ColorBrewer 2.0 </a>
 
 ## Lecture Slides
 <p> </p>
