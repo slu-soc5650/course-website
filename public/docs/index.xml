@@ -429,8 +429,10 @@ library(&amp;quot;sf&amp;quot;)
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-04-map-production-in-arcgis-pro.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite2.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Black and White Maps&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-blackWhite.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Black and White Maps&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-printMaps.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Color Maps &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Small Multiples 1 &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/handouts/lecture-04-multiples6.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Small Multiples 2 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/3e3hQe2ekW9HvxQC7&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-04 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-03 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  PS-01 &lt;/a&gt;&lt;/p&gt;
@@ -443,6 +445,7 @@ library(&amp;quot;sf&amp;quot;)
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;9244b21573204aefae00820778bda089&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;definition-query-examples&#34;&gt;Definition Query Examples&lt;/h2&gt;
+&lt;p&gt;The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the &lt;code&gt;Select&lt;/code&gt; operation you did manually last week. Example that use last week&#39;s data on Jefferson City are below:&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;a59b3627ec294ea0ba3ec3cf692d2d4f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -466,6 +469,8 @@ library(&amp;quot;sf&amp;quot;)
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-03-cartography-101.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f3f8bb57-98eb-45fa-9f71-ab4f0171c57a&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording 1&lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c365009-923c-481a-8ab4-ab4f018554d2&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording 2&lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/n2e3J8J4WaWw8ocD6&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-03 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03/blob/master/handouts/workflow-git.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Git Workflow &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-03/blob/master/assignments/lab-02.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-02 &lt;/a&gt;
