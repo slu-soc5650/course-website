@@ -2,7 +2,7 @@
 title = "Lecture-04 - Map Production in ArcGIS Pro"
 
 date = 2018-02-04T00:00:00
-lastmod = 2020-01-28T00:00:00
+lastmod = 2020-02-13T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -37,6 +37,10 @@ linktitle = "Lecture-04 - Map Production in ArcGIS Pro"
 <a class="btn btn-outline-primary resource" href="https://forms.gle/3e3hQe2ekW9HvxQC7" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-04 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/lab-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-03 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-04/blob/master/assignments/ps-01.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-01 </a>
+
+## Web Tools
+<a class="btn btn-outline-primary resource" href="http://colorhexa.com" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; ColorHexa </a>
+<a class="btn btn-outline-primary resource" href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; ColorBrewer 2.0 </a>
 
 ## Lecture Slides
 <p> </p>

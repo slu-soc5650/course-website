@@ -24,13 +24,12 @@
   
     
   
-  <meta name="description" content="Meta  Spring 2020   Full   2020-01-20 
-Key Topics  Analysis development  base  Cartography  here  Interactive maps  leaflet  magrittr  R  readr  sf
-Resources  View on Syllabus   View on GitHub   View Recording  Exercise - Email   Functions 
-Lecture Slides     The Panopto recordings made last week by instructors in our classroom did not contain audio.">
+  <meta name="description" content="Meta  Spring 2020   Full   2020-02-13 
+Key Topics  Analysis development  base  Cartography  here  Interactive maps  leaflet  knitr  R  RColorBrewer  RMarkdown  sf  webshot
+Resources  View on Syllabus   View on GitHub   View Lecture Notebook   eTicket-05   Handout - Functions   Handout - Leaflet   Handout - RStudio   Handout - R Markdown   Handout - R Projects Workflow   Lab-04   Lab-04 Replication   PS-02">
 
   
-  <link rel="alternate" hreflang="en-us" href="/docs/lecture-01/">
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-05/">
 
   
 
@@ -212,7 +211,7 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/docs/lecture-01/">
+  <link rel="canonical" href="/docs/lecture-05/">
 
   
   
@@ -226,18 +225,17 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="/docs/lecture-01/">
-  <meta property="og:title" content="Lecture-01 - Course Introduction | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta  Spring 2020   Full   2020-01-20 
-Key Topics  Analysis development  base  Cartography  here  Interactive maps  leaflet  magrittr  R  readr  sf
-Resources  View on Syllabus   View on GitHub   View Recording  Exercise - Email   Functions 
-Lecture Slides     The Panopto recordings made last week by instructors in our classroom did not contain audio."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/docs/lecture-05/">
+  <meta property="og:title" content="Lecture-05 - Map Production in R | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Meta  Spring 2020   Full   2020-02-13 
+Key Topics  Analysis development  base  Cartography  here  Interactive maps  leaflet  knitr  R  RColorBrewer  RMarkdown  sf  webshot
+Resources  View on Syllabus   View on GitHub   View Lecture Notebook   eTicket-05   Handout - Functions   Handout - Leaflet   Handout - RStudio   Handout - R Markdown   Handout - R Projects Workflow   Lab-04   Lab-04 Replication   PS-02"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-12-05T00:00:00-06:00">
+      <meta property="article:published_time" content="2018-02-07T00:00:00-06:00">
     
-    <meta property="article:modified_time" content="2020-01-20T00:00:00-06:00">
+    <meta property="article:modified_time" content="2020-02-13T00:00:00-06:00">
   
 
   
@@ -256,7 +254,7 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
 
 
 
-  <title>Lecture-01 - Course Introduction | SLU SOC 4650 and 5650</title>
+  <title>Lecture-05 - Map Production in R | SLU SOC 4650 and 5650</title>
 
 </head>
 
@@ -564,7 +562,7 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
     <a class="docs-toc-link" href="/docs/lecture-01/">Lectures</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
+      <li >
         <a href="/docs/lecture-01/">Lecture-01 - Introduction</a>
       </li>
       
@@ -580,7 +578,7 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
         <a href="/docs/lecture-04/">Lecture-04 - Map Production in ArcGIS Pro</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/docs/lecture-05/">Lecture-05 - Map Production in R</a>
       </li>
       
@@ -627,16 +625,7 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
     <li><a href="#meta">Meta</a></li>
     <li><a href="#key-topics">Key Topics</a></li>
     <li><a href="#resources">Resources</a></li>
-    <li><a href="#lecture-slides">Lecture Slides</a></li>
-    <li><a href="#leaflet-basics">Leaflet Basics</a>
-      <ul>
-        <li><a href="#get-data">Get Data</a></li>
-        <li><a href="#a-simple-map">A Simple Map</a></li>
-        <li><a href="#changing-the-basemap">Changing the Basemap</a></li>
-        <li><a href="#adding-additional-points">Adding Additional Points</a></li>
-        <li><a href="#reading-in-spatial-data">Reading in Spatial Data</a></li>
-      </ul>
-    </li>
+    <li><a href="#example-of-live-leaflet-map">Example of Live Leaflet Map</a></li>
   </ul>
 </nav>
 
@@ -649,13 +638,13 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Lecture-01 - Course Introduction</h1>
+          <h1>Lecture-05 - Map Production in R</h1>
 
           <div class="article-style">
             <h2 id="meta">Meta</h2>
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>  <strong>Spring 2020</strong> </i>
 <i class="meta-badge progress-full"><i class="fas fa-tasks fa-lg"></i>  <strong>Full</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>  <strong>2020-01-20</strong> </i></p>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>  <strong>2020-02-13</strong> </i></p>
 <h2 id="key-topics">Key Topics</h2>
 <p><a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>  <strong>Analysis development</strong></a>
 <a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> <strong>base</strong></a>
@@ -663,107 +652,28 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
 <a class="meta-badge package" href="/docs/topic-index/#e-h"><i class="fas fa-archive fa-lg"></i> <strong>here</strong></a>
 <a class="meta-badge keyword" href="/docs/topic-index/#i-l"><i class="fas fa-tags fa-lg"></i>  <strong>Interactive maps</strong></a>
 <a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> <strong>leaflet</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#m-p"><i class="fas fa-archive fa-lg"></i> <strong>magrittr</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#i-l"><i class="fas fa-archive fa-lg"></i> <strong>knitr</strong></a>
 <a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>  <strong>R</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>readr</strong></a>
-<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a></p>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>RColorBrewer</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>RMarkdown</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#u-z"><i class="fas fa-archive fa-lg"></i> <strong>webshot</strong></a></p>
 <h2 id="resources">Resources</h2>
-<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"><i class="fas fa-book fa-lg"></i>  View on Syllabus </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01" target="_blank"><i class="fab fa-github fa-lg"></i>  View on GitHub </a>
-<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=430ff680-4cd0-4765-9456-ab4200063bcf" target="_blank"><i class="fas fa-video fa-lg"></i>  View Recording</a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-email.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Exercise - Email </a>
-<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-01/blob/master/handouts/lecture-01-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Functions </a></p>
-<h2 id="lecture-slides">Lecture Slides</h2>
-<p> </p>
-<script async class="speakerdeck-embed" data-id="3b023eb9d7ee463faea3a90532221987" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-<p> </p>
-<div class="alert alert-warning">
-  <div>
-    The Panopto recordings made last week by instructors in our classroom did not contain audio. Dr. Sandoval put in a work request with IT.
-  </div>
-</div>
-<h2 id="leaflet-basics">Leaflet Basics</h2>
-<p>As a way to get to know <code>R</code> and RStudio, we'll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you'll need to install <code>leaflet</code> and a number of other packages via CRAN:</p>
-<pre><code class="language-r">install.packages(c(&quot;here&quot;, &quot;leaflet&quot;, &quot;sf&quot;, &quot;tidyverse&quot;, &quot;usethis&quot;))
-</code></pre>
-<p>We can open <code>leaflet</code> and the other packages we'll need with the <code>library()</code> function:</p>
-<pre><code class="language-r">library(&quot;here&quot;)
-library(&quot;leaflet&quot;)
-library(&quot;magrittr&quot;)
-library(&quot;readr&quot;)
-library(&quot;sf&quot;)
-</code></pre>
-<h3 id="get-data">Get Data</h3>
-<p>To get data quickly for today, you can use the following code snippet in your console:</p>
-<pre><code class="language-r">usethis::use_course(&quot;https://github.com/slu-soc5650/lecture-01/archive/master.zip&quot;)
-</code></pre>
-<h3 id="a-simple-map">A Simple Map</h3>
-<p><code>leaflet</code> itself is straightforward to get up and running. If we wanted an interactive map with a marker placed on-top of Morrissey Hall, we would use the following script entered into <code>R</code>:</p>
-<pre><code class="language-r">leaflet() %&gt;%
-  addTiles() %&gt;%
-  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)
-</code></pre>
-<p>The <code>leaflet()</code> function creates a map widget, and the <code>addTiles()</code> function adds a basemap to it. By default, <a href="https://www.openstreetmap.org">OpenStreetMap</a> is used for the basemap. Finally, we use <code>addMarkers()</code> to specify the longitude and latitude of our marker, and we enter in a label that will appear as a pop-up when a user clicks on the marker. <code>lng</code>, <code>lat</code>, and <code>popup</code> are all called &ldquo;arguments&rdquo; - these are used to control how a function operates.</p>
-<p>The <code>%&gt;%</code> is called the &ldquo;pipe operator&rdquo;, and it is used to chain together functions in what we will call &ldquo;pipelines&rdquo;. This pipeline can be read like a list, with the word <strong>then</strong> substituted for each instance of <code>%&gt;%</code>:</p>
-<ol>
-<li>First we create a map widget, <strong>then</strong></li>
-<li>we add basemap tiles, <strong>then</strong></li>
-<li>we add a marker at the given longitude and latitude.</li>
-</ol>
-<p>The code chunk above produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
-<p><img src="/images/lecture-01/map1.png" alt="leaflet01"></p>
-<p>You can use the <strong>Show in new window</strong> icon (a white box with a small arrow facing up and right) to open the map in your web browser.</p>
-<h3 id="changing-the-basemap">Changing the Basemap</h3>
-<p>To alter the basemap, we can use <code>addProviderTiles()</code> in place of <code>addTiles()</code>. I like the CartoDB &ldquo;Positron&rdquo; basemap. To use the Positron basemap, we create a second pipeline:</p>
-<pre><code class="language-r">leaflet() %&gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
-  addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)
-</code></pre>
-<p>Two things are important to note here. When we load the <code>leaflet</code> package, we have access to a data object called <code>providers</code>. You can use <code>names(providers)</code> to explore it. <code>providers</code> is a vector of items, each of which corresponds to a different basemap. We can select one of those items, <code>CartoDB.Positron</code>, by separating <code>providers</code> from the item name with a dollar sign (<code>$</code>). This is a classic way in which elements of a data set are accessed in <code>R</code> syntax.</p>
-<p>The second code chunk produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
-<p><img src="/images/lecture-01/map2.png" alt="leaflet02"></p>
-<h3 id="adding-additional-points">Adding Additional Points</h3>
-<p>The <code>data/sluPlaces.csv</code> file (a <code>.csv</code> file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into <code>R</code> using the <code>readr</code> package (part of the tidyverse):</p>
-<pre><code class="language-r">sluPlaces &lt;- read_csv(here(&quot;data&quot;, &quot;sluPlaces.csv&quot;))
-</code></pre>
-<p>We read the statement from right to left - the data found at <code>data/sluPlaces.csv</code> is read correctly as <code>.csv</code> data, and the resulting imported data is stored in an object in our global environment named <code>sluPlaces</code>. The <code>here()</code> function helps us write simple, operating system agnostic file paths that will always be relative to where the <code>.Rproj</code> file is stored. We'll talk more about this as the semester progresses.</p>
-<p>We can explore the data a number of ways, including with the <code>View()</code> (output not shown) function and the <code>str()</code> function:</p>
-<pre><code class="language-r">str(sluPlaces)
-</code></pre>
-<p>If we wanted to use <code>View()</code>, it would be implemented like this:</p>
-<pre><code class="language-r">View(sluPlaces)
-</code></pre>
-<p>When executed in the console, it will produce a spreadsheet-like view within RStudio.</p>
-<p>The <code>.csv</code> data are <em>tabular</em> data - they contain longitude and latitude data, but they are not <em>projected</em>. This means we are missing the geometric data that locates these longitude and latitude data in space. leaflet can take these spatial references, however, and convert them to usable geometric data. We do so using a very similar process to what we did before:</p>
-<pre><code class="language-r">leaflet(data = sluPlaces) %&gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
-  addMarkers(lng = ~lng, lat = ~lat, popup = ~name)
-</code></pre>
-<p>The <code>data = sluPlaces</code> argument in <code>leaflet()</code> directs <code>R</code> to the appropriate data set to map. We use the tilde (<code>~</code>) to indicate to leaflet that these are variables within <code>sluPlaces</code>.</p>
-<p>The code chunk produces the following plot:</p>
-<p><img src="/images/lecture-01/map3.png" alt="leaflet03"></p>
-<h3 id="reading-in-spatial-data">Reading in Spatial Data</h3>
-<p>For data that have already been converted to geometric data, we use the <code>sf</code> package to read them. The importing process looks similar to what we used with the <code>.csv</code> file. We'll demonstrate this with the violent crime data for Shaw:</p>
-<pre><code class="language-r">shawViolent &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Violent_2018.shp&quot;), stringsAsFactors = FALSE)
-</code></pre>
-<p>We'll still use <code>here()</code> to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the <code>.shp</code> file - this is the primary piece of the <em>family</em> of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with <code>SHAW_Violent_2018.shp</code>, but the other parts must be present as well.</p>
-<p>To map these data, we no longer need to specify <code>lng</code> and <code>lat</code> because we're using geometric data as well:</p>
-<pre><code class="language-r">leaflet(data = shawViolent) %&gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
-  addMarkers(popup = ~crimeCt)
-</code></pre>
-<p>We use the simplified crime category (<code>crimeCt</code>) for the popup this time.</p>
-<p>The code chunk produces the following plot:</p>
-<p><img src="/images/lecture-01/map4.png" alt="leaflet04"></p>
-<p>Finally, we can make a similar map with all Part 1 crimes:</p>
-<pre><code class="language-r">shawP1 &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Part1_2018.shp&quot;), stringsAsFactors = FALSE)
-</code></pre>
-<p>And then we'll map them:</p>
-<pre><code class="language-r">leaflet(data = shawP1) %&gt;%
-  addProviderTiles(providers$CartoDB.Positron) %&gt;% 
-  addMarkers(popup = ~crimeCt)
-</code></pre>
-<p><img src="/images/lecture-01/map5.png" alt="leaflet05"></p>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-05-map-production-in-r.html" target="_blank"><i class="fas fa-book fa-lg"></i>  View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05" target="_blank"><i class="fab fa-github fa-lg"></i>  View on GitHub </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-05/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>  View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://forms.gle/iV8LAgKy3NSE9jUq9" target="_blank"><i class="fab fa-google fa-lg"></i>  eTicket-05 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-functions.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Handout - Functions </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-leaflet.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Handout - Leaflet </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-RStudio.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Handout - RStudio </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rMarkdown.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Handout - R Markdown </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/handouts/lecture-05-rProjectWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Handout - R Projects Workflow </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Lab-04 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04-replication/" target="_blank"><i class="fas fa-folder-open fa-lg"></i>  Lab-04 Replication </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  PS-02 </a></p>
+<h2 id="example-of-live-leaflet-map">Example of Live Leaflet Map</h2>
+<p>I've added a version of the map we created last night to the course docs along with all of the code I used to create it. Click on the image below to check it out!</p>
+<p><a href="/docs/leaflet-example/"><img src="/images/leaflet-example.png" alt="leaflet-example"></a></p>
 
           </div>
 
@@ -780,14 +690,14 @@ library(&quot;sf&quot;)
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/docs/course-approach/" rel="next">Approaching Coursework</a>
+    <a href="/docs/lecture-06/" rel="next">Lecture-06 - More Map Production in R</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/docs/lecture-02/" rel="prev">Lecture-02 - ArcGIS Pro Overview</a>
+    <a href="/docs/lecture-04/" rel="prev">Lecture-04 - Map Production in ArcGIS Pro</a>
   </div>
   
 </div>
@@ -797,7 +707,7 @@ library(&quot;sf&quot;)
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 20, 2020</p>
+          <p>Last updated on Feb 13, 2020</p>
 
           
 
@@ -809,7 +719,7 @@ library(&quot;sf&quot;)
   
 
 <p class="edit-page">
-  <a href="https://github.com/slu-soc5650/course-website/edit/master/content/docs/lecture-01.md">
+  <a href="https://github.com/slu-soc5650/course-website/edit/master/content/docs/lecture-05.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>
