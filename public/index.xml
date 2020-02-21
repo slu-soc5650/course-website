@@ -452,6 +452,175 @@ During class last night, we worked up to building a very similar map to the one 
     </item>
     
     <item>
+      <title>Getting Help</title>
+      <link>/docs/getting-help/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/getting-help/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-02-21&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-desktop fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;reprex&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;One of the biggest challenges for students first learning tools like &lt;code&gt;R&lt;/code&gt; and ArcGISPro is dealing with the inevitable speed-bumps and errors that come along with scientific computing. Remember, first and foremost, that these tools are not consumer software. They do not always &amp;ldquo;just work&amp;rdquo;, to borrow a turn of phrase from &lt;a href=&#34;https://en.wikipedia.org/wiki/Steve_Jobs&#34;&gt;Steve Jobs&lt;/a&gt;. Learning strategies for navigating issues when the software is most definitely not working is therefore an important part of success.&lt;/p&gt;
+&lt;p&gt;One misconception that I think is important to confront is that data analysts, software engineers, and others who appear to be experts may indeed be very good at what they do, but they are equally skilled at problem solving. This &lt;a href=&#34;https://www.xkcd.com/627/&#34;&gt;xkcd comic&lt;/a&gt;  illustrates (a bit sarcastically!) the point:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Navigating challenges with data science may not be quite as easy following the flowchart above, but there are definitely strategies for working your way through errors and challenges in data science work.&lt;/p&gt;
+&lt;h2 id=&#34;helping-yourself&#34;&gt;Helping Yourself&lt;/h2&gt;
+&lt;p&gt;As I&amp;rsquo;ve said in class, a key challenge of data science work is mental. One of the traits I see frequently among students who are confronted with errors is that they stop working and wait for office hours or they immediately ask a question on Slack. Both office hours and Slack are excellent options for getting help, but there are a few strategies you should pursue first.&lt;/p&gt;
+&lt;p&gt;Before you doing anything else, however, &lt;em&gt;take a deep breath&lt;/em&gt; and consider taking a break. When you being trying to fix the issue, check the time. I have spent hours trying to fix some code in &lt;code&gt;R&lt;/code&gt; or mis-projected data in ArcGIS without success, and I have seen students do the same. Give yourself an hour time limit to try the steps below before you move on to constructing a reproducible example and asking for help from others.&lt;/p&gt;
+&lt;h3 id=&#34;check-spelling&#34;&gt;Check Spelling&lt;/h3&gt;
+&lt;p&gt;With &lt;code&gt;R&lt;/code&gt;, the number one cause of errors that I see are misspellings. If objects in the global environment or variable names within a data frame are not spelled correctly (case matters!), you will get an error that an object cannot be found. The same goes for package and function names - they must be spelled 100% correctly.&lt;/p&gt;
+&lt;h3 id=&#34;check-course-resources&#34;&gt;Check Course Resources&lt;/h3&gt;
+&lt;p&gt;If the issue is one other students have come across as well, it is likely to be discussed on Slack in the relevant channel. I may have also updated some of the course handouts or the relevant lecture&amp;rsquo;s course webpage with details for how to address the concern. Check both Slack and the webpage for updates before digging deeper. Check the topic index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/topic-index/&#34;&gt;GIS topic index&lt;/a&gt;) for links to different lectures where concepts or processes were covered.&lt;/p&gt;
+&lt;h3 id=&#34;check-your-process&#34;&gt;Check Your Process&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; functions and ArcGIS processes often have specific parameters and requirements. If you have double checked your spelling and are sure (100% sure!) that spelling is not an issue, check to make sure that you have followed all of the requirements of the workflow for the skill you are stuck on. There are two different ways to go about doing this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check the course handouts and lecture slides for the relevant processes. If you cannot remember where the concepts were introduced, check the topic index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/topic-index/&#34;&gt;GIS topic index&lt;/a&gt;). When I introduce processes, I often skip some (or many!) of the associated arguments and options, so the course materials are often easier to navigate than materials for other sources.&lt;/li&gt;
+&lt;li&gt;Search official documentation sources:
+&lt;ul&gt;
+&lt;li&gt;For &lt;code&gt;R&lt;/code&gt;, check package documentation files on CRAN. These are linked to in the package index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/package-index/&#34;&gt;GIS package index&lt;/a&gt;). You can also use &lt;a href=&#34;https://cran.r-project.org&#34;&gt;CRAN&amp;rsquo;s website&lt;/a&gt; to search for package information.&lt;/li&gt;
+&lt;li&gt;For ArcGIS, check ESRI&amp;rsquo;s &lt;a href=&#34;http://desktop.arcgis.com/en/arcmap/&#34;&gt;official documentation files&lt;/a&gt;. Make sure that you are looking at the help files for ArcGIS 10.3!&lt;/li&gt;
+&lt;li&gt;For Git and GitHub, check GitHub&amp;rsquo;s &lt;a href=&#34;https://help.github.com&#34;&gt;help website&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;For LaTeX, &lt;a href=&#34;https://www.sharelatex.com/&#34;&gt;ShareLaTeX&lt;/a&gt; has an excellent set of documentation files on their &lt;a href=&#34;https://www.sharelatex.com/learn/Main_Page&#34;&gt;knowledge base&lt;/a&gt;. &lt;a href=&#34;https://ctan.org&#34;&gt;CTAN&lt;/a&gt;, the LaTeX package repository, also contains documentation files for all packages that can be searched.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use these resources to try and narrow down what might be causing your issue. Be mindful that the root cause of an error may be several steps back in your workflow. Walk back through your process to make sure your initial steps are not the cause of the error.&lt;/p&gt;
+&lt;h3 id=&#34;cast-a-wider-net&#34;&gt;Cast a Wider Net&lt;/h3&gt;
+&lt;p&gt;If none of these resources are sufficient, there are a few other options for seeking out guidance. When you search the following sites, it is often a good idea to search based on the specific error you are getting. Take out any aspects of the error that are specific to you, like a file path in ArcGIS, a file name, or a variable name. One set of options to search are the wealth of web resources that are available for some of the tools we use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For &lt;code&gt;R&lt;/code&gt;, check out &lt;a href=&#34;https://www.rstudio.com/resources/cheatsheets/&#34;&gt;RStudio&amp;rsquo;s cheatsheets&lt;/a&gt; and &lt;a href=&#34;https://community.rstudio.com&#34;&gt;RStudio&amp;rsquo;s community forums&lt;/a&gt;. If the package is part of the &lt;code&gt;tidyverse&lt;/code&gt;, check the &lt;a href=&#34;http://tidyverse.org&#34;&gt;website&lt;/a&gt; as well as &lt;a href=&#34;http://r4ds.had.co.nz&#34;&gt;R for Data Science&lt;/a&gt;. Other packages have their own websites as well. For all of these resources, links are provided in the package index on the relevant course website (&lt;a href=&#34;https://slu-soc5650.github.io/package-index/&#34;&gt;GIS package index&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another resource is &lt;a href=&#34;https://stackexchange.com&#34;&gt;Stack Exchange&lt;/a&gt;, a network of online communities on a variety of topics including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt; for &lt;code&gt;R&lt;/code&gt;, Git, and GitHub - search using tags like &lt;code&gt;[r]&lt;/code&gt;, &lt;code&gt;[ggplot2]&lt;/code&gt;, &lt;code&gt;[dplyr]&lt;/code&gt;, &lt;code&gt;[git]&lt;/code&gt;, &lt;code&gt;[github]&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gis.stackexchange.com&#34;&gt;Geographic Information Systems&lt;/a&gt; for GIS - search using the &lt;code&gt;[arcgis-desktop]&lt;/code&gt; tag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stack Exchange may have posts that address the issue or question you have. However, the match may only be partial and may require additional modification or tinkering to solve your specific concern. You may spend just as much time trying to get a Stack Exchange solution to work as you would waiting for a response on Slack, so proceed with caution if you decide to go this route.&lt;/p&gt;
+&lt;p&gt;Finally, if you have exhausted these other options, a Google search may be effective. This may help you identify GitHub issues, blogs, and other online tutorials that can help address whatever roadblock you have run into. Try searching first with double quotes around the main body of the error message&amp;rsquo;s text. If nothing comes up, try searching without the double quotes. Search strings that include &lt;code&gt;R&lt;/code&gt; package names or specific processes in ArcGIS are sometimes helpful for narrowing down a large amount of search results, especially if those results are not specific to the tool you are using. The same warning for Stack Exchange also exists for Google, however. You may find imperfect matches for your problem that take considerably more tinkering to implement.&lt;/p&gt;
+&lt;h2 id=&#34;seeking-help-with-reproducible-examples&#34;&gt;Seeking Help with Reproducible Examples&lt;/h2&gt;
+&lt;p&gt;If all else fails and the strategies for [Helping Yourself] have not yielded a solution, it is time to ask for help! Before you head to office hours or Slack, you will want to construct a &lt;strong&gt;reproducible example&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-your-question&#34;&gt;What is your question?&lt;/h3&gt;
+&lt;p&gt;Start with a basic step - narrow down what your question is. Neither &amp;ldquo;I am getting an error&amp;rdquo; or &amp;ldquo;This isn&amp;rsquo;t working&amp;rdquo; are effective questions. What exactly is causing the error? What context does it appear in? To borrow from the examples below, a good question might be:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to calculate descriptive statistics for an entire data frame using the &lt;code&gt;mean()&lt;/code&gt; function but am getting and error. What might be the cause of the error?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to create a thematic choropleth map in ArcGIS, but when I try and select my variable from the dropdown menu in the symbology tab under layer properties, the menu is empty. Why are all of the variables missing?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to make my text bold in LaTeX, but the text is not rendering with bold font. I am also getting an error that says &amp;ldquo;Undefined control sequence.&amp;rdquo; What is missing from my document to create bold font?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be specific about what your issue is, and then provide a reproducible example that illustrates what you are asking about.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-a-reproducible-example&#34;&gt;What is a reproducible example?&lt;/h3&gt;
+&lt;p&gt;A reproducible example, or reprex, is a term we&amp;rsquo;ll borrow from the &lt;code&gt;R&lt;/code&gt; ecosystem. It was coined by &lt;a href=&#34;https://twitter.com/romain_francois/status/530011023743655936&#34;&gt;Roman François&lt;/a&gt; and has been enshrined in the &lt;a href=&#34;http://reprex.tidyverse.org&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package&lt;/a&gt;, which I&amp;rsquo;ll describe below. The goal for a reprex is to strip down the process you have used to the minimal number of steps needed to replicate the error. This means using the fewest steps and data sources possible. Cut out anything that does not directly contribute to causing the error when making your reprex.&lt;/p&gt;
+&lt;p&gt;I have often found that the process of making a reprex actually helps isolate the cause of the problem. For instance, it may become clear that a specific step is causing an issue. Even if you are not sure how to fix the problem, having narrowed it down can be immensely helpful. If you can use built-in data in &lt;code&gt;R&lt;/code&gt; to create the reprex, or at least example data from the course, that may also help you identify whether the issue is with the process itself or something that is idiosyncratic to the data you are using. Using built-in data from &lt;code&gt;R&lt;/code&gt; should be the default for any reprex you create, &lt;em&gt;unless assignment data are the cause of your issue&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-reprex&#34;&gt;Creating a reprex&lt;/h3&gt;
+&lt;p&gt;Creating reproducible examples will differ slightly based on what you are trying to get help on.&lt;/p&gt;
+&lt;h4 id=&#34;r&#34;&gt;&lt;code&gt;R&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;To create a reprex in &lt;code&gt;R&lt;/code&gt;, you will need to install the &lt;a href=&#34;http://reprex.tidyverse.org/&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package&lt;/a&gt;. It is part of the &lt;a href=&#34;https://www.tidyverse.org&#34;&gt;tidyverse&lt;/a&gt; but it is not installed when the &lt;code&gt;tidyverse&lt;/code&gt; package is installed, so you will need to install it separately:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;reprex&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once you have it loaded (use the &lt;code&gt;library()&lt;/code&gt; function), create a minimal example of the necessary functions that get to you to the error you are confronting. Make sure to include the &lt;code&gt;library()&lt;/code&gt; functions for all packages your example depends on (except for &lt;code&gt;reprex&lt;/code&gt;). Write the example in a &lt;code&gt;.R&lt;/code&gt; script file (&lt;code&gt;File &amp;gt; New File &amp;gt; R Script&lt;/code&gt;). For example, one might be struggling with calculating the mean of each variable in a data frame:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# attempt to calculate mean
+mean(data)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The last of the three functions above will return this error in your &lt;code&gt;R&lt;/code&gt; session:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; mean(data)
+[1] NA
+Warning message:
+In mean.default(data) : argument is not numeric or logical: returning NA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With the three functions written in a &lt;code&gt;.R&lt;/code&gt; script, highlight all seven lines of code (the three functions, both comments, and both white space lines)  and copy them to your clipboard (&lt;code&gt;Edit &amp;gt; Copy&lt;/code&gt;). Then call the &lt;code&gt;reprex()&lt;/code&gt; function. Markdown formatted text that weaves both the functions and their output together will appear in the viewer tab:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34;&gt;knitr::include_graphics(&amp;quot;images/reprex.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It will also be available on your clipboard so that you can copy and paste it into Slack or another venue that accepts Markdown syntax (like GitHub). If your reprex contains image output, such as a plot or a map, it will be automatically uploaded to imgur and a link will be embedded in your Markdown syntax. For example, say we had a question about the following code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# plot highway mpg
+ggplot(data = data, mapping = aes(x = hwy)) + 
+  geom_histogram()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once we copy the above code and render it using &lt;code&gt;reprex()&lt;/code&gt;, it will return the following output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+
+# assign data to data frame
+data &amp;lt;- mpg
+
+# plot highway mpg
+ggplot(data = data, mapping = aes(x = hwy)) + 
+  geom_histogram()
+#&amp;gt; `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+
+![](https://i.imgur.com/8hiC7od.png)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;![](hyperlink)&lt;/code&gt; syntax will allow an image of your plot to appear below the code.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://reprex.tidyverse.org&#34;&gt;&lt;code&gt;reprex&lt;/code&gt; package website&lt;/a&gt; has some great resources, including a &lt;a href=&#34;http://reprex.tidyverse.org&#34;&gt;basic overview&lt;/a&gt;, some &lt;a href=&#34;http://reprex.tidyverse.org/articles/reprex-dos-and-donts.html&#34;&gt;reprex do’s and don’ts&lt;/a&gt;, and a &lt;a href=&#34;http://reprex.tidyverse.org/articles/articles/magic-reprex.html&#34;&gt;detailed article&lt;/a&gt; introducing the package&amp;rsquo;s functionality.&lt;/p&gt;
+&lt;h4 id=&#34;arcgis&#34;&gt;ArcGIS&lt;/h4&gt;
+&lt;p&gt;Creating a reprex in ArcGIS is not as straightforward since there is not a dedicated tool for doing so like there is in &lt;code&gt;R&lt;/code&gt;. Reprex creation is complicated by the fact that many steps you will be taking are manual. Nevertheless, it is possible to create a repex. Follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In a new map document, load the minimum number of shapefiles needed to illustrate the issue you are having. Note where the shapefiles are available (in the course data release?) and what their names are.&lt;/li&gt;
+&lt;li&gt;Note what the coordinate system of the data frame is set to.&lt;/li&gt;
+&lt;li&gt;Provide notes for each step that gets you to your question or error.&lt;/li&gt;
+&lt;li&gt;Take a &lt;a href=&#34;https://www.take-a-screenshot.org&#34;&gt;screenshot&lt;/a&gt; of the error or the window you have a question about.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, a reprex of a question in ArcGIS could look like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. I have a single map shapefile open in a new map document. The shapefile is the St. Louis census tracts shapefile from the example data in the course data release.
+2. The coordinate system is Missouri State Plane East (Feet)
+3. When I right click on the shapefile, I click on Properties and then the Symbology tab
+4. Attached is a screenshot of what the symbology tab looks like for these data.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;other-tools&#34;&gt;Other Tools&lt;/h4&gt;
+&lt;p&gt;For other tools we learn, such as Markdown and GitHub, you want to follow the spirit of the reprex file. Try to provide a detailed walk-through of the steps that you took to get where you are. For Markdown syntax, provide an example of the syntax you are using that recreates the issue or question. For GitHub, provide a &lt;a href=&#34;https://www.take-a-screenshot.org&#34;&gt;screenshot&lt;/a&gt; of the relevant error message.&lt;/p&gt;
+&lt;h3 id=&#34;i-dont-think-i-can-make-a-reprex&#34;&gt;&amp;ldquo;I don&amp;rsquo;t think I can make a reprex!&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;I am 99.99% sure that you can! In nearly every situation I have seen students in, creating a reprex is possible. Even if the error is idiosyncratic to your computer or your data, you can absolutely clarify the context within which the error appears and minimize the amount of data, code, and other information in your &lt;code&gt;R&lt;/code&gt; code or your map document. For the less than 1% of scenarios where a reprex is not possible, the process of writing a question, clarifying the context and steps you took to get there, and producing an example of the error will still make it easier for me to help you.&lt;/p&gt;
+&lt;h3 id=&#34;isnt-this-a-lot-of-work&#34;&gt;&amp;ldquo;Isn&amp;rsquo;t this a lot of work?&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Well, yes, it does require some extra effort. This effort is almost always worth it, however. In some cases, the time it takes you to produce the repex leads you to the answer on your own, which is part of the problem solving process that this class is designed to foster. Even when this does not happen, making reprex informed inquires is a technique that you will be able to take with you at the end of the semester. Even if you are not working in a technical setting, being able to structure clear, concise questions about a process is a valuable skill!&lt;/p&gt;
+&lt;p&gt;Finally, creating a reprex saves you time in the long run. When I get vague questions, it often takes some experimenting on my part to reproduce the error. If you send me a question with a reproducible error, you cut out that experimentation time on my end and I can get right to answering your question. Likewise, students often come to office hours without an example of their issue ready to go and hope that I can conjure in my mind the scenario they are describing. Despite my best efforts, I am usually unable to do so and ask students to reproduce the error during office hours. If you come to office hours with a reprex, we can get to answering your question right away!&lt;/p&gt;
+&lt;h2 id=&#34;where-to-seek-help&#34;&gt;Where to Seek Help&lt;/h2&gt;
+&lt;p&gt;Once you have tried [Helping Yourself] and have gone through the steps outlined in [How to Seek Help] (i.e. made a reprex), it is time to ask your question. There are a number of different places that you can pose questions. The sections below outline these and suggest some ways to make your question most effective.&lt;/p&gt;
+&lt;h3 id=&#34;internal-venues&#34;&gt;Internal Venues&lt;/h3&gt;
+&lt;p&gt;Within the confines of the course, the two best places to ask questions are on Slack and during office hours. When asking a question on Slack, please consider doing so in a public channel. This helps others learn from the question that you have. The only course-related questions that are not appropriate for Slack are those that reference specific parts of a problem set or the final project. However, if you are creating reproducible examples, your questions should not be that specific even if they ultimately are about a homework assignment. If you are not sure whether the question is appropriate or not for a public channel, or just would prefer not to ask your question out in the open, feel free to send me a &lt;a href=&#34;https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs&#34;&gt;direct message on Slack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When you pose a question on Slack, it should contain three or four pieces of information:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The question itself - what are you hoping to get help with?&lt;/li&gt;
+&lt;li&gt;A reproducible example - give as many details as you need to clearly illustrate the question&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;https://www.take-a-screenshot.org&#34;&gt;screenshot&lt;/a&gt; or image output that illustrates your reprex&lt;/li&gt;
+&lt;li&gt;What you&amp;rsquo;ve tried - lay out the steps you took to quickly (&amp;ldquo;I&amp;rsquo;ve checked the spelling, gone through the Lecture 03 documents, looked at the &lt;code&gt;dplyr&lt;/code&gt; website, and have done a quick Google search.&amp;quot;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Post your reprex as a &lt;a href=&#34;https://get.slack.help/hc/en-us/articles/204145658-Create-a-snippet&#34;&gt;snippet&lt;/a&gt; in Slack by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clicking the plus sign on the left side of the message box&lt;/li&gt;
+&lt;li&gt;Selecting &lt;strong&gt;Code or text snippet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Filling out the pop-up window&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you are posting a reprex from &lt;code&gt;R&lt;/code&gt;, remove the three backticks and the letter &lt;code&gt;r&lt;/code&gt; from the first line as well as the three backticks from the bottom line. If you are including an image hyperlink created by the &lt;code&gt;reprex&lt;/code&gt; package, remove that from the code snippet and paste it into Slack separately.&lt;/p&gt;
+&lt;p&gt;This same general process holds for asking questions in person - come ready with a solid question, a reproducible example, and be ready to pull it up on your computer or a lab computer.&lt;/p&gt;
+&lt;h3 id=&#34;external-venues&#34;&gt;External Venues&lt;/h3&gt;
+&lt;p&gt;There are two good places to ask questions external to the course as well. For questions related to RStudio, R Markdown, and the &lt;a href=&#34;http://tidyverse.org&#34;&gt;tidyverse&lt;/a&gt;, RStudio maintains a web forum called &lt;a href=&#34;https://community.rstudio.com&#34;&gt;RStudio Community&lt;/a&gt;. If you are posting there, you can use &lt;code&gt;reprex()&lt;/code&gt; to generate Markdown formatted reprexs.&lt;/p&gt;
+&lt;p&gt;Another place to post questions in on one of the relevant &lt;a href=&#34;https://stackexchange.com&#34;&gt;Stack Exchange&lt;/a&gt; communities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com&#34;&gt;Stack Overflow&lt;/a&gt; for &lt;code&gt;R&lt;/code&gt;, Git, and GitHub - post using tags like &lt;code&gt;[r]&lt;/code&gt;, &lt;code&gt;[ggplot2]&lt;/code&gt;, &lt;code&gt;[dplyr]&lt;/code&gt;, &lt;code&gt;[git]&lt;/code&gt;, &lt;code&gt;[github]&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gis.stackexchange.com&#34;&gt;Geographic Information Systems&lt;/a&gt; for GIS - post using the &lt;code&gt;[arcgis-desktop]&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tex.stackexchange.com&#34;&gt;TeX&lt;/a&gt; for LaTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Before you post, search thoroughly to make sure that your question has not already been answered. Stack Exchange has strong norms about how to post appropriately. You can descriptions of what makes a good post &lt;a href=&#34;https://codereview.stackexchange.com/help/how-to-ask&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://stackoverflow.com/help/how-to-ask&#34;&gt;here&lt;/a&gt;. You can also find a description of &lt;a href=&#34;https://stackoverflow.com/help/dont-ask&#34;&gt;what not to ask&lt;/a&gt;. If you are going to post on Stack Overflow, the &lt;code&gt;reprex()&lt;/code&gt; function can be modified to produce well-formatted output specific to that site by adding the &lt;code&gt;venue&lt;/code&gt; argument, as in &lt;code&gt;reprex(venue = &amp;quot;so&amp;quot;)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Of the two sites, I find &lt;a href=&#34;https://community.rstudio.com&#34;&gt;RStudio Community&lt;/a&gt; to be a friendlier place that is more relaxed than Stack Overflow and its cousins. However, Stack Exchange communities have much larger user bases to draw from.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
