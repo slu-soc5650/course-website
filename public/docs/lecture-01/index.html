@@ -590,6 +590,10 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
         <a href="/docs/lecture-06/">Lecture-06 - More Map Production in R</a>
       </li>
       
+      <li >
+        <a href="/docs/lecture-07/">Lecture-07 - Data Cleaning</a>
+      </li>
+      
     </ul>
     
 
@@ -687,10 +691,10 @@ Lecture Slides     The Panopto recordings made last week by instructors in our c
   </div>
 </div>
 <h2 id="leaflet-basics">Leaflet Basics</h2>
-<p>As a way to get to know <code>R</code> and RStudio, we'll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you'll need to install <code>leaflet</code> and a number of other packages via CRAN:</p>
+<p>As a way to get to know <code>R</code> and RStudio, we&rsquo;ll be working with the <code>R</code> package <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. <code>leaflet</code> is the <code>R</code> implementation of <a href="http://leafletjs.com"><code>leaflet.js</code></a>, an open-source Java Script library for building interactive maps. To get started, you&rsquo;ll need to install <code>leaflet</code> and a number of other packages via CRAN:</p>
 <pre><code class="language-r">install.packages(c(&quot;here&quot;, &quot;leaflet&quot;, &quot;sf&quot;, &quot;tidyverse&quot;, &quot;usethis&quot;))
 </code></pre>
-<p>We can open <code>leaflet</code> and the other packages we'll need with the <code>library()</code> function:</p>
+<p>We can open <code>leaflet</code> and the other packages we&rsquo;ll need with the <code>library()</code> function:</p>
 <pre><code class="language-r">library(&quot;here&quot;)
 library(&quot;leaflet&quot;)
 library(&quot;magrittr&quot;)
@@ -714,7 +718,7 @@ library(&quot;sf&quot;)
 <li>we add basemap tiles, <strong>then</strong></li>
 <li>we add a marker at the given longitude and latitude.</li>
 </ol>
-<p>The code chunk above produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
+<p>The code chunk above produces the following map in RStudio&rsquo;s <strong>Viewer</strong> tab:</p>
 <p><img src="/images/lecture-01/map1.png" alt="leaflet01"></p>
 <p>You can use the <strong>Show in new window</strong> icon (a white box with a small arrow facing up and right) to open the map in your web browser.</p>
 <h3 id="changing-the-basemap">Changing the Basemap</h3>
@@ -724,13 +728,13 @@ library(&quot;sf&quot;)
   addMarkers(lng=-90.237104, lat=38.637547, popup=&quot;Morrissey Hall&quot;)
 </code></pre>
 <p>Two things are important to note here. When we load the <code>leaflet</code> package, we have access to a data object called <code>providers</code>. You can use <code>names(providers)</code> to explore it. <code>providers</code> is a vector of items, each of which corresponds to a different basemap. We can select one of those items, <code>CartoDB.Positron</code>, by separating <code>providers</code> from the item name with a dollar sign (<code>$</code>). This is a classic way in which elements of a data set are accessed in <code>R</code> syntax.</p>
-<p>The second code chunk produces the following map in RStudio's <strong>Viewer</strong> tab:</p>
+<p>The second code chunk produces the following map in RStudio&rsquo;s <strong>Viewer</strong> tab:</p>
 <p><img src="/images/lecture-01/map2.png" alt="leaflet02"></p>
 <h3 id="adding-additional-points">Adding Additional Points</h3>
 <p>The <code>data/sluPlaces.csv</code> file (a <code>.csv</code> file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into <code>R</code> using the <code>readr</code> package (part of the tidyverse):</p>
 <pre><code class="language-r">sluPlaces &lt;- read_csv(here(&quot;data&quot;, &quot;sluPlaces.csv&quot;))
 </code></pre>
-<p>We read the statement from right to left - the data found at <code>data/sluPlaces.csv</code> is read correctly as <code>.csv</code> data, and the resulting imported data is stored in an object in our global environment named <code>sluPlaces</code>. The <code>here()</code> function helps us write simple, operating system agnostic file paths that will always be relative to where the <code>.Rproj</code> file is stored. We'll talk more about this as the semester progresses.</p>
+<p>We read the statement from right to left - the data found at <code>data/sluPlaces.csv</code> is read correctly as <code>.csv</code> data, and the resulting imported data is stored in an object in our global environment named <code>sluPlaces</code>. The <code>here()</code> function helps us write simple, operating system agnostic file paths that will always be relative to where the <code>.Rproj</code> file is stored. We&rsquo;ll talk more about this as the semester progresses.</p>
 <p>We can explore the data a number of ways, including with the <code>View()</code> (output not shown) function and the <code>str()</code> function:</p>
 <pre><code class="language-r">str(sluPlaces)
 </code></pre>
@@ -747,11 +751,11 @@ library(&quot;sf&quot;)
 <p>The code chunk produces the following plot:</p>
 <p><img src="/images/lecture-01/map3.png" alt="leaflet03"></p>
 <h3 id="reading-in-spatial-data">Reading in Spatial Data</h3>
-<p>For data that have already been converted to geometric data, we use the <code>sf</code> package to read them. The importing process looks similar to what we used with the <code>.csv</code> file. We'll demonstrate this with the violent crime data for Shaw:</p>
+<p>For data that have already been converted to geometric data, we use the <code>sf</code> package to read them. The importing process looks similar to what we used with the <code>.csv</code> file. We&rsquo;ll demonstrate this with the violent crime data for Shaw:</p>
 <pre><code class="language-r">shawViolent &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Violent_2018.shp&quot;), stringsAsFactors = FALSE)
 </code></pre>
-<p>We'll still use <code>here()</code> to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the <code>.shp</code> file - this is the primary piece of the <em>family</em> of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with <code>SHAW_Violent_2018.shp</code>, but the other parts must be present as well.</p>
-<p>To map these data, we no longer need to specify <code>lng</code> and <code>lat</code> because we're using geometric data as well:</p>
+<p>We&rsquo;ll still use <code>here()</code> to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the <code>.shp</code> file - this is the primary piece of the <em>family</em> of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with <code>SHAW_Violent_2018.shp</code>, but the other parts must be present as well.</p>
+<p>To map these data, we no longer need to specify <code>lng</code> and <code>lat</code> because we&rsquo;re using geometric data as well:</p>
 <pre><code class="language-r">leaflet(data = shawViolent) %&gt;%
   addProviderTiles(providers$CartoDB.Positron) %&gt;% 
   addMarkers(popup = ~crimeCt)
@@ -762,7 +766,7 @@ library(&quot;sf&quot;)
 <p>Finally, we can make a similar map with all Part 1 crimes:</p>
 <pre><code class="language-r">shawP1 &lt;- st_read(here(&quot;data&quot;, &quot;SHAW_Part1_2018.shp&quot;), stringsAsFactors = FALSE)
 </code></pre>
-<p>And then we'll map them:</p>
+<p>And then we&rsquo;ll map them:</p>
 <pre><code class="language-r">leaflet(data = shawP1) %&gt;%
   addProviderTiles(providers$CartoDB.Positron) %&gt;% 
   addMarkers(popup = ~crimeCt)

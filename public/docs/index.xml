@@ -29,13 +29,13 @@
 &lt;h3 id=&#34;get-started-with-slack&#34;&gt;Get Started with Slack&lt;/h3&gt;
 &lt;p&gt;Go to &lt;a href=&#34;https://slu-soc5650.slack.com/&#34;&gt;Slack&lt;/a&gt; and sign-up using your SLU email address.&lt;/p&gt;
 &lt;h3 id=&#34;get-started-with-github&#34;&gt;Get Started with GitHub&lt;/h3&gt;
-&lt;p&gt;The service that is hosting this website is called &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&#39;s &lt;a href=&#34;https://github.com/&#34;&gt;homepage&lt;/a&gt;. If you already have a GitHub account, you do not need a new one.&lt;/p&gt;
-&lt;p&gt;Once you have a GitHub user name, send Chris a direct message via our &lt;a href=&#34;https://slu-soc5650.github.io&#34;&gt;chat software Slack&lt;/a&gt; with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. Chris&#39;s username is &lt;code&gt;@chris&lt;/code&gt; on Slack, and the Direct Messages can be found by scrolling all the way down in the left hand sidebark. Please make sure your display name for Slack matches your real name.&lt;/p&gt;
-&lt;p&gt;After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&#39;ve seen it.&lt;/p&gt;
+&lt;p&gt;The service that is hosting this website is called &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub&amp;rsquo;s &lt;a href=&#34;https://github.com/&#34;&gt;homepage&lt;/a&gt;. If you already have a GitHub account, you do not need a new one.&lt;/p&gt;
+&lt;p&gt;Once you have a GitHub user name, send Chris a direct message via our &lt;a href=&#34;https://slu-soc5650.github.io&#34;&gt;chat software Slack&lt;/a&gt; with it so that you can be added to the &lt;a href=&#34;https://github.com/slu-soc5650&#34;&gt;SOC 4650 &amp;amp; SOC 5650 organization&lt;/a&gt;. Chris&amp;rsquo;s username is &lt;code&gt;@chris&lt;/code&gt; on Slack, and the Direct Messages can be found by scrolling all the way down in the left hand sidebark. Please make sure your display name for Slack matches your real name.&lt;/p&gt;
+&lt;p&gt;After you have been added to the organization, you should find your assignments repository and check the &lt;strong&gt;Issues&lt;/strong&gt; tab. There should be an open &lt;strong&gt;Issue&lt;/strong&gt; describing how feedback will be disseminated this semester. Please read it and then &lt;em&gt;close the issue&lt;/em&gt; so that we know you&amp;rsquo;ve seen it.&lt;/p&gt;
 &lt;h2 id=&#34;course-software&#34;&gt;Course Software&lt;/h2&gt;
 &lt;p&gt;There are two options for &lt;em&gt;accessing&lt;/em&gt; the course software, and some instructions for how &lt;em&gt;install&lt;/em&gt; it. Please read through these options carefully and make the decision that is best for you.&lt;/p&gt;
 &lt;h3 id=&#34;options-for-accessing-software&#34;&gt;Options for Accessing Software&lt;/h3&gt;
-&lt;p&gt;One option is to rely on the &lt;strong&gt;computers in our classroom&lt;/strong&gt;, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, you can go right to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer - you&#39;ll need to install just the specific &lt;code&gt;R&lt;/code&gt; packages and GitHub Desktop. Details on the extent of setup required will be posted there since it is subject to change. Make sure you know how to use Windows File Explorer, especially if you are a regular macOS user.&lt;/p&gt;
+&lt;p&gt;One option is to rely on the &lt;strong&gt;computers in our classroom&lt;/strong&gt;, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, you can go right to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer - you&amp;rsquo;ll need to install just the specific &lt;code&gt;R&lt;/code&gt; packages and GitHub Desktop. Details on the extent of setup required will be posted there since it is subject to change. Make sure you know how to use Windows File Explorer, especially if you are a regular macOS user.&lt;/p&gt;
 &lt;p&gt;Another option for accessing the software is to &lt;strong&gt;use your own computer&lt;/strong&gt;. If you decide to go this route, please read the next subsection on computer prep, and then head over to the &lt;a href=&#34;/docs/course-software/&#34;&gt;course software&lt;/a&gt; page to continue setting up your computer. As long as you have a relatively new computer (within the last few years), you should have no problem using any of the applications for this class.&lt;/p&gt;
 &lt;h3 id=&#34;computer-prep&#34;&gt;Computer Prep&lt;/h3&gt;
 &lt;p&gt;If you are using &lt;strong&gt;your own computer&lt;/strong&gt;, you should do the following before proceeding:&lt;/p&gt;
@@ -48,16 +48,16 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We&#39;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to &amp;ldquo;ITS Software Downloads&amp;rdquo; under &amp;ldquo;Tools&amp;rdquo; on &lt;a href=&#34;https://myslu.slu.edu/tools&#34;&gt;mySLU&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll be sharing computer files throughout the semester, so you should ensure that you have functioning anti-virus software and that it is up-to-date. You can get Symantec EndPoint Protection anti-virus software for free from SLU. Go to &amp;ldquo;ITS Software Downloads&amp;rdquo; under &amp;ldquo;Tools&amp;rdquo; on &lt;a href=&#34;https://myslu.slu.edu/tools&#34;&gt;mySLU&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;You&#39;ll also need to download files, so you&#39;ll need to make sure you have at least &lt;strong&gt;fifty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;twenty gigabytes&lt;/strong&gt; free if you are not. If you&#39;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll also need to download files, so you&amp;rsquo;ll need to make sure you have at least &lt;strong&gt;fifty gigabytes&lt;/strong&gt; free on your hard drive if you are installing ArcGIS Pro and at least &lt;strong&gt;twenty gigabytes&lt;/strong&gt; free if you are not. If you&amp;rsquo;re not sure how to check this, here are some instructions for &lt;a href=&#34;https://www.lifewire.com/how-to-check-free-hard-drive-space-in-windows-2619187&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.macworld.com/article/2972775/os-x/how-to-check-your-macs-free-hard-drive-space.html&#34;&gt;macOS&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Options for de-cluttering include deleting files that are no longer needed, moving files to an external device, moving files to a cloud storage system, or upgrading the internal hard drive (may not be possible for macOS users and some Windows users).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Make sure you know how to access your computer&#39;s file management system.&lt;/p&gt;
+&lt;p&gt;Make sure you know how to access your computer&amp;rsquo;s file management system.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -74,9 +74,9 @@
 &lt;li&gt;Gorr, Wilpen and Kristen Kurland. 2017. &lt;em&gt;GIS Tutorial 1 for ArcGIS Pro&lt;/em&gt;. Redlands, CA: ESRI Press.&lt;/li&gt;
 &lt;li&gt;Wickham, Hadley and Garrett Grolemund. 2016. &lt;em&gt;R for data science&lt;/em&gt;. Sebastopol, CA: O’Reilly. &lt;a href=&#34;http://r4ds.had.co.nz&#34;&gt;Webbook Available&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf&#34;&gt;&lt;strong&gt;Reading List&lt;/strong&gt;&lt;/a&gt; includes the assigned readings for both the web and print versions of Wickham and Grolemund&#39;s &lt;em&gt;R for data science&lt;/em&gt; (2016), and you are free to choose either version.&lt;/p&gt;
+&lt;p&gt;All of the books are available in the bookstore. They can also be ordered online. If you would rather use e-books, those are acceptable for this course as well. The &lt;a href=&#34;https://github.com/slu-soc5650/Core-Documents/blob/master/reading-list.pdf&#34;&gt;&lt;strong&gt;Reading List&lt;/strong&gt;&lt;/a&gt; includes the assigned readings for both the web and print versions of Wickham and Grolemund&amp;rsquo;s &lt;em&gt;R for data science&lt;/em&gt; (2016), and you are free to choose either version.&lt;/p&gt;
 &lt;h2 id=&#34;other-materials&#34;&gt;Other Materials&lt;/h2&gt;
-&lt;p&gt;The other item to &lt;em&gt;optionally&lt;/em&gt; purchase is a 1.5&amp;rdquo; three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you&#39;d prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.&lt;/p&gt;
+&lt;p&gt;The other item to &lt;em&gt;optionally&lt;/em&gt; purchase is a 1.5&amp;rdquo; three-ring binder. While all course materials are available online, they are often easier to use if they are printed. Everyone will get handouts the first week so you can decide if you want to continue receiving hardcopies beyond the first lecture, or if you&amp;rsquo;d prefer to only have the digital copies. If you do opt-in to receiving the hardcopies, a binder will help keep things organized.&lt;/p&gt;
 &lt;h2 id=&#34;administrative-tasks&#34;&gt;Administrative Tasks&lt;/h2&gt;
 &lt;p&gt;All students should complete the &lt;a href=&#34;https://forms.gle/9D3vzk7HgV1nRi3dA&#34;&gt;Student Information Sheet&lt;/a&gt;, which gives me some info about you and gives you the chance to let me know about any initial concerns you might have. It also contains a syllabus agreement, which confirms that you have read the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus&#34;&gt;&lt;strong&gt;Syllabus&lt;/strong&gt;&lt;/a&gt; and understand the course policies.&lt;/p&gt;
 &lt;h2 id=&#34;coursework&#34;&gt;Coursework&lt;/h2&gt;
@@ -110,7 +110,7 @@
 &lt;/div&gt;
 &lt;p&gt;I am able to provide licenses for ArcGIS Pro to students who are interested in obtaining them. If you would like a license, please &lt;a href=&#34;http://pro.arcgis.com/en/pro-app/get-started/arcgis-pro-system-requirements.htm&#34;&gt;check the system requirements&lt;/a&gt; first. If your computer meets the minimum requirements, email me for a license. Then:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Visit ESRI&#39;s &lt;a href=&#34;http://www.esri.com/educationedition&#34;&gt;education edition website&lt;/a&gt; to begin the process of activating and downloading your ArcGIS Pro Student Trial software.&lt;/li&gt;
+&lt;li&gt;Visit ESRI&amp;rsquo;s &lt;a href=&#34;http://www.esri.com/educationedition&#34;&gt;education edition website&lt;/a&gt; to begin the process of activating and downloading your ArcGIS Pro Student Trial software.&lt;/li&gt;
 &lt;li&gt;Log in using your &lt;strong&gt;Existing ESRI account&lt;/strong&gt; (the same one you were given during the &lt;a href=&#34;/docs/course-onboarding&#34;&gt;course onboarding process&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Enter the license code and click Activate ArcGIS.&lt;/li&gt;
 &lt;li&gt;Click the button for the ArcGIS for Desktop software version being activated - the latest version of ArcGIS Pro.&lt;/li&gt;
@@ -123,11 +123,11 @@
     These libraries are installed in the GIS lab and need to be installed only if you are using &lt;code&gt;R&lt;/code&gt; on your personal computer.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&#39;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;. You should only have to run this once per computer.&lt;/p&gt;
+&lt;p&gt;There are three open-source spatial libraries that we will indirectly use this semester - GDAL, GEOS, and PROJ.4. They&amp;rsquo;ll be used by the &lt;code&gt;R&lt;/code&gt; package &lt;code&gt;sf&lt;/code&gt;. You should only have to run this once per computer.&lt;/p&gt;
 &lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
 &lt;p&gt;To install the libraries on Windows, you need to have &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; installed. RTools is a suite of tools for building packages on Windows, and it will allow sf to install a number of spatial data libraries that it requires to read and process shapefiles. These tools require administrative rights, so you may have to enter your password. You should use the latest version, which is currently &lt;code&gt;Rtools35&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;macos&#34;&gt;macOS&lt;/h3&gt;
-&lt;p&gt;Users on macOS will have to install the spatial data libraries on their own. An omnibus installer is available from the &lt;a href=&#34;https://www.kyngchaos.com/software/frameworks&#34;&gt;Kyng Chaos website&lt;/a&gt; - you&#39;ll want to download and run the GDAL 2.2 Complete installer.&lt;/p&gt;
+&lt;p&gt;Users on macOS will have to install the spatial data libraries on their own. An omnibus installer is available from the &lt;a href=&#34;https://www.kyngchaos.com/software/frameworks&#34;&gt;Kyng Chaos website&lt;/a&gt; - you&amp;rsquo;ll want to download and run the GDAL 2.2 Complete installer.&lt;/p&gt;
 &lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
 &lt;h3 id=&#34;base-r&#34;&gt;Base R&lt;/h3&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -146,14 +146,14 @@
 &lt;p&gt;RStudio is a graphical user interface for &lt;code&gt;R&lt;/code&gt; that will make learning the language and using it much, much easier. You should download the &lt;em&gt;free&lt;/em&gt; version of RStudio from &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34;&gt;their website&lt;/a&gt;. Choose the appropriate installer for your platform. Make sure &lt;code&gt;R&lt;/code&gt; is already installed before installing RStudio.&lt;/p&gt;
 &lt;p&gt;If you already have RStudio installed, please make sure you have the latest version. You can upgrade it using the same process for a new installation.&lt;/p&gt;
 &lt;h3 id=&#34;r-packages&#34;&gt;R Packages&lt;/h3&gt;
-&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&#39;s console:&lt;/p&gt;
+&lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&amp;rsquo;s console:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
   &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
   &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You should only have to run this once per computer.&lt;/p&gt;
 &lt;h3 id=&#34;phantomjs&#34;&gt;PhantomJS&lt;/h3&gt;
-&lt;p&gt;PhantomJS is a means for creating &amp;ldquo;headless&amp;rdquo; web-browsers and thus rendering the output of HTML widegts in &lt;code&gt;knitr&lt;/code&gt; documents. It makes it possible to get a screengrab of a &lt;code&gt;leaflet&lt;/code&gt; map when you &amp;ldquo;knit&amp;rdquo; your &lt;code&gt;.Rmd&lt;/code&gt; files, for instance. To install it, use the following code chunk in RStudio&#39;s console:&lt;/p&gt;
+&lt;p&gt;PhantomJS is a means for creating &amp;ldquo;headless&amp;rdquo; web-browsers and thus rendering the output of HTML widegts in &lt;code&gt;knitr&lt;/code&gt; documents. It makes it possible to get a screengrab of a &lt;code&gt;leaflet&lt;/code&gt; map when you &amp;ldquo;knit&amp;rdquo; your &lt;code&gt;.Rmd&lt;/code&gt; files, for instance. To install it, use the following code chunk in RStudio&amp;rsquo;s console:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;webshot::install_phantomjs()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Like installing packages, you should only have to run this once per computer.&lt;/p&gt;
@@ -163,7 +163,7 @@
     GitHub Desktop will need be installed both in the lab and on personal computers.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the &lt;a href=&#34;https://desktop.github.com&#34;&gt;application&#39;s website&lt;/a&gt;. You will need to download and run the installer. Once it is complete, you will need to login to the application with your &lt;a href=&#34;/docs/onboarding&#34;&gt;GitHub.com username and password&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the &lt;a href=&#34;https://desktop.github.com&#34;&gt;application&amp;rsquo;s website&lt;/a&gt;. You will need to download and run the installer. Once it is complete, you will need to login to the application with your &lt;a href=&#34;/docs/onboarding&#34;&gt;GitHub.com username and password&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. If you need to update GitHub Desktop, you should also &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;download&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;other-applications&#34;&gt;Other Applications&lt;/h2&gt;
 &lt;p&gt;TBA&lt;/p&gt;
@@ -188,14 +188,14 @@
 &lt;/div&gt;
 
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Once you&#39;ve watched the video, check out the web application featured in the video that &lt;a href=&#34;http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0&#34;&gt;visualizes pedestrian and cyclist injuries in Los Angeles&lt;/a&gt;. You can also visit L.A.&amp;lsquo;s open data website called &lt;a href=&#34;http://geohub.lacity.org&#34;&gt;GeoHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve watched the video, check out the web application featured in the video that &lt;a href=&#34;http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=a45d3efd7b1d4ef49f362caadb4754b0&#34;&gt;visualizes pedestrian and cyclist injuries in Los Angeles&lt;/a&gt;. You can also visit L.A.&amp;lsquo;s open data website called &lt;a href=&#34;http://geohub.lacity.org&#34;&gt;GeoHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;analysis-development&#34;&gt;Analysis Development&lt;/h2&gt;
-&lt;p&gt;Making a produce like L.A.&amp;lsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &amp;ldquo;data wrangling&amp;rdquo; or &amp;ldquo;data cleaning&amp;rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&#39;ll call this large-scale process a &amp;ldquo;workflow&amp;rdquo; this semester.&lt;/p&gt;
-&lt;p&gt;The workflow that we&#39;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at &lt;a href=&#34;http://stitchfix.com&#34;&gt;Stichfix&lt;/a&gt; and also runs a data science podcast called &lt;a href=&#34;http://nssdeviations.com&#34;&gt;Not So Standard Deviations&lt;/a&gt;. She has been speaking recently about an idea called opinionated analysis development. The &lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;video&lt;/a&gt; linked to below is a 25 minute talk she gave on this idea last year, and she now has a &lt;a href=&#34;https://peerj.com/preprints/3210/&#34;&gt;draft paper&lt;/a&gt; out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.&lt;/p&gt;
+&lt;p&gt;Making a produce like L.A.&amp;lsquo;s visualization of pedestrian and cyclist injuries is a complicated effort. Data must be obtained from various sources, modified (a process we call &amp;ldquo;data wrangling&amp;rdquo; or &amp;ldquo;data cleaning&amp;rdquo;), and then linked with map coordinates. Once it is ready to be mapped, the web application must be designed and created. We&amp;rsquo;ll call this large-scale process a &amp;ldquo;workflow&amp;rdquo; this semester.&lt;/p&gt;
+&lt;p&gt;The workflow that we&amp;rsquo;ll use is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at &lt;a href=&#34;http://stitchfix.com&#34;&gt;Stichfix&lt;/a&gt; and also runs a data science podcast called &lt;a href=&#34;http://nssdeviations.com&#34;&gt;Not So Standard Deviations&lt;/a&gt;. She has been speaking recently about an idea called opinionated analysis development. The &lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;video&lt;/a&gt; linked to below is a 25 minute talk she gave on this idea last year, and she now has a &lt;a href=&#34;https://peerj.com/preprints/3210/&#34;&gt;draft paper&lt;/a&gt; out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.rstudio.com/resources/videos/opinionated-analysis-development/&#34;&gt;&lt;img src=&#34;/opinionatedAnalysis.png&#34; alt=&#34;opinionatedAnalysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&#39;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&#39;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&#39;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&#39;s idea of opinionated analysis development, our goal each week will be to focus on the &lt;em&gt;processes&lt;/em&gt; that can be used to increase the reproducibility and accuracy of our geospatial work.&lt;/p&gt;
-&lt;p&gt;Some of these processes, like using RMarkdown, are introduced in the &lt;a href=&#34;http://plain-text.co&#34;&gt;introductory &amp;ldquo;chapter&amp;rdquo;&lt;/a&gt; (it is quite short!) to Duke University sociologist &lt;a href=&#34;http://kieranhealy.org&#34;&gt;Kieran Healy&#39;s&lt;/a&gt; primer &lt;a href=&#34;http://plain-text.co&#34;&gt;&lt;em&gt;The Plain Person&#39;s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;. This is the one &lt;em&gt;required&lt;/em&gt; reading for the entry ticket (though there are several optional ones listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/course-preview.html&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&amp;rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&amp;rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&amp;rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there. Inspired by Hilary&amp;rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the &lt;em&gt;processes&lt;/em&gt; that can be used to increase the reproducibility and accuracy of our geospatial work.&lt;/p&gt;
+&lt;p&gt;Some of these processes, like using RMarkdown, are introduced in the &lt;a href=&#34;http://plain-text.co&#34;&gt;introductory &amp;ldquo;chapter&amp;rdquo;&lt;/a&gt; (it is quite short!) to Duke University sociologist &lt;a href=&#34;http://kieranhealy.org&#34;&gt;Kieran Healy&amp;rsquo;s&lt;/a&gt; primer &lt;a href=&#34;http://plain-text.co&#34;&gt;&lt;em&gt;The Plain Person&amp;rsquo;s Guide to Plain Text Social Science&lt;/em&gt;&lt;/a&gt;. This is the one &lt;em&gt;required&lt;/em&gt; reading for the entry ticket (though there are several optional ones listed on the &lt;a href=&#34;https://slu-soc5650.github.io/syllabus/course-preview.html&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;lecture-01-entry-ticket&#34;&gt;Lecture-01 Entry Ticket&lt;/h2&gt;
 &lt;p&gt;The entry ticket for the first lecture asks three follow-up questions about these videos and L.A.&amp;lsquo;s interactive website. Please answer these questions and submit them before class on &lt;strong&gt;January 14th&lt;/strong&gt;. Answers &lt;strong&gt;must&lt;/strong&gt; be submitted through &lt;a href=&#34;https://forms.gle/9ikcLHuK93RmYyfC8&#34;&gt;Google Forms&lt;/a&gt; and each response should be three to four sentences in length. The questions are provided here for reference:&lt;/p&gt;
 &lt;ol&gt;
@@ -228,7 +228,7 @@
 &lt;h2 id=&#34;keeping-track-of-where-you-are&#34;&gt;Keeping Track of Where You Are&lt;/h2&gt;
 &lt;p&gt;Students who have some system for tracking their work and creating to-do lists are often the most successful in this course, not because they have a fundamentally better grasp on the content but because they simply are more organized. If you have never thought particularly hard about how you manage tasks, now is an excellent time to start doing so. You do not need fancy computer software to accomplish this, though there are an array of possibilities if you do want to use software to keep yourself organized. A legal pad or a notebook can be just as effective as a $50 to-do list manager. The point is, do &lt;em&gt;something&lt;/em&gt;!&lt;/p&gt;
 &lt;p&gt;I am fond of recommending the &lt;a href=&#34;http://gettingthingsdone.com&#34;&gt;&lt;strong&gt;Getting Things Done&lt;/strong&gt;&lt;/a&gt; methodology to students as part of thinking more holistically about staying organized. The website &lt;a href=&#34;https://lifehacker.com&#34;&gt;Lifehacker&lt;/a&gt; posted an &lt;a href=&#34;https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955&#34;&gt;excellent introduction to GTD&lt;/a&gt; that is a great way to get a sense of how it works and find additional resources for implementing it.&lt;/p&gt;
-&lt;p&gt;The GTD website has a &lt;a href=&#34;http://gettingthingsdone.com/common-tools-software/&#34;&gt;great list of software&lt;/a&gt; for those of you looking for a to-do list application. One that isn&#39;t listed that I have used for collaborating with my student research team is &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt;, a freemium website that allows you to create simple to-do lists. It isn&#39;t sophisticated enough for implementing GTD, but it is more than sufficient for managing to-do lists related to this course.&lt;/p&gt;
+&lt;p&gt;The GTD website has a &lt;a href=&#34;http://gettingthingsdone.com/common-tools-software/&#34;&gt;great list of software&lt;/a&gt; for those of you looking for a to-do list application. One that isn&amp;rsquo;t listed that I have used for collaborating with my student research team is &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt;, a freemium website that allows you to create simple to-do lists. It isn&amp;rsquo;t sophisticated enough for implementing GTD, but it is more than sufficient for managing to-do lists related to this course.&lt;/p&gt;
 </description>
     </item>
     
@@ -269,10 +269,10 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;leaflet-basics&#34;&gt;Leaflet Basics&lt;/h2&gt;
-&lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&#39;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&#39;ll need to install &lt;code&gt;leaflet&lt;/code&gt; and a number of other packages via CRAN:&lt;/p&gt;
+&lt;p&gt;As a way to get to know &lt;code&gt;R&lt;/code&gt; and RStudio, we&amp;rsquo;ll be working with the &lt;code&gt;R&lt;/code&gt; package &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34;&gt;&lt;code&gt;leaflet&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;leaflet&lt;/code&gt; is the &lt;code&gt;R&lt;/code&gt; implementation of &lt;a href=&#34;http://leafletjs.com&#34;&gt;&lt;code&gt;leaflet.js&lt;/code&gt;&lt;/a&gt;, an open-source Java Script library for building interactive maps. To get started, you&amp;rsquo;ll need to install &lt;code&gt;leaflet&lt;/code&gt; and a number of other packages via CRAN:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;here&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;tidyverse&amp;quot;, &amp;quot;usethis&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We can open &lt;code&gt;leaflet&lt;/code&gt; and the other packages we&#39;ll need with the &lt;code&gt;library()&lt;/code&gt; function:&lt;/p&gt;
+&lt;p&gt;We can open &lt;code&gt;leaflet&lt;/code&gt; and the other packages we&amp;rsquo;ll need with the &lt;code&gt;library()&lt;/code&gt; function:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(&amp;quot;here&amp;quot;)
 library(&amp;quot;leaflet&amp;quot;)
 library(&amp;quot;magrittr&amp;quot;)
@@ -296,7 +296,7 @@ library(&amp;quot;sf&amp;quot;)
 &lt;li&gt;we add basemap tiles, &lt;strong&gt;then&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;we add a marker at the given longitude and latitude.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The code chunk above produces the following map in RStudio&#39;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
+&lt;p&gt;The code chunk above produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/lecture-01/map1.png&#34; alt=&#34;leaflet01&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You can use the &lt;strong&gt;Show in new window&lt;/strong&gt; icon (a white box with a small arrow facing up and right) to open the map in your web browser.&lt;/p&gt;
 &lt;h3 id=&#34;changing-the-basemap&#34;&gt;Changing the Basemap&lt;/h3&gt;
@@ -306,13 +306,13 @@ library(&amp;quot;sf&amp;quot;)
   addMarkers(lng=-90.237104, lat=38.637547, popup=&amp;quot;Morrissey Hall&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Two things are important to note here. When we load the &lt;code&gt;leaflet&lt;/code&gt; package, we have access to a data object called &lt;code&gt;providers&lt;/code&gt;. You can use &lt;code&gt;names(providers)&lt;/code&gt; to explore it. &lt;code&gt;providers&lt;/code&gt; is a vector of items, each of which corresponds to a different basemap. We can select one of those items, &lt;code&gt;CartoDB.Positron&lt;/code&gt;, by separating &lt;code&gt;providers&lt;/code&gt; from the item name with a dollar sign (&lt;code&gt;$&lt;/code&gt;). This is a classic way in which elements of a data set are accessed in &lt;code&gt;R&lt;/code&gt; syntax.&lt;/p&gt;
-&lt;p&gt;The second code chunk produces the following map in RStudio&#39;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
+&lt;p&gt;The second code chunk produces the following map in RStudio&amp;rsquo;s &lt;strong&gt;Viewer&lt;/strong&gt; tab:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/lecture-01/map2.png&#34; alt=&#34;leaflet02&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;adding-additional-points&#34;&gt;Adding Additional Points&lt;/h3&gt;
 &lt;p&gt;The &lt;code&gt;data/sluPlaces.csv&lt;/code&gt; file (a &lt;code&gt;.csv&lt;/code&gt; file is a type of spreadsheet) contains information on a couple of other places where I find myself regularly on campus. We can read it into &lt;code&gt;R&lt;/code&gt; using the &lt;code&gt;readr&lt;/code&gt; package (part of the tidyverse):&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;sluPlaces &amp;lt;- read_csv(here(&amp;quot;data&amp;quot;, &amp;quot;sluPlaces.csv&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We read the statement from right to left - the data found at &lt;code&gt;data/sluPlaces.csv&lt;/code&gt; is read correctly as &lt;code&gt;.csv&lt;/code&gt; data, and the resulting imported data is stored in an object in our global environment named &lt;code&gt;sluPlaces&lt;/code&gt;. The &lt;code&gt;here()&lt;/code&gt; function helps us write simple, operating system agnostic file paths that will always be relative to where the &lt;code&gt;.Rproj&lt;/code&gt; file is stored. We&#39;ll talk more about this as the semester progresses.&lt;/p&gt;
+&lt;p&gt;We read the statement from right to left - the data found at &lt;code&gt;data/sluPlaces.csv&lt;/code&gt; is read correctly as &lt;code&gt;.csv&lt;/code&gt; data, and the resulting imported data is stored in an object in our global environment named &lt;code&gt;sluPlaces&lt;/code&gt;. The &lt;code&gt;here()&lt;/code&gt; function helps us write simple, operating system agnostic file paths that will always be relative to where the &lt;code&gt;.Rproj&lt;/code&gt; file is stored. We&amp;rsquo;ll talk more about this as the semester progresses.&lt;/p&gt;
 &lt;p&gt;We can explore the data a number of ways, including with the &lt;code&gt;View()&lt;/code&gt; (output not shown) function and the &lt;code&gt;str()&lt;/code&gt; function:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str(sluPlaces)
 &lt;/code&gt;&lt;/pre&gt;
@@ -329,11 +329,11 @@ library(&amp;quot;sf&amp;quot;)
 &lt;p&gt;The code chunk produces the following plot:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/lecture-01/map3.png&#34; alt=&#34;leaflet03&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;reading-in-spatial-data&#34;&gt;Reading in Spatial Data&lt;/h3&gt;
-&lt;p&gt;For data that have already been converted to geometric data, we use the &lt;code&gt;sf&lt;/code&gt; package to read them. The importing process looks similar to what we used with the &lt;code&gt;.csv&lt;/code&gt; file. We&#39;ll demonstrate this with the violent crime data for Shaw:&lt;/p&gt;
+&lt;p&gt;For data that have already been converted to geometric data, we use the &lt;code&gt;sf&lt;/code&gt; package to read them. The importing process looks similar to what we used with the &lt;code&gt;.csv&lt;/code&gt; file. We&amp;rsquo;ll demonstrate this with the violent crime data for Shaw:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;shawViolent &amp;lt;- st_read(here(&amp;quot;data&amp;quot;, &amp;quot;SHAW_Violent_2018.shp&amp;quot;), stringsAsFactors = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We&#39;ll still use &lt;code&gt;here()&lt;/code&gt; to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the &lt;code&gt;.shp&lt;/code&gt; file - this is the primary piece of the &lt;em&gt;family&lt;/em&gt; of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with &lt;code&gt;SHAW_Violent_2018.shp&lt;/code&gt;, but the other parts must be present as well.&lt;/p&gt;
-&lt;p&gt;To map these data, we no longer need to specify &lt;code&gt;lng&lt;/code&gt; and &lt;code&gt;lat&lt;/code&gt; because we&#39;re using geometric data as well:&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll still use &lt;code&gt;here()&lt;/code&gt; to specify the file path, but the function is different now because we need a specialized tool for geometric data. Note that we open the &lt;code&gt;.shp&lt;/code&gt; file - this is the primary piece of the &lt;em&gt;family&lt;/em&gt; of files that together contain all of the relevant information to locate the Shaw violent crime data in space and describe it. We work with &lt;code&gt;SHAW_Violent_2018.shp&lt;/code&gt;, but the other parts must be present as well.&lt;/p&gt;
+&lt;p&gt;To map these data, we no longer need to specify &lt;code&gt;lng&lt;/code&gt; and &lt;code&gt;lat&lt;/code&gt; because we&amp;rsquo;re using geometric data as well:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = shawViolent) %&amp;gt;%
   addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
   addMarkers(popup = ~crimeCt)
@@ -344,7 +344,7 @@ library(&amp;quot;sf&amp;quot;)
 &lt;p&gt;Finally, we can make a similar map with all Part 1 crimes:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;shawP1 &amp;lt;- st_read(here(&amp;quot;data&amp;quot;, &amp;quot;SHAW_Part1_2018.shp&amp;quot;), stringsAsFactors = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And then we&#39;ll map them:&lt;/p&gt;
+&lt;p&gt;And then we&amp;rsquo;ll map them:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;leaflet(data = shawP1) %&amp;gt;%
   addProviderTiles(providers$CartoDB.Positron) %&amp;gt;% 
   addMarkers(popup = ~crimeCt)
@@ -470,7 +470,8 @@ During class last night, we worked up to building a very similar map to the one 
 &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#u-z&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;virids&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-06-more-map-production-in-r.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-06&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-06&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b045b855-6fe1-4a86-ab4e-ab640170ae3d&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-06/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-06/additional-examples.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Additional Notebook &lt;/a&gt;&lt;/p&gt;
@@ -479,6 +480,34 @@ During class last night, we worked up to building a very similar map to the one 
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-05 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-06/blob/master/assignments/lab-05-replication/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-05 Replication &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-06/blob/master/assignments/ps-02.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  PS-02 &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lecture-07 - Data Cleaning</title>
+      <link>/docs/lecture-07/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-07/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-02-21&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Data Cleaning&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;dplyr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-07-data-cleaning.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-07/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/ECVT9X1E6HDXQY3p9&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-07 &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07/blob/master/assignments/lab-06.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-06 &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b3c0d903b15146e8a38fa984d46e1366&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
 </description>
     </item>
     
@@ -521,7 +550,7 @@ During class last night, we worked up to building a very similar map to the one 
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-05/blob/master/assignments/lab-04-replication/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-04 Replication &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-05/blob/master/assignments/ps-02.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  PS-02 &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;example-of-live-leaflet-map&#34;&gt;Example of Live Leaflet Map&lt;/h2&gt;
-&lt;p&gt;I&#39;ve added a version of the map we created last night to the course docs along with all of the code I used to create it. Click on the image below to check it out!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve added a version of the map we created last night to the course docs along with all of the code I used to create it. Click on the image below to check it out!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;/docs/leaflet-example/&#34;&gt;&lt;img src=&#34;/images/leaflet-example.png&#34; alt=&#34;leaflet-example&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -565,7 +594,7 @@ During class last night, we worked up to building a very similar map to the one 
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;9244b21573204aefae00820778bda089&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;definition-query-examples&#34;&gt;Definition Query Examples&lt;/h2&gt;
-&lt;p&gt;The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the &lt;code&gt;Select&lt;/code&gt; operation you did manually last week. Example that use last week&#39;s data on Jefferson City are below:&lt;/p&gt;
+&lt;p&gt;The lab this week asks you to do a query to identify certain features in a particular layer. This is a much faster way of selecting features than the &lt;code&gt;Select&lt;/code&gt; operation you did manually last week. Example that use last week&amp;rsquo;s data on Jefferson City are below:&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;a59b3627ec294ea0ba3ec3cf692d2d4f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
