@@ -48,8 +48,28 @@
   </url>
   
   <url>
+    <loc>/docs/git/</loc>
+    <lastmod>2020-02-21T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/getting-help/</loc>
     <lastmod>2020-02-21T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/good-enough-practices/</loc>
+    <lastmod>2020-02-21T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/opinionated-tools/</loc>
+    <lastmod>2019-02-18T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/protecting-work/</loc>
+    <lastmod>2019-02-18T00:00:00-06:00</lastmod>
   </url>
   
   <url>
