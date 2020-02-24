@@ -31,10 +31,12 @@ linktitle = "Lecture-07 - Data Cleaning"
 
 ## Lecture Materials
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-07/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07/blob/master/handouts/wranglingWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Data Cleaning </a>
 
 ## Assignments
 <a class="btn btn-outline-primary resource" href="https://forms.gle/ECVT9X1E6HDXQY3p9" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-07 </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07/blob/master/assignments/lab-06.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-06 </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07/blob/master/assignments/ps-03.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; PS-03 </a>
 
 ## Slides
 <p> </p>
