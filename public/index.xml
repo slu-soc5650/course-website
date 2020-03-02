@@ -966,6 +966,69 @@ ggplot(data = data, mapping = aes(x = hwy)) +
     </item>
     
     <item>
+      <title>Lecture-09 - Accessing Census Data via APIs</title>
+      <link>/docs/lecture-09/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-09/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-03-02&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-09-accessing-census-data-via-apis.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-09&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-09/blob/master/assignments/lab-08.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-08 &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+&lt;h3 id=&#34;part-1&#34;&gt;Part 1&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;iframe style=&#34;position:relative;width:100%;height:50vh;&#34; src=&#34;https://www.youtube.com/embed/si4-3WTgOsc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;part-2&#34;&gt;Part 2&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;iframe style=&#34;position:relative;width:100%;height:50vh;&#34; src=&#34;https://www.youtube.com/embed/PxXoIV2YzwU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;part-3&#34;&gt;Part 3&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;iframe style=&#34;position:relative;width:100%;height:50vh;&#34; src=&#34;https://www.youtube.com/embed/GeKLvsMgavw&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lecture-08 - Table Joins and Geodatabases</title>
+      <link>/docs/lecture-08/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-08/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-03-02&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;ArcGIS Pro&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Data Cleaning&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;dplyr&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Geodatabases&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge tool&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-wrench fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;sf&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Table Joins&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#q-t&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;tidyr&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu-soc5650.github.io/syllabus/lecture-08-table-joins-data-storage.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-book fa-lg&#34;&gt;&lt;/i&gt;  View on Syllabus &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-08&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-08/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/6KAePr5NcU71K7yP8&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-08 &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-08/blob/master/assignments/lab-07.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-07 &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;ff6667777234406d8d79eb70633a28cf&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lecture-06 - More Map Production in R</title>
       <link>/docs/lecture-06/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 -0600</pubDate>
@@ -1002,8 +1065,8 @@ ggplot(data = data, mapping = aes(x = hwy)) +
       <guid>/docs/lecture-07/</guid>
       <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020&lt;/strong&gt; &lt;/i&gt;
-&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Lecture&lt;/strong&gt; &lt;/i&gt;
-&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-02-21&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-03-02&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
 &lt;h2 id=&#34;key-topics&#34;&gt;Key Topics&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;meta-badge keyword&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-tags fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Data Cleaning&lt;/strong&gt;&lt;/a&gt;
 &lt;a class=&#34;meta-badge package&#34; href=&#34;/docs/topic-index/#a-d&#34;&gt;&lt;i class=&#34;fas fa-archive fa-lg&#34;&gt;&lt;/i&gt; &lt;strong&gt;dplyr&lt;/strong&gt;&lt;/a&gt;
@@ -1013,7 +1076,8 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-07/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07/blob/master/handouts/wranglingWorkflow.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Handout - Data Cleaning &lt;/a&gt;&lt;/p&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07/blob/master/handouts/wranglingWorkflow.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Handout - Data Cleaning &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f7886fdf-a325-4e1a-bdce-ab6b016ed460&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/ECVT9X1E6HDXQY3p9&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-07 &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-07/blob/master/assignments/lab-06.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-06 &lt;/a&gt;

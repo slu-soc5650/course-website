@@ -2,7 +2,7 @@
 title = "Lecture-07 - Data Cleaning"
 
 date = 2018-02-18T00:00:00
-lastmod = 2020-02-21T00:00:00
+lastmod = 2020-03-02T00:00:00
 
 draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
@@ -17,8 +17,8 @@ linktitle = "Lecture-07 - Data Cleaning"
 
 ## Meta
 <i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>&nbsp; **Spring 2020** </i> 
-<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Lecture** </i> 
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-02-21** </i>
+<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>&nbsp; **Full** </i> 
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>&nbsp; **2020-03-02** </i>
 
 ## Key Topics
 <a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>&nbsp; **Data Cleaning**</a> 
@@ -32,6 +32,7 @@ linktitle = "Lecture-07 - Data Cleaning"
 ## Lecture Materials
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-07/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-07/blob/master/handouts/wranglingWorkflow.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Handout - Data Cleaning </a>
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f7886fdf-a325-4e1a-bdce-ab6b016ed460" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
 
 ## Assignments
 <a class="btn btn-outline-primary resource" href="https://forms.gle/ECVT9X1E6HDXQY3p9" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-07 </a>

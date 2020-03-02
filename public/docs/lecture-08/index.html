@@ -24,11 +24,15 @@
   
     
   
-  <meta name="description" content="Meta  Spring 2020   Draft   2020-01-20 
-Resources  View Instructions">
+  <meta name="description" content="Meta  Spring 2020   Full   2020-03-02 
+Key Topics  ArcGIS Pro  Data Cleaning  dplyr  Geodatabases  R  sf  Table Joins  tidyr
+Resources  View on Syllabus   View on GitHub 
+Lecture Materials  View Lecture Notebook   eTicket-08 
+Assignments  Lab-07 
+Lecture Slides    ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/docs/project/">
+  <link rel="alternate" hreflang="en-us" href="/docs/lecture-08/">
 
   
 
@@ -210,7 +214,7 @@ Resources  View Instructions">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/docs/project/">
+  <link rel="canonical" href="/docs/lecture-08/">
 
   
   
@@ -224,16 +228,20 @@ Resources  View Instructions">
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="SLU SOC 4650 and 5650">
-  <meta property="og:url" content="/docs/project/">
-  <meta property="og:title" content="Final Project Resources | SLU SOC 4650 and 5650">
-  <meta property="og:description" content="Meta  Spring 2020   Draft   2020-01-20 
-Resources  View Instructions"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/docs/lecture-08/">
+  <meta property="og:title" content="Lecture-08 - Table Joins and Geodatabases | SLU SOC 4650 and 5650">
+  <meta property="og:description" content="Meta  Spring 2020   Full   2020-03-02 
+Key Topics  ArcGIS Pro  Data Cleaning  dplyr  Geodatabases  R  sf  Table Joins  tidyr
+Resources  View on Syllabus   View on GitHub 
+Lecture Materials  View Lecture Notebook   eTicket-08 
+Assignments  Lab-07 
+Lecture Slides    "><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-12-04T00:00:00-06:00">
+      <meta property="article:published_time" content="2018-03-04T00:00:00-06:00">
     
-    <meta property="article:modified_time" content="2020-01-17T00:00:00-06:00">
+    <meta property="article:modified_time" content="2020-03-02T00:00:00-06:00">
   
 
   
@@ -252,7 +260,7 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
 
 
 
-  <title>Final Project Resources | SLU SOC 4650 and 5650</title>
+  <title>Lecture-08 - Table Joins and Geodatabases | SLU SOC 4650 and 5650</title>
 
 </head>
 
@@ -612,7 +620,7 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
         <a href="/docs/lecture-07/">Lecture-07 - Data Cleaning</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/docs/lecture-08/">Lecture-08 - Table Joins and Geodatabases</a>
       </li>
       
@@ -629,7 +637,7 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
     <a class="docs-toc-link" href="/docs/project">Final Project</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
+      <li >
         <a href="/docs/project/">Final Project Resources</a>
       </li>
       
@@ -657,7 +665,11 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
       <nav id="TableOfContents">
   <ul>
     <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
     <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-materials">Lecture Materials</a></li>
+    <li><a href="#assignments">Assignments</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
   </ul>
 </nav>
 
@@ -670,15 +682,34 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Final Project Resources</h1>
+          <h1>Lecture-08 - Table Joins and Geodatabases</h1>
 
           <div class="article-style">
             <h2 id="meta">Meta</h2>
 <p><i class="meta-badge semester-sp19"><i class="far fa-calendar-alt fa-lg"></i>  <strong>Spring 2020</strong> </i>
-<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>  <strong>Draft</strong> </i>
-<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>  <strong>2020-01-20</strong> </i></p>
+<i class="meta-badge progress-draft"><i class="fas fa-tasks fa-lg"></i>  <strong>Full</strong> </i>
+<i class="meta-badge progress-update"><i class="far fa-clock fa-lg"></i>  <strong>2020-03-02</strong> </i></p>
+<h2 id="key-topics">Key Topics</h2>
+<p><a class="meta-badge tool" href="/docs/topic-index/#a-d"><i class="fas fa-wrench fa-lg"></i>  <strong>ArcGIS Pro</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>  <strong>Data Cleaning</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#a-d"><i class="fas fa-archive fa-lg"></i> <strong>dplyr</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#a-d"><i class="fas fa-tags fa-lg"></i>  <strong>Geodatabases</strong></a>
+<a class="meta-badge tool" href="/docs/topic-index/#q-t"><i class="fas fa-wrench fa-lg"></i>  <strong>R</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>sf</strong></a>
+<a class="meta-badge keyword" href="/docs/topic-index/#q-t"><i class="fas fa-tags fa-lg"></i>  <strong>Table Joins</strong></a>
+<a class="meta-badge package" href="/docs/topic-index/#q-t"><i class="fas fa-archive fa-lg"></i> <strong>tidyr</strong></a></p>
 <h2 id="resources">Resources</h2>
-<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/final-project" target="_blank"><i class="fas fa-book fa-lg"></i>  View Instructions </a></p>
+<p><a class="btn btn-outline-primary resource" href="https://slu-soc5650.github.io/syllabus/lecture-08-table-joins-data-storage.html" target="_blank"><i class="fas fa-book fa-lg"></i>  View on Syllabus </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08" target="_blank"><i class="fab fa-github fa-lg"></i>  View on GitHub </a></p>
+<h2 id="lecture-materials">Lecture Materials</h2>
+<p><a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-08/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>  View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://forms.gle/6KAePr5NcU71K7yP8" target="_blank"><i class="fab fa-google fa-lg"></i>  eTicket-08 </a></p>
+<h2 id="assignments">Assignments</h2>
+<p><a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08/blob/master/assignments/lab-07.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>  Lab-07 </a></p>
+<h2 id="lecture-slides">Lecture Slides</h2>
+<p> </p>
+<script async class="speakerdeck-embed" data-id="ff6667777234406d8d79eb70633a28cf" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p> </p>
 
           </div>
 
@@ -695,14 +726,14 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/docs/leaflet-example/" rel="next">Example of Live Leaflet Map</a>
+    <a href="/docs/lecture-09/" rel="next">Lecture-09 - Accessing Census Data via APIs</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/docs/git/" rel="prev">Git and GitHub</a>
+    <a href="/docs/lecture-06/" rel="prev">Lecture-06 - More Map Production in R</a>
   </div>
   
 </div>
@@ -712,7 +743,7 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 17, 2020</p>
+          <p>Last updated on Mar 2, 2020</p>
 
           
 
@@ -724,7 +755,7 @@ Resources  View Instructions"><meta property="og:image" content="/images/icon_h
   
 
 <p class="edit-page">
-  <a href="https://github.com/slu-soc5650/course-website/edit/master/content/docs/project.md">
+  <a href="https://github.com/slu-soc5650/course-website/edit/master/content/docs/lecture-08.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>
