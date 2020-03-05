@@ -78,7 +78,7 @@ The packages we will need this semester can be downloaded using the following co
 
 ```r
 install.packages(c("tidyverse", "here", "janitor", "knitr", "leaflet",
-  "mapview", "naniar", "radix", "RColorBrewer", "remotes", "rmarkdown",
+  "mapview", "measurements", "naniar", "radix", "RColorBrewer", "remotes", "rmarkdown",
   "sf", "testDriveR", "tidycensus", "tigris", "tmap", "viridis", "webshot"))
 ```
 

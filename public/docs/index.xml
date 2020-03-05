@@ -148,7 +148,7 @@
 &lt;h3 id=&#34;r-packages&#34;&gt;R Packages&lt;/h3&gt;
 &lt;p&gt;The packages we will need this semester can be downloaded using the following code chunk in RStudio&amp;rsquo;s console:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;here&amp;quot;, &amp;quot;janitor&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;leaflet&amp;quot;,
-  &amp;quot;mapview&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
+  &amp;quot;mapview&amp;quot;, &amp;quot;measurements&amp;quot;, &amp;quot;naniar&amp;quot;, &amp;quot;radix&amp;quot;, &amp;quot;RColorBrewer&amp;quot;, &amp;quot;remotes&amp;quot;, &amp;quot;rmarkdown&amp;quot;,
   &amp;quot;sf&amp;quot;, &amp;quot;testDriveR&amp;quot;, &amp;quot;tidycensus&amp;quot;, &amp;quot;tigris&amp;quot;, &amp;quot;tmap&amp;quot;, &amp;quot;viridis&amp;quot;, &amp;quot;webshot&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You should only have to run this once per computer.&lt;/p&gt;
