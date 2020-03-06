@@ -1018,7 +1018,8 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-08&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-08/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
-&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/6KAePr5NcU71K7yP8&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-08 &lt;/a&gt;&lt;/p&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/6KAePr5NcU71K7yP8&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-08 &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d17e9b2-b76e-4d67-8d9b-ab72016f29d1&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-08/blob/master/assignments/lab-07.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-07 &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;

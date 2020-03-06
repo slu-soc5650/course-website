@@ -37,6 +37,7 @@ linktitle = "Lecture-08 - Table Joins and Geodatabases"
 ## Lecture Materials
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-08/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://forms.gle/6KAePr5NcU71K7yP8" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-08 </a>
+<a class="btn btn-outline-primary resource" href="https://slu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d17e9b2-b76e-4d67-8d9b-ab72016f29d1" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
 
 ## Assignments
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-08/blob/master/assignments/lab-07.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-07 </a>
