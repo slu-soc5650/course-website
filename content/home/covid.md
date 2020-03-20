@@ -3,12 +3,12 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Introduction to GIS"
+title = "COVID-19 Pandemic"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-# hero_media = "hero-academic.png"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -17,7 +17,7 @@ title = "Introduction to GIS"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#666"
+  color = "#e6e600"
   
   # Background gradient.
   # gradient_start = "#4bb4e3"
@@ -26,29 +26,22 @@ title = "Introduction to GIS"
   # Background image.
   # image = ""  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  
+
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-# [cta]
-#  url = "https://sourcethemes.com/academic/docs/install/"
-#  label = "Get Started"
-#  icon_pack = "fas"
-#  icon = "download"
+[cta]
+  url = "/covid19"
+  label = "Modified Plans for Learning"
+  icon_pack = "fas"
+  icon = "info-circle"
   
-# [cta_alt]
-#  url = "https://sourcethemes.com/academic/"
-# label = "View Documentation"
-
 # Note. An optional note to show underneath the links.
-# [cta_note]
-#  label = ""
+[cta_note]
+  label = ""
 +++
 
-An introduction to fundamental techniques for geospatial data science and geoscience using a modern GIS toolkit that includes ArcGIS Pro and the programming language R.
+For the Spring 2020 semester, this course has been modified to accomodate remote learning.

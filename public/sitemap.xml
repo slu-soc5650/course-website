@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/covid19/</loc>
+    <lastmod>2019-03-19T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-03-02T00:00:00-06:00</lastmod>
   </url>
