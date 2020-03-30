@@ -1060,6 +1060,33 @@ ggplot(data = data, mapping = aes(x = hwy)) +
     </item>
     
     <item>
+      <title>Lecture-A - Projections</title>
+      <link>/docs/lecture-a/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-a/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020 (Remote)&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-03-30&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-a&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-a/docs/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://forms.gle/7mXwS8wfZu8dRKkJ7&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-google fa-lg&#34;&gt;&lt;/i&gt;  eTicket-A &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-A/blob/master/assignments/lab-A.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-A &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-slides&#34;&gt;Lecture Slides&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;9c93fe2573444b4e98c65a5a6d1e030f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;mercator-projection-video&#34;&gt;Mercator Projection Video&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;iframe style=&#34;position:relative;width:100%;height:50vh;&#34; src=&#34;https://www.youtube.com/embed/kIID5FDi2JQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lecture-08 - Table Joins and Geodatabases</title>
       <link>/docs/lecture-08/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
