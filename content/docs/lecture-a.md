@@ -24,11 +24,13 @@ linktitle = "Lecture-A - Projections"
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-a" target="_blank"><i class="fab fa-github fa-lg"></i>&nbsp; View on GitHub </a> 
 
 ## Lecture Materials
-<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-a/docs/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-a/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
 <a class="btn btn-outline-primary resource" href="https://forms.gle/7mXwS8wfZu8dRKkJ7" target="_blank"><i class="fab fa-google fa-lg"></i>&nbsp; eTicket-A </a>
+<a class="btn btn-outline-primary resource" href="https://slu.zoom.us/rec/share/yeoyFajqzmhJGZ3gt2_jRrIKA6TgT6a81XBL-aAJn0yOdtkKZAE8mLbjBgmxqWEV" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
 
 ## Assignments
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-A/blob/master/assignments/lab-A.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-A </a>
+<a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-a/tree/master/assignments/lab-a" target="_blank"><i class="fas fa-folder-open fa-lg"></i>&nbsp; Lab-A Replication </a>
 
 ## Lecture Slides
 <p> </p>
