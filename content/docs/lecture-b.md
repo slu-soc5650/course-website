@@ -25,6 +25,7 @@ linktitle = "Lecture-B - Spatial Joins"
 
 ## Lecture Materials
 <a class="btn btn-outline-primary resource" href="http://slu-soc5650.github.io/lecture-B/index.nb.html" target="_blank"><i class="fab fa-markdown fa-lg"></i>&nbsp; View Lecture Notebook </a>
+<a class="btn btn-outline-primary resource" href="https://slu.zoom.us/rec/share/4PRqd5LL7ExJWonMw23BVokgMLX9aaa8hilK8vNeyB3xSncA7QRgi2gHvaTQeuxP" target="_blank"><i class="fas fa-video fa-lg"></i>&nbsp; View Recording</a>
 
 ## Assignments
 <a class="btn btn-outline-primary resource" href="https://github.com/slu-soc5650/lecture-B/blob/master/assignments/lab-B.pdf" target="_blank"><i class="fas fa-file-pdf fa-lg"></i>&nbsp; Lab-B </a>

@@ -1026,7 +1026,8 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-B&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-B/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-B/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.zoom.us/rec/share/4PRqd5LL7ExJWonMw23BVokgMLX9aaa8hilK8vNeyB3xSncA7QRgi2gHvaTQeuxP&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-B/blob/master/assignments/lab-B.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-B &lt;/a&gt;
 &lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-B/tree/master/assignments/lab-B-replication/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-B Replication &lt;/a&gt;&lt;/p&gt;
@@ -1034,6 +1035,47 @@ ggplot(data = data, mapping = aes(x = hwy)) +
 &lt;p&gt; &lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;6ad0d5270ab54b9fbaeea83305205ed6&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lecture-C - Dissolve and Merge Features</title>
+      <link>/docs/lecture-c/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-c/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020 (Remote)&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-04-06&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-C&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-C/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.zoom.us/rec/share/tPVHM-uosVtLE43v8F3jaIsGM4DvX6a81yBL8_oIyRzbtqgi2AU99P1dNbb7wm0y&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-C/blob/master/assignments/lab-c.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-C &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-C/tree/master/assignments/lab-c-replication/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-C Replication &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lecture-D - Geocoding</title>
+      <link>/docs/lecture-d/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 -0600</pubDate>
+      <guid>/docs/lecture-d/</guid>
+      <description>&lt;h2 id=&#34;meta&#34;&gt;Meta&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;meta-badge semester-sp19&#34;&gt;&lt;i class=&#34;far fa-calendar-alt fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Spring 2020 (Remote)&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-draft&#34;&gt;&lt;i class=&#34;fas fa-tasks fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;Full&lt;/strong&gt; &lt;/i&gt;
+&lt;i class=&#34;meta-badge progress-update&#34;&gt;&lt;i class=&#34;far fa-clock fa-lg&#34;&gt;&lt;/i&gt;  &lt;strong&gt;2020-05-01&lt;/strong&gt; &lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-D&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-github fa-lg&#34;&gt;&lt;/i&gt;  View on GitHub &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lecture-materials&#34;&gt;Lecture Materials&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;http://slu-soc5650.github.io/lecture-d/index.nb.html&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fab fa-markdown fa-lg&#34;&gt;&lt;/i&gt;  View Lecture Notebook &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://slu.zoom.us/rec/share/w5UoDIugq3xORYnB-VuPfao9Ho24X6a82nQc-6IKzkZ4riVVBMJPyuKiiHiyi2KP&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-video fa-lg&#34;&gt;&lt;/i&gt;  View Recording&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-D/blob/master/assignments/lab-d.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  Lab-D &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-D/tree/master/assignments/lab-d-replication/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-folder-open fa-lg&#34;&gt;&lt;/i&gt;  Lab-D Replication &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary resource&#34; href=&#34;https://github.com/slu-soc5650/lecture-D/blob/master/assignments/ps-a.pdf&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;  PS-A &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
